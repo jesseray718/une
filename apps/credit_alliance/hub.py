@@ -1,65 +1,14 @@
-from une.une_atomic_library import cooperation_efficiency, unified_effective_power
+from une.une_atomic_library import cooperation_efficiency as f, unified_effective_power as p, unified_power_acceleration as a
 
-class CreditAllianceHub:
-    def __init__(self, hub_id: str, target_size: int = 50):
-        self.hub_id = hub_id
-        self.target_size = target_size
-        self.nodes = {}
-        self.total_pool = 0.0
-
-    def add_contribution(self, node_id: str, volume: float, consistency: float = 1.0, help_given: float = 0.0, work_type: str = "general"):
-        if node_id not in self.nodes:
-            self.nodes[node_id] = {
-                "contribution": 0, 
-                "consistency": 1.0, 
-                "help_given": 0.0,
-                "work_history": []
-            }
-        self.nodes[node_id]["contribution"] += volume
-        self.nodes[node_id]["consistency"] = max(0.5, min(1.0, consistency))
-        self.nodes[node_id]["help_given"] += help_given
-        self.nodes[node_id]["work_history"].append({"type": work_type, "volume": volume})
-        self.total_pool += volume
-
-    def calculate_node_score(self, node_id: str) -> float:
-        data = self.nodes.get(node_id)
-        if not data: return 0
-        base = data["contribution"] * data["consistency"] * (1 + data["help_given"] * 0.5)
-        return base * cooperation_efficiency(len(self.nodes) or 1)
-
-    def calculate_payout(self, node_id: str, total_available: float) -> float:
-        """Fair distribution based on contribution + cooperation multiplier"""
-        score = self.calculate_node_score(node_id)
-        total_score = sum(self.calculate_node_score(n) for n in self.nodes)
-        if total_score == 0: return 0
-        share = (score / total_score) * total_available
-        return round(share, 2)
-
-    def assign_role(self, node_id: str) -> str:
-        score = self.calculate_node_score(node_id)
-        if score > 180: return "high_value_node"
-        elif score > 100: return "core_contributor"
-        else: return "support_node"
-
-    def get_tier(self, node_id: str) -> str:
-        score = self.calculate_node_score(node_id)
-        if score > 220: return "Platinum"
-        elif score > 140: return "Gold"
-        elif score > 70: return "Silver"
-        else: return "Bronze"
-
-    def get_hub_summary(self) -> dict:
-        return {
-            "total_nodes": len(self.nodes),
-            "total_contribution": round(self.total_pool, 2),
-            "average_score": round(sum(self.calculate_node_score(n) for n in self.nodes) / max(len(self.nodes), 1), 2)
-        }
-
-    def get_game_theory_insight(self, node_id: str = None) -> dict:
-        from .game_theory import stable_coalition_check, suggest_coalition_strategy, cooperate_vs_defect_payoff
-        
-        return {
-            "coalition_stable": stable_coalition_check(self),
-            "strategy_recommendation": suggest_coalition_strategy(self),
-            "cooperate_payoff_example": cooperate_vs_defect_payoff(self, list(self.nodes.keys())[0]) if self.nodes else 0
-        }
+class H:
+    def __init__(self, hid, n=50): self.hid, self.n, self.d = hid, n, {}
+    def add(self, nid, v, c=1.0, h=0.0, t="work"): 
+        self.d.setdefault(nid, {"v":0,"c":1,"h":0,"hist":[]})["v"]+=v; self.d[nid]["c"]=max(.5,min(1,c)); self.d[nid]["h"]+=h; self.d[nid]["hist"].append((t,v))
+    def s(self, nid): d=self.d.get(nid,{"v":0,"c":1,"h":0}); return (d["v"]*d["c"]*(1+d["h"]*.5))*f(len(self.d)or 1)
+    def role(self, nid): return ["support","core","high"][min(2,int(self.s(nid)//80))]
+    def tier(self, nid): return ["Bronze","Silver","Gold","Platinum"][min(3,int(self.s(nid)//60))]
+    def pay(self, nid, pool): return round((self.s(nid)/max(sum(map(self.s,self.d)),1))*pool,2)
+    def eff(self): return p(sum(map(self.s,self.d)),86400,len(self.d)) if self.d else 0
+    def accel(self,e=5): return a(sum(map(self.s,self.d)),86400,len(self.d),epochs=e) if self.d else 0
+    def game(self,nid): 
+        coop=f(len(self.d)or 1); return {"stable":coop>2.8,"pay_coop":self.s(nid)*coop,"pay_defect":self.s(nid)*1.7,"strat":"cooperate" if coop>3 else "restructure"}
