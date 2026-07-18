@@ -54,3 +54,12 @@ class CreditAllianceHub:
             "total_contribution": round(self.total_pool, 2),
             "average_score": round(sum(self.calculate_node_score(n) for n in self.nodes) / max(len(self.nodes), 1), 2)
         }
+
+    def get_game_theory_insight(self, node_id: str = None) -> dict:
+        from .game_theory import stable_coalition_check, suggest_coalition_strategy, cooperate_vs_defect_payoff
+        
+        return {
+            "coalition_stable": stable_coalition_check(self),
+            "strategy_recommendation": suggest_coalition_strategy(self),
+            "cooperate_payoff_example": cooperate_vs_defect_payoff(self, list(self.nodes.keys())[0]) if self.nodes else 0
+        }
