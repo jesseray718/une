@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "une"
+version = "0.2.0"
+description = "Agape-UNE: Unified cooperation, efficiency & information-energy framework"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [{name = "Jesse McMillen"}]
+
+[project.scripts]
+une = "une.cli:main"
