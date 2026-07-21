@@ -1,0 +1,20 @@
+{
+  "document_type": "UNEFoundation",
+  "version": "1.0",
+  "axioms": [
+    {"id": "A1", "statement": "Energy is conserved. Every transformation can be accounted for in joules.", "category": "physical_law"},
+    {"id": "A2", "statement": "Logically irreversible operations on information have a minimum thermodynamic cost (Landauer's principle).", "category": "physical_law"},
+    {"id": "A3", "statement": "Flows of energy, materials, and recorded claims can be observed, timestamped, and linked. What is not measured cannot be systematically optimized or held accountable.", "category": "measurability"},
+    {"id": "A4", "statement": "A state change is fully accountable only if an inverse exists. Unrecorded irreversible changes destroy auditability.", "category": "reversibility"},
+    {"id": "A5", "statement": "Long-enduring systems for managing shared resources tend to exhibit a recurring set of design features: clear boundaries, congruent rules, collective choice, monitoring, graduated sanctions, conflict resolution, and nesting (Ostrom).", "category": "institutional_regularity"},
+    {"id": "A6", "statement": "When the cost of verifying claims is high and the cost of making false or incomplete claims is low, extraction and free-riding become easier to sustain.", "category": "cost_of_opacity"},
+    {"id": "A7", "statement": "Systems can be composed from lower-order units whose interfaces are defined in measurable units. The performance of the whole depends on the integrity of the interfaces and the accounting between units.", "category": "composition"}
+  ],
+  "postulates": [
+    {"id": "P1", "derived_from": ["A1", "A2", "A3"], "statement": "A complete thermodynamic ledger reveals the true energy cost of goods and services, exposing hidden labor extraction."},
+    {"id": "P2", "derived_from": ["A4", "A6"], "statement": "A reversible, cryptographically linked ledger of joules and actions cannot be quietly rewritten, raising the cost of opacity."},
+    {"id": "P3", "derived_from": ["A5", "A7"], "statement": "Modular composition of joule-accounted nodes is beneficial only when combined η exceeds individual η, producing fractal scaling without centralization."},
+    {"id": "P4", "derived_from": ["A2"], "statement": "Every irreversible computation has a non-zero mass equivalent (E/c²), permanently recordable alongside the joule cost."},
+    {"id": "P5", "derived_from": ["A1", "A3", "A6"], "statement": "Systems that systematically obscure energy and labor flows create conditions where extraction is easier; tools that make those flows visible are concrete forms of resistance to opacity."}
+  ]
+}
