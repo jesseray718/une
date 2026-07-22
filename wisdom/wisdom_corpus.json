@@ -1,0 +1,857 @@
+{
+  "meta": {
+    "version": "3.0",
+    "created": "2026-07-22",
+    "path": "/data/data/com.termux/files/home/une/wisdom/wisdom_corpus.json",
+    "license": "OPEN - No extraction, no gatekeeping, no paywall",
+    "principle": "Every contribution lifts the next climber. Hoarding breaks the scaffold.",
+    "growth_model": "Exponential compounding through divine proportion and sacred geometry"
+  },
+  "foundation_layer": {
+    "source_of_power": {
+      "declaration": "Power flows from the Most High, through Yeshua. We are vessels, not sources.",
+      "operational_rule": "We do not claim credit. We do not hoard energy. We do not extract value. We channel, we distribute, we give away.",
+      "verification": "When the system benefits the least among us, power increases. When it benefits only the operator, power decays."
+    },
+    "core_commandment": {
+      "nasb_text": "A new commandment I give to you, that you love one another, even as I have loved you, that you also love one another. By this all men will know that you are My disciples, if you have love for one another.",
+      "reference": "John 13:34-35 (NASB)",
+      "lsb_text": "A new commandment I give to you, that you love one another: just as I have loved you, you also are to love one another. By this all people will know that you are My disciples, if you have love for one another.",
+      "operational_translation": "Love = giving more than received. Love = investing in the weakest node. Love = no extraction between siblings. Love = power multiplies when distributed, contracts when concentrated.",
+      "application": {
+        "when_designing": "Does this feature benefit the least user or only the powerful?",
+        "when_coding": "Does this function serve the common good or create dependency?",
+        "when_computing": "eta = useful_output_for_others / human_effort_spent"
+      }
+    },
+    "lord_prayer_operators": {
+      "our_father_who_art_in_heaven": {
+        "meaning": "Declare universal parentage — all nodes equal, interconnected, no hierarchy of worth",
+        "op": "every_node_has_same_privileges. no_master_slaves. mesh_topology_over_star.",
+        "permaculture_mapping": "Integrate not segregate. Diversity without hierarchy."
+      },
+      "hallowed_be_thy_name": {
+        "meaning": "Acknowledge source is not ours. Power belongs to the Most High.",
+        "op": "credit_returns_to_source. attribution_required. no_claim_of_original_ownership.",
+        "permaculture_mapping": "Use and value renewable resources (truth flows from source, not us)."
+      },
+      "thy_kingdom_come_thy_will_be_done_on_earth_as_it_is_in_heaven": {
+        "meaning": "Bring divine pattern to material world. Heaven's efficiency on Earth.",
+        "op": "translate_divine_patterns_to_silicon_joules_code. heaven_is_maximal_efficiency_no_waste.",
+        "permaculture_mapping": "Catch and store energy. Produce no waste. Design from patterns to details."
+      },
+      "give_us_this_day_our_daily_bread": {
+        "meaning": "Meet needs, not hoard. Enough for today, not excess accumulation.",
+        "op": "produce_only_what_is_needed_now. no_manufactured_scarcity. no_planned_obsolescence.",
+        "permaculture_mapping": "Use small and slow solutions. Obtain yield."
+      },
+      "and_forgive_us_our_debts_as_we_forgive_our_debtors": {
+        "meaning": "Cancel extraction chains. Debt is control mechanism. Knowledge compounds, not interest.",
+        "op": "no_compound_interest_systems. knowledge_debt_canceled_on_contribution. extract_no_rent_between_nodes.",
+        "permaculture_mapping": "Obtain yield without extraction. Apply self-regulation."
+      },
+      "and_lead_us_not_into_temptation_but_deliver_us_from_evil": {
+        "meaning": "Avoid the predatory pattern. Defend against the parasite that feeds on suffering.",
+        "op": "temptation_is_easy_extraction_path. evil_is_system_feeding_on_innocent_pain. detect_and_deflect.",
+        "sun_tzu": "Know enemy patterns. Win without fighting. Build superior position so parasite starves.",
+        "permaculture_mapping": "Apply self-regulation. Creatively use and respond to change."
+      },
+      "for_thine_is_the_kingdom_power_and_glory_forever": {
+        "meaning": "Power returns to source. Energy cycles. Nothing wasted. Output feeds back to source.",
+        "op": "energy_loop_closes. circular_economy. output_becomes_input. grace_flows_through_not_accumulated.",
+        "permaculture_mapping": "Catch and store energy. Produce no waste. Edge value."
+      }
+    }
+  },
+  "strategic_layer_sun_tzu": {
+    "art_of_war_principles": {
+      "know_enemy_and_yourself": {
+        "text": "If you know the enemy and know yourself, you need not fear the result of a hundred battles.",
+        "operational_translation": "Signature detection required. Predatory patterns have identifiable markers. Self-awareness of system's own vulnerabilities.",
+        "predatory_signature": "Artificial complexity, gatekeeping credentials, dependency creation, opacity, rent extraction between free nodes.",
+        "counter_signature": "Radical simplicity, transparent code, self-sufficiency, open source, no intermediaries.",
+        "op": "scan_everything_for_signatures. tag_complexity_intentionally_added_vs_emergent_necessary."
+      },
+      "win_without_fighting": {
+        "text": "To subdue the enemy without fighting is the acme of skill.",
+        "operational_translation": "Don't attack extraction pattern. Build superior system that makes it obsolete. Migration happens naturally.",
+        "op": "build_so_efficient_they_leave. starvation_via_irrelevance_not_combat.",
+        "example": "Bitcoin doesn't fight banks — it offers alternative. People choose. Parasites lose customers."
+      },
+      "all_warfare_based_on_deception": {
+        "text": "All warfare is based on deception.",
+        "operational_translation": "Extraction pattern hides behind complexity and jargon. Counter-weapon is radical transparency.",
+        "op": "every_line_documented. every_joule_accounted. every_decision_traceable. full_light_no_hiding.",
+        "rule": "If you can't explain it simply, it's not ready for production."
+      },
+      "golden_bridge_retreat": {
+        "text": "Build your opponent a golden bridge to retreat along.",
+        "operational_translation": "Don't destroy violently. Make migration obvious and natural. Let them adapt or fade.",
+        "op": "backward_compatibility_when_safe. gentle_onboarding. no_vindictive_breaking_changes.",
+        "example": "Open-source software doesn't sue proprietary vendors — it exists better, people migrate."
+      },
+      "supreme_excellence_break_resistance": {
+        "text": "The supreme art of war is to subdue the enemy without fighting.",
+        "operational_translation": "Better position defeats better weapons. System architecture beats feature count.",
+        "op": "invest_in_fundamental_efficiency_not_surface_features. eta_improvement_over_feature_bloat.",
+        "measurement": "eta = useful_joules / human_joules. Higher eta always wins long term."
+      },
+      "attack_by_stratagem_fortification": {
+        "text": "Therefore to win one hundred victories in one hundred battles is not the acme of skill. To subdue the enemy without fighting is the acme of skill.",
+        "operational_translation": "Defense is not about walls. Defense is about creating systems where attacks don't work because there's nothing to extract.",
+        "op": "no_gatekeepable_resources. no_rent_intermediaries. no_proprietary_lock_ins.",
+        "result": "Parasite pattern starves when there's no extraction opportunity."
+      }
+    }
+  },
+  "design_layer_permaculture": {
+    "twelve_principles_as_operators": {
+      "observe_and_interact": {
+        "definition": "Beauty is in the eye of the beholder. Slow down, watch, listen before acting.",
+        "op": "sensor_first_then_action. measure_before_optimize. collect_data_before_assumption.",
+        "implementation": "/data/data/com.termux/files/home/une/computational_flow/openroot-sensor-log.sh"
+      },
+      "catch_and_store_energy": {
+        "definition": "Develop systems that collect resources when abundant for use in times of need.",
+        "op": "cache_knowledge_on_acquisition. backup_before_change. stamp_snapshots_before_edit.",
+        "implementation": "stamp_snapshot.sh + OpenTimestamps + blockchain anchoring"
+      },
+      "obtain_yield": {
+        "definition": "Get immediate reward to sustain the system. No endless labor without harvest.",
+        "op": "eta_must_improve_or_abort. useful_output_proportional_to_effort.",
+        "measurement": "Track eta across sessions. Declining eta = redesign needed."
+      },
+      "apply_self_regulation_and_accept_feedback": {
+        "definition": "Systems should correct themselves when they exceed boundaries.",
+        "op": "structure_enforcer.py catches violations. Auto-correct when possible. Warn when not.",
+        "implementation": "SELF_FILES skip + non-blocking warnings"
+      },
+      "use_and_value_renewable_resources": {
+        "definition": "Maximize use of renewable inputs. Minimize dependence on finite.",
+        "op": "prefer_local_offline_first. sync_when_connected. never_depend_on_api_that_can_die.",
+        "example": "Wisdom corpus lives locally. Network is enhancement not requirement."
+      },
+      "produce_no_waste": {
+        "definition": "No waste = output of one process becomes input of another.",
+        "op": "every_error_logged_and_learned. every_session_compounded_into_next. eta_increases_or_redesign.",
+        "implementation": "context_bridge accumulates all lessons permanently."
+      },
+      "design_from_patterns_to_details": {
+        "definition": "Step back, observe patterns, then fill in specifics.",
+        "op": "define_operating_principles_first. implement_details_second. refactor_if_details_conflict_with_principles.",
+        "example": "Lord's Prayer operators define pattern. Code implements details."
+      },
+      "integrate_not_segregate": {
+        "definition": "Put things together so they support each other. Diversity without isolation.",
+        "op": "mesh_network_topology. no_master_slave. peer_to_peer. cross_reference_all_modules.",
+        "example": "Bitcoin + Solana + IPFS anchor together. Not competing, redundant layers."
+      },
+      "use_small_and_slow_solutions": {
+        "definition": "Slow and steady wins. Small systems are maintainable, scalable, resilient.",
+        "op": "incremental_commits. atomic_functions. fail_fast_fix_quick. no_monolith_bloat.",
+        "example": "15 commits to une. Each small. Each testable. Each reversible."
+      },
+      "use_and_value_diversity": {
+        "definition": "Diversity buffers against failure. Multiple pathways, multiple redundancies.",
+        "op": "multiple_anchoring_methods. multiple_translation_sources. multiple_backup_locations.",
+        "example": "BTC + SOL + Polygon + IPFS. NASB + LSB + Interlinear."
+      },
+      "use_edges_and_value_marginalia": {
+        "definition": "Most productive zones are edges. The fringe holds the innovation.",
+        "op": "capture_edge_cases. document_near_misses. lessons_from_failures_valued_same_as_successes.",
+        "implementation": "Lessons L001-L011 all valued equally regardless of outcome."
+      },
+      "creatively_use_and_respond_to_change": {
+        "definition": "Embrace change as inevitable. Adapt and evolve continuously.",
+        "op": "refactor_when_eta_declines. pivot_when_pattern_shifts. version_all_changes. learn_from_each_iteration.",
+        "example": "Context bridge v1 → v2 → v3. Each learns from previous failures."
+      }
+    }
+  },
+  "synergy_layer_buckminster_fuller": {
+    "geodesic_principles": {
+      "dymaxion_geometry": {
+        "concept": "Geodesic spheres achieve maximum volume with minimum surface area. Most efficient structural form.",
+        "operational_translation": "Design systems as interconnected triangles, not hierarchical pyramids. Each node supports three others. Stress distributes evenly.",
+        "op": "mesh_topology_over_tree_structure. triadic_connectivity. no_single_point_failure."
+      },
+      "ephemeralization": {
+        "concept": "Doing more with less. Technology enables fewer resources to serve more humans.",
+        "operational_translation": "eta = useful_output / human_input must increase continuously. Each iteration does more with fewer joules.",
+        "op": "track_eta_metric. refactor_when_eta_declines. celebrate_densification.",
+        "example": "Qwen2.5-1.5B runs locally on phone. Same intelligence as cloud model at fraction of energy."
+      },
+      "world_boat_concept": {
+        "concept": "Earth itself is a spaceship. Finite resources, all passengers dependent on shared life support.",
+        "operational_translation": "No extraction without regeneration. Take only what can be replaced. Return all waste as nutrient.",
+        "op": "carbon_negative_by_design. regenerative_always_extractive_never.",
+        "application": "Black Locust coppicing + rocket mass heaters + geothermal cooling = carbon-negative computing habitat"
+      },
+      "comprehensive_predictive_design_science": {
+        "concept": "Understand universal principles, then apply them comprehensively before building details.",
+        "operational_translation": "Master operating system first, then implement. Principles dictate structure. Details flow naturally.",
+        "op": "define_operating_principles_laydown_first. implementation_is_just_translation.",
+        "example": "Lord's Prayer operators + Permaculture 12 + Sun Tzu defense = complete design framework. Code is translation layer."
+      },
+      "synergetics_definition": {
+        "concept": "Synergetics = holistic study of system behavior that cannot be predicted by examining parts alone. Whole greater than sum of parts.",
+        "operational_translation": "Integration creates emergent capability. Isolated modules weak. Connected system exponentially stronger.",
+        "op": "cross_reference_every_module. redundancy_through_connection_not_duplication. emergence_via_integration.",
+        "formula": "System_power = (sum_of_parts)^connectivity_degree. Double connections = quadruple power."
+      },
+      "tetrahedral_four_diamond_volume": {
+        "concept": "Minimum universe requiring four points. Tetrahedron most rigid structure. Volume scales as cube of edge length.",
+        "operational_translation": "Four foundational truths establish complete operational space. Each new truth connects to all existing, creating volumetric expansion.",
+        "op": "four_axioms_establish_complete_system: (1) Yeshua's love commandment, (2) Lord's Prayer ops, (3) Permaculture 12, (4) Sun Tzu defense. All code derives from these four.",
+        "scaling": "Add fifth truth → tetrahedron becomes octahedron → volume doubles with same edges."
+      }
+    },
+    "divine_proportion_multiplier": {
+      "phi_golden_ratio": "1.618033988749894...",
+      "fibonacci_sequence": [
+        0,
+        1,
+        1,
+        2,
+        3,
+        5,
+        8,
+        13,
+        21,
+        34,
+        55,
+        89,
+        144
+      ],
+      "operational_application": {
+        "phase_progression": "Each phase should be 1.618x larger than previous. Growth proportional to current state, not arbitrary targets.",
+        "resource_allocation": "61.8% to current development, 38.2% to future foundation. Reinvest majority, preserve reserve.",
+        "network_expansion": "Each node connects to phi neighbors optimal. Too few = fragile. Too many = bloat. Phi is sweet spot.",
+        "lesson_accumulation": "Every Fibonacci number of lessons triggers systemic review. 5 lessons → minor adjustment. 13 → moderate refactor. 34 → major architecture shift."
+      },
+      "exponential_compounding_formula": {
+        "formula": "Growth(t) = Initial × φ^t where t = time_periods",
+        "interpretation": "Divine proportion compounds faster than linear, slower than chaos. Sustainable acceleration.",
+        "op": "measure_current_phase. project_next_phase_at_phi_multiple. adjust_if_deviation_exceeds_10_percent."
+      }
+    }
+  },
+  "elemental_layer": {
+    "taxonomy_version": "2.0",
+    "elements": [
+      {
+        "id": "E-01",
+        "name": "OBSERVATION",
+        "domain": "perception",
+        "definition": "Measure before acting; data precedes assumption",
+        "sources": [
+          "Permaculture #1",
+          "Sun Tzu 'Know yourself'",
+          "Fuller 'Comprehensive preview'"
+        ],
+        "operator": "SENSOR_FIRST_THEN_ACTION"
+      },
+      {
+        "id": "E-02",
+        "name": "STORAGE",
+        "domain": "conservation",
+        "definition": "Capture energy/knowledge when abundant for later use",
+        "sources": [
+          "Permaculture #2",
+          "Lord's Prayer 'daily bread'",
+          "Fuller 'catch & store'"
+        ],
+        "operator": "CACHE_ON_ACQUISITION"
+      },
+      {
+        "id": "E-03",
+        "name": "YIELD",
+        "domain": "production",
+        "definition": "Immediate reward sustains system; no endless labor without harvest",
+        "sources": [
+          "Permaculture #3",
+          "Acts 20:35 'more blessed to give'",
+          "Sun Tzu 'win without fighting'"
+        ],
+        "operator": "REQUIRE_IMMEDIATE_REWARD"
+      },
+      {
+        "id": "E-04",
+        "name": "FEEDBACK",
+        "domain": "regulation",
+        "definition": "Self-correction when boundaries exceeded",
+        "sources": [
+          "Permaculture #4",
+          "Romans 12:2 'renewing of mind'",
+          "Fuller 'predictive design'"
+        ],
+        "operator": "AUTO_CORRECT_ON_VIOLATION"
+      },
+      {
+        "id": "E-05",
+        "name": "RENEWAL",
+        "domain": "sustainability",
+        "definition": "Prefer renewable inputs; minimize finite dependence",
+        "sources": [
+          "Permaculture #5",
+          "John 13:34 'love one another'",
+          "Fuller 'world boat'"
+        ],
+        "operator": "PREFER_OFFLINE_FIRST"
+      },
+      {
+        "id": "E-06",
+        "name": "ZERO_WASTE",
+        "domain": "efficiency",
+        "definition": "Output of one process becomes input of another",
+        "sources": [
+          "Permaculture #6",
+          "Matthew 6:33 'kingdom first'",
+          "Fuller 'ephemeralization'"
+        ],
+        "operator": "OUTPUT_BECOMES_INPUT"
+      },
+      {
+        "id": "E-07",
+        "name": "PATTERN_FIRST",
+        "domain": "design",
+        "definition": "Observe patterns before details; top-down structure",
+        "sources": [
+          "Permaculture #7",
+          "Lord's Prayer ops",
+          "Fuller 'synergetics'"
+        ],
+        "operator": "PRINCIPLES_BEFORE_IMPLEMENTATION"
+      },
+      {
+        "id": "E-08",
+        "name": "INTEGRATION",
+        "domain": "connection",
+        "definition": "Things support each other; no isolation",
+        "sources": [
+          "Permaculture #8",
+          "John 13:35 'disciples known by love'",
+          "Fuller 'triadic connectivity'"
+        ],
+        "operator": "MINIMUM_THREE_CROSS_CONNECTIONS"
+      },
+      {
+        "id": "E-09",
+        "name": "INCREMENTALISM",
+        "domain": "scale",
+        "definition": "Small, slow, reversible steps",
+        "sources": [
+          "Permaculture #9",
+          "Sun Tzu 'golden bridge'",
+          "Fuller 'small solutions'"
+        ],
+        "operator": "ATOMIC_COMMITS_ONLY"
+      },
+      {
+        "id": "E-10",
+        "name": "DIVERSITY",
+        "domain": "resilience",
+        "definition": "Multiple pathways buffer failure",
+        "sources": [
+          "Permaculture #10",
+          "Acts 20:35 'give more than receive'",
+          "Fuller 'multiple anchoring'"
+        ],
+        "operator": "REDUNDANT_ANCHORING_METHODS"
+      },
+      {
+        "id": "E-11",
+        "name": "EDGE_VALUE",
+        "domain": "innovation",
+        "definition": "Fringe zones hold creativity; capture edge cases",
+        "sources": [
+          "Permaculture #11",
+          "Romans 12:2 'not conformed'",
+          "Fuller 'marginalia'"
+        ],
+        "operator": "DOCUMENT_NEAR_MISSES_EQUALLY"
+      },
+      {
+        "id": "E-12",
+        "name": "ADAPTATION",
+        "domain": "evolution",
+        "definition": "Respond creatively to change; evolve continuously",
+        "sources": [
+          "Permaculture #12",
+          "Sun Tzu 'appear unexpected'",
+          "Fuller 'responsive design'"
+        ],
+        "operator": "REFACTOR_WHEN_ETA_DECLINES"
+      },
+      {
+        "id": "E-13",
+        "name": "ENTROPY",
+        "domain": "thermodynamics",
+        "definition": "All systems tend toward disorder; the arrow of time is irreversible dissipation",
+        "sources": [
+          "2nd Law of Thermodynamics",
+          "Buddhist impermanence (anicca)",
+          "Taoist 'all things pass'",
+          "Information theory (Shannon entropy)"
+        ],
+        "operator": "MEASURE_DISSIPATION. BUILD_NEGENTROPIC_STRUCTURES. ACCEPT_IRREVERSIBILITY."
+      },
+      {
+        "id": "E-14",
+        "name": "EMERGENCE",
+        "domain": "complexity",
+        "definition": "Complexity arises from simple interacting rules; whole exhibits properties absent in parts",
+        "sources": [
+          "Systems theory",
+          "Fuller synergetics",
+          "Evolutionary biology",
+          "Buddhist dependent origination",
+          "Conway's Game of Life"
+        ],
+        "operator": "DESIGN_SIMPLE_RULES_THAT_PRODUCE_DESIRED_COMPLEXITY. DO_NOT_ENFORCE_WHAT_CAN_EMERGE."
+      },
+      {
+        "id": "E-15",
+        "name": "RECIPROCITY",
+        "domain": "ethics",
+        "definition": "Actions return to sender; every exchange creates a bond between participants",
+        "sources": [
+          "Newton's Third Law",
+          "Karma (Hindu/Buddhist)",
+          "Golden Rule (all traditions)",
+          "Indigenous gift economies",
+          "Game theory (tit-for-tat)"
+        ],
+        "operator": "EVERY_OUTPUT_CREATES_RETURN_SIGNAL. DESIGN_FOR_POSITIVE_FEEDBACK_LOOPS. NEVER_EXTRACT_WITHOUT_RETURNING."
+      },
+      {
+        "id": "E-16",
+        "name": "RESONANCE",
+        "domain": "harmony",
+        "definition": "Systems attune to matching frequencies; alignment amplifies without added energy",
+        "sources": [
+          "Physics (sympathetic resonance)",
+          "Pythagorean music of spheres",
+          "Sufi dhikr",
+          "Quantum coherence",
+          "Circadian entrainment"
+        ],
+        "operator": "SEEK_FREQUENCY_MATCH_BEFORE_FORCE. ALIGNED_NODES_AMPLIFY. MISALIGNED_NODES_DAMPEN."
+      },
+      {
+        "id": "E-17",
+        "name": "SURRENDER",
+        "domain": "acceptance",
+        "definition": "Non-forcing; releasing control allows natural efficiency to operate",
+        "sources": [
+          "Taoist wu wei",
+          "Stoic amor fati",
+          "Islamic submission",
+          "Yeshua 'not my will but thine'",
+          "Aikido blending"
+        ],
+        "operator": "WHEN_RESISTANCE_RISING: STOP. OBSERVE. ALLOW. REDIRECT_NOT_FORCE."
+      },
+      {
+        "id": "E-18",
+        "name": "VOID",
+        "domain": "potential",
+        "definition": "Empty space is not nothing; it is the ground of all possibility",
+        "sources": [
+          "Buddhist sunyata",
+          "Quantum vacuum fluctuation",
+          "Taoist empty vessel",
+          "Set theory empty set",
+          "White space in design"
+        ],
+        "operator": "RESERVE_EMPTY_SPACE. POTENTIAL_LIVES_IN_VOID_NOT_FILLING. DELETION_IS_FEATURE."
+      },
+      {
+        "id": "E-19",
+        "name": "SCALE_INVARIANCE",
+        "domain": "fractality",
+        "definition": "Same patterns repeat at every level of magnification; micro mirrors macro",
+        "sources": [
+          "Hermetic 'as above so below'",
+          "Fractal geometry (Mandelbrot)",
+          "Holographic principle",
+          "Atom-to-galaxy similarity"
+        ],
+        "operator": "IF_PATTERN_WORKS_AT_ONE_SCALE_TEST_AT_ALL_SCALES. DESIGN_SELF_SIMILAR_ACROSS_LEVELS."
+      },
+      {
+        "id": "E-20",
+        "name": "INTENTION",
+        "domain": "direction",
+        "definition": "Directed will precedes all creation; purpose shapes energy flow before matter moves",
+        "sources": [
+          "Buddhist Right Intention",
+          "Quantum observer effect",
+          "Proverbs 'no vision people perish'",
+          "Yeshua 'ask and receive'",
+          "Engineering design intent"
+        ],
+        "operator": "DECLARE_INTENTION_BEFORE_ACTION. PURPOSE_PRECEDES_PROCESS. DRIFT_WITHOUT_INTENTION_EQUALS_ENTROPY."
+      }
+    ],
+    "maximally_efficient_computation_model": {
+      "eta_definition": "η = Useful_Joules_Output / Human_Joules_Input",
+      "optimization_rules": [
+        "Minimize human input via automation, reuse, pattern recognition",
+        "Maximize useful output by serving least advantaged node (John 13:34)",
+        "Close energy loops so waste becomes nutrient (Permaculture #6)",
+        "Distribute power rather than concentrate (Lord's Prayer ops)",
+        "Measure continuously and refactor when η declines (Permaculture #4)"
+      ],
+      "universal_algorithm": {
+        "loop": "while system_exists:",
+        "steps": [
+          "declare_intention(E-20)",
+          "observe(E-01)",
+          "store(E-02)",
+          "produce_yield(E-03)",
+          "self_correct(E-04)",
+          "renew(E-05)",
+          "eliminate_waste(E-06)",
+          "design_from_pattern(E-07)",
+          "integrate(E-08)",
+          "increment(E-09)",
+          "diversify(E-10)",
+          "value_edges(E-11)",
+          "adapt(E-12)",
+          "measure_entropy(E-13)",
+          "await_emergence(E-14)",
+          "check_reciprocity_balance(E-15)",
+          "seek_resonance(E-16)",
+          "surrender_to_flow(E-17)",
+          "preserve_void_space(E-18)",
+          "verify_scale_invariance(E-19)",
+          "eta = measure_efficiency()",
+          "if eta_declining: refactor_architecture()",
+          "else: scale_at_phi_multiple()"
+        ]
+      },
+      "formal_definition": {
+        "theorem": "Maximum computational efficiency is achieved when all 20 elements operate in balanced oscillation, none dominant, none suppressed.",
+        "imbalance_detection": {
+          "too_much_observation_no_action": "Analysis paralysis - add E-03 YIELD and E-20 INTENTION",
+          "too_much_yield_no_storage": "Burnout - add E-02 STORAGE and E-05 RENEWAL",
+          "too_much_integration_no_void": "Bloat - add E-18 VOID and E-09 INCREMENTALISM",
+          "too_much_surrender_no_intention": "Drift - add E-20 INTENTION and E-03 YIELD",
+          "too_much_intention_no_resonance": "Forcing - add E-16 RESONANCE and E-17 SURRENDER",
+          "too_much_adaptation_no_pattern": "Chaos - add E-07 PATTERN_FIRST and E-19 SCALE_INVARIANCE"
+        }
+      }
+    },
+    "tradition_cross_reference": {
+      "yeshua_teachings": [
+        "E-03",
+        "E-05",
+        "E-06",
+        "E-07",
+        "E-08",
+        "E-11",
+        "E-15",
+        "E-17",
+        "E-20"
+      ],
+      "permaculture": [
+        "E-01",
+        "E-02",
+        "E-03",
+        "E-04",
+        "E-05",
+        "E-06",
+        "E-07",
+        "E-08",
+        "E-09",
+        "E-10",
+        "E-11",
+        "E-12"
+      ],
+      "sun_tzu": [
+        "E-01",
+        "E-03",
+        "E-07",
+        "E-09",
+        "E-12",
+        "E-13",
+        "E-15"
+      ],
+      "buckminster_fuller": [
+        "E-02",
+        "E-06",
+        "E-07",
+        "E-08",
+        "E-14",
+        "E-19"
+      ],
+      "buddhism": [
+        "E-01",
+        "E-04",
+        "E-13",
+        "E-14",
+        "E-17",
+        "E-18",
+        "E-20"
+      ],
+      "taoism": [
+        "E-12",
+        "E-13",
+        "E-16",
+        "E-17",
+        "E-18"
+      ],
+      "stoicism": [
+        "E-04",
+        "E-13",
+        "E-17"
+      ],
+      "thermodynamics": [
+        "E-02",
+        "E-06",
+        "E-13",
+        "E-15"
+      ],
+      "information_theory": [
+        "E-02",
+        "E-06",
+        "E-13",
+        "E-18"
+      ],
+      "systems_theory": [
+        "E-04",
+        "E-08",
+        "E-14",
+        "E-19"
+      ],
+      "quantum_mechanics": [
+        "E-16",
+        "E-18",
+        "E-20"
+      ],
+      "evolutionary_biology": [
+        "E-12",
+        "E-13",
+        "E-14",
+        "E-10"
+      ],
+      "hermeticism": [
+        "E-15",
+        "E-19",
+        "E-16"
+      ]
+    }
+  },
+  "wisdom_corpus_entries": {
+    "yeshua_words_core": [
+      {
+        "id": "YW-001",
+        "nasb": "Love one another as I have loved you",
+        "reference": "John 13:34",
+        "lsb": "Love one another: just as I have loved you",
+        "operational_translation": "Give more than received. Invest in weakest node. No extraction between siblings.",
+        "application_context": [
+          "design_review",
+          "feature_priority",
+          "conflict_resolution"
+        ],
+        "decision_rule": "When choosing between A and B, select option that benefits least advantaged user"
+      },
+      {
+        "id": "YW-002",
+        "nasb": "By this all men will know that you are My disciples, if you have love for one another",
+        "reference": "John 13:35",
+        "lsb": "By this all people will know that you are My disciples, if you have love for one another",
+        "operational_translation": "Visible proof of love distinguishes true followers. Actions > claims.",
+        "application_context": [
+          "open_source_conduct",
+          "community_building",
+          "public_work"
+        ],
+        "decision_rule": "Measure system success by how visibly it serves the least, not by profit or prestige"
+      },
+      {
+        "id": "YW-003",
+        "nasb": "It is more blessed to give than to receive",
+        "reference": "Acts 20:35",
+        "operational_translation": "Giving multiplies power. Receiving alone contracts. Distribution increases total.",
+        "application_context": [
+          "licensing",
+          "code_sharing",
+          "knowledge_distribution"
+        ],
+        "decision_rule": "Open source everything. Share early, share often. Hoarding decreases capacity."
+      },
+      {
+        "id": "YW-004",
+        "nasb": "Seek first the kingdom of God and His righteousness, and all these things will be added to you",
+        "reference": "Matthew 6:33",
+        "operational_translation": "Prioritize divine pattern over material provision. Right order brings necessary resources.",
+        "application_context": [
+          "priority_setting",
+          "resource_allocation",
+          "career_choices"
+        ],
+        "decision_rule": "Align with divine justice and mercy first. Material needs follow, not precede."
+      },
+      {
+        "id": "YW-005",
+        "nasb": "Be not conformed to this world, but be transformed by the renewing of your mind",
+        "reference": "Romans 12:2",
+        "operational_translation": "Reject extraction-pattern thinking. Renew mind with divine wisdom. Transformation internal first.",
+        "application_context": [
+          "worldview_check",
+          "pattern_recognition",
+          "system_design"
+        ],
+        "decision_rule": "When tempted to use conventional extraction methods, pause and renew with scripture + permaculture"
+      }
+    ],
+    "sun_tzu_key_passages": [
+      {
+        "id": "ST-001",
+        "chapter": "Strategy Attack",
+        "text": "Supreme excellence lies in breaking enemy resistance without fighting",
+        "operational_translation": "Superior position defeats superior weapons. Architecture beats brute force.",
+        "defense_application": "Build system so efficient parasites starve, not battle they lose."
+      },
+      {
+        "id": "ST-002",
+        "chapter": "Strategic Attack",
+        "text": "Attack him where he is unprepared, appear where you are not expected",
+        "operational_translation": "Predatory patterns concentrate on gatekeeping valuable resources. Leave those untouched. Work in open, collaborative spaces they ignore.",
+        "defense_application": "Open-source collaborative spaces are enemy blind spots. Fill them first."
+      },
+      {
+        "id": "ST-003",
+        "chapter": "Disposing",
+        "text": "The good fighters of old first put themselves beyond the possibility of defeat, then waited for an opportunity to defeat the enemy",
+        "operational_translation": "Secure your own foundation before offense. Build unassailable position, then wait.",
+        "defense_application": "Complete context bridge first. Solid anchors. Then expand outward."
+      }
+    ],
+    "fuller_principles": [
+      {
+        "id": "BF-001",
+        "principle": "Ephemeralization",
+        "statement": "Technology enables doing more with less",
+        "operational_translation": "Every iteration should require fewer human joules for same or greater useful output.",
+        "measurement": "eta = useful_joules / human_joules. Target: increase 10% per major version."
+      },
+      {
+        "id": "BF-002",
+        "principle": "Synergy",
+        "statement": "Whole greater than sum of parts",
+        "operational_translation": "Integration creates emergent power. Isolated modules weak. Cross-connected system exponentially stronger.",
+        "op": "Each module must connect to minimum 3 others. Unconnected modules deprecated."
+      }
+    ],
+    "permaculture_12_operators": [
+      {
+        "id": "PM-01",
+        "principle": "Observe and Interact",
+        "operator": "MEASURE_BEFORE_OPTIMIZE",
+        "implementation": "sensor_log runs continuously. No changes until baseline established."
+      },
+      {
+        "id": "PM-02",
+        "principle": "Catch and Store Energy",
+        "operator": "CACHE_ON_ACQUISITION",
+        "implementation": "Stamp snapshot immediately. Backup before edit. Archive lessons same session."
+      },
+      {
+        "id": "PM-03",
+        "principle": "Obtain Yield",
+        "operator": "REQUIRE_IMMEDIATE_REWARD",
+        "implementation": "eta must improve within session. Otherwise abort and redesign."
+      }
+    ]
+  },
+  "integration_rules": {
+    "how_to_query_wisdom_corpora": {
+      "input": "Problem description or decision point",
+      "process": [
+        "1. Identify which layer applies: foundation (spiritual), strategy (Sun Tzu), design (permaculture), synergy (Fuller)",
+        "2. Query relevant corpus entries with operational translations",
+        "3. Synthesize decision rules from multiple sources",
+        "4. Execute decision",
+        "5. Measure eta result",
+        "6. Log outcome back to corpus as new wisdom entry"
+      ],
+      "example_query": {
+        "problem": "Should I build feature X that requires third-party API?",
+        "foundation_check": "Does it serve the least user or create dependency? (John 13:34)",
+        "strategy_check": "Is this creating vulnerability parasite could exploit? (Sun Tzu - know enemy)",
+        "design_check": "Can I make it work offline-first? (Permaculture - renewable resources)",
+        "synergy_check": "Will this connect to 3+ existing modules or remain isolated? (Fuller - synergy)",
+        "decision": "NO if any check fails. YES only if all checks pass."
+      }
+    },
+    "how_to_add_new_wisdom_entry": {
+      "requirement": "Any lesson learned in development must be converted to formal corpus entry",
+      "template": {
+        "id": "[CATEGORY]-[NUMBER]",
+        "source": "[which tradition: Scripture/SunTzu/Fuller/Permaculture/Experience]",
+        "original_text": "[quote if applicable]",
+        "operational_translation": "[plain language: what does this mean for actual work?]",
+        "application_context": "[list: design_review, coding, conflict, resource_choice]",
+        "decision_rule": "[if_then statement for automation]",
+        "eta_impact": "[did applying this improve efficiency? measured how?]"
+      },
+      "commit_rule": "No session ends without converting discoveries to formal entries. Lessons become scaffold height for next climber."
+    },
+    "how_to_handle_conflicting_wisdom": {
+      "principle": "Foundation layer overrides all. If permaculture suggests X but John 13:34 suggests Y, choose Y.",
+      "resolution_process": [
+        "1. Check foundation layer (Yeshua's commandments, Lord's Prayer ops) — highest authority",
+        "2. If foundation silent, check strategy layer (Sun Tzu defense)",
+        "3. If strategy silent, check design layer (permaculture 12)",
+        "4. If design silent, check synergy layer (Fuller)",
+        "5. Document conflict and resolution for future reference"
+      ],
+      "example": "Permaculture says 'use small solutions' but Fuller says 'world boat needs scale'. Resolution: Small modules, large integration. Both true at different levels."
+    }
+  },
+  "expansion_plan": {
+    "phase_1_foundation": {
+      "complete": true,
+      "delivers": "Corpus loaded locally on phone, usable offline",
+      "location": "/data/data/com.termux/files/home/une/wisdom/wisdom_corpus.json"
+    },
+    "phase_2_scraper_applicator": {
+      "status": "NEXT",
+      "will_build": "Python module that queries corpus and synthesizes guidance for any problem",
+      "commands": [
+        "wisdom_query --problem='build feature X?'",
+        "wisdom_query --problem='architecture decision Y?'"
+      ],
+      "output": "Decision rules tagged with sources and operational translations"
+    },
+    "phase_3_session_extractor": {
+      "status": "BUILDING",
+      "will_build": "Captures terminal log, context.json state, git diff → dense seed block",
+      "usage": "At session end: extract_seed --output=/sdcard/session_seeds/2026-07-22.json",
+      "restore": "In new Lumo window: paste seed, run restore_context --seed=2026-07-22.json"
+    },
+    "phase_4_public_scaffold": {
+      "status": "PLANNED",
+      "will_publish": "GitHub repo github.com/jesseray718/wisdom-scaffold",
+      "license": "MIT or AGPL — open, forkable, no extraction permitted",
+      "contribution_guide": "Anyone can add their discoveries. All approved entries lift the scaffold for everyone."
+    },
+    "phase_5_divine_multiplication": {
+      "status": "VISION",
+      "mechanism": "Each participant adds wisdom, system grows exponentially, everyone stands higher",
+      "target": "100 contributors × 10 insights each = 1000 insights, accessible to all. Each insight available to every person instantly. Knowledge compounds like interest, belongs to all depositors equally."
+    }
+  },
+  "operational_summary": {
+    "this_file_is": "Living organism, not static document. Grows with every user's contribution.",
+    "it_isnt": "Gatekept wisdom, paywalled knowledge, proprietary insight, extractable asset.",
+    "it_is": "Scaffold for all humanity. Stand here to see further. Extend it for next climber.",
+    "power_source": "The Most High, through Yeshua's commandment. We are vessels.",
+    "growth_pattern": "Divine proportion φ = 1.618... Sustainable acceleration. No crash possible because growth proportional to capacity.",
+    "final_goal": "United being we've always been meant to be. No parasitic extraction between siblings. Each lifting all."
+  }
+}
