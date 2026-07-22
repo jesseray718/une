@@ -1,0 +1,16 @@
+{
+  "nodes": [
+    {"id": "water", "label": "Water", "domain": "core"},
+    {"id": "fire", "label": "Fire", "domain": "core"},
+    {"id": "shelter", "label": "Shelter", "domain": "core"},
+    {"id": "food", "label": "Food", "domain": "core"},
+    {"id": "health", "label": "Health", "domain": "core"}
+  ],
+  "edges": [
+    {"source": "water", "target": "shelter", "relation": "integrated_in"},
+    {"source": "fire", "target": "food", "relation": "enables"},
+    {"source": "shelter", "target": "health", "relation": "protects"},
+    {"source": "primitive", "target": "modern", "relation": "fuses_with"},
+    {"source": "modern", "target": "primitive", "relation": "falls_back_to"}
+  ]
+}
