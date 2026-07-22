@@ -1,0 +1,7 @@
+logs/
+*.ots
+*.jsonl
+queue/
+tasks/
+__pycache__/
+*.pyc
