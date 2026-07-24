@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "type": "openroot_session_seed",
+    "created": "20260722_061740",
+    "source": "Samsung A15 Termux"
+  },
+  "context_snapshot": {
+    "last_query": "give",
+    "last_stamp": "context_1784709419.json",
+    "lessons_learned": [
+      "Query 'wisdom' yielded 0 matches. Acc=28463688.59",
+      "Query 'energy' yielded 2 matches. Acc=530627.74",
+      "Query 'love' yielded 2 matches. Acc=11906686.22",
+      "Query 'infinite' yielded 0 matches. Acc=24638053.35",
+      "Query 'give' yielded 1 matches. Acc=22078458.07"
+    ],
+    "energy_budget": 0,
+    "acceleration_history": [
+      {
+        "time": 1784709159.83333,
+        "val": 28463688.58887574
+      },
+      {
+        "time": 1784709222.660057,
+        "val": 530627.7357926512
+      },
+      {
+        "time": 1784709254.2988732,
+        "val": 11906686.221537825
+      },
+      {
+        "time": 1784709282.2078543,
+        "val": 24638053.351655755
+      },
+      {
+        "time": 1784709323.6270769,
+        "val": 22078458.07398364
+      }
+    ]
+  },
+  "recent_sensor_log": [
+    "--- SESSION START: Wed Jul 22 03:10:44 CDT 2026 ---",
+    "--- SESSION START: Wed Jul 22 03:15:20 CDT 2026 ---",
+    "[2026-07-22 03:32:17] Context file missing. Initializing fresh vessel.",
+    "[2026-07-22 03:32:17] Created /data/data/com.termux/files/home/une/context_bridge/context.json",
+    "[2026-07-22 03:32:39] Query processed in 0.0005s. Acc: 28463688.59, Eff: 1.6143",
+    "[2026-07-22 03:33:42] Query processed in 0.0036s. Acc: 530627.74, Eff: 1.8571",
+    "[2026-07-22 03:34:14] Query processed in 0.0006s. Acc: 11906686.22, Eff: 1.8600",
+    "[2026-07-22 03:34:42] Query processed in 0.0006s. Acc: 24638053.35, Eff: 1.0333",
+    "[2026-07-22 03:35:23] Query processed in 0.0005s. Acc: 22078458.07, Eff: 1.8600",
+    "[2026-07-22 03:36:59] Stamp created: context_1784709419.json (Hash: ca176b7dce2a29c6)",
+    "--- SESSION START: Wed Jul 22 04:19:03 CDT 2026 ---",
+    "--- SESSION START: Wed Jul 22 04:34:18 CDT 2026 ---",
+    "--- SESSION END: Wed Jul 22 04:34:35 CDT 2026 ---",
+    "--- SESSION START: Wed Jul 22 05:25:27 CDT 2026 ---",
+    "--- SESSION END: Wed Jul 22 05:27:48 CDT 2026 ---",
+    "--- SESSION START: Wed Jul 22 05:28:28 CDT 2026 ---",
+    "--- SESSION END: Wed Jul 22 05:28:57 CDT 2026 ---",
+    "--- SESSION START: Wed Jul 22 05:38:25 CDT 2026 ---",
+    "--- SESSION END: Wed Jul 22 05:39:02 CDT 2026 ---",
+    "--- SESSION START: Wed Jul 22 06:14:29 CDT 2026 ---",
+    "--- SESSION END: Wed Jul 22 06:17:31 CDT 2026 ---"
+  ],
+  "session_stats": {
+    "total_lessons": 0,
+    "confirmed_anchors": 0
+  }
+}

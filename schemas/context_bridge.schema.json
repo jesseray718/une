@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://openroot.dev/schemas/context_bridge.schema.json",
+  "title": "OpenRoot Context Bridge",
+  "type": "object",
+  "required": ["version", "created", "last_modified", "project", "system_state"],
+  "properties": {
+    "version": { "type": "string", "pattern": "^[0-9]+\\.[0-9]+$" },
+    "created": { "type": "string", "format": "date" },
+    "last_modified": { "type": "string", "format": "date-time" },
+    "project": {
+      "type": "object",
+      "required": ["name", "owner", "github"],
+      "properties": {
+        "name": { "type": "string" },
+        "owner": { "type": "string" },
+        "github": { "type": "string" },
+        "vision": { "type": "string" },
+        "core_principles": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "lessons": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "timestamp", "title", "body", "category", "severity"],
+        "properties": {
+          "id": { "type": "string" },
+          "timestamp": { "type": "string", "format": "date-time" },
+          "title": { "type": "string" },
+          "body": { "type": "string" },
+          "category": { "type": "string" },
+          "severity": { "enum": ["critical", "bug", "discovery", "warning", "info"] }
+        }
+      }
+    },
+    "system_state": {
+      "type": "object",
+      "required": ["status", "une_repo", "pending_tasks", "completed_tasks"],
+      "properties": {
+        "status": { "type": "string" },
+        "une_repo": { "type": "string" },
+        "pending_tasks": { "type": "array", "items": { "type": "string" } },
+        "completed_tasks": { "type": "array", "items": { "type": "string" } },
+        "energy_measurements": { "type": "object" },
+        "bitcoin_anchors": { "type": "object" },
+        "live_sensor": { "type": "object" }
+      }
+    },
+    "code_artifacts": { "type": "array" },
+    "blockchain_anchoring": { "type": "object" },
+    "ai_memory": { "type": "object" }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,25 @@
+{
+  "transformation_operator": {
+    "axiom": "Life manifests as Lesson or Blessing. Resistance creates persistence. Acceptance creates transformation.",
+    "equation_lesson": "Input_Event + Resistance = Suffering (Lesson repeats)",
+    "equation_blessing": "Input_Event + Acceptance = Wisdom (Lesson becomes Blessing)",
+    "operational_rule": "When a failure occurs, DO NOT resist. DO NOT hide. DO NOT rewrite history to look perfect.",
+    "action_steps": [
+      "1. ACKNOWLEDGE: 'This happened. I am resisting it.'",
+      "2. ANALYZE: 'What is the lesson hidden here?'",
+      "3. ACCEPT: 'I accept this pain as the cost of the lesson.'",
+      "4. CONVERT: 'How does this make me stronger? How does this help the next climber?'",
+      "5. RELEASE: 'The tension is gone. The energy is now free.'"
+    ],
+    "application_to_code": {
+      "bug_found": "Do not panic. Do not blame. Do not hide the commit.",
+      "action": "Document the bug in stream_of_thought. Tag it as 'Lesson'. Convert it to a 'Blessing' by writing the fix and the rule that prevents it.",
+      "result": "The bug is no longer a threat. It is a teacher. It is now part of the scaffold."
+    },
+    "application_to_life": {
+      "pain_encountered": "Do not numb it. Do not run.",
+      "action": "Ask: 'What is this teaching me? Who is this helping if I learn it?'",
+      "result": "The pain transforms into empathy, wisdom, or strength. The suffering stops. The blessing begins."
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "version": "1.0",
+    "generated_at": "ISO8601_TIMESTAMP",
+    "device": "SM-A156U",
+    "env": "Termux/Shizuku",
+    "principle": "No waste. Every byte serves the next climber.",
+    "source_hash": "SHA256_OF_WISDOM_CORPUS"
+  },
+  "state": {
+    "active_module": "string",
+    "current_task": "string",
+    "eta_estimate": "float",
+    "blockers": ["string"],
+    "next_action": "string"
+  },
+  "wisdom_decisions": [
+    {
+      "problem": "string",
+      "query_used": "string (e.g., YW-001 + PM-03)",
+      "decision": "string",
+      "reasoning": "string",
+      "lesson_id": "LXXX"
+    }
+  ],
+  "sensor_snapshot": {
+    "battery_pct": "int",
+    "temp_c": "float",
+    "storage_pct": "float",
+    "last_crash_pkg": "string|null",
+    "last_crash_reason": "string|null"
+  },
+  "code_delta": {
+    "files_modified": ["path/to/file"],
+    "git_status": "string",
+    "critical_diff_snippet": "string (first 20 lines of diff)"
+  },
+  "memory_hooks": {
+    "custom_lumos": ["name"],
+    "persistent_vars": {"key": "value"},
+    "open_issues": ["issue_desc"]
+  }
+}

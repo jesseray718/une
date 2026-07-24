@@ -1,56 +1,59 @@
 #!/data/data/com.termux/files/usr/bin/python3
-"""SESSION EXTRACTOR - Saves session state to portable JSON seed"""
-import json, os, subprocess
+"""
+extract_seed.py
+Captures current session state: terminal log, context.json, git diff -> dense seed block.
+Usage: python3 extract_seed.py --output=/path/to/seed.json
+"""
+import json, os, sys, argparse, subprocess, glob
 from datetime import datetime
 
-base = '/data/data/com.termux/files/home/une'
-seed_dir = '/sdcard/openroot/session_seeds'
-os.makedirs(seed_dir, exist_ok=True)
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--output', default='/sdcard/openroot/session_seeds/current_seed.json')
+    args = parser.parse_args()
 
-now = datetime.now()
-sid = now.strftime('%Y-%m-%d_%H%M%S')
-seed_file = os.path.join(seed_dir, sid + '.json')
+    seed = {
+        "timestamp": datetime.now().isoformat(),
+        "session_id": datetime.now().strftime("%Y%m%d_%H%M%S"),
+        "context": {},
+        "git_diff": "",
+        "terminal_log_snippet": ""
+    }
 
-# Git diff
-diff = subprocess.run(['git','-C',base,'diff','HEAD'], capture_output=True, text=True).stdout
+    # 1. Capture Context (if exists)
+    ctx_path = "/sdcard/openroot/context.json"
+    if os.path.exists(ctx_path):
+        try:
+            with open(ctx_path, 'r') as f:
+                seed["context"] = json.load(f)
+        except:
+            seed["context"] = {"error": "Could not parse context.json"}
 
-# Context state
-ctx = {}
-try:
-    with open('/sdcard/openroot/context_bridge/context.json','r') as f:
-        ctx = json.load(f)
-except:
-    pass
+    # 2. Capture Git Diff (changes made since last commit)
+    try:
+        result = subprocess.run(["git", "diff"], capture_output=True, text=True, cwd="/data/data/com.termux/files/home/une")
+        seed["git_diff"] = result.stdout[:5000] # Limit size
+    except:
+        seed["git_diff"] = "Git not initialized or error."
 
-# Terminal log
-log_path = '/storage/emulated/0/Documents/terminal-logs/auto_' + now.strftime('%Y%m%d_%H%M%S') + '.log'
-term_log = ''
-try:
-    with open(log_path,'r') as f:
-        term_log = ''.join(f.readlines()[-500:])
-except:
-    term_log = 'No terminal log found.'
+    # 3. Capture Terminal Log Snippet (last 50 lines if available)
+    # Note: In Termux, we might not have direct access to the full log buffer, 
+    # but we can look for a log file if you set one up.
+    log_files = glob.glob("/sdcard/openroot/logs/*.log")
+    if log_files:
+        latest_log = sorted(log_files)[-1]
+        with open(latest_log, 'r') as f:
+            lines = f.readlines()
+            seed["terminal_log_snippet"] = "".join(lines[-50:])
 
-seed = {
-    'meta': {
-        'generated': now.isoformat(),
-        'session_id': sid,
-        'device': 'Samsung A15',
-        'os': 'Termux',
-        'privilege_stack': 'Shizuku + Ashell',
-        'base_path': base
-    },
-    'context_state': ctx,
-    'git_diff': diff,
-    'terminal_log_tail': term_log,
-    'lessons_learned': [],
-    'next_actions': []
-}
+    # Write Seed
+    os.makedirs(os.path.dirname(args.output), exist_ok=True)
+    with open(args.output, 'w') as f:
+        json.dump(seed, f, indent=2)
 
-with open(seed_file, 'w') as f:
-    json.dump(seed, f, indent=2)
+    print(f"✓ Seed extracted to: {args.output}")
+    print(f"  Size: {os.path.getsize(args.output)} bytes")
+    print(f"  Context keys: {list(seed['context'].keys())[:5]}...")
 
-size = os.path.getsize(seed_file)
-print('Seed created: ' + seed_file)
-print('Size: ' + str(size) + ' bytes')
-print('Session ID: ' + sid)
+if __name__ == "__main__":
+    main()

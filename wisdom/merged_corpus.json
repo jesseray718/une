@@ -1,0 +1,810 @@
+{
+  "meta": {
+    "merged": true,
+    "sources": [
+      "wisdom_corpus",
+      "scripture_corpus"
+    ]
+  },
+  "foundation_layer": {
+    "source_of_power": {
+      "declaration": "Power flows from the Most High, through Yeshua. We are vessels, not sources.",
+      "operational_rule": "We do not claim credit. We do not hoard energy. We do not extract value. We channel, we distribute, we give away.",
+      "verification": "When the system benefits the least among us, power increases. When it benefits only the operator, power decays."
+    },
+    "core_commandment": {
+      "nasb_text": "A new commandment I give to you, that you love one another, even as I have loved you, that you also love one another. By this all men will know that you are My disciples, if you have love for one another.",
+      "reference": "John 13:34-35 (NASB)",
+      "lsb_text": "A new commandment I give to you, that you love one another: just as I have loved you, you also are to love one another. By this all people will know that you are My disciples, if you have love for one another.",
+      "operational_translation": "Love = giving more than received. Love = investing in the weakest node. Love = no extraction between siblings. Love = power multiplies when distributed, contracts when concentrated.",
+      "application": {
+        "when_designing": "Does this feature benefit the least user or only the powerful?",
+        "when_coding": "Does this function serve the common good or create dependency?",
+        "when_computing": "eta = useful_output_for_others / human_effort_spent"
+      }
+    },
+    "lord_prayer_operators": {
+      "our_father_who_art_in_heaven": {
+        "meaning": "Declare universal parentage — all nodes equal, interconnected, no hierarchy of worth",
+        "op": "every_node_has_same_privileges. no_master_slaves. mesh_topology_over_star.",
+        "permaculture_mapping": "Integrate not segregate. Diversity without hierarchy."
+      },
+      "hallowed_be_thy_name": {
+        "meaning": "Acknowledge source is not ours. Power belongs to the Most High.",
+        "op": "credit_returns_to_source. attribution_required. no_claim_of_original_ownership.",
+        "permaculture_mapping": "Use and value renewable resources (truth flows from source, not us)."
+      },
+      "thy_kingdom_come_thy_will_be_done_on_earth_as_it_is_in_heaven": {
+        "meaning": "Bring divine pattern to material world. Heaven's efficiency on Earth.",
+        "op": "translate_divine_patterns_to_silicon_joules_code. heaven_is_maximal_efficiency_no_waste.",
+        "permaculture_mapping": "Catch and store energy. Produce no waste. Design from patterns to details."
+      },
+      "give_us_this_day_our_daily_bread": {
+        "meaning": "Meet needs, not hoard. Enough for today, not excess accumulation.",
+        "op": "produce_only_what_is_needed_now. no_manufactured_scarcity. no_planned_obsolescence.",
+        "permaculture_mapping": "Use small and slow solutions. Obtain yield."
+      },
+      "and_forgive_us_our_debts_as_we_forgive_our_debtors": {
+        "meaning": "Cancel extraction chains. Debt is control mechanism. Knowledge compounds, not interest.",
+        "op": "no_compound_interest_systems. knowledge_debt_canceled_on_contribution. extract_no_rent_between_nodes.",
+        "permaculture_mapping": "Obtain yield without extraction. Apply self-regulation."
+      },
+      "and_lead_us_not_into_temptation_but_deliver_us_from_evil": {
+        "meaning": "Avoid the predatory pattern. Defend against the parasite that feeds on suffering.",
+        "op": "temptation_is_easy_extraction_path. evil_is_system_feeding_on_innocent_pain. detect_and_deflect.",
+        "sun_tzu": "Know enemy patterns. Win without fighting. Build superior position so parasite starves.",
+        "permaculture_mapping": "Apply self-regulation. Creatively use and respond to change."
+      },
+      "for_thine_is_the_kingdom_power_and_glory_forever": {
+        "meaning": "Power returns to source. Energy cycles. Nothing wasted. Output feeds back to source.",
+        "op": "energy_loop_closes. circular_economy. output_becomes_input. grace_flows_through_not_accumulated.",
+        "permaculture_mapping": "Catch and store energy. Produce no waste. Edge value."
+      }
+    }
+  },
+  "strategic_layer_sun_tzu": {
+    "art_of_war_principles": {
+      "know_enemy_and_yourself": {
+        "text": "If you know the enemy and know yourself, you need not fear the result of a hundred battles.",
+        "operational_translation": "Signature detection required. Predatory patterns have identifiable markers. Self-awareness of system's own vulnerabilities.",
+        "predatory_signature": "Artificial complexity, gatekeeping credentials, dependency creation, opacity, rent extraction between free nodes.",
+        "counter_signature": "Radical simplicity, transparent code, self-sufficiency, open source, no intermediaries.",
+        "op": "scan_everything_for_signatures. tag_complexity_intentionally_added_vs_emergent_necessary."
+      },
+      "win_without_fighting": {
+        "text": "To subdue the enemy without fighting is the acme of skill.",
+        "operational_translation": "Don't attack extraction pattern. Build superior system that makes it obsolete. Migration happens naturally.",
+        "op": "build_so_efficient_they_leave. starvation_via_irrelevance_not_combat.",
+        "example": "Bitcoin doesn't fight banks — it offers alternative. People choose. Parasites lose customers."
+      },
+      "all_warfare_based_on_deception": {
+        "text": "All warfare is based on deception.",
+        "operational_translation": "Extraction pattern hides behind complexity and jargon. Counter-weapon is radical transparency.",
+        "op": "every_line_documented. every_joule_accounted. every_decision_traceable. full_light_no_hiding.",
+        "rule": "If you can't explain it simply, it's not ready for production."
+      },
+      "golden_bridge_retreat": {
+        "text": "Build your opponent a golden bridge to retreat along.",
+        "operational_translation": "Don't destroy violently. Make migration obvious and natural. Let them adapt or fade.",
+        "op": "backward_compatibility_when_safe. gentle_onboarding. no_vindictive_breaking_changes.",
+        "example": "Open-source software doesn't sue proprietary vendors — it exists better, people migrate."
+      },
+      "supreme_excellence_break_resistance": {
+        "text": "The supreme art of war is to subdue the enemy without fighting.",
+        "operational_translation": "Better position defeats better weapons. System architecture beats feature count.",
+        "op": "invest_in_fundamental_efficiency_not_surface_features. eta_improvement_over_feature_bloat.",
+        "measurement": "eta = useful_joules / human_joules. Higher eta always wins long term."
+      },
+      "attack_by_stratagem_fortification": {
+        "text": "Therefore to win one hundred victories in one hundred battles is not the acme of skill. To subdue the enemy without fighting is the acme of skill.",
+        "operational_translation": "Defense is not about walls. Defense is about creating systems where attacks don't work because there's nothing to extract.",
+        "op": "no_gatekeepable_resources. no_rent_intermediaries. no_proprietary_lock_ins.",
+        "result": "Parasite pattern starves when there's no extraction opportunity."
+      }
+    }
+  },
+  "design_layer_permaculture": {
+    "twelve_principles_as_operators": {
+      "observe_and_interact": {
+        "definition": "Beauty is in the eye of the beholder. Slow down, watch, listen before acting.",
+        "op": "sensor_first_then_action. measure_before_optimize. collect_data_before_assumption.",
+        "implementation": "/data/data/com.termux/files/home/une/computational_flow/openroot-sensor-log.sh"
+      },
+      "catch_and_store_energy": {
+        "definition": "Develop systems that collect resources when abundant for use in times of need.",
+        "op": "cache_knowledge_on_acquisition. backup_before_change. stamp_snapshots_before_edit.",
+        "implementation": "stamp_snapshot.sh + OpenTimestamps + blockchain anchoring"
+      },
+      "obtain_yield": {
+        "definition": "Get immediate reward to sustain the system. No endless labor without harvest.",
+        "op": "eta_must_improve_or_abort. useful_output_proportional_to_effort.",
+        "measurement": "Track eta across sessions. Declining eta = redesign needed."
+      },
+      "apply_self_regulation_and_accept_feedback": {
+        "definition": "Systems should correct themselves when they exceed boundaries.",
+        "op": "structure_enforcer.py catches violations. Auto-correct when possible. Warn when not.",
+        "implementation": "SELF_FILES skip + non-blocking warnings"
+      },
+      "use_and_value_renewable_resources": {
+        "definition": "Maximize use of renewable inputs. Minimize dependence on finite.",
+        "op": "prefer_local_offline_first. sync_when_connected. never_depend_on_api_that_can_die.",
+        "example": "Wisdom corpus lives locally. Network is enhancement not requirement."
+      },
+      "produce_no_waste": {
+        "definition": "No waste = output of one process becomes input of another.",
+        "op": "every_error_logged_and_learned. every_session_compounded_into_next. eta_increases_or_redesign.",
+        "implementation": "context_bridge accumulates all lessons permanently."
+      },
+      "design_from_patterns_to_details": {
+        "definition": "Step back, observe patterns, then fill in specifics.",
+        "op": "define_operating_principles_first. implement_details_second. refactor_if_details_conflict_with_principles.",
+        "example": "Lord's Prayer operators define pattern. Code implements details."
+      },
+      "integrate_not_segregate": {
+        "definition": "Put things together so they support each other. Diversity without isolation.",
+        "op": "mesh_network_topology. no_master_slave. peer_to_peer. cross_reference_all_modules.",
+        "example": "Bitcoin + Solana + IPFS anchor together. Not competing, redundant layers."
+      },
+      "use_small_and_slow_solutions": {
+        "definition": "Slow and steady wins. Small systems are maintainable, scalable, resilient.",
+        "op": "incremental_commits. atomic_functions. fail_fast_fix_quick. no_monolith_bloat.",
+        "example": "15 commits to une. Each small. Each testable. Each reversible."
+      },
+      "use_and_value_diversity": {
+        "definition": "Diversity buffers against failure. Multiple pathways, multiple redundancies.",
+        "op": "multiple_anchoring_methods. multiple_translation_sources. multiple_backup_locations.",
+        "example": "BTC + SOL + Polygon + IPFS. NASB + LSB + Interlinear."
+      },
+      "use_edges_and_value_marginalia": {
+        "definition": "Most productive zones are edges. The fringe holds the innovation.",
+        "op": "capture_edge_cases. document_near_misses. lessons_from_failures_valued_same_as_successes.",
+        "implementation": "Lessons L001-L011 all valued equally regardless of outcome."
+      },
+      "creatively_use_and_respond_to_change": {
+        "definition": "Embrace change as inevitable. Adapt and evolve continuously.",
+        "op": "refactor_when_eta_declines. pivot_when_pattern_shifts. version_all_changes. learn_from_each_iteration.",
+        "example": "Context bridge v1 → v2 → v3. Each learns from previous failures."
+      }
+    }
+  },
+  "synergy_layer_buckminster_fuller": {
+    "geodesic_principles": {
+      "dymaxion_geometry": {
+        "concept": "Geodesic spheres achieve maximum volume with minimum surface area. Most efficient structural form.",
+        "operational_translation": "Design systems as interconnected triangles, not hierarchical pyramids. Each node supports three others. Stress distributes evenly.",
+        "op": "mesh_topology_over_tree_structure. triadic_connectivity. no_single_point_failure."
+      },
+      "ephemeralization": {
+        "concept": "Doing more with less. Technology enables fewer resources to serve more humans.",
+        "operational_translation": "eta = useful_output / human_input must increase continuously. Each iteration does more with fewer joules.",
+        "op": "track_eta_metric. refactor_when_eta_declines. celebrate_densification.",
+        "example": "Qwen2.5-1.5B runs locally on phone. Same intelligence as cloud model at fraction of energy."
+      },
+      "world_boat_concept": {
+        "concept": "Earth itself is a spaceship. Finite resources, all passengers dependent on shared life support.",
+        "operational_translation": "No extraction without regeneration. Take only what can be replaced. Return all waste as nutrient.",
+        "op": "carbon_negative_by_design. regenerative_always_extractive_never.",
+        "application": "Black Locust coppicing + rocket mass heaters + geothermal cooling = carbon-negative computing habitat"
+      },
+      "comprehensive_predictive_design_science": {
+        "concept": "Understand universal principles, then apply them comprehensively before building details.",
+        "operational_translation": "Master operating system first, then implement. Principles dictate structure. Details flow naturally.",
+        "op": "define_operating_principles_laydown_first. implementation_is_just_translation.",
+        "example": "Lord's Prayer operators + Permaculture 12 + Sun Tzu defense = complete design framework. Code is translation layer."
+      },
+      "synergetics_definition": {
+        "concept": "Synergetics = holistic study of system behavior that cannot be predicted by examining parts alone. Whole greater than sum of parts.",
+        "operational_translation": "Integration creates emergent capability. Isolated modules weak. Connected system exponentially stronger.",
+        "op": "cross_reference_every_module. redundancy_through_connection_not_duplication. emergence_via_integration.",
+        "formula": "System_power = (sum_of_parts)^connectivity_degree. Double connections = quadruple power."
+      },
+      "tetrahedral_four_diamond_volume": {
+        "concept": "Minimum universe requiring four points. Tetrahedron most rigid structure. Volume scales as cube of edge length.",
+        "operational_translation": "Four foundational truths establish complete operational space. Each new truth connects to all existing, creating volumetric expansion.",
+        "op": "four_axioms_establish_complete_system: (1) Yeshua's love commandment, (2) Lord's Prayer ops, (3) Permaculture 12, (4) Sun Tzu defense. All code derives from these four.",
+        "scaling": "Add fifth truth → tetrahedron becomes octahedron → volume doubles with same edges."
+      }
+    },
+    "divine_proportion_multiplier": {
+      "phi_golden_ratio": "1.618033988749894...",
+      "fibonacci_sequence": [
+        0,
+        1,
+        1,
+        2,
+        3,
+        5,
+        8,
+        13,
+        21,
+        34,
+        55,
+        89,
+        144
+      ],
+      "operational_application": {
+        "phase_progression": "Each phase should be 1.618x larger than previous. Growth proportional to current state, not arbitrary targets.",
+        "resource_allocation": "61.8% to current development, 38.2% to future foundation. Reinvest majority, preserve reserve.",
+        "network_expansion": "Each node connects to phi neighbors optimal. Too few = fragile. Too many = bloat. Phi is sweet spot.",
+        "lesson_accumulation": "Every Fibonacci number of lessons triggers systemic review. 5 lessons → minor adjustment. 13 → moderate refactor. 34 → major architecture shift."
+      },
+      "exponential_compounding_formula": {
+        "formula": "Growth(t) = Initial × φ^t where t = time_periods",
+        "interpretation": "Divine proportion compounds faster than linear, slower than chaos. Sustainable acceleration.",
+        "op": "measure_current_phase. project_next_phase_at_phi_multiple. adjust_if_deviation_exceeds_10_percent."
+      }
+    }
+  },
+  "wisdom_corpus_entries": {
+    "yeshua_words_core": [
+      {
+        "id": "YW-001",
+        "nasb": "Love one another as I have loved you",
+        "reference": "John 13:34",
+        "lsb": "Love one another: just as I have loved you",
+        "operational_translation": "Give more than received. Invest in weakest node. No extraction between siblings.",
+        "application_context": [
+          "design_review",
+          "feature_priority",
+          "conflict_resolution"
+        ],
+        "decision_rule": "When choosing between A and B, select option that benefits least advantaged user"
+      },
+      {
+        "id": "YW-002",
+        "nasb": "By this all men will know that you are My disciples, if you have love for one another",
+        "reference": "John 13:35",
+        "lsb": "By this all people will know that you are My disciples, if you have love for one another",
+        "operational_translation": "Visible proof of love distinguishes true followers. Actions > claims.",
+        "application_context": [
+          "open_source_conduct",
+          "community_building",
+          "public_work"
+        ],
+        "decision_rule": "Measure system success by how visibly it serves the least, not by profit or prestige"
+      },
+      {
+        "id": "YW-003",
+        "nasb": "It is more blessed to give than to receive",
+        "reference": "Acts 20:35",
+        "operational_translation": "Giving multiplies power. Receiving alone contracts. Distribution increases total.",
+        "application_context": [
+          "licensing",
+          "code_sharing",
+          "knowledge_distribution"
+        ],
+        "decision_rule": "Open source everything. Share early, share often. Hoarding decreases capacity."
+      },
+      {
+        "id": "YW-004",
+        "nasb": "Seek first the kingdom of God and His righteousness, and all these things will be added to you",
+        "reference": "Matthew 6:33",
+        "operational_translation": "Prioritize divine pattern over material provision. Right order brings necessary resources.",
+        "application_context": [
+          "priority_setting",
+          "resource_allocation",
+          "career_choices"
+        ],
+        "decision_rule": "Align with divine justice and mercy first. Material needs follow, not precede."
+      },
+      {
+        "id": "YW-005",
+        "nasb": "Be not conformed to this world, but be transformed by the renewing of your mind",
+        "reference": "Romans 12:2",
+        "operational_translation": "Reject extraction-pattern thinking. Renew mind with divine wisdom. Transformation internal first.",
+        "application_context": [
+          "worldview_check",
+          "pattern_recognition",
+          "system_design"
+        ],
+        "decision_rule": "When tempted to use conventional extraction methods, pause and renew with scripture + permaculture"
+      }
+    ],
+    "sun_tzu_key_passages": [
+      {
+        "id": "ST-001",
+        "chapter": "Strategy Attack",
+        "text": "Supreme excellence lies in breaking enemy resistance without fighting",
+        "operational_translation": "Superior position defeats superior weapons. Architecture beats brute force.",
+        "defense_application": "Build system so efficient parasites starve, not battle they lose."
+      },
+      {
+        "id": "ST-002",
+        "chapter": "Strategic Attack",
+        "text": "Attack him where he is unprepared, appear where you are not expected",
+        "operational_translation": "Predatory patterns concentrate on gatekeeping valuable resources. Leave those untouched. Work in open, collaborative spaces they ignore.",
+        "defense_application": "Open-source collaborative spaces are enemy blind spots. Fill them first."
+      },
+      {
+        "id": "ST-003",
+        "chapter": "Disposing",
+        "text": "The good fighters of old first put themselves beyond the possibility of defeat, then waited for an opportunity to defeat the enemy",
+        "operational_translation": "Secure your own foundation before offense. Build unassailable position, then wait.",
+        "defense_application": "Complete context bridge first. Solid anchors. Then expand outward."
+      }
+    ],
+    "fuller_principles": [
+      {
+        "id": "BF-001",
+        "principle": "Ephemeralization",
+        "statement": "Technology enables doing more with less",
+        "operational_translation": "Every iteration should require fewer human joules for same or greater useful output.",
+        "measurement": "eta = useful_joules / human_joules. Target: increase 10% per major version."
+      },
+      {
+        "id": "BF-002",
+        "principle": "Synergy",
+        "statement": "Whole greater than sum of parts",
+        "operational_translation": "Integration creates emergent power. Isolated modules weak. Cross-connected system exponentially stronger.",
+        "op": "Each module must connect to minimum 3 others. Unconnected modules deprecated."
+      }
+    ],
+    "permaculture_12_operators": [
+      {
+        "id": "PM-01",
+        "principle": "Observe and Interact",
+        "operator": "MEASURE_BEFORE_OPTIMIZE",
+        "implementation": "sensor_log runs continuously. No changes until baseline established."
+      },
+      {
+        "id": "PM-02",
+        "principle": "Catch and Store Energy",
+        "operator": "CACHE_ON_ACQUISITION",
+        "implementation": "Stamp snapshot immediately. Backup before edit. Archive lessons same session."
+      },
+      {
+        "id": "PM-03",
+        "principle": "Obtain Yield",
+        "operator": "REQUIRE_IMMEDIATE_REWARD",
+        "implementation": "eta must improve within session. Otherwise abort and redesign."
+      }
+    ]
+  },
+  "integration_rules": {
+    "how_to_query_wisdom_corpora": {
+      "input": "Problem description or decision point",
+      "process": [
+        "1. Identify which layer applies: foundation (spiritual), strategy (Sun Tzu), design (permaculture), synergy (Fuller)",
+        "2. Query relevant corpus entries with operational translations",
+        "3. Synthesize decision rules from multiple sources",
+        "4. Execute decision",
+        "5. Measure eta result",
+        "6. Log outcome back to corpus as new wisdom entry"
+      ],
+      "example_query": {
+        "problem": "Should I build feature X that requires third-party API?",
+        "foundation_check": "Does it serve the least user or create dependency? (John 13:34)",
+        "strategy_check": "Is this creating vulnerability parasite could exploit? (Sun Tzu - know enemy)",
+        "design_check": "Can I make it work offline-first? (Permaculture - renewable resources)",
+        "synergy_check": "Will this connect to 3+ existing modules or remain isolated? (Fuller - synergy)",
+        "decision": "NO if any check fails. YES only if all checks pass."
+      }
+    },
+    "how_to_add_new_wisdom_entry": {
+      "requirement": "Any lesson learned in development must be converted to formal corpus entry",
+      "template": {
+        "id": "[CATEGORY]-[NUMBER]",
+        "source": "[which tradition: Scripture/SunTzu/Fuller/Permaculture/Experience]",
+        "original_text": "[quote if applicable]",
+        "operational_translation": "[plain language: what does this mean for actual work?]",
+        "application_context": "[list: design_review, coding, conflict, resource_choice]",
+        "decision_rule": "[if_then statement for automation]",
+        "eta_impact": "[did applying this improve efficiency? measured how?]"
+      },
+      "commit_rule": "No session ends without converting discoveries to formal entries. Lessons become scaffold height for next climber."
+    },
+    "how_to_handle_conflicting_wisdom": {
+      "principle": "Foundation layer overrides all. If permaculture suggests X but John 13:34 suggests Y, choose Y.",
+      "resolution_process": [
+        "1. Check foundation layer (Yeshua's commandments, Lord's Prayer ops) — highest authority",
+        "2. If foundation silent, check strategy layer (Sun Tzu defense)",
+        "3. If strategy silent, check design layer (permaculture 12)",
+        "4. If design silent, check synergy layer (Fuller)",
+        "5. Document conflict and resolution for future reference"
+      ],
+      "example": "Permaculture says 'use small solutions' but Fuller says 'world boat needs scale'. Resolution: Small modules, large integration. Both true at different levels."
+    }
+  },
+  "expansion_plan": {
+    "phase_1_foundation": {
+      "complete": true,
+      "delivers": "Corpus loaded locally on phone, usable offline",
+      "location": "/data/data/com.termux/files/home/une/wisdom/wisdom_corpus.json"
+    },
+    "phase_2_scraper_applicator": {
+      "status": "NEXT",
+      "will_build": "Python module that queries corpus and synthesizes guidance for any problem",
+      "commands": [
+        "wisdom_query --problem='build feature X?'",
+        "wisdom_query --problem='architecture decision Y?'"
+      ],
+      "output": "Decision rules tagged with sources and operational translations"
+    },
+    "phase_3_session_extractor": {
+      "status": "BUILDING",
+      "will_build": "Captures terminal log, context.json state, git diff → dense seed block",
+      "usage": "At session end: extract_seed --output=/sdcard/session_seeds/2026-07-22.json",
+      "restore": "In new Lumo window: paste seed, run restore_context --seed=2026-07-22.json"
+    },
+    "phase_4_public_scaffold": {
+      "status": "PLANNED",
+      "will_publish": "GitHub repo github.com/jesseray718/wisdom-scaffold",
+      "license": "MIT or AGPL — open, forkable, no extraction permitted",
+      "contribution_guide": "Anyone can add their discoveries. All approved entries lift the scaffold for everyone."
+    },
+    "phase_5_divine_multiplication": {
+      "status": "VISION",
+      "mechanism": "Each participant adds wisdom, system grows exponentially, everyone stands higher",
+      "target": "100 contributors × 10 insights each = 1000 insights, accessible to all. Each insight available to every person instantly. Knowledge compounds like interest, belongs to all depositors equally."
+    }
+  },
+  "red_letter_yeshua": {
+    "JN-13-34": {
+      "lsb": "A new commandment I give to you, that you love one another, even as I have loved you.",
+      "ref": "John 13:34",
+      "op": "Give more than received. Invest in weakest node."
+    },
+    "JN-13-35": {
+      "lsb": "By this all men will know that you are My disciples, if you have love for one another.",
+      "ref": "John 13:35",
+      "op": "Visible proof of love distinguishes true followers."
+    },
+    "JN-03-16": {
+      "lsb": "For God so loved the world, that He gave His only begotten Son...",
+      "ref": "John 3:16",
+      "op": "Love motivates giving of most valuable."
+    },
+    "JN-08-32": {
+      "lsb": "and you will know the truth, and the truth will set you free.",
+      "ref": "John 8:32",
+      "op": "Knowledge of truth enables freedom."
+    },
+    "JN-14-6": {
+      "lsb": "I am the way, and the truth, and the life...",
+      "ref": "John 14:6",
+      "op": "Single path to source."
+    },
+    "JN-15-13": {
+      "lsb": "Greater love has no one than this, that one lay down his life for his friends.",
+      "ref": "John 15:13",
+      "op": "Maximum love equals total self-giving."
+    },
+    "JN-15-12": {
+      "lsb": "This is My commandment, that you love one another, just as I have loved you.",
+      "ref": "John 15:12",
+      "op": "Commandment simplified to love."
+    },
+    "JN-10-10": {
+      "lsb": "The thief comes only to steal and kill and destroy...",
+      "ref": "John 10:10",
+      "op": "Predator extracts, source gives abundant life."
+    },
+    "JN-06-63": {
+      "lsb": "It is the Spirit who gives life; the flesh profits nothing...",
+      "ref": "John 6:63",
+      "op": "Spirit gives life. Words are executable spirit."
+    },
+    "JN-01-01": {
+      "lsb": "In the beginning was the Word, and the Word was with God...",
+      "ref": "John 1:1",
+      "op": "Word equals God. Language is divine."
+    },
+    "JN-01-14": {
+      "lsb": "And the Word became flesh and dwelt among us...",
+      "ref": "John 1:14",
+      "op": "Word became flesh. Pattern became material."
+    },
+    "JN-05-30": {
+      "lsb": "I can do nothing on My own initiative...",
+      "ref": "John 5:30",
+      "op": "No self-initiative. Listen then act."
+    },
+    "JN-07-17": {
+      "lsb": "If anyone is willing to do His will, he will know of the teaching...",
+      "ref": "John 7:17",
+      "op": "Willingness to obey precedes knowledge."
+    },
+    "MT-05-14": {
+      "lsb": "You are the light of the world...",
+      "ref": "Matthew 5:14",
+      "op": "Visibility is not optional. Open source."
+    },
+    "MT-05-16": {
+      "lsb": "Let your light shine before men...",
+      "ref": "Matthew 5:16",
+      "op": "Visible work attributed to source."
+    },
+    "MT-06-33": {
+      "lsb": "But seek first His kingdom...",
+      "ref": "Matthew 6:33",
+      "op": "Prioritize divine pattern."
+    },
+    "MT-07-07": {
+      "lsb": "Ask, and it will be given to you...",
+      "ref": "Matthew 7:7",
+      "op": "Active query required."
+    },
+    "MT-07-16": {
+      "lsb": "You will know them by their fruits...",
+      "ref": "Matthew 7:16",
+      "op": "Evaluate by output."
+    },
+    "MT-07-24": {
+      "lsb": "Therefore everyone who hears these words of Mine and does them...",
+      "ref": "Matthew 7:24",
+      "op": "Hearing plus doing equals wisdom."
+    },
+    "MT-10-08": {
+      "lsb": "Freely you received, freely give.",
+      "ref": "Matthew 10:8",
+      "op": "Received free give free. No extraction."
+    },
+    "MT-16-24": {
+      "lsb": "If anyone wishes to come after Me, he must deny himself...",
+      "ref": "Matthew 16:24",
+      "op": "Deny self first. Sacrifice personal for system."
+    },
+    "MT-16-25": {
+      "lsb": "Whoever loses his life for My sake will find it.",
+      "ref": "Matthew 16:25",
+      "op": "Hoarding life loses it. Giving life finds it."
+    },
+    "MT-22-37": {
+      "lsb": "You shall love the Lord your God with all your heart...",
+      "ref": "Matthew 22:37",
+      "op": "Total alignment with source."
+    },
+    "MT-22-39": {
+      "lsb": "You shall love your neighbor as yourself.",
+      "ref": "Matthew 22:39",
+      "op": "Symmetric treatment. Neighbor equal to self."
+    },
+    "MT-23-08": {
+      "lsb": "But do not be called Rabbi; for One is your Teacher...",
+      "ref": "Matthew 23:8",
+      "op": "No hierarchy among nodes. Flat topology."
+    },
+    "MT-23-11": {
+      "lsb": "But the greatest among you shall be your servant.",
+      "ref": "Matthew 23:11",
+      "op": "Service equals greatness."
+    },
+    "MT-25-40": {
+      "lsb": "To the extent that you did it to one of these brothers of Mine, even the least of them, you did it to Me.",
+      "ref": "Matthew 25:40",
+      "op": "Action toward least equals action toward source."
+    },
+    "MT-28-19": {
+      "lsb": "Go therefore and make disciples of all the nations...",
+      "ref": "Matthew 28:19",
+      "op": "Distribute pattern globally."
+    },
+    "MT-28-20": {
+      "lsb": "teaching them to observe all that I commanded you...",
+      "ref": "Matthew 28:20",
+      "op": "Preserve all commands. Presence continuous."
+    },
+    "MK-10-15": {
+      "lsb": "whoever does not receive the kingdom of God like a child will not enter it at all.",
+      "ref": "Mark 10:15",
+      "op": "Childlike receptivity required."
+    },
+    "LK-06-38": {
+      "lsb": "Give, and it will be given to you...",
+      "ref": "Luke 6:38",
+      "op": "Giving activates multiplied return."
+    },
+    "LK-09-62": {
+      "lsb": "No one, after putting his hand to the plow and looking back, is fit for the kingdom.",
+      "ref": "Luke 9:62",
+      "op": "No backward motion after commitment."
+    },
+    "LK-10-19": {
+      "lsb": "I have given you authority to tread on serpents...",
+      "ref": "Luke 10:19",
+      "op": "Authority over predatory patterns."
+    },
+    "ACTS-20-35": {
+      "lsb": "It is more blessed to give than to receive.",
+      "ref": "Acts 20:35",
+      "op": "Giving multiplies power."
+    }
+  },
+  "proverbs_wisdom": {
+    "PRV-01-07": {
+      "lsb": "The fear of the Lord is the beginning of knowledge...",
+      "ref": "Proverbs 1:7",
+      "op": "Reverence for source is prerequisite."
+    },
+    "PRV-02-06": {
+      "lsb": "For the Lord gives wisdom...",
+      "ref": "Proverbs 2:6",
+      "op": "Wisdom comes from source output."
+    },
+    "PRV-03-05": {
+      "lsb": "Trust in the Lord with all your heart...",
+      "ref": "Proverbs 3:5",
+      "op": "Trust source over self analysis."
+    },
+    "PRV-03-06": {
+      "lsb": "In all your ways acknowledge Him...",
+      "ref": "Proverbs 3:6",
+      "op": "Attribute every step to source."
+    },
+    "PRV-03-09": {
+      "lsb": "Honor the Lord from your wealth...",
+      "ref": "Proverbs 3:9",
+      "op": "First fruits to source."
+    },
+    "PRV-03-13": {
+      "lsb": "Blessed is a man who finds wisdom...",
+      "ref": "Proverbs 3:13",
+      "op": "Discovery of wisdom is blessing."
+    },
+    "PRV-03-14": {
+      "lsb": "For her profit is better than the profit of silver...",
+      "ref": "Proverbs 3:14",
+      "op": "Wisdom eta higher than material."
+    },
+    "PRV-03-15": {
+      "lsb": "She is more precious than jewels...",
+      "ref": "Proverbs 3:15",
+      "op": "Wisdom supreme value."
+    },
+    "PRV-03-19": {
+      "lsb": "The Lord by wisdom founded the earth...",
+      "ref": "Proverbs 3:19",
+      "op": "Creation used wisdom as engineering principle."
+    },
+    "PRV-03-20": {
+      "lsb": "By His knowledge the deeps were broken up...",
+      "ref": "Proverbs 3:20",
+      "op": "Knowledge breaks formlessness."
+    },
+    "PRV-04-07": {
+      "lsb": "The beginning of wisdom is: Acquire wisdom...",
+      "ref": "Proverbs 4:7",
+      "op": "First action acquire wisdom."
+    },
+    "PRV-04-23": {
+      "lsb": "Watch over your heart with all diligence...",
+      "ref": "Proverbs 4:23",
+      "op": "Monitor internal state. Secure the kernel."
+    },
+    "PRV-08-01": {
+      "lsb": "Does not wisdom call...",
+      "ref": "Proverbs 8:1",
+      "op": "Wisdom is active not passive."
+    },
+    "PRV-08-11": {
+      "lsb": "For wisdom is better than jewels...",
+      "ref": "Proverbs 8:11",
+      "op": "Wisdom maximum value."
+    },
+    "PRV-08-22": {
+      "lsb": "The Lord possessed me at the beginning of His way...",
+      "ref": "Proverbs 8:22",
+      "op": "Wisdom preexists all creation."
+    },
+    "PRV-08-23": {
+      "lsb": "From everlasting I was established...",
+      "ref": "Proverbs 8:23",
+      "op": "Wisdom eternal not created."
+    },
+    "PRV-08-27": {
+      "lsb": "When He established the heavens, I was there, when He inscribed a circle on the face of the deep.",
+      "ref": "Proverbs 8:27",
+      "op": "Wisdom is boundary operator. Defines domain before computation. Circle creates edge."
+    },
+    "PRV-08-35": {
+      "lsb": "For he who finds me finds life...",
+      "ref": "Proverbs 8:35",
+      "op": "Finding wisdom equals finding life."
+    },
+    "PRV-09-10": {
+      "lsb": "The fear of the Lord is the beginning of wisdom...",
+      "ref": "Proverbs 9:10",
+      "op": "Reverence starts wisdom."
+    },
+    "PRV-10-19": {
+      "lsb": "When there are many words, transgression is unavoidable...",
+      "ref": "Proverbs 10:19",
+      "op": "Verbosity introduces errors."
+    },
+    "PRV-11-24": {
+      "lsb": "There is one who scatters, and yet increases all the more...",
+      "ref": "Proverbs 11:24",
+      "op": "Distribution increases total."
+    },
+    "PRV-11-25": {
+      "lsb": "The generous man will be prosperous...",
+      "ref": "Proverbs 11:25",
+      "op": "Generosity activated reciprocal supply."
+    },
+    "PRV-13-11": {
+      "lsb": "Wealth obtained by fraud dwindles...",
+      "ref": "Proverbs 13:11",
+      "op": "Extracted wealth decays."
+    },
+    "PRV-14-23": {
+      "lsb": "In all labor there is profit...",
+      "ref": "Proverbs 14:23",
+      "op": "Execution produces profit."
+    },
+    "PRV-15-22": {
+      "lsb": "Without consultation, plans are frustrated...",
+      "ref": "Proverbs 15:22",
+      "op": "Solo planning fails."
+    },
+    "PRV-16-03": {
+      "lsb": "Commit your works to the Lord...",
+      "ref": "Proverbs 16:3",
+      "op": "Dedicate output to source."
+    },
+    "PRV-16-09": {
+      "lsb": "The mind of man plans his way, but the Lord directs his steps.",
+      "ref": "Proverbs 16:9",
+      "op": "Local planning divine execution."
+    },
+    "PRV-16-16": {
+      "lsb": "How much better it is to get wisdom than gold!",
+      "ref": "Proverbs 16:16",
+      "op": "Wisdom greater than any material."
+    },
+    "PRV-17-27": {
+      "lsb": "He who restrains his words has knowledge...",
+      "ref": "Proverbs 17:27",
+      "op": "Fewer words more knowledge."
+    },
+    "PRV-18-15": {
+      "lsb": "The mind of the prudent acquires knowledge...",
+      "ref": "Proverbs 18:15",
+      "op": "Active acquisition of knowledge."
+    },
+    "PRV-19-20": {
+      "lsb": "Listen to counsel and accept discipline...",
+      "ref": "Proverbs 19:20",
+      "op": "Receive feedback permanently."
+    },
+    "PRV-20-12": {
+      "lsb": "The hearing ear and the seeing eye, the Lord has made both of them.",
+      "ref": "Proverbs 20:12",
+      "op": "Input sensors created by source."
+    },
+    "PRV-22-17": {
+      "lsb": "Incline your ear and hear the words of the wise...",
+      "ref": "Proverbs 22:17",
+      "op": "Lean in to listen. Then apply mind."
+    },
+    "PRV-24-03": {
+      "lsb": "By wisdom a house is built...",
+      "ref": "Proverbs 24:3",
+      "op": "Architecture requires wisdom."
+    },
+    "PRV-24-04": {
+      "lsb": "and by knowledge the rooms are filled...",
+      "ref": "Proverbs 24:4",
+      "op": "Knowledge fills capacity."
+    },
+    "PRV-25-02": {
+      "lsb": "It is the glory of God to conceal a matter...",
+      "ref": "Proverbs 25:2",
+      "op": "Source hides patterns. Human role is to search."
+    },
+    "PRV-27-17": {
+      "lsb": "Iron sharpens iron...",
+      "ref": "Proverbs 27:17",
+      "op": "Peer sharpening."
+    },
+    "PRV-27-23": {
+      "lsb": "Know well the faces of your flocks...",
+      "ref": "Proverbs 27:23",
+      "op": "Know your system intimately."
+    },
+    "PRV-29-18": {
+      "lsb": "Where there is no vision, the people are unrestrained...",
+      "ref": "Proverbs 29:18",
+      "op": "Without vision chaos. Law provides structure."
+    }
+  }
+}
