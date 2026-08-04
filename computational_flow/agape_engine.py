@@ -415,7 +415,7 @@ def execute_query(query: str, verbose: bool = False) -> Dict:
         "eta": eta,
         "joules": round(energy_j, 15),
         "time_ms": round(elapsed * 1000, 2),
-        "synergy_mult": all_results[0]["processed"]["synergy_mult"] if all_results else 1.0,
+        "synergy_mult": all_results[0]["processed"].get("synergy_mult", 1.0) if all_results else 1.0,
         "newton_chain_hit": False,
         "verified": verified["verification"]["verified"]
     }

@@ -18,3 +18,8 @@ computational_flow/EOF
 *\(*
 computational_flow/EOF
 __pycache__/
+*.bak
+*.pub
+*\(*
+computational_flow/EOF
+__pycache__/
