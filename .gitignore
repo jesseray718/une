@@ -9,3 +9,7 @@ __pycache__/
 *.pub
 computational_flow/EOF
 *\(*
+*.bak
+*.pub
+*\(*
+computational_flow/EOF
