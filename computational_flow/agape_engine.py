@@ -390,6 +390,35 @@ def execute_query(query: str, verbose: bool = False) -> Dict:
             seen.add(inp["text"])
             unique_inputs.append(inp)
     
+
+    # --- FS HOOK: Check for structural queries ---
+    QUERY_LOWER = query.lower()
+    FS_KEYWORDS = ['repo', 'structure', 'files', 'filesystem', 'directory', 'organize', 'redundant', 'clean']
+    _fs_override_active = False
+    if any(kw in QUERY_LOWER for kw in FS_KEYWORDS):
+        try:
+            with open('/sdcard/openroot/agape_kb/repo_snapshot.json') as f:
+                snap = json.load(f)
+            top_dirs = sorted(snap.get('by_directory', {}).items(), key=lambda x: -x[1])[:5]
+            top_exts = sorted(snap.get('by_extension', {}).items(), key=lambda x: -x[1])[:5]
+            dir_parts = []
+            for d, c in top_dirs:
+                dir_parts.append(str(d) + '(' + str(c) + ')')
+            ext_parts = []
+            for e, c in top_exts:
+                ext_parts.append(str(e) + '(' + str(c) + ')')
+            dir_str = ', '.join(dir_parts)
+            ext_str = ', '.join(ext_parts)
+            fs_msg = '[FS HOOK] ' + str(snap['file_count']) + ' files, ' + format(snap['total_bytes'], ',') + ' bytes. Top dirs: ' + dir_str + '. Top exts: ' + ext_str + '. Refresh: python3 computational_flow/fs_hook.py snap'
+            # Override synthesis and verified immediately
+            synthesis = {'answer': fs_msg, 'sources': ['filesystem'], 'confidence': 0.95, 'eta': float('inf')}
+            verified = {'answer': fs_msg, 'sources': ['filesystem'], 'verification': {'verified': True}, 'eta': float('inf')}
+            _fs_override_active = True
+        except Exception as e:
+            # If snapshot fails, fall through to normal synthesis
+            _fs_override_active = False
+    # --- END FS HOOK ---
+
     synthesis = f5_synthesize({"synthesis_input": unique_inputs})
     
     # 7. f6: Verify
