@@ -419,11 +419,13 @@ def execute_query(query: str, verbose: bool = False) -> Dict:
             _fs_override_active = False
     # --- END FS HOOK ---
 
-    synthesis = f5_synthesize({"synthesis_input": unique_inputs})
+    if not _fs_override_active:
+        synthesis = f5_synthesize({"synthesis_input": unique_inputs})
     
     # 7. f6: Verify
     avg_confidence = sum(r["processed"]["confidence"] for r in all_results) / len(all_results) if all_results else 0
-    verified = f6_verify(synthesis, avg_confidence, resonance)
+    if not _fs_override_active:
+        verified = f6_verify(synthesis, avg_confidence, resonance)
     
     # 8. Calculate metrics
     elapsed = time.time() - start_time
