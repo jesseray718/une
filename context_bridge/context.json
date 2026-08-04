@@ -30,5 +30,33 @@
       "time": 1784709323.6270769,
       "val": 22078458.07398364
     }
+  ],
+  "sessions": [
+    {
+      "timestamp_end": "2026-07-26T22:03:35.063473Z",
+      "duration_seconds": 134.42,
+      "total_joules": -4194364.5382,
+      "avg_power_mW": -31202856.66,
+      "end_level": 76,
+      "notes": "Auto-generated via Context Bridge"
+    },
+    {
+      "timestamp_end": "2026-07-26T22:28:10.237191Z",
+      "duration_seconds": 148.31,
+      "total_joules": -1563037.9127,
+      "avg_power_mW": -10539316.86,
+      "end_level": 72,
+      "notes": "Auto-generated via Context Bridge"
+    },
+    {
+      "timestamp_end": "2026-07-26T22:36:46.046460Z",
+      "duration_seconds": 396.48,
+      "total_joules": -1563038.5999,
+      "avg_power_mW": -3942326.16,
+      "end_level": 71,
+      "notes": "Auto-generated via Context Bridge"
+    }
   ]
-}
+}{"tag": "OPERATION_COMPLETE", "message": "Energy: 0.0J in 0.8737s", "timestamp": "2026-07-26T22:46:31.921509+00:00", "eta_current": 0.42}
+{"tag": "OPERATION_COMPLETE", "message": "Energy: 0.0J in 0.8716s", "timestamp": "2026-07-26T22:53:16.275287+00:00", "eta_current": 0.42}
+{"tag": "OPERATION_COMPLETE", "message": "Energy: 0.0J in 0.8927s", "timestamp": "2026-07-26T22:55:07.743195+00:00", "eta_current": 0.42}

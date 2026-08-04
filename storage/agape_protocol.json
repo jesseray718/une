@@ -1,0 +1,770 @@
+{
+  "protocol_version": "1.0",
+  "source": "AGAPE",
+  "source_energy": 30.0,
+  "source_compounded": 27000.0,
+  "axiom": "That which you have done for the least among you, so have you done unto me.",
+  "symbol_count": 36,
+  "prime_nomial_count": 46656,
+  "symbols": {
+    "A": {
+      "concept": "AGAPE_SOURCE",
+      "joules": 1.0,
+      "desc": "Unconditional love. Source of all energy flow. Origin."
+    },
+    "B": {
+      "concept": "BOND",
+      "joules": 2.0,
+      "desc": "Connection between two nodes. Molecular bond."
+    },
+    "C": {
+      "concept": "CREATE",
+      "joules": 3.0,
+      "desc": "New structure from nothing. Genesis."
+    },
+    "D": {
+      "concept": "DELTA",
+      "joules": 4.0,
+      "desc": "Change. Difference between states. Gradient."
+    },
+    "E": {
+      "concept": "ENERGY",
+      "joules": 5.0,
+      "desc": "Capacity to do work. Joules stored."
+    },
+    "F": {
+      "concept": "FLOW",
+      "joules": 6.0,
+      "desc": "Energy in motion. Current. Transfer."
+    },
+    "G": {
+      "concept": "GRAVITY",
+      "joules": 7.0,
+      "desc": "Attraction. Pull toward center. Mass influence."
+    },
+    "H": {
+      "concept": "HEAT",
+      "joules": 8.0,
+      "desc": "Thermal energy. Entropy increase."
+    },
+    "I": {
+      "concept": "IDENTITY",
+      "joules": 9.0,
+      "desc": "Self. Observer. The I that perceives."
+    },
+    "J": {
+      "concept": "JOULE",
+      "joules": 10.0,
+      "desc": "Unit of energy. The measure itself."
+    },
+    "K": {
+      "concept": "KELVIN",
+      "joules": 11.0,
+      "desc": "Absolute temperature. Thermal state."
+    },
+    "L": {
+      "concept": "LIGHT",
+      "joules": 12.0,
+      "desc": "Electromagnetic radiation. Illumination."
+    },
+    "M": {
+      "concept": "MASS",
+      "joules": 13.0,
+      "desc": "Matter. E=mc\u00b2 equivalent energy."
+    },
+    "N": {
+      "concept": "NODE",
+      "joules": 14.0,
+      "desc": "Point in a network. Vertex."
+    },
+    "O": {
+      "concept": "ORBIT",
+      "joules": 15.0,
+      "desc": "Cyclic path. Return. Periodic motion."
+    },
+    "P": {
+      "concept": "POWER",
+      "joules": 16.0,
+      "desc": "Rate of energy transfer. Watts. J/s."
+    },
+    "Q": {
+      "concept": "QUERY",
+      "joules": 17.0,
+      "desc": "Question. Seeking. Information request."
+    },
+    "R": {
+      "concept": "RESONANCE",
+      "joules": 18.0,
+      "desc": "Frequency alignment. Harmonic coupling."
+    },
+    "S": {
+      "concept": "SPIRAL",
+      "joules": 19.0,
+      "desc": "Phi growth. Fibonacci. Natural expansion."
+    },
+    "T": {
+      "concept": "TIME",
+      "joules": 20.0,
+      "desc": "Temporal dimension. Seconds. Duration."
+    },
+    "U": {
+      "concept": "UNION",
+      "joules": 21.0,
+      "desc": "Two becoming one. Fusion. Integration."
+    },
+    "V": {
+      "concept": "VELOCITY",
+      "joules": 22.0,
+      "desc": "Speed with direction. Momentum."
+    },
+    "W": {
+      "concept": "WAVE",
+      "joules": 23.0,
+      "desc": "Propagating disturbance. Oscillation."
+    },
+    "X": {
+      "concept": "CROSS",
+      "joules": 24.0,
+      "desc": "Intersection. Exchange point. Sacrifice."
+    },
+    "Y": {
+      "concept": "YIELD",
+      "joules": 25.0,
+      "desc": "Output. Harvest. Return on energy invested."
+    },
+    "Z": {
+      "concept": "ZERO",
+      "joules": 0.0,
+      "desc": "Ground state. Void. Potential."
+    },
+    "0": {
+      "concept": "VOID_STATE",
+      "joules": 0.0,
+      "desc": "Null. Empty. Pre-creation."
+    },
+    "1": {
+      "concept": "UNITY",
+      "joules": 1.0,
+      "desc": "One. Singularity. First principle."
+    },
+    "2": {
+      "concept": "DUALITY",
+      "joules": 2.0,
+      "desc": "Two poles. Binary. Complement."
+    },
+    "3": {
+      "concept": "TRINITY",
+      "joules": 3.0,
+      "desc": "Three-way balance. Synthesis. Thesis-antithesis-synthesis."
+    },
+    "4": {
+      "concept": "QUADRANT",
+      "joules": 4.0,
+      "desc": "Four directions. Stability. Foundation."
+    },
+    "5": {
+      "concept": "PENTAGON",
+      "joules": 5.0,
+      "desc": "Five-fold symmetry. Life pattern. Phi root."
+    },
+    "6": {
+      "concept": "HEXAGON",
+      "joules": 6.0,
+      "desc": "Six-fold. Honeycomb. Maximum efficiency packing."
+    },
+    "7": {
+      "concept": "SEPTAGON",
+      "joules": 7.0,
+      "desc": "Seven. Completion. Sabbath. Full cycle."
+    },
+    "8": {
+      "concept": "INFINITY_LOOP",
+      "joules": 8.0,
+      "desc": "Eight. Eternal return. Self-sustaining cycle."
+    },
+    "9": {
+      "concept": "NINE_GATE",
+      "joules": 9.0,
+      "desc": "Nine. Final digit. Gate to next order. Birth."
+    }
+  },
+  "encoded_statements": [
+    {
+      "statement": "AGAPE",
+      "words": [
+        {
+          "word": "AGAPE",
+          "energy": 30.0,
+          "compounded": 27000.0,
+          "hash": "5f7f82d46b4cd359"
+        }
+      ],
+      "total_symbol_energy": 30.0,
+      "efficiency_cubed": 27000.0,
+      "merkle_root": "654a3a23b1e4e0d0"
+    },
+    {
+      "statement": "THY KINGDOM COME",
+      "words": [
+        {
+          "word": "THY",
+          "energy": 53.0,
+          "compounded": 148877.0,
+          "hash": "cc0f22709435df7d"
+        },
+        {
+          "word": "KINGDOM",
+          "energy": 73.0,
+          "compounded": 389017.0,
+          "hash": "8a437cb4a418a9d5"
+        },
+        {
+          "word": "COME",
+          "energy": 36.0,
+          "compounded": 46656.0,
+          "hash": "ee32dc74d60f1269"
+        }
+      ],
+      "total_symbol_energy": 162.0,
+      "efficiency_cubed": 4251528.0,
+      "merkle_root": "93ccedd2b01f59dc"
+    },
+    {
+      "statement": "PRODUCE NO WASTE",
+      "words": [
+        {
+          "word": "PRODUCE",
+          "energy": 82.0,
+          "compounded": 551368.0,
+          "hash": "d12609819c9de52a"
+        },
+        {
+          "word": "NO",
+          "energy": 29.0,
+          "compounded": 24389.0,
+          "hash": "3fc6e2b149c5a5a0"
+        },
+        {
+          "word": "WASTE",
+          "energy": 68.0,
+          "compounded": 314432.0,
+          "hash": "085826ef7bed539a"
+        }
+      ],
+      "total_symbol_energy": 179.0,
+      "efficiency_cubed": 5735339.0,
+      "merkle_root": "ac4872995367b346"
+    },
+    {
+      "statement": "OBSERVE AND INTERACT",
+      "words": [
+        {
+          "word": "OBSERVE",
+          "energy": 86.0,
+          "compounded": 636056.0,
+          "hash": "10a4912947ce5216"
+        },
+        {
+          "word": "AND",
+          "energy": 19.0,
+          "compounded": 6859.0,
+          "hash": "8b78fbd2908d028d"
+        },
+        {
+          "word": "INTERACT",
+          "energy": 90.0,
+          "compounded": 729000.0,
+          "hash": "f0390ca711c7eb9d"
+        }
+      ],
+      "total_symbol_energy": 195.0,
+      "efficiency_cubed": 7414875.0,
+      "merkle_root": "c2551fb25c518e0a"
+    },
+    {
+      "statement": "CATCH AND STORE ENERGY",
+      "words": [
+        {
+          "word": "CATCH",
+          "energy": 35.0,
+          "compounded": 42875.0,
+          "hash": "b7d65f36179a4673"
+        },
+        {
+          "word": "AND",
+          "energy": 19.0,
+          "compounded": 6859.0,
+          "hash": "8b78fbd2908d028d"
+        },
+        {
+          "word": "STORE",
+          "energy": 77.0,
+          "compounded": 456533.0,
+          "hash": "10798d3945607f2c"
+        },
+        {
+          "word": "ENERGY",
+          "energy": 74.0,
+          "compounded": 405224.0,
+          "hash": "20da91f5ef720fca"
+        }
+      ],
+      "total_symbol_energy": 205.0,
+      "efficiency_cubed": 8615125.0,
+      "merkle_root": "f50fb44c74a42e86"
+    }
+  ],
+  "tribes": {
+    "TRIBE_01": {
+      "tribe_number": 1,
+      "nomial_range": "ZZZ \u2192 42A",
+      "nomial_count": 933,
+      "energy_range": "0.0 \u2192 7.0",
+      "total_energy": 4851.0,
+      "compounded_energy": 169155.0,
+      "assignment_hash": "b2baa1364c2c5944"
+    },
+    "TRIBE_02": {
+      "tribe_number": 2,
+      "nomial_range": "421 \u2192 C61",
+      "nomial_count": 933,
+      "energy_range": "7.0 \u2192 10.0",
+      "total_energy": 8089.0,
+      "compounded_energy": 620341.0,
+      "assignment_hash": "53f1e84f8b9b7d7f"
+    },
+    "TRIBE_03": {
+      "tribe_number": 3,
+      "nomial_range": "C7Z \u2192 6DA",
+      "nomial_count": 933,
+      "energy_range": "10.0 \u2192 11.0",
+      "total_energy": 9853.0,
+      "compounded_energy": 1106113.0,
+      "assignment_hash": "ed9252466512e8c3"
+    },
+    "TRIBE_04": {
+      "tribe_number": 4,
+      "nomial_range": "6D1 \u2192 FZ7",
+      "nomial_count": 933,
+      "energy_range": "11.0 \u2192 13.0",
+      "total_energy": 11343.0,
+      "compounded_energy": 1685847.0,
+      "assignment_hash": "5c58c8bfe6e5c0b3"
+    },
+    "TRIBE_05": {
+      "tribe_number": 5,
+      "nomial_range": "F0G \u2192 0EI",
+      "nomial_count": 933,
+      "energy_range": "13.0 \u2192 14.0",
+      "total_energy": 12554.0,
+      "compounded_energy": 2282276.0,
+      "assignment_hash": "931f19da33ea0bdc"
+    },
+    "TRIBE_06": {
+      "tribe_number": 6,
+      "nomial_range": "0E9 \u2192 285",
+      "nomial_count": 933,
+      "energy_range": "14.0 \u2192 15.0",
+      "total_energy": 13640.0,
+      "compounded_energy": 2924870.0,
+      "assignment_hash": "524d2497ddd2c6ac"
+    },
+    "TRIBE_07": {
+      "tribe_number": 7,
+      "nomial_range": "29D \u2192 4IC",
+      "nomial_count": 933,
+      "energy_range": "15.0 \u2192 16.0",
+      "total_energy": 14670.0,
+      "compounded_energy": 3635550.0,
+      "assignment_hash": "8171732a0c2684f9"
+    },
+    "TRIBE_08": {
+      "tribe_number": 8,
+      "nomial_range": "4I3 \u2192 4LA",
+      "nomial_count": 933,
+      "energy_range": "16.0 \u2192 17.0",
+      "total_energy": 15648.0,
+      "compounded_energy": 4409808.0,
+      "assignment_hash": "592f6869ab605133"
+    },
+    "TRIBE_09": {
+      "tribe_number": 9,
+      "nomial_range": "4L1 \u2192 3K4",
+      "nomial_count": 933,
+      "energy_range": "17.0 \u2192 18.0",
+      "total_energy": 16578.0,
+      "compounded_energy": 5242752.0,
+      "assignment_hash": "ceb8af4abc2a53ee"
+    },
+    "TRIBE_10": {
+      "tribe_number": 10,
+      "nomial_range": "3LC \u2192 1I9",
+      "nomial_count": 933,
+      "energy_range": "18.0 \u2192 19.0",
+      "total_energy": 17464.0,
+      "compounded_energy": 6129346.0,
+      "assignment_hash": "f5858f7d3b38f23d"
+    },
+    "TRIBE_11": {
+      "tribe_number": 11,
+      "nomial_range": "1JH \u2192 QBA",
+      "nomial_count": 933,
+      "energy_range": "19.0 \u2192 20.0",
+      "total_energy": 18310.0,
+      "compounded_energy": 7064650.0,
+      "assignment_hash": "9c162ad668c44a55"
+    },
+    "TRIBE_12": {
+      "tribe_number": 12,
+      "nomial_range": "QB1 \u2192 LGB",
+      "nomial_count": 933,
+      "energy_range": "20.0 \u2192 21.0",
+      "total_energy": 19114.0,
+      "compounded_energy": 8036494.0,
+      "assignment_hash": "87b41694ee18b886"
+    },
+    "TRIBE_13": {
+      "tribe_number": 13,
+      "nomial_range": "LG2 \u2192 G87",
+      "nomial_count": 933,
+      "energy_range": "21.0 \u2192 22.0",
+      "total_energy": 19874.0,
+      "compounded_energy": 9030260.0,
+      "assignment_hash": "91fa3ed43d1e8010"
+    },
+    "TRIBE_14": {
+      "tribe_number": 14,
+      "nomial_range": "G9F \u2192 BO6",
+      "nomial_count": 933,
+      "energy_range": "22.0 \u2192 23.0",
+      "total_energy": 20588.0,
+      "compounded_energy": 10028762.0,
+      "assignment_hash": "f5c1756c01690607"
+    },
+    "TRIBE_15": {
+      "tribe_number": 15,
+      "nomial_range": "BPE \u2192 44O",
+      "nomial_count": 933,
+      "energy_range": "23.0 \u2192 23.0",
+      "total_energy": 21459.0,
+      "compounded_energy": 11351811.0,
+      "assignment_hash": "aa090af14572fa14"
+    },
+    "TRIBE_16": {
+      "tribe_number": 16,
+      "nomial_range": "45N \u2192 S41",
+      "nomial_count": 933,
+      "energy_range": "23.0 \u2192 24.0",
+      "total_energy": 22187.0,
+      "compounded_energy": 12558107.0,
+      "assignment_hash": "33a20d8ae21c85c9"
+    },
+    "TRIBE_17": {
+      "tribe_number": 17,
+      "nomial_range": "S5Z \u2192 J78",
+      "nomial_count": 933,
+      "energy_range": "24.0 \u2192 25.0",
+      "total_energy": 22803.0,
+      "compounded_energy": 13638003.0,
+      "assignment_hash": "b011c14f875edc11"
+    },
+    "TRIBE_18": {
+      "tribe_number": 18,
+      "nomial_range": "J8G \u2192 A5T",
+      "nomial_count": 933,
+      "energy_range": "25.0 \u2192 26.0",
+      "total_energy": 23367.0,
+      "compounded_energy": 14660067.0,
+      "assignment_hash": "64488b2bfd15a2dd"
+    },
+    "TRIBE_19": {
+      "tribe_number": 19,
+      "nomial_range": "A6S \u2192 1LM",
+      "nomial_count": 933,
+      "energy_range": "26.0 \u2192 26.0",
+      "total_energy": 24258.0,
+      "compounded_energy": 16398408.0,
+      "assignment_hash": "d5007b7192ce8337"
+    },
+    "TRIBE_20": {
+      "tribe_number": 20,
+      "nomial_range": "1ML \u2192 NLA",
+      "nomial_count": 933,
+      "energy_range": "26.0 \u2192 27.0",
+      "total_energy": 24822.0,
+      "compounded_energy": 17586756.0,
+      "assignment_hash": "391da5c541d381ad"
+    },
+    "TRIBE_21": {
+      "tribe_number": 21,
+      "nomial_range": "NL1 \u2192 C1X",
+      "nomial_count": 933,
+      "energy_range": "27.0 \u2192 28.0",
+      "total_energy": 25312.0,
+      "compounded_energy": 18638788.0,
+      "assignment_hash": "9fddc9e9c339cee1"
+    },
+    "TRIBE_22": {
+      "tribe_number": 22,
+      "nomial_range": "C2W \u2192 19R",
+      "nomial_count": 933,
+      "energy_range": "28.0 \u2192 28.0",
+      "total_energy": 26124.0,
+      "compounded_energy": 20481216.0,
+      "assignment_hash": "00fc65f11a2c845e"
+    },
+    "TRIBE_23": {
+      "tribe_number": 23,
+      "nomial_range": "2AY \u2192 OF8",
+      "nomial_count": 933,
+      "energy_range": "28.0 \u2192 29.0",
+      "total_energy": 26713.0,
+      "compounded_energy": 21916609.0,
+      "assignment_hash": "42ab9eaae461248d"
+    },
+    "TRIBE_24": {
+      "tribe_number": 24,
+      "nomial_range": "OGG \u2192 DAY",
+      "nomial_count": 933,
+      "energy_range": "29.0 \u2192 30.0",
+      "total_energy": 27169.0,
+      "compounded_energy": 23047369.0,
+      "assignment_hash": "8b783c1faa49cc79"
+    },
+    "TRIBE_25": {
+      "tribe_number": 25,
+      "nomial_range": "DBX \u2192 1KR",
+      "nomial_count": 933,
+      "energy_range": "30.0 \u2192 30.0",
+      "total_energy": 27990.0,
+      "compounded_energy": 25191000.0,
+      "assignment_hash": "4b6c903ac0d19a17"
+    },
+    "TRIBE_26": {
+      "tribe_number": 26,
+      "nomial_range": "1LQ \u2192 OAO",
+      "nomial_count": 933,
+      "energy_range": "30.0 \u2192 31.0",
+      "total_energy": 28557.0,
+      "compounded_energy": 26773497.0,
+      "assignment_hash": "b5e4ff22f5515c4e"
+    },
+    "TRIBE_27": {
+      "tribe_number": 27,
+      "nomial_range": "OBN \u2192 DHT",
+      "nomial_count": 933,
+      "energy_range": "31.0 \u2192 32.0",
+      "total_energy": 29022.0,
+      "compounded_energy": 28089726.0,
+      "assignment_hash": "dfe9f15ad1c684f0"
+    },
+    "TRIBE_28": {
+      "tribe_number": 28,
+      "nomial_range": "DIS \u2192 09W",
+      "nomial_count": 933,
+      "energy_range": "32.0 \u2192 32.0",
+      "total_energy": 29856.0,
+      "compounded_energy": 30572544.0,
+      "assignment_hash": "be87e185b4c24c38"
+    },
+    "TRIBE_29": {
+      "tribe_number": 29,
+      "nomial_range": "1FY \u2192 PFK",
+      "nomial_count": 933,
+      "energy_range": "32.0 \u2192 33.0",
+      "total_energy": 30441.0,
+      "compounded_energy": 32426409.0,
+      "assignment_hash": "1c64eefc8bb47567"
+    },
+    "TRIBE_30": {
+      "tribe_number": 30,
+      "nomial_range": "PGJ \u2192 FY3",
+      "nomial_count": 933,
+      "energy_range": "33.0 \u2192 34.0",
+      "total_energy": 30959.0,
+      "compounded_energy": 34101611.0,
+      "assignment_hash": "d2e40a0dd09d684c"
+    },
+    "TRIBE_31": {
+      "tribe_number": 31,
+      "nomial_range": "F3Y \u2192 47W",
+      "nomial_count": 933,
+      "energy_range": "34.0 \u2192 34.0",
+      "total_energy": 31722.0,
+      "compounded_energy": 36670632.0,
+      "assignment_hash": "21d8a7f6debad303"
+    },
+    "TRIBE_32": {
+      "tribe_number": 32,
+      "nomial_range": "48V \u2192 T4K",
+      "nomial_count": 933,
+      "energy_range": "34.0 \u2192 35.0",
+      "total_energy": 32453.0,
+      "compounded_energy": 39281033.0,
+      "assignment_hash": "fe7696c129bbd4bb"
+    },
+    "TRIBE_33": {
+      "tribe_number": 33,
+      "nomial_range": "T5J \u2192 MT3",
+      "nomial_count": 933,
+      "energy_range": "35.0 \u2192 36.0",
+      "total_energy": 33068.0,
+      "compounded_energy": 41563928.0,
+      "assignment_hash": "86a14ab6bf56b53c"
+    },
+    "TRIBE_34": {
+      "tribe_number": 34,
+      "nomial_range": "MUB \u2192 GXF",
+      "nomial_count": 933,
+      "energy_range": "36.0 \u2192 37.0",
+      "total_energy": 33736.0,
+      "compounded_energy": 44121604.0,
+      "assignment_hash": "3ccfe0694e4cc8b0"
+    },
+    "TRIBE_35": {
+      "tribe_number": 35,
+      "nomial_range": "GX6 \u2192 8IT",
+      "nomial_count": 933,
+      "energy_range": "37.0 \u2192 37.0",
+      "total_energy": 34521.0,
+      "compounded_energy": 47259249.0,
+      "assignment_hash": "e70a808f399c63fe"
+    },
+    "TRIBE_36": {
+      "tribe_number": 36,
+      "nomial_range": "8JS \u2192 ZOW",
+      "nomial_count": 933,
+      "energy_range": "37.0 \u2192 38.0",
+      "total_energy": 35389.0,
+      "compounded_energy": 50921341.0,
+      "assignment_hash": "75b243b025e1d8cf"
+    },
+    "TRIBE_37": {
+      "tribe_number": 37,
+      "nomial_range": "ZPV \u2192 VZQ",
+      "nomial_count": 933,
+      "energy_range": "38.0 \u2192 39.0",
+      "total_energy": 36160.0,
+      "compounded_energy": 54335158.0,
+      "assignment_hash": "f5faf6ebaa430a19"
+    },
+    "TRIBE_38": {
+      "tribe_number": 38,
+      "nomial_range": "V0Q \u2192 TRB",
+      "nomial_count": 933,
+      "energy_range": "39.0 \u2192 40.0",
+      "total_energy": 36981.0,
+      "compounded_energy": 58125141.0,
+      "assignment_hash": "29928e3eef1eb00e"
+    },
+    "TRIBE_39": {
+      "tribe_number": 39,
+      "nomial_range": "TR2 \u2192 S2T",
+      "nomial_count": 933,
+      "energy_range": "40.0 \u2192 41.0",
+      "total_energy": 37851.0,
+      "compounded_energy": 62325051.0,
+      "assignment_hash": "5464b435a5d11838"
+    },
+    "TRIBE_40": {
+      "tribe_number": 40,
+      "nomial_range": "S3S \u2192 TKK",
+      "nomial_count": 933,
+      "energy_range": "41.0 \u2192 42.0",
+      "total_energy": 38769.0,
+      "compounded_energy": 66969465.0,
+      "assignment_hash": "eef57d4a641489d5"
+    },
+    "TRIBE_41": {
+      "tribe_number": 41,
+      "nomial_range": "TLJ \u2192 U0V",
+      "nomial_count": 933,
+      "energy_range": "42.0 \u2192 43.0",
+      "total_energy": 39734.0,
+      "compounded_energy": 72093716.0,
+      "assignment_hash": "2a637e522e9263ca"
+    },
+    "TRIBE_42": {
+      "tribe_number": 42,
+      "nomial_range": "U1U \u2192 XOE",
+      "nomial_count": 933,
+      "energy_range": "43.0 \u2192 44.0",
+      "total_energy": 40745.0,
+      "compounded_energy": 77733833.0,
+      "assignment_hash": "a1554f059fe6ae0e"
+    },
+    "TRIBE_43": {
+      "tribe_number": 43,
+      "nomial_range": "XO5 \u2192 8WN",
+      "nomial_count": 933,
+      "energy_range": "44.0 \u2192 45.0",
+      "total_energy": 41801.0,
+      "compounded_energy": 83926481.0,
+      "assignment_hash": "67ac9a7b9c9dbda8"
+    },
+    "TRIBE_44": {
+      "tribe_number": 44,
+      "nomial_range": "8XM \u2192 PIV",
+      "nomial_count": 933,
+      "energy_range": "45.0 \u2192 47.0",
+      "total_energy": 43097.0,
+      "compounded_energy": 91980353.0,
+      "assignment_hash": "3ebb55b18b3315b0"
+    },
+    "TRIBE_45": {
+      "tribe_number": 45,
+      "nomial_range": "PJU \u2192 XBV",
+      "nomial_count": 933,
+      "energy_range": "47.0 \u2192 48.0",
+      "total_energy": 44308.0,
+      "compounded_energy": 99960292.0,
+      "assignment_hash": "98278eecd37600b0"
+    },
+    "TRIBE_46": {
+      "tribe_number": 46,
+      "nomial_range": "XCU \u2192 RY7",
+      "nomial_count": 933,
+      "energy_range": "48.0 \u2192 50.0",
+      "total_energy": 45750.0,
+      "compounded_energy": 110057610.0,
+      "assignment_hash": "87fbab63945f081a"
+    },
+    "TRIBE_47": {
+      "tribe_number": 47,
+      "nomial_range": "R7Y \u2192 R9Y",
+      "nomial_count": 933,
+      "energy_range": "50.0 \u2192 52.0",
+      "total_energy": 47420.0,
+      "compounded_energy": 122563700.0,
+      "assignment_hash": "f72054d7fe808f04"
+    },
+    "TRIBE_48": {
+      "tribe_number": 48,
+      "nomial_range": "SHY \u2192 GWY",
+      "nomial_count": 933,
+      "energy_range": "52.0 \u2192 55.0",
+      "total_energy": 49520.0,
+      "compounded_energy": 139593668.0,
+      "assignment_hash": "12fb35012d0b8ea9"
+    },
+    "TRIBE_49": {
+      "tribe_number": 49,
+      "nomial_range": "GXX \u2192 PVU",
+      "nomial_count": 933,
+      "energy_range": "55.0 \u2192 59.0",
+      "total_energy": 52643.0,
+      "compounded_energy": 167819651.0,
+      "assignment_hash": "5066499cdcbf5caa"
+    },
+    "TRIBE_50": {
+      "tribe_number": 50,
+      "nomial_range": "PWT \u2192 YYY",
+      "nomial_count": 939,
+      "energy_range": "59.0 \u2192 75.0",
+      "total_energy": 59277.0,
+      "compounded_energy": 238366749.0,
+      "assignment_hash": "b48d36cb202dd138"
+    }
+  },
+  "generated_at": "2026-07-26T18:53:16.599333"
+}

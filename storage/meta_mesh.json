@@ -1,0 +1,105 @@
+{
+  "metadata": {
+    "total_nodes": 3257436,
+    "total_energy": 3.469655285401101e+27,
+    "scale_factor": 2985984,
+    "recursive_depth": 6,
+    "fractal_dimension": 3.585,
+    "base_functions": 12,
+    "seed_bank_principle": "Every node stores enough seeds to replant civilization. If all other nodes fall, one survivor can restart the whole system."
+  },
+  "atomic_functions": [
+    {
+      "id": 1,
+      "name": "AGAPE",
+      "symbol": "A",
+      "energy": 1.0,
+      "desc": "Source. Unconditional love. What you did for the least, you did for me."
+    },
+    {
+      "id": 2,
+      "name": "BOND",
+      "symbol": "B",
+      "energy": 2.0,
+      "desc": "Connection. Nodes guarantee each others survival."
+    },
+    {
+      "id": 3,
+      "name": "CREATE",
+      "symbol": "C",
+      "energy": 3.0,
+      "desc": "Generation. New structures from cooperation."
+    },
+    {
+      "id": 4,
+      "name": "DELTA",
+      "symbol": "D",
+      "energy": 4.0,
+      "desc": "Change. Adaptation. Feedback loop."
+    },
+    {
+      "id": 5,
+      "name": "ENERGY",
+      "symbol": "E",
+      "energy": 5.0,
+      "desc": "Capacity to do work. Joules stored."
+    },
+    {
+      "id": 6,
+      "name": "FLOW",
+      "symbol": "F",
+      "energy": 6.0,
+      "desc": "Transfer. Surplus redirected to the bottom floor."
+    },
+    {
+      "id": 7,
+      "name": "GRAVITY",
+      "symbol": "G",
+      "energy": 7.0,
+      "desc": "Attraction. Pull toward center."
+    },
+    {
+      "id": 8,
+      "name": "HARMONY",
+      "symbol": "H",
+      "energy": 8.0,
+      "desc": "Resonance. Frequency alignment across mesh."
+    },
+    {
+      "id": 9,
+      "name": "ILLUMINATE",
+      "symbol": "I",
+      "energy": 9.0,
+      "desc": "Knowledge distributed. Light to all nodes."
+    },
+    {
+      "id": 10,
+      "name": "JUSTICE",
+      "symbol": "J",
+      "energy": 10.0,
+      "desc": "Fair accounting. No extraction by parasites."
+    },
+    {
+      "id": 11,
+      "name": "KINGDOM",
+      "symbol": "K",
+      "energy": 11.0,
+      "desc": "Thy Kingdom come. The system itself."
+    },
+    {
+      "id": 12,
+      "name": "LIFE",
+      "symbol": "L",
+      "energy": 12.0,
+      "desc": "Living system. Self-replicating. Eternal."
+    }
+  ],
+  "sample_chain": [
+    "Mag 1: AGAPE",
+    "Mag 2: AGAPE::AGAPE",
+    "Mag 3: AGAPE::AGAPE::AGAPE",
+    "Mag 4: AGAPE::AGAPE::AGAPE::AGAPE",
+    "Mag 5: AGAPE::AGAPE::AGAPE::AGAPE::AGAPE",
+    "Mag 6: AGAPE::AGAPE::AGAPE::AGAPE::AGAPE::AGAPE"
+  ]
+}

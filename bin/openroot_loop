@@ -1,0 +1,96 @@
+#!/data/data/com.termux/files/usr/bin/bash
+# OpenRoot Atomic Thermodynamic Loop (Fixed JSONL)
+
+UNE="/data/data/com.termux/files/home/une"
+OR="/data/data/com.termux/files/home/openroot"
+
+echo ">>> RESET: Clearing energy cache..."
+pkill -f energy_logger.py 2>/dev/null
+sleep 0.5
+echo '{"total_joules": 0.0, "last_sample_time": 0, "start_time": null}' > "$UNE/storage/joule_cache.json"
+
+echo ">>> START: Launching energy logger..."
+nohup python3 "$UNE/bin/energy_logger.py" 2 > /dev/null 2>&1 &
+sleep 2
+
+echo ">>> ABSORB: Triggering absorber operation..."
+python3 -c "
+import sys
+sys.path.insert(0, '$UNE')
+from absorber import Absorber
+a = Absorber('atomic', lambda: 'primitive', lambda: 'modern', '$UNE/context_bridge/context.json')
+result = a.operate()
+print(f'  Absorber result: {result}')
+"
+
+echo ">>> QUERY: Logging to hive bridge..."
+python3 "$UNE/computational_flow/hive_bridge.py" query "atomic loop verification"
+
+echo ">>> HASH: Generating Merkle root..."
+python3 "$UNE/bin/merkle_hash.py" | python3 -c "
+import json, sys
+d = json.load(sys.stdin)
+print(f'  Merkle: {d[\"merkle_root\"][:16]}... | Leaves: {d[\"leaf_count\"]}')
+"
+
+echo ">>> STAMP: Creating immutable session stamp..."
+TIMESTAMP=$(date +%Y%m%d_%H%M%S)
+STAMP_PATH="$UNE/logs/stamps/context_${TIMESTAMP}.json"
+mkdir -p "$UNE/logs/stamps"
+
+# Create a NEW stamp file (single JSON object) instead of modifying context.json
+python3 -c "
+import json, os
+cache_path = '$UNE/storage/joule_cache.json'
+ledger_path = '$UNE/logs/energy/stream.jsonl'
+stamp_path = '$STAMP_PATH'
+
+# Load energy cache
+try:
+    cache = json.load(open(cache_path))
+except:
+    cache = {'total_joules': 0.0}
+
+# Load merkle root
+import subprocess
+merkle_out = subprocess.run(['python3', '$UNE/bin/merkle_hash.py'], capture_output=True, text=True)
+merkle = json.loads(merkle_out.stdout) if merkle_out.returncode == 0 else {}
+
+# Create stamp object
+stamp = {
+    'timestamp_created': '$(date -u +%Y-%m-%dT%H:%M:%SZ)',
+    'session_id': '${TIMESTAMP}',
+    'energy': {
+        'total_joules': cache.get('total_joules', 0.0),
+        'samples': merkle.get('leaf_count', 0)
+    },
+    'merkle_root': merkle.get('merkle_root', 'unknown'),
+    'proof': {
+        'algorithm': 'SHA-256',
+        'source': 'openroot_loop_atomic'
+    }
+}
+
+with open(stamp_path, 'w') as f:
+    json.dump(stamp, f, indent=2)
+print(f'  Stamp created: {os.path.basename(stamp_path)}')
+"
+
+echo ">>> COMMIT: Anchoring to GitHub..."
+cd "$OR"
+# Add the new stamp file specifically
+git add "$UNE/logs/stamps/context_${TIMESTAMP}.json" 2>/dev/null
+git add "$UNE/logs/energy/" 2>/dev/null
+git add "$UNE/context_bridge/query_log.jsonl" 2>/dev/null
+
+# Check if there are changes
+if git diff --cached --quiet; then
+    echo "  (No new changes to commit)"
+else
+    git commit -m "feat: Atomic Loop - Thermodynamic Proof Anchored $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+    git push origin main && echo "  Pushed to GitHub." || echo "  (Push failed)"
+fi
+
+echo ""
+echo ">>> COMPLETE. SESSION ANCHORED. <<<"
+echo "    Check: github.com/jesseray718/openroot"

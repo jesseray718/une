@@ -9,6 +9,13 @@ Operators: PM-01 (observe_before_act), BF-01 (ephemeralization),
 import os, sys, json, subprocess, csv, time
 from pathlib import Path
 from datetime import datetime, timezone
+import sys as _sys
+_sys.path.insert(0, '/data/data/com.termux/files/home/une/bin')
+try:
+    from energy_probe import snapshot as _energy_snap, cost as _energy_cost
+except:
+    _energy_snap = None
+    _energy_cost = None
 
 
 class Absorber:
@@ -25,16 +32,25 @@ class Absorber:
         self.max_eta_history = 144  # 24 min at 10s intervals
 
     def operate(self, *args, **kwargs):
-        """Execute modern method; fall back to primitive on failure."""
+        """Execute modern method; fall back to primitive on failure. Energy-tagged."""
+        _e_before = _energy_snap() if _energy_snap else None
         try:
             result = self.modern(*args, **kwargs)
+            _e_after = _energy_snap() if _energy_snap else None
+            _e_cost = _energy_cost(_e_before, _e_after) if _e_before and _e_after and _energy_cost else None
             if self.fallback_active:
                 self._log("MODERN_RESTORED", "Recovered from fallback.")
                 self.fallback_active = False
+            if _e_cost:
+                self._log("OPERATION_COMPLETE", f"Energy: {_e_cost['joules_consumed']}J in {_e_cost['duration_s']}s")
             return result
         except Exception as e:
+            _e_after = _energy_snap() if _energy_snap else None
+            _e_cost = _energy_cost(_e_before, _e_after) if _e_before and _e_after and _energy_cost else None
             self.fallback_active = True
             self._log("FALLBACK_ACTIVE", f"Modern method failed: {e}")
+            if _e_cost:
+                self._log("FALLBACK_ENERGY", f"Cost of failed op: {_e_cost['joules_consumed']}J")
             return self.primitive(*args, **kwargs)
 
     def _log(self, tag, message):
@@ -60,7 +76,7 @@ class Absorber:
                 for row in reader:
                     readings.append(row)
         except FileNotFoundError:
-            self._log("SENSOR_MISSING", f"No sensor log at {self.sensor_log}")
+            return []
         except Exception as e:
             self._log("SENSOR_ERROR", f"Failed reading sensors: {e}")
         return readings

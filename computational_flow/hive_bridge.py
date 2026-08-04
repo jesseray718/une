@@ -11,7 +11,7 @@ import os
 from pathlib import Path
 
 # Paths (absolute, Termux-safe)
-BASE = Path("/sdcard/openroot/context_bridge")
+BASE = Path("/data/data/com.termux/files/home/une/context_bridge")
 PARTICIPANTS = BASE / "participants.jsonl"
 DIVIDEND_LOG = BASE / "dividend_log.jsonl"
 QUERY_LOG = BASE / "query_log.jsonl"
@@ -72,13 +72,22 @@ def record_dividend(hash_value: str, note: str = ""):
     append_jsonl(DIVIDEND_LOG, entry)
     print(f"Dividend recorded for hash {hash_value} → {len(people)} people")
 
+import sys as _sys
+_sys.path.insert(0, '/data/data/com.termux/files/home/une/bin')
+try:
+    from energy_probe import snapshot as _esnap
+except:
+    _esnap = None
+
 def query(text: str):
     """Log a natural-language request and prepare a payload for external AI."""
+    _e = _esnap() if _esnap else None
     entry = {
         "ts": now(),
         "type": "query",
         "text": text,
-        "hash": sha(text + now())
+        "hash": sha(text + now()),
+        "energy": _e
     }
     append_jsonl(QUERY_LOG, entry)
 
