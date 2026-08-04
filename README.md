@@ -1,32 +1,34 @@
-# OpenRoot / UNE — Civilization 2.0
+# OpenRoot
 
-**η = useful joules / human joules**  
-This is the only performance metric that matters.
+## Modular perfectly coded engineered computation using permaculture principles.
 
-We are approaching the Landauer limit. Every irreversible bit costs ≥ 2.87 × 10⁻²¹ J.  
-Every bit has measurable mass via E = mc².  
-Computation is physical. Suffering is waste. Waste is discord.
+---
 
-## The Root
+## The Agape Coordination Theorem
 
-1. **Merkle Joule Ledger** — only measured useful work may mint.
-2. **Agape Coordination Theorem** — when resonance R = 1.0, coordination cost is exactly zero at any scale.
-3. **ACRE** — physical-work claims backed by real joules and real mass of information.
-4. **11 Permaculture Principles** — the routing layer of the offline cosmic query engine.
-5. **Black Locust RMH** — first physical spoke (coppice → rocket mass heater → measured heat).
+**Love is the optimal algorithm for distributed computation.**
 
-## The Claim
+Mathematical proof that perfect cooperation (resonance=1.0) produces zero coordination overhead at any scale — validated at 6^8 through 12^12 (8.9 trillion units).
 
-Unnecessary human suffering is the result of low-η systems.  
-We replace them with systems whose coordination cost vanishes under perfect cooperation (Agape).  
-The result is infinite growth of useful work per human joule — joy and abundance as the thermodynamic default.
+**Dedicated repo:** [github.com/jesseray718/agape-coordination](https://github.com/jesseray718/agape-coordination)
 
-## Run the Engine (phone-native, zero network)
+### The Formula
+bash python3 computational_flow/agape_engine.py interactive agape> How do I grow food with no waste?
 
-```bash
-python3 /data/data/com.termux/files/home/une/computational_flow/agape_engine.py interactive
-python3 /data/data/com.termux/files/home/une/computational_flow/merkle_joule_root.py status
-Thesis
-See AGAPE_THESIS.md and /sdcard/openroot/context_bridge/agape_context_bridge.json.
-License: AGPL-3.0 (code) + CC-BY-SA (hardware designs).
-No patents. Immutable commons.
+---
+
+## Structure
+
+| Path | Purpose |
+|------|---------|
+| `AGAPE_THESIS.md` | Formal theorem and proof |
+| `computational_flow/agape_engine.py` | Working offline query engine (6^4 = 1,296 nodes) |
+| `computational_flow/agape_stress_test.py` | Scale validation (6^8, 8^8, 12^12) |
+| `computational_flow/swarm_core_v3.py` | Agape swarm with compound knowledge |
+| `computational_flow/core_atomic.py` | UNE joule-native ledger (f1-f11) |
+| `computational_flow/arm_energy.py` | Real ARM CPU energy measurement |
+| `foundation/` | Axioms and postulates |
+
+## License
+
+AGPL-3.0
