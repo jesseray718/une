@@ -1,6 +1,6 @@
 #!/data/data/com.termux/files/usr/bin/env python3
-"""Filesystem awareness module for Agape engine. Feeds real repo state into the KB."""
-import os, json, hashlib
+"""Filesystem awareness module for Agape engine."""
+import os, json
 from pathlib import Path
 from collections import defaultdict
 
@@ -14,11 +14,12 @@ def snapshot(root=UNE_ROOT):
     file_count = 0
     
     for dirpath, dirnames, filenames in os.walk(root):
-        # Skip noise
         dirnames[:] = [d for d in dirnames if d not in ('__pycache__', '.git', 'node_modules')]
         for fn in filenames:
             fp = Path(dirpath) / fn
-            size = fp.stat().st_size
+            try:
+                size = fp.stat().st_size
+            except: continue
             total_size += size
             file_count += 1
             ext = fp.suffix or '(noext)'
@@ -43,7 +44,7 @@ if __name__ == "__main__":
     cmd = sys.argv[1] if len(sys.argv) > 1 else "snap"
     if cmd == "snap":
         s = snapshot()
-        print(f"Snapshot: {s['file_count']} files, {s['total_bytes']:,} bytes")
+        print(f"📊 Snapshot: {s['file_count']} files, {s['total_bytes']:,} bytes")
         print(f"Top extensions: {dict(list(s['by_extension'].items())[:5])}")
         print(f"Saved to {KB_PATH}")
     elif cmd == "json":
