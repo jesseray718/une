@@ -5,3 +5,7 @@ queue/
 tasks/
 __pycache__/
 *.pyc
+*.bak
+*.pub
+computational_flow/EOF
+*\(*
