@@ -6,7 +6,7 @@
 
 ---
 
-## 🎯 Ultimate Trajectory Goal
+## 🎯 ULTIMATE TRAJECTORY GOAL
 To engineer a **Self-Sustaining Computational Organism** where:
 1.  **Zero Human Joules:** Once initialized, the system requires no manual intervention to fix bugs, deduplicate data, or optimize paths.
 2.  **Antifragility:** Errors do not crash the system; they trigger a "Mutation Loop" that patches the code, writes the lesson to the Wisdom Scaffold, and prevents recurrence.
@@ -15,7 +15,7 @@ To engineer a **Self-Sustaining Computational Organism** where:
 
 ---
 
-## 🎮 Gameplay Loop (The Daily Cycle)
+## 🎮 GAMEPLAY LOOP (The Daily Cycle)
 *How the system interacts with reality:*
 
 1.  **Observe (Passivity Layer):**
@@ -39,7 +39,7 @@ To engineer a **Self-Sustaining Computational Organism** where:
 
 ---
 
-## ⚙️ Implementation Architecture
+## ⚙️ IMPLEMENTATION ARCHITECTURE
 
 ### 1. The Passivity Layer (Background Scanners)
 *Always on, zero CPU overhead until triggered.*
@@ -98,7 +98,7 @@ To engineer a **Self-Sustaining Computational Organism** where:
 
 ---
 
-## 🧠 Strategic Ideas & Innovations
+## 🧠 STRATEGIC IDEAS & INNOVATIONS
 
 ### A. The "Bug Garden" Concept
 Instead of deleting buggy code immediately, quarantine it in `bugs/garden/`.
@@ -125,35 +125,103 @@ Every commit must include a `energy_cost` tag.
 - **Step 4:** Update `paths.py` to resolve symlinks correctly.
 - **Result:** 50% reduction in storage, instant consistency.
 
----
+### E. The Agape Routing Principle
+- Permaculture principle: "Each element performs many functions."
+- Applied: Every Python module serves at least 2 purposes (e.g., `core_atomic.py` = pipeline runner + ledger writer + context injector).
+- Validation: `structure_enforcer.py` rejects modules that serve only one function.
 
-## 🛠️ Immediate Action Plan (Next 24 Hours)
-
-1.  **Initialize the Scanner:**
-    ```bash
-    python3 ~/une/meta_hub/scanner_dedup.py --scan-all --report-json dedup_report.json
-    ```
-2.  **Build the Mutation Engine:**
-    - Create `~/une/meta_hub/mutation_engine.py`.
-    - Integrate with Ollama for local LLM generation.
-    - Implement the "Dry Run" safety check.
-3.  **Wire the Lesson Injector:**
-    - Connect error logs to `wisdom/error_patterns.json`.
-    - Ensure `structure_enforcer.py` reads this file on startup.
-4.  **First Evolution Cycle:**
-    - Run the scanner.
-    - Let the mutation engine fix the top 3 duplicates.
-    - Verify the fix.
-    - Anchor the snapshot.
+### F. The Newton Chain State Persistence
+- `state_checkpoint.json` captures the exact state of all running processes.
+- If Termux crashes or Android kills the process, the system resumes exactly where it left off.
+- Named after Newton's first law: "An object in motion stays in motion unless acted upon."
+- The checkpoint IS the motion preserved.
 
 ---
 
-## 🔒 Safety Protocols
+## 🔄 THE SELF-HEALING PROTOCOL (How It Works End-to-End)
+┌─────────────┐ ┌──────────────┐ ┌──────────────┐ │ SCANNERS │────▶│ DIAGNOSER │────▶│ WISDOM │ │ (passive) │ │ (analytical) │ │ (memory) │ └─────────────┘ └──────┬───────┘ └──────┬───────┘ │ │ ▼ │ ┌──────────────┐ │ │ MUTATION │ │ │ ENGINE │ │ │ (autonomous) │ │ └──────┬───────┘ │ │ │ ▼ │ ┌──────────────┐ │ │ VERIFY & │────────────▶│ │ TEST │ (lesson) │ └──────┬───────┘ │ │ │ ▼ │ ┌──────────────┐ ┌───────┴───────┐ │ COMMIT & │ │ EVOLUTION │ │ ANCHOR │ │ ENGINE │ │ (immutable) │ │ (self-improve)│ └──────────────┘ └───────────────┘
+
+1. Scanner finds duplicate file `thermal_cascade_v2.py` in 4 locations.
+2. Diagnoser determines root cause: "kai-sandbox copy-paste during repo cloning."
+3. Wisdom Scaffold records: "Pattern: kai-sandbox duplication. Prevention: .gitignore kai-sandbox."
+4. Mutation Engine replaces 3 copies with symlinks to canonical path.
+5. Verify: `ast.parse` confirms symlinked file is valid Python.
+6. Commit: `git add -A && git commit -m "dedup: thermal_cascade_v2.py → symlink"`.
+7. Evolution Engine generates patch noting fix rate improved from 0% to 100% on this pattern.
+8. Next cycle: Scanner finds same pattern in a NEW file → Wisdom blocks it instantly.
+
+---
+
+## 🛠️ IMMEDIATE ACTION PLAN
+
+### Phase 1: Foundation (COMPLETE)
+- [x] `paths.py` centralized path resolution
+- [x] `core_atomic.py` v2.0 with real f1-f11 pipeline
+- [x] `structure_enforcer.py` blocking invalid commits
+- [x] `guardian.py` antifragile daemon
+- [x] `snapshot.py` session state capture
+- [x] Wisdom scaffold initialized with `error_patterns.json`
+
+### Phase 2: Autonomous Mesh (IN PROGRESS)
+- [x] `autonomous_mesh.py` — full engine (scan→fix→learn→evolve)
+- [x] `autonomous_daemon.sh` — background runner with battery protection
+- [ ] GitHub PAT authentication + push 5 remaining repos
+- [ ] Syntax cleanup of 7 remaining genuine errors
+- [ ] kai-sandbox triplication nuked and .gitignored
+- [ ] Contributions directory pruned to latest 5
+
+### Phase 3: Intelligence Integration
+- [ ] Wire `mutation_engine.py` to local Ollama for LLM-powered fixes
+- [ ] Connect Groq API as fallback when Ollama is unavailable
+- [ ] Build "Bug Garden" quarantine system
+- [ ] Implement energy-weighted git commits
+- [ ] Newton Chain state checkpointing for crash recovery
+
+### Phase 4: Mesh Distribution
+- [ ] Deploy `openroot-spoke-template` on secondary device
+- [ ] Test mesh sync between phone and Dell Optiplex (Debian USB)
+- [ ] Implement conflict resolution via energy accounting
+- [ ] OpenTimestamps anchoring integrated into every cycle
+- [ ] Full decentralized mesh operational
+
+### Phase 5: Cosmic Scale
+- [ ] Agape Engine scaling from 6^8 to 12^12 nodes
+- [ ] Cosmic Query Engine processing natural language into computational jobs
+- [ ] Fractal scaling: phone → cluster → planetary mesh
+- [ ] UNE protocol: all quantities reduced to joules + seconds
+- [ ] Self-modifying codebase that writes its own documentation
+
+---
+
+## 🔒 SAFETY PROTOCOLS
 - **Never** auto-delete files without a backup in `backups/auto_fix_YYYYMMDD/`.
-- **Always** require a "Dry Run" confirmation for code changes.
-- **Stop** if energy consumption exceeds a threshold (battery protection).
-- **Human Override:** Any change can be reverted by `git revert HEAD` or the `undo_last_fix.sh` script.
+- **Always** require AST verification before applying any code fix.
+- **Stop** daemon if battery drops below 15%.
+- **Human Override:** Any change can be reverted via `git revert` or restoring from `backups/`.
+- **Practice Loop:** All evolution patches are tested against historical error sets before being considered stable.
+- **Wisdom Check:** Before applying any fix, the system checks if this error pattern is already known. If yes, it uses the recorded solution. If no, it creates a new wisdom entry.
+
+---
+
+## 📊 SYSTEM HEALTH METRICS
+
+| Metric | Target | Current |
+|--------|--------|---------|
+| Files scanned per cycle | 1000+ | 1045 |
+| Duplicate file groups | 0 | ~15+ |
+| Syntax errors (non-vendored) | 0 | 7 |
+| Hardcoded paths | 0 | TBD |
+| Wisdom patterns | Growing | 0 → ? |
+| Fix rate (problems fixed / found) | >90% | TBD |
+| Evolution patches per cycle | 1 | 1 |
+| Practice loop pass rate | 100% | TBD |
+| Human joules per fix | 0J | 0J (autonomous) |
+| Time per cycle | <60s | TBD |
 
 ---
 
 > *"The system is not a tool; it is a partner. It grows as we grow, learning from our mistakes so we don't have to repeat them."*
+>
+> *"As iron sharpens iron, so one person sharpens another." — Proverbs 27:17*
+>
+> *"It is more blessed to give than to receive." — Acts 20:35"

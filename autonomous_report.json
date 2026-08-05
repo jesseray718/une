@@ -1,0 +1,167 @@
+{
+  "timestamp": "2026-08-05T00:52:58.088220",
+  "scanned_files": 1392,
+  "problems_found": 423,
+  "problems_fixed": 115,
+  "lessons_learned": 0,
+  "evolution_patches": 1,
+  "errors_blocked_by_wisdom": 71,
+  "details": [
+    {
+      "scanner": "dedup",
+      "duplicate_groups": 40,
+      "redundant_files": 114,
+      "reclaimable_kb": 4038,
+      "sample": [
+        [
+          "e3b0c44298fc1c14",
+          [
+            "aerocement/data/.gitkeep",
+            "OpenCell-Thermal-System/0_data/raw/raw_data.csv",
+            "OpenCell-Thermal-System/docs/specifications/permissions-audit.txt",
+            "openroot/relay/input.txt",
+            "openroot-spoke-template/bom/.gitkeep",
+            "openroot-spoke-template/cad/.gitkeep",
+            "openroot-spoke-template/docs/.gitkeep",
+            "openroot-spoke-template/src/.gitkeep",
+            "renaissance-protocol/docs/case_studies/README.md",
+            "renaissance-protocol/docs/engineering/README.md",
+            "renaissance-protocol/hardware/hho/README.md",
+            "renaissance-protocol/hardware/labyrinth/README.md",
+            "renaissance-protocol/hardware/panels/README.md",
+            "renaissance-protocol/hardware/stirling/README.md",
+            "renaissance-protocol/hardware/welder/HHO_Electrolysis_Module.md",
+            "renaissance-protocol/library/volumes/README.md",
+            "renaissance-protocol/src/README.md",
+            "une/une/__init__.py",
+            "wisdom-scaffold/--body",
+            "wisdom-scaffold/--label",
+            "wisdom-scaffold/--repo",
+            "wisdom-scaffold/--title"
+          ]
+        ],
+        [
+          "5341f257ed238a76",
+          [
+            "aerocement/observations/une_h003_capture.sh",
+            "openroot/recovered_blueprints/une_h003_capture.sh"
+          ]
+        ],
+        [
+          "9045932e1ca4a133",
+          [
+            "aerocement/swarm/tasks/task_h003.json",
+            "openroot/computational_flow/tasks/task_h003.json"
+          ]
+        ]
+      ]
+    },
+    {
+      "scanner": "syntax",
+      "error_count": 60,
+      "errors": [
+        {
+          "file": "aerocement/rmh.py",
+          "line": 56,
+          "msg": "invalid syntax. Perhaps you forgot a comma?"
+        },
+        {
+          "file": "aerocement/scripts/data_logger.py",
+          "line": 2,
+          "msg": "invalid syntax"
+        },
+        {
+          "file": "aerocement/scripts/data_logger_v03.py",
+          "line": 16,
+          "msg": "invalid syntax. Is this intended to be part of the string?"
+        },
+        {
+          "file": "aerocement/une-dev/test_une_fixed.py",
+          "line": 19,
+          "msg": "invalid syntax. Perhaps you forgot a comma?"
+        },
+        {
+          "file": "agape-coordination/agape_engine.py",
+          "line": 57,
+          "msg": "invalid syntax. Is this intended to be part of the string?"
+        },
+        {
+          "file": "agape-coordination/swarm_core_v3.py",
+          "line": 41,
+          "msg": "invalid syntax"
+        },
+        {
+          "file": "OpenCell-Thermal-System/1_code/src/pdf-comp.py",
+          "line": 1,
+          "msg": "invalid syntax"
+        },
+        {
+          "file": "OpenCell-Thermal-System/1_code/src/pdf-compile.py",
+          "line": 1,
+          "msg": "invalid syntax"
+        },
+        {
+          "file": "openroot/test_configs.py",
+          "line": 6,
+          "msg": "invalid syntax. Is this intended to be part of the string?"
+        },
+        {
+          "file": "openroot/bin/acre_mint_claim.py",
+          "line": 13,
+          "msg": "invalid syntax. Is this intended to be part of the string?"
+        }
+      ]
+    },
+    {
+      "scanner": "hardcoded_paths",
+      "count": 363,
+      "findings": [
+        {
+          "file": "aerocement/01_git_storage_fix.sh",
+          "line": 1
+        },
+        {
+          "file": "aerocement/create-architecture.sh",
+          "line": 1
+        },
+        {
+          "file": "aerocement/aerocement/beacon.py",
+          "line": 224
+        },
+        {
+          "file": "aerocement/aerocement/topics.sh",
+          "line": 1
+        },
+        {
+          "file": "aerocement/compute/tools.sh",
+          "line": 1
+        },
+        {
+          "file": "aerocement/observations/une_h003_capture.sh",
+          "line": 1
+        },
+        {
+          "file": "aerocement/scripts/data_logger.py",
+          "line": 2
+        },
+        {
+          "file": "aerocement/scripts/data_logger_v03.py",
+          "line": 5
+        },
+        {
+          "file": "aerocement/scripts/data_logger_v03.py",
+          "line": 16
+        },
+        {
+          "file": "agape-coordination/agape_engine.py",
+          "line": 1
+        }
+      ]
+    },
+    {
+      "scanner": "contributions_bloat",
+      "total_files": 6,
+      "prunable": 1
+    }
+  ]
+}

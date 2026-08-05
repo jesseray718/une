@@ -1,1 +1,145 @@
-{"patterns": []}
+{
+  "patterns": [
+    {
+      "id": "4be7bc906bb424e8",
+      "timestamp": "2026-08-05T00:51:35.069001",
+      "error_type": "duplicate_file",
+      "root_cause": "Files duplicated across repos: wisdom-scaffold, aerocement, openroot-spoke-template",
+      "fix_applied": "Flagged for consolidation to canonical path",
+      "file": "aerocement/data/.gitkeep",
+      "signature": "dup:e3b0c44298fc1c14",
+      "prevention_rule": "Reject code matching: dup:e3b0c44298fc1c14"
+    },
+    {
+      "id": "99fcc8aee46ad868",
+      "timestamp": "2026-08-05T00:51:35.070452",
+      "error_type": "duplicate_file",
+      "root_cause": "Files duplicated across repos: openroot, aerocement",
+      "fix_applied": "Flagged for consolidation to canonical path",
+      "file": "aerocement/observations/une_h003_capture.sh",
+      "signature": "dup:5341f257ed238a76",
+      "prevention_rule": "Reject code matching: dup:5341f257ed238a76"
+    },
+    {
+      "id": "425527d3fe87e1d7",
+      "timestamp": "2026-08-05T00:51:35.071388",
+      "error_type": "duplicate_file",
+      "root_cause": "Files duplicated across repos: openroot, aerocement",
+      "fix_applied": "Flagged for consolidation to canonical path",
+      "file": "aerocement/swarm/tasks/task_h003.json",
+      "signature": "dup:9045932e1ca4a133",
+      "prevention_rule": "Reject code matching: dup:9045932e1ca4a133"
+    },
+    {
+      "id": "5830ab61ee4b4c2e",
+      "timestamp": "2026-08-05T00:51:35.072177",
+      "error_type": "duplicate_file",
+      "root_cause": "Files duplicated across repos: openroot, aerocement",
+      "fix_applied": "Flagged for consolidation to canonical path",
+      "file": "aerocement/une-dev/demo_final.py",
+      "signature": "dup:91e685eb8eaec48f",
+      "prevention_rule": "Reject code matching: dup:91e685eb8eaec48f"
+    },
+    {
+      "id": "3f9a1ca27806486e",
+      "timestamp": "2026-08-05T00:51:35.072920",
+      "error_type": "duplicate_file",
+      "root_cause": "Files duplicated across repos: openroot, aerocement",
+      "fix_applied": "Flagged for consolidation to canonical path",
+      "file": "aerocement/une-dev/une_server_old.py",
+      "signature": "dup:f7f7f704c2e695a4",
+      "prevention_rule": "Reject code matching: dup:f7f7f704c2e695a4"
+    },
+    {
+      "id": "eab966e90da97883",
+      "timestamp": "2026-08-05T00:51:35.201778",
+      "error_type": "syntax_error",
+      "root_cause": "SyntaxError: invalid syntax",
+      "fix_applied": "Pending mutation",
+      "file": "OpenCell-Thermal-System/1_code/src/pdf-comp.py",
+      "signature": "syntax:invalid syntax",
+      "prevention_rule": "Reject code matching: syntax:invalid syntax"
+    },
+    {
+      "id": "c65822eeb3f41ecc",
+      "timestamp": "2026-08-05T00:51:35.271208",
+      "error_type": "syntax_error",
+      "root_cause": "SyntaxError: invalid decimal literal",
+      "fix_applied": "Pending mutation",
+      "file": "openroot/bin/h003_resonant_solver.py",
+      "signature": "syntax:invalid decimal literal",
+      "prevention_rule": "Reject code matching: syntax:invalid decimal literal"
+    },
+    {
+      "id": "c3d745344d96f8a0",
+      "timestamp": "2026-08-05T00:51:35.705749",
+      "error_type": "syntax_error",
+      "root_cause": "SyntaxError: '{' was never closed",
+      "fix_applied": "Pending mutation",
+      "file": "une/create_scripture_corpus.py",
+      "signature": "syntax:'{' was never closed",
+      "prevention_rule": "Reject code matching: syntax:'{' was never closed"
+    },
+    {
+      "id": "4cf30292495b47cf",
+      "timestamp": "2026-08-05T00:51:35.847789",
+      "error_type": "syntax_error",
+      "root_cause": "Literal \\n characters from bad regex replacement (fix_round2.py artifact)",
+      "fix_applied": "Pending mutation",
+      "file": "une/computational_flow/agape_engine.py",
+      "signature": "syntax:unexpected character after line continuation character",
+      "prevention_rule": "Reject code matching: syntax:unexpected character after line continuation character"
+    },
+    {
+      "id": "5537af8b755e9330",
+      "timestamp": "2026-08-05T00:51:35.969542",
+      "error_type": "syntax_error",
+      "root_cause": "SyntaxError: invalid syntax. Is this intended to be part of the string?",
+      "fix_applied": "Pending mutation",
+      "file": "une/tools/stream_of_thought.py",
+      "signature": "syntax:invalid syntax. Is this intended to be part of the string?",
+      "prevention_rule": "Reject code matching: syntax:invalid syntax. Is this intended to be part of the string?"
+    },
+    {
+      "id": "c10ab431b51c9bd9",
+      "timestamp": "2026-08-05T00:51:36.197790",
+      "error_type": "hardcoded_path",
+      "root_cause": "Script uses absolute Termux path instead of paths.py resolution",
+      "fix_applied": "Flagged for paths.py migration",
+      "file": "aerocement/01_git_storage_fix.sh",
+      "signature": "hardpath:/data/data/com\\.termux",
+      "prevention_rule": "Reject code matching: hardpath:/data/data/com\\.termux"
+    },
+    {
+      "id": "d76267a862d0b12c",
+      "timestamp": "2026-08-05T00:51:36.203247",
+      "error_type": "contributions_bloat",
+      "root_cause": "Auto-evolution and meta-upgrade files accumulate without pruning",
+      "fix_applied": "Keep latest 5, prune 2 oldest",
+      "file": "/data/data/com.termux/files/home/une/contributions",
+      "signature": "bloat:contributions_overflow",
+      "prevention_rule": "Reject code matching: bloat:contributions_overflow"
+    },
+    {
+      "id": "dca6d0e652acd9d7",
+      "timestamp": "2026-08-05T00:52:10.540183",
+      "error_type": "duplicate_file",
+      "root_cause": "Files duplicated across repos: aerocement, openroot",
+      "fix_applied": "Flagged for consolidation to canonical path",
+      "file": "aerocement/une-dev/demo_final.py",
+      "signature": "dup:dd4df058f2b76991",
+      "prevention_rule": "Reject code matching: dup:dd4df058f2b76991"
+    },
+    {
+      "id": "f0e2bcaacfd801c7",
+      "timestamp": "2026-08-05T00:52:10.551058",
+      "error_type": "syntax_error",
+      "root_cause": "SyntaxError: invalid syntax. Perhaps you forgot a comma?",
+      "fix_applied": "Pending mutation",
+      "file": "aerocement/rmh.py",
+      "signature": "syntax:invalid syntax. Perhaps you forgot a comma?",
+      "prevention_rule": "Reject code matching: syntax:invalid syntax. Perhaps you forgot a comma?"
+    }
+  ],
+  "last_updated": "2026-08-05T00:52:10.551091"
+}
