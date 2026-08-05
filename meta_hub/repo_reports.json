@@ -2,9 +2,9 @@
   {
     "name": "AeroCement_Ecosystem",
     "path": "/data/data/com.termux/files/home/une/meta_hub/AeroCement_Ecosystem",
-    "analyzed_at": "2026-08-05T00:37:21.310759",
-    "files_total": 17,
-    "python_files": 3,
+    "analyzed_at": "2026-08-05T00:54:28.489130",
+    "files_total": 18,
+    "python_files": 4,
     "syntax_errors": [],
     "tests_pass": null,
     "missing_standard_files": [
@@ -18,14 +18,14 @@
     "has_gitignore": true,
     "has_license": true,
     "has_requirements": false,
-    "commit_hash": "8b0624d"
+    "commit_hash": "158fed6"
   },
   {
     "name": "OpenCell-Thermal-System",
     "path": "/data/data/com.termux/files/home/une/meta_hub/OpenCell-Thermal-System",
-    "analyzed_at": "2026-08-05T00:37:22.846515",
-    "files_total": 40,
-    "python_files": 11,
+    "analyzed_at": "2026-08-05T00:54:29.906523",
+    "files_total": 41,
+    "python_files": 12,
     "syntax_errors": [
       {
         "file": "1_code/src/pdf-comp.py",
@@ -48,15 +48,32 @@
     "has_gitignore": true,
     "has_license": true,
     "has_requirements": false,
-    "commit_hash": "81c34d2"
+    "commit_hash": "b3fec48"
   },
   {
     "name": "aerocement",
     "path": "/data/data/com.termux/files/home/une/meta_hub/aerocement",
-    "analyzed_at": "2026-08-05T00:37:24.308668",
-    "files_total": 88,
-    "python_files": 33,
-    "syntax_errors": [],
+    "analyzed_at": "2026-08-05T00:54:31.323653",
+    "files_total": 89,
+    "python_files": 34,
+    "syntax_errors": [
+      {
+        "file": "rmh.py",
+        "error": "invalid syntax. Perhaps you forgot a comma? (<unknown>, line 56)"
+      },
+      {
+        "file": "scripts/data_logger.py",
+        "error": "invalid syntax (<unknown>, line 2)"
+      },
+      {
+        "file": "scripts/data_logger_v03.py",
+        "error": "invalid syntax. Is this intended to be part of the string? (<unknown>, line 16)"
+      },
+      {
+        "file": "une-dev/test_une_fixed.py",
+        "error": "invalid syntax. Perhaps you forgot a comma? (<unknown>, line 19)"
+      }
+    ],
     "tests_pass": null,
     "missing_standard_files": [
       "requirements.txt"
@@ -69,14 +86,14 @@
     "has_gitignore": true,
     "has_license": true,
     "has_requirements": false,
-    "commit_hash": "460adef"
+    "commit_hash": "cd5a2af"
   },
   {
     "name": "aerocement-",
     "path": "/data/data/com.termux/files/home/une/meta_hub/aerocement-",
-    "analyzed_at": "2026-08-05T00:37:25.810254",
-    "files_total": 6,
-    "python_files": 3,
+    "analyzed_at": "2026-08-05T00:54:32.856994",
+    "files_total": 7,
+    "python_files": 4,
     "syntax_errors": [],
     "tests_pass": null,
     "missing_standard_files": [
@@ -90,15 +107,24 @@
     "has_gitignore": true,
     "has_license": true,
     "has_requirements": false,
-    "commit_hash": "129528d"
+    "commit_hash": "aaa6ad8"
   },
   {
     "name": "agape-coordination",
     "path": "/data/data/com.termux/files/home/une/meta_hub/agape-coordination",
-    "analyzed_at": "2026-08-05T00:37:26.343171",
-    "files_total": 13,
-    "python_files": 8,
-    "syntax_errors": [],
+    "analyzed_at": "2026-08-05T00:54:33.424657",
+    "files_total": 14,
+    "python_files": 9,
+    "syntax_errors": [
+      {
+        "file": "agape_engine.py",
+        "error": "invalid syntax. Is this intended to be part of the string? (<unknown>, line 57)"
+      },
+      {
+        "file": "swarm_core_v3.py",
+        "error": "invalid syntax (<unknown>, line 41)"
+      }
+    ],
     "tests_pass": null,
     "missing_standard_files": [
       "requirements.txt"
@@ -111,14 +137,14 @@
     "has_gitignore": true,
     "has_license": true,
     "has_requirements": false,
-    "commit_hash": "731c0ee"
+    "commit_hash": "50f2047"
   },
   {
     "name": "agape-une",
     "path": "/data/data/com.termux/files/home/une/meta_hub/agape-une",
-    "analyzed_at": "2026-08-05T00:37:27.800297",
-    "files_total": 8,
-    "python_files": 3,
+    "analyzed_at": "2026-08-05T00:54:34.817396",
+    "files_total": 9,
+    "python_files": 4,
     "syntax_errors": [],
     "tests_pass": null,
     "missing_standard_files": [
@@ -132,14 +158,14 @@
     "has_gitignore": true,
     "has_license": true,
     "has_requirements": false,
-    "commit_hash": "8725c85"
+    "commit_hash": "9b5f3c4"
   },
   {
     "name": "black-locust-rmh",
     "path": "/data/data/com.termux/files/home/une/meta_hub/black-locust-rmh",
-    "analyzed_at": "2026-08-05T00:37:29.298222",
-    "files_total": 9,
-    "python_files": 3,
+    "analyzed_at": "2026-08-05T00:54:36.259253",
+    "files_total": 10,
+    "python_files": 4,
     "syntax_errors": [],
     "tests_pass": null,
     "missing_standard_files": [
@@ -153,14 +179,14 @@
     "has_gitignore": true,
     "has_license": true,
     "has_requirements": false,
-    "commit_hash": "5fc1e1c"
+    "commit_hash": "3174345"
   },
   {
     "name": "civilization2.0",
     "path": "/data/data/com.termux/files/home/une/meta_hub/civilization2.0",
-    "analyzed_at": "2026-08-05T00:37:30.838309",
-    "files_total": 9,
-    "python_files": 3,
+    "analyzed_at": "2026-08-05T00:54:37.807938",
+    "files_total": 10,
+    "python_files": 4,
     "syntax_errors": [],
     "tests_pass": null,
     "missing_standard_files": [
@@ -174,14 +200,14 @@
     "has_gitignore": true,
     "has_license": true,
     "has_requirements": false,
-    "commit_hash": "7959d90"
+    "commit_hash": "5b6d4b5"
   },
   {
     "name": "jesseray718",
     "path": "/data/data/com.termux/files/home/une/meta_hub/jesseray718",
-    "analyzed_at": "2026-08-05T00:37:31.370671",
-    "files_total": 8,
-    "python_files": 3,
+    "analyzed_at": "2026-08-05T00:54:38.348810",
+    "files_total": 9,
+    "python_files": 4,
     "syntax_errors": [],
     "tests_pass": null,
     "missing_standard_files": [
@@ -195,14 +221,14 @@
     "has_gitignore": true,
     "has_license": true,
     "has_requirements": false,
-    "commit_hash": "c4f9783"
+    "commit_hash": "c52370e"
   },
   {
     "name": "open-cell-thermal-open-cell-the",
     "path": "/data/data/com.termux/files/home/une/meta_hub/open-cell-thermal-open-cell-the",
-    "analyzed_at": "2026-08-05T00:37:32.875140",
-    "files_total": 6,
-    "python_files": 3,
+    "analyzed_at": "2026-08-05T00:54:39.761453",
+    "files_total": 7,
+    "python_files": 4,
     "syntax_errors": [],
     "tests_pass": null,
     "missing_standard_files": [
@@ -216,18 +242,102 @@
     "has_gitignore": true,
     "has_license": true,
     "has_requirements": false,
-    "commit_hash": "9f731e0"
+    "commit_hash": "3861d60"
   },
   {
     "name": "openroot",
     "path": "/data/data/com.termux/files/home/une/meta_hub/openroot",
-    "analyzed_at": "2026-08-05T00:37:33.353455",
-    "files_total": 7426,
-    "python_files": 449,
+    "analyzed_at": "2026-08-05T00:54:40.331596",
+    "files_total": 7427,
+    "python_files": 450,
     "syntax_errors": [
+      {
+        "file": "test_configs.py",
+        "error": "invalid syntax. Is this intended to be part of the string? (<unknown>, line 6)"
+      },
+      {
+        "file": "bin/acre_mint_claim.py",
+        "error": "invalid syntax. Is this intended to be part of the string? (<unknown>, line 13)"
+      },
+      {
+        "file": "bin/auto_sensor_capture.py",
+        "error": "invalid syntax. Is this intended to be part of the string? (<unknown>, line 14)"
+      },
+      {
+        "file": "bin/embed_docs.py",
+        "error": "invalid syntax. Perhaps you forgot a comma? (<unknown>, line 7)"
+      },
       {
         "file": "bin/h003_resonant_solver.py",
         "error": "invalid decimal literal (<unknown>, line 348)"
+      },
+      {
+        "file": "bin/instrument_ledger.py",
+        "error": "invalid syntax. Is this intended to be part of the string? (<unknown>, line 15)"
+      },
+      {
+        "file": "bin/offline_rank.py",
+        "error": "invalid syntax. Perhaps you forgot a comma? (<unknown>, line 6)"
+      },
+      {
+        "file": "bin/offline_writer.py",
+        "error": "invalid syntax. Perhaps you forgot a comma? (<unknown>, line 12)"
+      },
+      {
+        "file": "bin/orphan_cleanup.py",
+        "error": "invalid syntax. Is this intended to be part of the string? (<unknown>, line 16)"
+      },
+      {
+        "file": "bin/query_agent.py",
+        "error": "invalid syntax. Perhaps you forgot a comma? (<unknown>, line 12)"
+      },
+      {
+        "file": "bin/thermal_v62_balanced.py",
+        "error": "invalid syntax. Perhaps you forgot a comma? (<unknown>, line 300)"
+      },
+      {
+        "file": "bin/vecquery.py",
+        "error": "invalid syntax. Perhaps you forgot a comma? (<unknown>, line 8)"
+      },
+      {
+        "file": "context_bridge/absorb_full_session.py",
+        "error": "invalid syntax (<unknown>, line 5)"
+      },
+      {
+        "file": "context_bridge/absorb_now.py",
+        "error": "invalid syntax (<unknown>, line 5)"
+      },
+      {
+        "file": "context_bridge/absorb_to_wisdom.py",
+        "error": "invalid syntax (<unknown>, line 5)"
+      },
+      {
+        "file": "context_bridge/openroot_state.py",
+        "error": "invalid syntax. Perhaps you forgot a comma? (<unknown>, line 11)"
+      },
+      {
+        "file": "lattice/meta_mesh_engine.py",
+        "error": "invalid syntax. Is this intended to be part of the string? (<unknown>, line 17)"
+      },
+      {
+        "file": "ledger/cpu_joules.py",
+        "error": "invalid syntax (<unknown>, line 5)"
+      },
+      {
+        "file": "ledger/merkle_joule_ledger.py",
+        "error": "invalid syntax. Perhaps you forgot a comma? (<unknown>, line 12)"
+      },
+      {
+        "file": "ledger/state_and_viz.py",
+        "error": "invalid syntax (<unknown>, line 6)"
+      },
+      {
+        "file": "ledger/thermo_ledger.py",
+        "error": "invalid syntax (<unknown>, line 4)"
+      },
+      {
+        "file": "ledger/thermo_ledger_sqlite.py",
+        "error": "invalid syntax (<unknown>, line 5)"
       },
       {
         "file": "library/kai-sandbox/github-repos/OpenCell-Thermal-System/1_code/src/pdf-comp.py",
@@ -286,14 +396,14 @@
     "has_gitignore": true,
     "has_license": true,
     "has_requirements": false,
-    "commit_hash": "bce6939"
+    "commit_hash": "99160ec"
   },
   {
     "name": "openroot-spoke-template",
     "path": "/data/data/com.termux/files/home/une/meta_hub/openroot-spoke-template",
-    "analyzed_at": "2026-08-05T00:37:39.126111",
-    "files_total": 13,
-    "python_files": 3,
+    "analyzed_at": "2026-08-05T00:54:45.936749",
+    "files_total": 14,
+    "python_files": 4,
     "syntax_errors": [],
     "tests_pass": null,
     "missing_standard_files": [
@@ -307,14 +417,14 @@
     "has_gitignore": true,
     "has_license": true,
     "has_requirements": false,
-    "commit_hash": "0615207"
+    "commit_hash": "6b84619"
   },
   {
     "name": "renaissance-protocol",
     "path": "/data/data/com.termux/files/home/une/meta_hub/renaissance-protocol",
-    "analyzed_at": "2026-08-05T00:37:40.532903",
-    "files_total": 57,
-    "python_files": 8,
+    "analyzed_at": "2026-08-05T00:54:47.428202",
+    "files_total": 58,
+    "python_files": 9,
     "syntax_errors": [
       {
         "file": "src/log_temp.py",
@@ -333,14 +443,14 @@
     "has_gitignore": true,
     "has_license": true,
     "has_requirements": false,
-    "commit_hash": "515ba33"
+    "commit_hash": "e2cc123"
   },
   {
     "name": "skills-introduction-to-github",
     "path": "/data/data/com.termux/files/home/une/meta_hub/skills-introduction-to-github",
-    "analyzed_at": "2026-08-05T00:37:41.155459",
-    "files_total": 28,
-    "python_files": 3,
+    "analyzed_at": "2026-08-05T00:54:48.093159",
+    "files_total": 29,
+    "python_files": 4,
     "syntax_errors": [],
     "tests_pass": null,
     "missing_standard_files": [
@@ -354,26 +464,118 @@
     "has_gitignore": true,
     "has_license": true,
     "has_requirements": false,
-    "commit_hash": "3e6c6be"
+    "commit_hash": "016be43"
   },
   {
     "name": "une",
     "path": "/data/data/com.termux/files/home/une/meta_hub/une",
-    "analyzed_at": "2026-08-05T00:37:42.502883",
-    "files_total": 162,
-    "python_files": 106,
+    "analyzed_at": "2026-08-05T00:54:49.404677",
+    "files_total": 163,
+    "python_files": 107,
     "syntax_errors": [
+      {
+        "file": "absorb_batch.py",
+        "error": "invalid syntax. Is this intended to be part of the string? (<unknown>, line 90)"
+      },
+      {
+        "file": "alchemy_transmute.py",
+        "error": "invalid syntax. Perhaps you forgot a comma? (<unknown>, line 115)"
+      },
+      {
+        "file": "apply_all.py",
+        "error": "invalid syntax. Perhaps you forgot a comma? (<unknown>, line 77)"
+      },
+      {
+        "file": "build_final.py",
+        "error": "invalid syntax. Perhaps you forgot a comma? (<unknown>, line 7)"
+      },
+      {
+        "file": "bulk_migrate.py",
+        "error": "invalid syntax. Perhaps you forgot a comma? (<unknown>, line 6)"
+      },
+      {
+        "file": "cleanup_final.py",
+        "error": "invalid syntax. Perhaps you forgot a comma? (<unknown>, line 6)"
+      },
       {
         "file": "create_scripture_corpus.py",
         "error": "'{' was never closed (<unknown>, line 1039)"
       },
       {
-        "file": "repair_imports.py",
-        "error": "invalid syntax (<unknown>, line 132)"
+        "file": "evolution_engine.py",
+        "error": "invalid syntax. Is this intended to be part of the string? (<unknown>, line 9)"
       },
       {
-        "file": "computational_flow/agape_engine.py",
-        "error": "unexpected character after line continuation character (<unknown>, line 23)"
+        "file": "final_fix.py",
+        "error": "invalid syntax. Perhaps you forgot a comma? (<unknown>, line 6)"
+      },
+      {
+        "file": "fix_all_issues.py",
+        "error": "invalid syntax. Perhaps you forgot a comma? (<unknown>, line 6)"
+      },
+      {
+        "file": "fix_round2.py",
+        "error": "invalid syntax. Perhaps you forgot a comma? (<unknown>, line 6)"
+      },
+      {
+        "file": "guardian.py",
+        "error": "invalid syntax. Is this intended to be part of the string? (<unknown>, line 21)"
+      },
+      {
+        "file": "guardian_v4.py",
+        "error": "invalid syntax. Is this intended to be part of the string? (<unknown>, line 12)"
+      },
+      {
+        "file": "kernel_init.py",
+        "error": "invalid syntax. Is this intended to be part of the string? (<unknown>, line 10)"
+      },
+      {
+        "file": "last_fix.py",
+        "error": "invalid syntax. Perhaps you forgot a comma? (<unknown>, line 6)"
+      },
+      {
+        "file": "note.py",
+        "error": "invalid syntax. Is this intended to be part of the string? (<unknown>, line 6)"
+      },
+      {
+        "file": "repair_imports.py",
+        "error": "invalid syntax. Perhaps you forgot a comma? (<unknown>, line 6)"
+      },
+      {
+        "file": "self_clone.py",
+        "error": "invalid syntax (<unknown>, line 10)"
+      },
+      {
+        "file": "snapshot.py",
+        "error": "invalid syntax. Perhaps you forgot a comma? (<unknown>, line 15)"
+      },
+      {
+        "file": "swarm_query.py",
+        "error": "invalid syntax (<unknown>, line 31)"
+      },
+      {
+        "file": "ultimate_fix.py",
+        "error": "invalid syntax. Perhaps you forgot a comma? (<unknown>, line 6)"
+      },
+      {
+        "file": "wire_core.py",
+        "error": "invalid syntax. Perhaps you forgot a comma? (<unknown>, line 13)"
+      },
+      {
+        "file": "computational_flow/atomic_scan.py",
+        "error": "invalid syntax. Perhaps you forgot a comma? (<unknown>, line 17)"
+      },
+      {
+        "file": "computational_flow/extract_seed.py",
+        "error": "invalid syntax. Perhaps you forgot a comma? (<unknown>, line 41)"
+      },
+      {
+        "file": "computational_flow/fs_hook.py",
+        "error": "invalid syntax. Perhaps you forgot a comma? (<unknown>, line 14)"
+      },
+      {
+        "file": "computational_flow/push_proof.py",
+        "error": "invalid syntax (<unknown>, line 17)"
       },
       {
         "file": "tools/stream_of_thought.py",
@@ -392,15 +594,24 @@
     "has_gitignore": true,
     "has_license": true,
     "has_requirements": false,
-    "commit_hash": "0a84b7d"
+    "commit_hash": "640be77"
   },
   {
     "name": "wisdom-scaffold",
     "path": "/data/data/com.termux/files/home/une/meta_hub/wisdom-scaffold",
-    "analyzed_at": "2026-08-05T00:37:44.451223",
-    "files_total": 22,
-    "python_files": 6,
-    "syntax_errors": [],
+    "analyzed_at": "2026-08-05T00:54:51.752860",
+    "files_total": 23,
+    "python_files": 7,
+    "syntax_errors": [
+      {
+        "file": "computational_flow/fusion_core.py",
+        "error": "invalid syntax. Is this intended to be part of the string? (<unknown>, line 58)"
+      },
+      {
+        "file": "computational_flow/fusion_sensor_wrapper.py",
+        "error": "invalid syntax. Perhaps you forgot a comma? (<unknown>, line 43)"
+      }
+    ],
     "tests_pass": null,
     "missing_standard_files": [
       "requirements.txt"
@@ -413,6 +624,6 @@
     "has_gitignore": true,
     "has_license": true,
     "has_requirements": false,
-    "commit_hash": "463daab"
+    "commit_hash": "0c86cc8"
   }
 ]
