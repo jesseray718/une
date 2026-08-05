@@ -1,5 +1,5 @@
 import os,sys,math,json
-UNE_ROOT=os.environ.get('UNE_ROOT','/data/data/com.termux/files/home/une')
+UNE_ROOT=os.environ.get('UNE_ROOT','os.path.expanduser("~") + "/"une')
 sys.path.insert(0,os.path.join(UNE_ROOT,'src'))
 from permaculture_map import PERMACULTURE_PRINCIPLES
 from une.axioms import check_function

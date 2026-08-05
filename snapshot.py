@@ -6,15 +6,15 @@ Captures full system state for context transfer between chat windows.
 Run this before leaving a session or after making changes.
 
 Usage: python3 snapshot.py
-Output: /sdcard/openroot/session_snapshot.json
+Output: os.environ.get("OPENROOT_BASE", "/sdcard/openroot") + "/"session_snapshot.json
 """
 import os, sys, json, subprocess, hashlib
 from datetime import datetime
 from pathlib import Path
 
-BASE = Path("/data/data/com.termux/files/home/une")
-CB = "/sdcard/openroot/context_bridge/immortal_context_merged.json"
-SNAPSHOT_PATH = "/sdcard/openroot/session_snapshot.json"
+BASE = Path("os.path.expanduser("~") + "/"une")
+CB = "os.environ.get("OPENROOT_BASE", "/sdcard/openroot") + "/"context_bridge/immortal_context_merged.json"
+SNAPSHOT_PATH = "os.environ.get("OPENROOT_BASE", "/sdcard/openroot") + "/"session_snapshot.json"
 
 def run(cmd):
     try:
@@ -63,9 +63,9 @@ snapshot = {
     "device": "Samsung SM-A156U (Galaxy A15)",
     "environment": {
         "termux_python": run("python3 --version"),
-        "git_branch": run("cd /data/data/com.termux/files/home/une && git branch --show-current"),
-        "git_status": run("cd /data/data/com.termux/files/home/une && git status --porcelain"),
-        "guardian_running": os.path.exists("/data/data/com.termux/files/home/une/.guardian_pid"),
+        "git_branch": run("cd os.path.expanduser("~") + "/"une && git branch --show-current"),
+        "git_status": run("cd os.path.expanduser("~") + "/"une && git status --porcelain"),
+        "guardian_running": os.path.exists("os.path.expanduser("~") + "/"une/.guardian_pid"),
     },
     "file_hashes": file_hashes(BASE),
     "context_bridge": {
@@ -75,8 +75,8 @@ snapshot = {
         "guardian_events": len(guardian_events),
         "recent_guardian": [{"type": g.get("event_type", g.get("type")), "details": g.get("details", "")[:80]} for g in guardian_events[-5:]],
     },
-    "smoke_test": run("cd /data/data/com.termux/files/home/une && python3 tests/test_smoke.py 2>&1"),
-    "pipeline_status": run("cd /data/data/com.termux/files/home/une && python3 core_atomic.py pipeline 2>&1")[-500:],
+    "smoke_test": run("cd os.path.expanduser("~") + "/"une && python3 tests/test_smoke.py 2>&1"),
+    "pipeline_status": run("cd os.path.expanduser("~") + "/"une && python3 core_atomic.py pipeline 2>&1")[-500:],
     "known_issues": [
         "bulk_migrate.py may have corrupted imports in some files",
         "core_atomic.py restored to clean v2.0",
@@ -88,8 +88,8 @@ snapshot = {
         "Read this file first to understand current state.",
         "Run: python3 tests/test_smoke.py (verify 5/5 pass)",
         "Run: python3 core_atomic.py pipeline (verify 100% eta)",
-        "Check: cat /sdcard/openroot/notes.txt (for new ideas)",
-        "Check: tail -10 /sdcard/openroot/guardian_log.jsonl (for auto-heals)",
+        "Check: cat os.environ.get("OPENROOT_BASE", "/sdcard/openroot") + "/"notes.txt (for new ideas)",
+        "Check: tail -10 os.environ.get("OPENROOT_BASE", "/sdcard/openroot") + "/"guardian_log.jsonl (for auto-heals)",
         "Any file with broken imports: add the Dynamic Paths block from paths.py",
         "Do NOT use regex to fix paths — it corrupts Python syntax.",
     ],

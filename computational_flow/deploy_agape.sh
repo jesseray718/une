@@ -6,7 +6,7 @@ echo "  AGAPE ENGINE DEPLOYMENT"
 echo "========================================="
 echo ""
 
-UNE_ROOT="/data/data/com.termux/files/home/une"
+UNE_ROOT="$HOME/une"
 
 cd "$UNE_ROOT" || exit 1
 
@@ -40,13 +40,13 @@ fi
 # 2. Init SD card knowledge base
 echo ""
 echo "[2/6] Initializing SD card knowledge base..."
-mkdir -p /sdcard/openroot/agape_kb
+mkdir -p ${OPENROOT_BASE:-/sdcard/openroot}/agape_kb
 python3 "$UNE_ROOT/computational_flow/agape_engine.py" "initialize" 2>/dev/null || true
-echo "  KB initialized at /sdcard/openroot/agape_kb/"
+echo "  KB initialized at ${OPENROOT_BASE:-/sdcard/openroot}/agape_kb/"
 
 # 3. Update context bridge
 echo ""
-echo "[3/6] Context bridge ready at /sdcard/openroot/context_bridge/agape_context_bridge.json"
+echo "[3/6] Context bridge ready at ${OPENROOT_BASE:-/sdcard/openroot}/context_bridge/agape_context_bridge.json"
 
 # 4. Git add and commit
 echo ""
@@ -92,12 +92,12 @@ echo "========================================="
 echo ""
 echo "  Thesis:   AGAPE_THESIS.md"
 echo "  Engine:   computational_flow/agape_engine.py"
-echo "  Bridge:   /sdcard/openroot/context_bridge/agape_context_bridge.json"
+echo "  Bridge:   ${OPENROOT_BASE:-/sdcard/openroot}/context_bridge/agape_context_bridge.json"
 echo ""
 echo "  To start the engine:"
 echo "    python3 $UNE_ROOT/computational_flow/agape_engine.py interactive"
 echo ""
 echo "  To share with another AI:"
-echo "    cat /sdcard/openroot/context_bridge/agape_context_bridge.json"
+echo "    cat ${OPENROOT_BASE:-/sdcard/openroot}/context_bridge/agape_context_bridge.json"
 echo "    (Paste into any AI conversation)"
 echo ""

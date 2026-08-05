@@ -1,4 +1,4 @@
-#!/data/data/com.termux/files/home/une/bin/python3
+#!os.path.expanduser("~") + "/"une/bin/python3
 """
 OpenRoot Deep Dive Scanner v3.0 - Full Systems Go
 Extracts: purpose, docstrings, imports, cross-references, connections.

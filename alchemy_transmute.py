@@ -112,5 +112,5 @@ print(f"  'Transmutation preserves all, frees the active, honors the past.'")
 print(f"\n=== NEXT STEP ===")
 print(f"The archive is safe. The active space is light.")
 print(f"You may now proceed with vector mapping on the KEPT files.")
-print(f"To restore later: tar -xzf {ARCHIVE_PATH} -C /sdcard/openroot/")
+print(f"To restore later: tar -xzf {ARCHIVE_PATH} -C os.environ.get("OPENROOT_BASE", "/sdcard/openroot") + "/"")
 

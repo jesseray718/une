@@ -7,9 +7,9 @@ Creates the "Day One" jumping-off point.
 import os, json, sys
 from datetime import datetime
 
-CB = "/sdcard/openroot/context_bridge/immortal_context_merged.json"
-WIKI_PATH = "/sdcard/openroot/wiki_ledger.md"
-STATE_FILE = "/sdcard/openroot/state_checkpoint.json"
+CB = "os.environ.get("OPENROOT_BASE", "/sdcard/openroot") + "/"context_bridge/immortal_context_merged.json"
+WIKI_PATH = "os.environ.get("OPENROOT_BASE", "/sdcard/openroot") + "/"wiki_ledger.md"
+STATE_FILE = "os.environ.get("OPENROOT_BASE", "/sdcard/openroot") + "/"state_checkpoint.json"
 
 def load_cb():
     if not os.path.exists(CB): return {"entries": []}

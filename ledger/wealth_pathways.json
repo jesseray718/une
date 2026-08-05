@@ -1,0 +1,60 @@
+{
+  "generated_at": "2026-08-05T15:41:35.179707+00:00",
+  "total_entries": 85,
+  "total_wealth_minted": 4545,
+  "pathways": {
+    "Consensus Mechanism": {
+      "count": 17,
+      "total_wealth": 170,
+      "lessons": [
+        "Divergent paths require negotiation, not force."
+      ]
+    },
+    "Open Governance DAO": {
+      "count": 17,
+      "total_wealth": 170,
+      "lessons": [
+        "Governance = Service Protocol."
+      ]
+    },
+    "Decentralized Trust Network": {
+      "count": 17,
+      "total_wealth": 170,
+      "lessons": [
+        "Distribute control; trust math, not men."
+      ]
+    },
+    "Refined Algorithm": {
+      "count": 17,
+      "total_wealth": 170,
+      "lessons": [
+        "Precision in thought leads to precision in action."
+      ]
+    },
+    "Peace Dividend Calculator": {
+      "count": 17,
+      "total_wealth": 170,
+      "lessons": [
+        "Redirect energy to creation (Agape)."
+      ]
+    },
+    "Node Agape Cooperation": {
+      "count": 20,
+      "total_wealth": 200,
+      "lessons": [
+        "All 20 nodes now carry the Agape Offline-First core and merger proposal.",
+        "Cooperation is recorded and reinforced, not assumed.",
+        "R is the single measure of cooperation between nodes.",
+        "When R \u2192 1.0, coordination cost across the entire network collapses to zero."
+      ]
+    },
+    "Synergy:modular_ensemble": {
+      "count": 1,
+      "total_wealth": 95,
+      "lessons": [
+        "At R=0.8515 the whole exceeds the sum of parts by 11.2237 (81.33%). Unpredictability index = 3.8008"
+      ]
+    }
+  },
+  "cooperation_reinforced": true
+}

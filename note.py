@@ -3,7 +3,7 @@
 import sys, json, os
 from datetime import datetime
 
-CB = "/sdcard/openroot/context_bridge/immortal_context_merged.json"
+CB = "os.environ.get("OPENROOT_BASE", "/sdcard/openroot") + "/"context_bridge/immortal_context_merged.json"
 
 # Load existing context
 existing = {"sources": [], "entries": []}

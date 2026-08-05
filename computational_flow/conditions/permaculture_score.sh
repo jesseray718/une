@@ -1,6 +1,6 @@
 #!/data/data/com.termux/files/usr/bin/sh
 # Computational only — no prompts, creates ledger if missing
-LEDGER="/data/data/com.termux/files/home/une/computational_flow/logs/sensor_ledger.jsonl"
+LEDGER="$HOME/une/computational_flow/logs/sensor_ledger.jsonl"
 HUMAN_J_PER_MIN=6000
 
 mkdir -p "$(dirname "$LEDGER")"

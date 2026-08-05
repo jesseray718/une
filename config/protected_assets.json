@@ -1,0 +1,11 @@
+{
+  "policy": "zero_deletions",
+  "assets": [
+    {
+      "name": "llama.cpp full offline mirror",
+      "path_pattern": "**/vendor_archive/sync-from-kai",
+      "action": "protect",
+      "notes": "Only version. No deletions. Full ggml + llama + Android + all backends."
+    }
+  ]
+}

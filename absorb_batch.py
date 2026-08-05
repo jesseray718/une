@@ -13,7 +13,7 @@ import sys
 import json
 import os
 import glob
-sys.path.insert(0, '/data/data/com.termux/files/home/une')
+sys.path.insert(0, 'os.path.expanduser("~") + "/"une')
 from universical_primes import interpret_prime
 from red_words_translator import translate_to_primes, calculate_alignment_score
 
@@ -87,4 +87,4 @@ for i, r in enumerate(results):
 # Save to file
 with open(os.path.join(OPENROOT, "tasks/batch_1_20_ranked.json"), "w") as f:
     json.dump(results, f, indent=2)
-print("Saved to: /sdcard/openroot/tasks/batch_1_20_ranked.json")
+print("Saved to: os.environ.get("OPENROOT_BASE", "/sdcard/openroot") + "/"tasks/batch_1_20_ranked.json")

@@ -1,5 +1,5 @@
 #!/bin/sh
-export UNE_ROOT=/data/data/com.termux/files/home/une
+export UNE_ROOT=$HOME/une
 python3 - <<'PY'
 import sys,os,importlib
 sys.path.insert(0,os.path.join(os.environ['UNE_ROOT'],'src'))

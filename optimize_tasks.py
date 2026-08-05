@@ -12,7 +12,7 @@ Goal: Prioritize files that align with "Love/Give" and deprioritize "Parasitic" 
 import json
 import os
 import sys
-sys.path.insert(0, '/data/data/com.termux/files/home/une')
+sys.path.insert(0, 'os.path.expanduser("~") + "/"une')
 from prime_mapper import SemanticPrimeEngine
 
 TASK_DIR = os.path.join(OPENROOT, "tasks")

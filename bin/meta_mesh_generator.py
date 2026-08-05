@@ -1,4 +1,4 @@
-#!/data/data/com.termux/files/home/une/bin/python3
+#!os.path.expanduser("~") + "/"une/bin/python3
 """
 META MESH GENERATOR v2.0 - 12 Atomic Functions
 12^6 = 2,985,984 nodes at Magnitude 6

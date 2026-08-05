@@ -1,0 +1,124 @@
+{
+  "timestamp": "2026-08-05T13:00:11.491116+00:00",
+  "R": 0.8367192244900703,
+  "repos_total": 20,
+  "repos_with_core": 20,
+  "repos_with_proposal": 20,
+  "modules": 8,
+  "module_names": [
+    "observe",
+    "interact",
+    "measure",
+    "regulate",
+    "transmute",
+    "replicate",
+    "agape",
+    "offline_engine"
+  ],
+  "science_extracts": 14,
+  "pathways": 5,
+  "total_wealth_minted": 850,
+  "llama_cpp_protected": "/data/data/com.termux/files/home/backups/openroot_20260726_0134/sync-from-kai",
+  "repos": [
+    {
+      "name": "AeroCement_Ecosystem",
+      "has_agape_core": true,
+      "has_merge_proposal": true
+    },
+    {
+      "name": "OpenCell-Thermal-System",
+      "has_agape_core": true,
+      "has_merge_proposal": true
+    },
+    {
+      "name": "aerocement",
+      "has_agape_core": true,
+      "has_merge_proposal": true
+    },
+    {
+      "name": "aerocement-",
+      "has_agape_core": true,
+      "has_merge_proposal": true
+    },
+    {
+      "name": "agape-coordination",
+      "has_agape_core": true,
+      "has_merge_proposal": true
+    },
+    {
+      "name": "agape-une",
+      "has_agape_core": true,
+      "has_merge_proposal": true
+    },
+    {
+      "name": "black-locust-rmh",
+      "has_agape_core": true,
+      "has_merge_proposal": true
+    },
+    {
+      "name": "civilization2.0",
+      "has_agape_core": true,
+      "has_merge_proposal": true
+    },
+    {
+      "name": "jesseray718",
+      "has_agape_core": true,
+      "has_merge_proposal": true
+    },
+    {
+      "name": "kai-memory",
+      "has_agape_core": true,
+      "has_merge_proposal": true
+    },
+    {
+      "name": "kai9000",
+      "has_agape_core": true,
+      "has_merge_proposal": true
+    },
+    {
+      "name": "markor",
+      "has_agape_core": true,
+      "has_merge_proposal": true
+    },
+    {
+      "name": "open-cell-thermal-loop",
+      "has_agape_core": true,
+      "has_merge_proposal": true
+    },
+    {
+      "name": "open-cell-thermal-open-cell-the",
+      "has_agape_core": true,
+      "has_merge_proposal": true
+    },
+    {
+      "name": "openroot",
+      "has_agape_core": true,
+      "has_merge_proposal": true
+    },
+    {
+      "name": "openroot-spoke-template",
+      "has_agape_core": true,
+      "has_merge_proposal": true
+    },
+    {
+      "name": "renaissance-protocol",
+      "has_agape_core": true,
+      "has_merge_proposal": true
+    },
+    {
+      "name": "skills-introduction-to-github",
+      "has_agape_core": true,
+      "has_merge_proposal": true
+    },
+    {
+      "name": "une",
+      "has_agape_core": true,
+      "has_merge_proposal": true
+    },
+    {
+      "name": "wisdom-scaffold",
+      "has_agape_core": true,
+      "has_merge_proposal": true
+    }
+  ]
+}

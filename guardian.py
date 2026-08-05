@@ -11,18 +11,18 @@ Mechanism:
 4. LEARN: Logs the event and the fix to the Immortal Context Bridge.
 5. ADAPT: Updates its own pattern library to prevent recurrence.
 
-Run via cron: */5 * * * * python3 /data/data/com.termux/files/home/une/guardian.py
+Run via cron: */5 * * * * python3 os.path.expanduser("~") + "/"une/guardian.py
 Or manually: python3 guardian.py
 """
 import os, sys, json, re, subprocess, time
 from datetime import datetime
 
 # Paths
-CB_PATH = "/sdcard/openroot/context_bridge/immortal_context_merged.json"
-LOG_FILE = "/sdcard/openroot/ledger.jsonl"
-NOTES_FILE = "/sdcard/openroot/notes.txt"
-GUARDIAN_LOG = "/sdcard/openroot/guardian_log.jsonl"
-PATTERN_DB = "/sdcard/openroot/guardian_patterns.json"
+CB_PATH = "os.environ.get("OPENROOT_BASE", "/sdcard/openroot") + "/"context_bridge/immortal_context_merged.json"
+LOG_FILE = "os.environ.get("OPENROOT_BASE", "/sdcard/openroot") + "/"ledger.jsonl"
+NOTES_FILE = "os.environ.get("OPENROOT_BASE", "/sdcard/openroot") + "/"notes.txt"
+GUARDIAN_LOG = "os.environ.get("OPENROOT_BASE", "/sdcard/openroot") + "/"guardian_log.jsonl"
+PATTERN_DB = "os.environ.get("OPENROOT_BASE", "/sdcard/openroot") + "/"guardian_patterns.json"
 
 # Stress Signals (Keywords that trigger antifragile response)
 STRESS_KEYWORDS = [

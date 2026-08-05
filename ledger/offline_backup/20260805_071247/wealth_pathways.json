@@ -1,0 +1,42 @@
+{
+  "generated_at": "2026-08-05T12:12:17.343874+00:00",
+  "total_entries": 10,
+  "total_wealth_minted": 100,
+  "pathways": {
+    "Consensus Mechanism": {
+      "count": 2,
+      "total_wealth": 20,
+      "lessons": [
+        "Divergent paths require negotiation, not force."
+      ]
+    },
+    "Open Governance DAO": {
+      "count": 2,
+      "total_wealth": 20,
+      "lessons": [
+        "Governance = Service Protocol."
+      ]
+    },
+    "Decentralized Trust Network": {
+      "count": 2,
+      "total_wealth": 20,
+      "lessons": [
+        "Distribute control; trust math, not men."
+      ]
+    },
+    "Refined Algorithm": {
+      "count": 2,
+      "total_wealth": 20,
+      "lessons": [
+        "Precision in thought leads to precision in action."
+      ]
+    },
+    "Peace Dividend Calculator": {
+      "count": 2,
+      "total_wealth": 20,
+      "lessons": [
+        "Redirect energy to creation (Agape)."
+      ]
+    }
+  }
+}

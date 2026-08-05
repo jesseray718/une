@@ -5,7 +5,7 @@
 
 set -euo pipefail
 
-UNE_ROOT="/data/data/com.termux/files/home/une"
+UNE_ROOT="$HOME/une"
 WISDOM_FILE="${UNE_ROOT}/wisdom/merged_corpus.json"
 CONTEXT_DIR="${UNE_ROOT}/context_bridge"
 LOGS_DIR="${UNE_ROOT}/logs"

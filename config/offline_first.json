@@ -1,0 +1,8 @@
+{
+  "policy": "offline_first",
+  "rule": "No tool may require network to perform its primary function. Network is optional post-processing only.",
+  "enforced": "2026-08-05",
+  "R_governs": true,
+  "zero_deletions": true,
+  "llama_cpp_mirror": "/data/data/com.termux/files/home/backups/openroot_20260726_0134/sync-from-kai"
+}

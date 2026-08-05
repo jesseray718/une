@@ -9,6 +9,7 @@ autonomous_daemon.log
 autonomous_report.json
 autonomous_snapshot.json
 autonomous_ledger.jsonl
+<<<<<<< HEAD
 
 # Python Cache
 __pycache__/
@@ -21,10 +22,18 @@ __pycache__/
 *.swp
 
 # Large Binaries
+=======
+__pycache__/
+*.pyc
+*.pyo
+>>>>>>> origin/main
 *.gguf
 *.bin
 *.pth
 *.pt
+<<<<<<< HEAD
 
 # Submodules (don't track their internals)
+=======
+>>>>>>> origin/main
 meta_hub/

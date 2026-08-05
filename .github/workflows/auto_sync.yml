@@ -1,0 +1,76 @@
+name: Agape Auto-Sync
+
+on:
+  push:
+    branches: [ main ]
+  schedule:
+    - cron: '0 */6 * * *'  # Every 6 hours
+
+jobs:
+  sync-agape-state:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Generate Repo Snapshot
+        run: |
+          python3 - << 'PYTHON_SCRIPT'
+import json, os, datetime
+from pathlib import Path
+from collections import defaultdict
+
+root = Path('.')
+files_by_ext = defaultdict(int)
+files_by_dir = defaultdict(int)
+total_bytes = 0
+file_count = 0
+
+for f in root.rglob('*'):
+    if f.is_file() and '.git' not in str(f):
+        rel_path = str(f.relative_to(root))
+        files_by_ext[f.suffix or '(noext)'] += 1
+        files_by_dir[str(f.parent.relative_to(root))] += 1
+        try:
+            total_bytes += f.stat().st_size
+            file_count += 1
+        except: pass
+
+snapshot = {
+    "generated_at": datetime.datetime.utcnow().isoformat() + "Z",
+    "trigger": "github_actions",
+    "file_count": file_count,
+    "total_bytes": total_bytes,
+    "by_extension": dict(sorted(files_by_ext.items())),
+    "top_directories": dict(sorted(files_by_dir.items(), key=lambda x: -x[1])[:10])
+}
+
+with open('snapshot.json', 'w') as f:
+    json.dump(snapshot, f, indent=2)
+
+print(f"✅ Snapshot: {file_count} files, {total_bytes:,} bytes")
+PYTHON_SCRIPT
+
+      - name: Commit and Push Snapshot
+        run: |
+          git config --global user.name 'Agape Bot'
+          git config --global user.email 'agape-bot@users.noreply.github.com'
+          git add snapshot.json
+          git diff-index --quiet HEAD || git commit -m "chore: auto-sync snapshot [skip ci]"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Log Progress to File
+        run: |
+          echo "[$(date -u +%Y-%m-%dT%H:%M:%SZ)] Auto-sync completed by GitHub Actions" >> progress_log.md
+          git add progress_log.md
+          git diff-index --quiet HEAD || git commit -m "docs: update progress log [skip ci]"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
