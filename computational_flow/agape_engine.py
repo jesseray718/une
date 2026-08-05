@@ -20,7 +20,8 @@ except ImportError:
     POSTULATE_PATH = os.path.join(_BASE, "postulates.json")
     STATE_PATH = os.path.join(_BASE, "state.json")
 # === END DYNAMIC PATHS ===
-\n#!/data/data/com.termux/files/usr/bin/env python3
+
+#!/data/data/com.termux/files/usr/bin/env python3
 """
 Agape Engine v1.0 — fractal base-6 swarm, resonance=1.0 zero-coordination, 
 11 permaculture If-Then-Root routers, Newton Chain, offline A15 native.

@@ -16,7 +16,7 @@ from datetime import datetime
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--output', default='/sdcard/openroot/session_seeds/current_seed.json')
+    parser.add_argument('--output', default='os.environ.get("OPENROOT_BASE", "/sdcard/openroot") + "/"session_seeds/current_seed.json')
     args = parser.parse_args()
 
     seed = {
@@ -38,7 +38,7 @@ def main():
 
     # 2. Capture Git Diff (changes made since last commit)
     try:
-        result = subprocess.run(["git", "diff"], capture_output=True, text=True, cwd="/data/data/com.termux/files/home/une")
+        result = subprocess.run(["git", "diff"], capture_output=True, text=True, cwd="os.path.expanduser("~") + "/"une")
         seed["git_diff"] = result.stdout[:5000] # Limit size
     except:
         seed["git_diff"] = "Git not initialized or error."

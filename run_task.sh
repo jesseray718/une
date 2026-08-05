@@ -3,8 +3,8 @@
 # Usage: ./run_task.sh [task_number]
 
 TASK_NUM=${1:-1}
-TASK_DIR="/sdcard/openroot/tasks"
-DUMP_DIR="/sdcard/openroot/dump/chunks"
+TASK_DIR="${OPENROOT_BASE:-/sdcard/openroot}/tasks"
+DUMP_DIR="${OPENROOT_BASE:-/sdcard/openroot}/dump/chunks"
 INDEX_FILE="$TASK_DIR/.file_index"
 STATE_FILE="$TASK_DIR/engine_state.json"
 MANIFEST="$TASK_DIR/full_manifest.json"

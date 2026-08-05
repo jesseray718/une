@@ -3,8 +3,8 @@
 import os, sys, json, subprocess
 from pathlib import Path
 
-BASE = Path("/data/data/com.termux/files/home/une")
-CB_DIR = Path("/sdcard/openroot/context_bridge")
+BASE = Path("os.path.expanduser("~") + "/"une")
+CB_DIR = Path("os.environ.get("OPENROOT_BASE", "/sdcard/openroot") + "/"context_bridge")
 
 print("🧹 FINAL CLEANUP...")
 

@@ -1,4 +1,4 @@
-#!/data/data/com.termux/files/home/une/bin/python3
+#!os.path.expanduser("~") + "/"une/bin/python3
 """
 AGAPE PROTOCOL v1.0
 Universal Nomenclature Derived From Agape

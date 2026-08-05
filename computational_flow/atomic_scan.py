@@ -14,7 +14,7 @@ import os, sys, json, re
 from datetime import datetime
 
 REPO_PATHS = [
-    "/data/data/com.termux/files/home/une",
+    "os.path.expanduser("~") + "/"une",
     os.path.join(OPENROOT, "github_clone_temp/une"),
     os.path.join(OPENROOT, "github_clone_temp/openroot")
 ]

@@ -28,7 +28,7 @@ import json, os, sys, math, time, argparse, subprocess
 from datetime import datetime
 
 VECTOR_MAP = os.path.join(OPENROOT, "vectors/atomic_vector_map.jsonl")
-SWARM_CFG = "/data/data/com.termux/files/home/.governor/swarm-config.json"
+SWARM_CFG = "os.path.expanduser("~") + "/".governor/swarm-config.json"
 OUTPUT_DIR = os.path.join(OPENROOT, "vectors")
 
 # ============================================================

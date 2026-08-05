@@ -14,7 +14,7 @@ import os, json, subprocess, requests
 from datetime import datetime, timezone
 
 LOG_FILE = os.path.join(OPENROOT, "session_seeds/fractal_server_log.jsonl")
-REPO_PATH = "/data/data/com.termux/files/home/.projects/openroot"
+REPO_PATH = "os.path.expanduser("~") + "/".projects/openroot"
 README_PATH = os.path.join(REPO_PATH, "README.md")
 
 def get_latest_result():

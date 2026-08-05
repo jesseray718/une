@@ -10,7 +10,7 @@ except ImportError:
     OPENROOT = os.environ.get("OPENROOT_HOME", "/sdcard/openroot")
     UNE_HOME = os.environ.get("UNE_HOME", os.path.expanduser("~/une"))
 
-BASE = Path("/data/data/com.termux/files/home/une")
+BASE = Path("os.path.expanduser("~") + "/"une")
 TARGET = BASE / "core_atomic.py"
 CF = BASE / "computational_flow"
 

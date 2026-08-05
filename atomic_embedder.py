@@ -8,7 +8,7 @@ except ImportError:
 
 Atomic Embedder: The Joule-Native Vector Map
 Uses core_atomic.py (f1-f11) to embed files while measuring physical cost.
-Outputs: /sdcard/openroot/vectors/atomic_vector_map.jsonl
+Outputs: os.environ.get("OPENROOT_BASE", "/sdcard/openroot") + "/"vectors/atomic_vector_map.jsonl
 """
 import json
 import os

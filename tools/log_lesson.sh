@@ -8,5 +8,5 @@ if [ $# -ne 4 ]; then
     exit 1
 fi
 
-python3 /data/data/com.termux/files/home/une/wisdom/wisdom_query.py \
+python3 $HOME/une/wisdom/wisdom_query.py \
     --add-lesson "$1" "$2" "$3" "$4"

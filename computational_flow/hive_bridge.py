@@ -79,7 +79,7 @@ def record_dividend(hash_value: str, note: str = ""):
     print(f"Dividend recorded for hash {hash_value} → {len(people)} people")
 
 import sys as _sys
-_sys.path.insert(0, '/data/data/com.termux/files/home/une/bin')
+_sys.path.insert(0, 'os.path.expanduser("~") + "/"une/bin')
 try:
     from energy_probe import snapshot as _esnap
 except:

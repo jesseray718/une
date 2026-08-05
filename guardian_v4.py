@@ -9,10 +9,10 @@ import os, sys, json, re, subprocess
 from datetime import datetime
 
 # Paths
-CB_PATH = "/sdcard/openroot/context_bridge/immortal_context_merged.json"
-NOTES_FILE = "/sdcard/openroot/notes.txt"
-PATCH_DIR = "/sdcard/openroot/patches"
-GUARDIAN_LOG = "/sdcard/openroot/guardian_log.jsonl"
+CB_PATH = "os.environ.get("OPENROOT_BASE", "/sdcard/openroot") + "/"context_bridge/immortal_context_merged.json"
+NOTES_FILE = "os.environ.get("OPENROOT_BASE", "/sdcard/openroot") + "/"notes.txt"
+PATCH_DIR = "os.environ.get("OPENROOT_BASE", "/sdcard/openroot") + "/"patches"
+GUARDIAN_LOG = "os.environ.get("OPENROOT_BASE", "/sdcard/openroot") + "/"guardian_log.jsonl"
 
 os.makedirs(PATCH_DIR, exist_ok=True)
 

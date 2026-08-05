@@ -4,7 +4,7 @@ echo "║   OPENROOT SESSION RESUME               ║"
 echo "╚══════════════════════════════════════════╝"
 echo ""
 echo "=== SNAPSHOT TIME ==="
-python3 -c "import json; s=json.load(open('/sdcard/openroot/session_snapshot.json')); print(s['snapshot_time'])" 2>/dev/null || echo "No snapshot found"
+python3 -c "import json; s=json.load(open('${OPENROOT_BASE:-/sdcard/openroot}/session_snapshot.json')); print(s['snapshot_time'])" 2>/dev/null || echo "No snapshot found"
 
 echo ""
 echo "=== GIT STATUS ==="
@@ -29,11 +29,11 @@ fi
 
 echo ""
 echo "=== RECENT NOTES ==="
-tail -5 /sdcard/openroot/notes.txt 2>/dev/null || echo "No notes"
+tail -5 ${OPENROOT_BASE:-/sdcard/openroot}/notes.txt 2>/dev/null || echo "No notes"
 
 echo ""
 echo "=== RECENT GUARDIAN HEALS ==="
-tail -3 /sdcard/openroot/guardian_log.jsonl 2>/dev/null | python3 -c "
+tail -3 ${OPENROOT_BASE:-/sdcard/openroot}/guardian_log.jsonl 2>/dev/null | python3 -c "
 import sys, json
 for line in sys.stdin:
     try:
@@ -48,4 +48,4 @@ cd ~/une && python3 core_atomic.py pipeline 2>&1 | tail -5
 
 echo ""
 echo "=== FULL SNAPSHOT (paste to new Lumo window) ==="
-cat /sdcard/openroot/session_snapshot.json 2>/dev/null | head -100
+cat ${OPENROOT_BASE:-/sdcard/openroot}/session_snapshot.json 2>/dev/null | head -100

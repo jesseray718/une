@@ -3,7 +3,7 @@
 import os, sys, re, json, subprocess, shutil
 from pathlib import Path
 
-BASE = Path("/data/data/com.termux/files/home/une")
+BASE = Path("os.path.expanduser("~") + "/"une")
 CF = BASE / "computational_flow"
 HOOKS = CF.parent / ".git" / "hooks"
 
@@ -131,7 +131,7 @@ for f in $FILES; do
         echo "❌ BLOCKED: Heredoc artifact in $f"
         BAD=1
     fi
-    if grep -q "/data/data/com.termux/files/home/une" "$f" && ! grep -q "OPENROOT_HOME" "$f"; then
+    if grep -q "os.path.expanduser("~") + "/"une" "$f" && ! grep -q "OPENROOT_HOME" "$f"; then
         echo "❌ BLOCKED: Hardcoded path in $f"
         BAD=1
     fi

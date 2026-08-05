@@ -3,8 +3,8 @@
 import os, sys, re, json, subprocess
 from pathlib import Path
 
-BASE = Path("/data/data/com.termux/files/home/une")
-CB_DIR = Path("/sdcard/openroot/context_bridge")
+BASE = Path("os.path.expanduser("~") + "/"une")
+CB_DIR = Path("os.environ.get("OPENROOT_BASE", "/sdcard/openroot") + "/"context_bridge")
 CB_DIR.mkdir(parents=True, exist_ok=True)
 
 print("🔧 Fixing all Structure Enforcer violations...")
@@ -18,7 +18,7 @@ if wisdom_dir.exists():
         
         # Replace hardcoded paths with dynamic ones
         content = re.sub(
-            r'/sdcard/openroot/',
+            r'os.environ.get("OPENROOT_BASE", "/sdcard/openroot") + "/"',
             'os.environ.get("OPENROOT_HOME", "/sdcard/openroot") + "/"',
             content
         )
@@ -97,8 +97,8 @@ content = core_file.read_text()
 if 'CB_DIR = os.path.dirname(CONTEXT_BRIDGE)' in content:
     # Replace with explicit path creation
     content = content.replace(
-        'cb_dir = os.path.dirname(CONTEXT_BRIDGE) if CONTEXT_BRIDGE else "/sdcard/openroot/context_bridge"',
-        'cb_dir = "/sdcard/openroot/context_bridge"'
+        'cb_dir = os.path.dirname(CONTEXT_BRIDGE) if CONTEXT_BRIDGE else "os.environ.get("OPENROOT_BASE", "/sdcard/openroot") + "/"context_bridge"',
+        'cb_dir = "os.environ.get("OPENROOT_BASE", "/sdcard/openroot") + "/"context_bridge"'
     )
     core_file.write_text(content)
     print("   ✅ Fixed context bridge path in core_atomic.py")

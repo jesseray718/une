@@ -3,7 +3,7 @@
 import os, sys, json, subprocess
 from pathlib import Path
 
-BASE = Path("/data/data/com.termux/files/home/une")
+BASE = Path("os.path.expanduser("~") + "/"une")
 
 print("🔧 FINAL FIX — Manual rewrites...")
 
@@ -170,7 +170,7 @@ if start_marker in content:
     from datetime import datetime
     
     # Absolute path, no variables
-    cb_dir = "/sdcard/openroot/context_bridge"
+    cb_dir = "os.environ.get("OPENROOT_BASE", "/sdcard/openroot") + "/"context_bridge"
     immortal_path = os.path.join(cb_dir, "immortal_context_merged.json")
     
     entry = {
@@ -227,7 +227,7 @@ print("\nSTRUCTURE ENFORCER (last 800 chars):")
 print(r3.stdout[-800:])
 
 # Context Bridge check
-cb_path = "/sdcard/openroot/context_bridge/immortal_context_merged.json"
+cb_path = "os.environ.get("OPENROOT_BASE", "/sdcard/openroot") + "/"context_bridge/immortal_context_merged.json"
 if os.path.exists(cb_path):
     with open(cb_path) as f:
         cb = json.loads(f.read())

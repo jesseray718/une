@@ -3,8 +3,8 @@
 # Principle: "Produce No Waste" (PM-06) - Consolidate fragmented context into one living thread.
 # Usage: ./window_absorber.sh
 
-SEED_DIR="/sdcard/openroot/sessions/seeds"
-MERGED_FILE="/sdcard/openroot/context_bridge/canonical_seed.json"
+SEED_DIR="${OPENROOT_BASE:-/sdcard/openroot}/sessions/seeds"
+MERGED_FILE="${OPENROOT_BASE:-/sdcard/openroot}/context_bridge/canonical_seed.json"
 TIMESTAMP=$(date +%Y%m%d_%H%M%S)
 
 echo "🌀 OpeningRoot Window Absorber v1.0"
@@ -63,13 +63,13 @@ if python3 -c "import json; data=json.load(open('$TEMP_MERGE')); print('Valid JS
     echo "✅ Canonical seed saved to: $MERGED_FILE"
     
     # Backup old context
-    if [ -f "/sdcard/openroot/context_bridge/context.json" ]; then
-        cp /sdcard/openroot/context_bridge/context.json "/sdcard/openroot/context_bridge/context.json.bak_$TIMESTAMP"
+    if [ -f "${OPENROOT_BASE:-/sdcard/openroot}/context_bridge/context.json" ]; then
+        cp ${OPENROOT_BASE:-/sdcard/openroot}/context_bridge/context.json "${OPENROOT_BASE:-/sdcard/openroot}/context_bridge/context.json.bak_$TIMESTAMP"
         echo "🔄 Old context backed up."
     fi
     
     # Copy merged to active context
-    cp "$MERGED_FILE" "/sdcard/openroot/context_bridge/context.json"
+    cp "$MERGED_FILE" "${OPENROOT_BASE:-/sdcard/openroot}/context_bridge/context.json"
     echo "✅ Active context updated."
     
     # Cleanup temp

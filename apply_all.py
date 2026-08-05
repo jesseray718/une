@@ -66,7 +66,7 @@ results = {
 print(json.dumps(results, indent=2))
 # Try to save to openroot, fallback to local dir
 try:
-    with open("/data/data/com.termux/files/home/openroot/rmh_results.json", "w") as f:
+    with open("os.path.expanduser("~") + "/"openroot/rmh_results.json", "w") as f:
         json.dump(results, f, indent=2)
 except:
     with open("rmh_results.json", "w") as f:
@@ -74,8 +74,8 @@ except:
 '''
 
 targets = [
-    "/data/data/com.termux/files/home/github/aerocement/rmh.py",
-    "/data/data/com.termux/files/home/aerocement/rmh.py"
+    "os.path.expanduser("~") + "/"github/aerocement/rmh.py",
+    "os.path.expanduser("~") + "/"aerocement/rmh.py"
 ]
 
 for t in targets:
@@ -87,7 +87,7 @@ for t in targets:
         print(f"⚠️  Missing: {t}")
 
 # 2. UPDATE SMOKE TEST TO INCLUDE CORE_FUNCTIONS
-test_file = Path("/data/data/com.termux/files/home/une/tests/test_smoke.py")
+test_file = Path("os.path.expanduser("~") + "/"une/tests/test_smoke.py")
 if test_file.exists():
     content = test_file.read_text()
     if "core_functions" not in content:
@@ -103,7 +103,7 @@ if test_file.exists():
 
 # 3. RUN FINAL VERIFICATION
 print("\n🧪 Running Final Verification...")
-result = subprocess.run([sys.executable, "tests/test_smoke.py"], cwd="/data/data/com.termux/files/home/une", capture_output=True, text=True)
+result = subprocess.run([sys.executable, "tests/test_smoke.py"], cwd="os.path.expanduser("~") + "/"une", capture_output=True, text=True)
 print(result.stdout)
 if result.returncode != 0:
     print(result.stderr)

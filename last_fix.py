@@ -3,7 +3,7 @@
 import os
 from pathlib import Path
 
-BASE = Path("/data/data/com.termux/files/home/une")
+BASE = Path("os.path.expanduser("~") + "/"une")
 
 # 1. FIX paths.py — add LEDGER and OPENROOT exports
 print("1. Fixing paths.py...")

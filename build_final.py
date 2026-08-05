@@ -4,7 +4,7 @@ import os, sys, json, subprocess, hashlib
 from pathlib import Path
 from datetime import datetime
 
-BASE = Path("/data/data/com.termux/files/home/une")
+BASE = Path("os.path.expanduser("~") + "/"une")
 CF = BASE / "computational_flow"
 
 # 1. CREATE structure_enforcer.py
@@ -36,9 +36,9 @@ HEREDOC_ARTIFACTS = [
     r'^<<\'', r"^<<\"", r'^EOF$', r'^PYEOF$', r'^READMEEOF$',
 ]
 HARDCODED_PATTERNS = [
-    '/data/data/com.termux/files/home/une/',
-    '/data/data/com.termux/files/home/openroot/',
-    '/sdcard/openroot/',
+    'os.path.expanduser("~") + "/"une/',
+    'os.path.expanduser("~") + "/"openroot/',
+    'os.environ.get("OPENROOT_BASE", "/sdcard/openroot") + "/"',
 ]
 JUNK_FILES = [
     '__pycache__', '.pyc', '.broken', '.bak', '.tmp',
@@ -178,7 +178,7 @@ content = core_file.read_text()
 INJECT_CODE = '''
 def _auto_inject_context(pipeline_results):
     """Auto-inject pipeline results into immortal context bridge."""
-    cb_dir = os.path.dirname(CONTEXT_BRIDGE) if CONTEXT_BRIDGE else "/sdcard/openroot/context_bridge"
+    cb_dir = os.path.dirname(CONTEXT_BRIDGE) if CONTEXT_BRIDGE else "os.environ.get("OPENROOT_BASE", "/sdcard/openroot") + "/"context_bridge"
     immortal_path = os.path.join(cb_dir, "immortal_context_merged.json")
     
     entry = {
@@ -265,7 +265,7 @@ print(r3.stdout[-1500:])
 if r3.stderr: print('STDERR:', r3.stderr[:300])
 
 # Verify context bridge was written
-cb_path = '/sdcard/openroot/context_bridge/immortal_context_merged.json'
+cb_path = 'os.environ.get("OPENROOT_BASE", "/sdcard/openroot") + "/"context_bridge/immortal_context_merged.json'
 if os.path.exists(cb_path):
     with open(cb_path) as f:
         cb = json.loads(f.read())

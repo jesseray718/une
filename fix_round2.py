@@ -3,7 +3,7 @@
 import os, sys, re, json, subprocess
 from pathlib import Path
 
-BASE = Path("/data/data/com.termux/files/home/une")
+BASE = Path("os.path.expanduser("~") + "/"une")
 
 print("🔧 ROUND 2 FIXES...")
 
@@ -182,11 +182,11 @@ if tools_dir.exists():
         original = content
         # Safe replacement that produces valid Python
         content = content.replace(
-            '/data/data/com.termux/files/home/une/',
+            'os.path.expanduser("~") + "/"une/',
             'os.environ.get("UNE_HOME", os.path.expanduser("~/une")) + "/"'
         )
         content = content.replace(
-            '/sdcard/openroot/',
+            'os.environ.get("OPENROOT_BASE", "/sdcard/openroot") + "/"',
             'os.environ.get("OPENROOT_HOME", "/sdcard/openroot") + "/"'
         )
         if 'os.environ' in content and 'import os' not in content.split('\n')[0]:
@@ -200,7 +200,7 @@ up_file = BASE / "universical_primes.py"
 if up_file.exists():
     content = up_file.read_text()
     content = content.replace(
-        '/sdcard/openroot/',
+        'os.environ.get("OPENROOT_BASE", "/sdcard/openroot") + "/"',
         'os.environ.get("OPENROOT_HOME", "/sdcard/openroot") + "/"'
     )
     if 'import os' not in content[:200]:
@@ -213,7 +213,7 @@ uf_file = BASE / "ultimate_fix.py"
 if uf_file.exists():
     content = uf_file.read_text()
     content = content.replace(
-        '"/data/data/com.termux/files/home/openroot/rmh_results.json"',
+        '"os.path.expanduser("~") + "/"openroot/rmh_results.json"',
         'os.environ.get("OPENROOT_HOME", "/sdcard/openroot") + "/rmh_results.json"'
     )
     uf_file.write_text(content)
@@ -229,7 +229,7 @@ old_end = content.find('# ======================================================
 if old_start != -1:
     new_func = '''def _auto_inject_context(pipeline_results):
     """Auto-inject pipeline results into immortal context bridge."""
-    cb_dir = "/sdcard/openroot/context_bridge"
+    cb_dir = "os.environ.get("OPENROOT_BASE", "/sdcard/openroot") + "/"context_bridge"
     immortal_path = os.path.join(cb_dir, "immortal_context_merged.json")
 
     entry = {
@@ -328,7 +328,7 @@ print("\\nSTRUCTURE ENFORCER (last 1000 chars):")
 print(r3.stdout[-1000:])
 
 # Context bridge check
-cb_path = "/sdcard/openroot/context_bridge/immortal_context_merged.json"
+cb_path = "os.environ.get("OPENROOT_BASE", "/sdcard/openroot") + "/"context_bridge/immortal_context_merged.json"
 if os.path.exists(cb_path):
     with open(cb_path) as f:
         cb = json.loads(f.read())

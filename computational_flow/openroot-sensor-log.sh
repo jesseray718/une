@@ -1,5 +1,5 @@
 #!/data/data/com.termux/files/usr/bin/bash
-LOGFILE="/sdcard/openroot/sensors/flow_temp_shaft.csv"
+LOGFILE="${OPENROOT_BASE:-/sdcard/openroot}/sensors/flow_temp_shaft.csv"
 mkdir -p "$(dirname "$LOGFILE")"
 
 echo "timestamp,air_flow_m3min,deltaT_hot_C,deltaT_cold_C,shaft_rpm,compute_eta" >> "$LOGFILE"
@@ -20,7 +20,7 @@ while true; do
     rpm=$(grep -oP '\d+' /dev/sensors/rpm 2>/dev/null || echo "120")
     
     # Compute eta (from absorber.py metrics)
-    eta=$(python3 -c "import json; c=json.load(open('/sdcard/openroot/context_bridge/context.json')); print(c.get('eta',0.42))" 2>/dev/null || echo "0.42")
+    eta=$(python3 -c "import json; c=json.load(open('${OPENROOT_BASE:-/sdcard/openroot}/context_bridge/context.json')); print(c.get('eta',0.42))" 2>/dev/null || echo "0.42")
     
     echo "$ts,$air_flow,$delta_hot,$delta_cold,$rpm,$eta" >> "$LOGFILE"
     sleep 10

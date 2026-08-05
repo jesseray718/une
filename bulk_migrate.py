@@ -3,7 +3,7 @@
 import os, re
 from pathlib import Path
 
-BASE = Path("/data/data/com.termux/files/home/une")
+BASE = Path("os.path.expanduser("~") + "/"une")
 IGNORE = {
     "setup_master.py", "ultimate_fix.py", "apply_all.py", "build_final.py",
     "fix_all_issues.py", "fix_round2.py", "final_fix.py", "cleanup_final.py",
@@ -12,24 +12,24 @@ IGNORE = {
 
 # Map hardcoded paths to variable names in paths.py
 PATH_MAP = {
-    "/sdcard/openroot/dump/chunks": "DUMP_DIR",
-    "/sdcard/openroot/context_bridge/context.json": "CONTEXT_BRIDGE",
-    "/sdcard/openroot/context_bridge/immortal_context.json": "IMMORTAL_CONTEXT",
-    "/sdcard/openroot/ledger.jsonl": "LEDGER",
-    "/sdcard/openroot/relay": "RELAY",
-    "/sdcard/openroot/storage": "STORAGE",
-    "/sdcard/openroot/lessons": "LESSONS",
-    "/sdcard/openroot/logs": "LOGS",
-    "/sdcard/openroot/bin": "BIN",
+    "os.environ.get("OPENROOT_BASE", "/sdcard/openroot") + "/"dump/chunks": "DUMP_DIR",
+    "os.environ.get("OPENROOT_BASE", "/sdcard/openroot") + "/"context_bridge/context.json": "CONTEXT_BRIDGE",
+    "os.environ.get("OPENROOT_BASE", "/sdcard/openroot") + "/"context_bridge/immortal_context.json": "IMMORTAL_CONTEXT",
+    "os.environ.get("OPENROOT_BASE", "/sdcard/openroot") + "/"ledger.jsonl": "LEDGER",
+    "os.environ.get("OPENROOT_BASE", "/sdcard/openroot") + "/"relay": "RELAY",
+    "os.environ.get("OPENROOT_BASE", "/sdcard/openroot") + "/"storage": "STORAGE",
+    "os.environ.get("OPENROOT_BASE", "/sdcard/openroot") + "/"lessons": "LESSONS",
+    "os.environ.get("OPENROOT_BASE", "/sdcard/openroot") + "/"logs": "LOGS",
+    "os.environ.get("OPENROOT_BASE", "/sdcard/openroot") + "/"bin": "BIN",
 }
 
 # Broader patterns to replace
 PATTERNS = [
-    # /sdcard/openroot/ anything -> OPENROOT + rest
-    (r'"(/sdcard/openroot/)([^"]*)"', r'os.path.join(OPENROOT, "\2")'),
-    # /data/data/com.termux/files/home/une/ anything -> UNE_HOME + rest
+    # os.environ.get("OPENROOT_BASE", "/sdcard/openroot") + "/" anything -> OPENROOT + rest
+    (r'"(os.environ.get("OPENROOT_BASE", "/sdcard/openroot") + "/")([^"]*)"', r'os.path.join(OPENROOT, "\2")'),
+    # os.path.expanduser("~") + "/"une/ anything -> UNE_HOME + rest
     (r'"(/data/data/com\.termux/files/home/une/)([^"]*)"', r'os.path.join(UNE_HOME, "\2")'),
-    # /data/data/com.termux/files/home/openroot/ -> OPENROOT
+    # os.path.expanduser("~") + "/"openroot/ -> OPENROOT
     (r'"(/data/data/com\.termux/files/home/openroot/)([^"]*)"', r'os.path.join(OPENROOT, "\2")'),
 ]
 

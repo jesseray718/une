@@ -7,8 +7,8 @@ Ensures the system never breaks its own running environment.
 import os, sys, shutil, subprocess, tempfile
 from datetime import datetime
 
-REPO_ROOT = "/data/data/com.termux/files/home/une"
-WORKSPACE = "/sdcard/openroot/temp_workspace"
+REPO_ROOT = "os.path.expanduser("~") + "/"une"
+WORKSPACE = "os.environ.get("OPENROOT_BASE", "/sdcard/openroot") + "/"temp_workspace"
 BRANCH_NAME = f"auto-update-{datetime.now().strftime('%Y%m%d-%H%M%S')}"
 
 def clone_and_setup():

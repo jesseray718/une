@@ -3,11 +3,11 @@
 # Runs forever in the background, scanning for stress every 60 seconds
 
 PYTHON=/data/data/com.termux/files/usr/bin/python3
-GUARDIAN=/data/data/com.termux/files/home/une/guardian_v4.py
-PIDFILE=/data/data/com.termux/files/home/une/.guardian_pid
-LOGFILE=/sdcard/openroot/logs/guardian_daemon.log
+GUARDIAN=$HOME/une/guardian_v4.py
+PIDFILE=$HOME/une/.guardian_pid
+LOGFILE=${OPENROOT_BASE:-/sdcard/openroot}/logs/guardian_daemon.log
 
-mkdir -p /sdcard/openroot/logs
+mkdir -p ${OPENROOT_BASE:-/sdcard/openroot}/logs
 
 # Check if already running
 if [ -f "$PIDFILE" ]; then
@@ -21,12 +21,12 @@ fi
 # Start the daemon loop
 nohup bash -c '
 while true; do
-    python3 /data/data/com.termux/files/home/une/guardian_v4.py 2>&1
+    python3 $HOME/une/guardian_v4.py 2>&1
     sleep 60
 done
-' > /sdcard/openroot/logs/guardian_daemon.log 2>&1 &
+' > ${OPENROOT_BASE:-/sdcard/openroot}/logs/guardian_daemon.log 2>&1 &
 
 echo $! > "$PIDFILE"
 echo "🛡️ Guardian daemon started (PID $(cat $PIDFILE))"
 echo "   Scanning every 60 seconds"
-echo "   Log: /sdcard/openroot/logs/guardian_daemon.log"
+echo "   Log: ${OPENROOT_BASE:-/sdcard/openroot}/logs/guardian_daemon.log"

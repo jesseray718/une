@@ -3,7 +3,7 @@
 import os, re, subprocess, sys
 from pathlib import Path
 
-BASE = Path("/data/data/com.termux/files/home/une")
+BASE = Path("os.path.expanduser("~") + "/"une")
 
 print("🔧 Repairing imports...")
 
@@ -135,7 +135,7 @@ SCRIPTcd ~/une && cat > ~/une/final_restore.py << 'SCRIPT' && python3 ~/une/fina
 import os, sys, subprocess, json
 from pathlib import Path
 
-BASE = Path("/data/data/com.termux/files/home/une")
+BASE = Path("os.path.expanduser("~") + "/"une")
 
 print("🔧 FINAL RESTORE — Undoing bulk migration damage...")
 
@@ -307,7 +307,7 @@ def f11_pattern_language():
 
 def _auto_inject_context(pipeline_results):
     """Auto-inject pipeline results into immortal context bridge."""
-    cb_dir = "/sdcard/openroot/context_bridge"
+    cb_dir = "os.environ.get("OPENROOT_BASE", "/sdcard/openroot") + "/"context_bridge"
     immortal_path = os.path.join(cb_dir, "immortal_context_merged.json")
     entry = {
         "type": "pipeline_run",
@@ -519,7 +519,7 @@ if critical:
         print(f"  ... and {len(critical)-5} more")
 
 # Context Bridge
-cb_path = "/sdcard/openroot/context_bridge/immortal_context_merged.json"
+cb_path = "os.environ.get("OPENROOT_BASE", "/sdcard/openroot") + "/"context_bridge/immortal_context_merged.json"
 if os.path.exists(cb_path):
     with open(cb_path) as f:
         cb = json.loads(f.read())
@@ -535,7 +535,7 @@ SCRIPTcd ~/une && cat > ~/une/final_restore.py << 'SCRIPT' && python3 ~/une/fina
 import os, sys, subprocess, json
 from pathlib import Path
 
-BASE = Path("/data/data/com.termux/files/home/une")
+BASE = Path("os.path.expanduser("~") + "/"une")
 
 print("🔧 FINAL RESTORE — Undoing bulk migration damage...")
 
@@ -707,7 +707,7 @@ def f11_pattern_language():
 
 def _auto_inject_context(pipeline_results):
     """Auto-inject pipeline results into immortal context bridge."""
-    cb_dir = "/sdcard/openroot/context_bridge"
+    cb_dir = "os.environ.get("OPENROOT_BASE", "/sdcard/openroot") + "/"context_bridge"
     immortal_path = os.path.join(cb_dir, "immortal_context_merged.json")
     entry = {
         "type": "pipeline_run",
@@ -919,7 +919,7 @@ if critical:
         print(f"  ... and {len(critical)-5} more")
 
 # Context Bridge
-cb_path = "/sdcard/openroot/context_bridge/immortal_context_merged.json"
+cb_path = "os.environ.get("OPENROOT_BASE", "/sdcard/openroot") + "/"context_bridge/immortal_context_merged.json"
 if os.path.exists(cb_path):
     with open(cb_path) as f:
         cb = json.loads(f.read())

@@ -17,7 +17,7 @@ import os, sys, json, subprocess, csv, time
 from pathlib import Path
 from datetime import datetime, timezone
 import sys as _sys
-_sys.path.insert(0, '/data/data/com.termux/files/home/une/bin')
+_sys.path.insert(0, 'os.path.expanduser("~") + "/"une/bin')
 try:
     from energy_probe import snapshot as _energy_snap, cost as _energy_cost
 except:

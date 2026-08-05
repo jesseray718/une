@@ -3,10 +3,10 @@
 # Principle: PM-09 (Small and Slow Solutions) + PM-01 (Observe Before Act)
 # Scans 161 files per task, maintains 100-task queue, outputs optimum next move.
 
-TASK_DIR="/sdcard/openroot/tasks"
+TASK_DIR="${OPENROOT_BASE:-/sdcard/openroot}/tasks"
 QUEUE_FILE="$TASK_DIR/task_queue.json"
 STATE_FILE="$TASK_DIR/engine_state.json"
-DUMP_DIR="/sdcard/openroot/dump/chunks"
+DUMP_DIR="${OPENROOT_BASE:-/sdcard/openroot}/dump/chunks"
 MANIFEST="$TASK_DIR/full_manifest.json"
 PER_SCAN=161
 MAX_TASKS=100

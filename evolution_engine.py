@@ -6,8 +6,8 @@ Uses self_clone.py for safe, isolated upgrades.
 import os, sys, json, subprocess
 from datetime import datetime
 
-STATE_FILE = "/sdcard/openroot/state_checkpoint.json"
-REPO_ROOT = "/data/data/com.termux/files/home/une"
+STATE_FILE = "os.environ.get("OPENROOT_BASE", "/sdcard/openroot") + "/"state_checkpoint.json"
+REPO_ROOT = "os.path.expanduser("~") + "/"une"
 
 def load_state():
     if not os.path.exists(STATE_FILE):

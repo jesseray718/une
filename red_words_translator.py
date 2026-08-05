@@ -8,7 +8,7 @@ import sys
 import json
 import re
 import math
-sys.path.insert(0, '/data/data/com.termux/files/home/une')
+sys.path.insert(0, 'os.path.expanduser("~") + "/"une')
 from universical_primes import interpret_prime, SYMBOL_MEANINGS, SEEDED_PRIMES, COOPERATION_FORMULA
 
 # ============================================================

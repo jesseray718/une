@@ -6,7 +6,7 @@
 
 START=${1:-4}
 END=${2:-472}
-TASK_DIR="/sdcard/openroot/tasks"
+TASK_DIR="${OPENROOT_BASE:-/sdcard/openroot}/tasks"
 STATE_FILE="$TASK_DIR/engine_state.json"
 
 echo "=== AUTO-RUNNER: Tasks $START to $END ==="

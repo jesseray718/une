@@ -1,7 +1,7 @@
 #!/data/data/com.termux/files/usr/bin/sh
-LEDGER="/data/data/com.termux/files/home/une/computational_flow/logs/sensor_ledger.jsonl"
-COND="/data/data/com.termux/files/home/une/computational_flow/conditions/sensor_conditions.md"
-POSS="/data/data/com.termux/files/home/une/computational_flow/conditions/possibilities.md"
+LEDGER="$HOME/une/computational_flow/logs/sensor_ledger.jsonl"
+COND="$HOME/une/computational_flow/conditions/sensor_conditions.md"
+POSS="$HOME/une/computational_flow/conditions/possibilities.md"
 
 if [ ! -f "$LEDGER" ]; then
   echo "No sensor ledger yet"

@@ -11,7 +11,7 @@ except ImportError:
     OPENROOT = os.environ.get("OPENROOT_HOME", "/sdcard/openroot")
     UNE_HOME = os.environ.get("UNE_HOME", os.path.expanduser("~/une"))
 
-UNE_ROOT = Path("/data/data/com.termux/files/home/une")
+UNE_ROOT = Path("os.path.expanduser("~") + "/"une")
 KB_PATH = Path(os.path.join(OPENROOT, "agape_kb/repo_snapshot.json"))
 
 def snapshot(root=UNE_ROOT):

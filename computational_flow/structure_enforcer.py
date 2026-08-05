@@ -24,9 +24,9 @@ HEREDOC_ARTIFACTS = [
     r'^<<\'', r"^<<\"", r'^EOF$', r'^PYEOF$', r'^READMEEOF$',
 ]
 HARDCODED_PATTERNS = [
-    '/data/data/com.termux/files/home/une/',
-    '/data/data/com.termux/files/home/openroot/',
-    '/sdcard/openroot/',
+    'os.path.expanduser("~") + "/"une/',
+    'os.path.expanduser("~") + "/"openroot/',
+    'os.environ.get("OPENROOT_BASE", "/sdcard/openroot") + "/"',
 ]
 JUNK_FILES = [
     '__pycache__', '.pyc', '.broken', '.bak', '.tmp',
