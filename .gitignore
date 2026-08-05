@@ -1,55 +1,30 @@
-# Auto-generated backups
-backups/
-*.bak
-*.tmp
-
-# Quarantined dead scripts
-quarantine/
-
-# Archived vendored code (not part of core OpenRoot)
+# Core Exclusions
 vendor_archive/
-
-# Mesh system files
-.autonomous_mesh_cache/
-.meshignore
-
-# Logs (keep in local storage, not git)
+quarantine/
+backups/
 logs/
+fair/*.jsonl
 *.log
 autonomous_daemon.log
 autonomous_report.json
 autonomous_snapshot.json
+autonomous_ledger.jsonl
 
-# Python cache
+# Python Cache
 __pycache__/
 *.pyc
 *.pyo
-*.pyd
-.Python
 
-# IDE & Editor
+# IDE
 .idea/
 .vscode/
 *.swp
-*.swo
 
-# Termux specific
-.data/
-.termux/
-
-# Large binary files
+# Large Binaries
 *.gguf
 *.bin
-*.safetensors
 *.pth
 *.pt
 
-# Session data
-.session_*
-state_checkpoint.json
-
-# Fair data (local only)
-fair/chili_scores.jsonl
-fair/nutrient_profiles.jsonl
-fair/extraction_events.jsonl
-fair/gift_baskets_sent.jsonl
+# Submodules (don't track their internals)
+meta_hub/
