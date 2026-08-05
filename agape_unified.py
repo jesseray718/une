@@ -13,7 +13,7 @@ MANIFEST_FILE = UNE / "ecosystem_manifest.json"
 UNIFIED_THEORY_FILE = UNE / "unified_theory.md"
 NODE_MAP_FILE = UNE / "node_map.json"
 
-REPOS = ["une", "openroot", "wisdom-scaffold", "cannonball", "aerocement", "jesseray718"]
+REPOS = ["une", "openroot", "wisdom-scaffold", "canonical", "aerocement", "jesseray718"]
 
 def cmd(args, cwd=None, timeout=120):
     try:
