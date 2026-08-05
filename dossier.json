@@ -1,0 +1,234 @@
+{
+  "generated": "2026-08-05T22:35:49.279404+00:00",
+  "system": {
+    "device": "Samsung SM-A156U",
+    "environment": "Termux + Shizuku",
+    "py_files": 1159,
+    "repo_size": "722M",
+    "cpu_temp_c": "?",
+    "uptime": "17:35:48 up 9 days, 12:42,  load average: 26.55, 26.77, 26.89"
+  },
+  "checkpoint": {
+    "cycle": 20,
+    "timestamp": "2026-08-05T22:35:45.033851+00:00",
+    "merkle_root": "1a9f161b0e57ebd8ebdc002f4e96bfbf4f611fcd310f9d127db0e3d0654c3018",
+    "lessons": [
+      {
+        "cycle": 1,
+        "axiom": "creatively_use_and_respond_to_change",
+        "joules": 0.038184444935107906,
+        "ts": "2026-08-05T22:14:59.630571+00:00"
+      },
+      {
+        "cycle": 2,
+        "axiom": "use_small_and_slow_solutions",
+        "joules": 0.005247870798403789,
+        "ts": "2026-08-05T22:15:49.962665+00:00"
+      },
+      {
+        "cycle": 3,
+        "axiom": "integrate_rather_than_segregate",
+        "joules": 0.018176817399426712,
+        "ts": "2026-08-05T22:21:23.387052+00:00"
+      },
+      {
+        "cycle": 4,
+        "axiom": "design_from_patterns_to_details",
+        "joules": 0.0062228847283477004,
+        "ts": "2026-08-05T22:21:39.799156+00:00"
+      },
+      {
+        "cycle": 5,
+        "axiom": "creatively_use_and_respond_to_change",
+        "joules": 0.022304704563897364,
+        "ts": "2026-08-05T22:21:46.843460+00:00"
+      },
+      {
+        "cycle": 6,
+        "axiom": "use_small_and_slow_solutions",
+        "joules": 0.0014334037544195674,
+        "ts": "2026-08-05T22:25:38.699361+00:00"
+      },
+      {
+        "cycle": 7,
+        "axiom": "observe_and_interact",
+        "joules": 0.0005337771499081366,
+        "ts": "2026-08-05T22:26:51.786580+00:00"
+      },
+      {
+        "cycle": 8,
+        "axiom": "produce_no_waste",
+        "joules": 0.003675583214529429,
+        "ts": "2026-08-05T22:28:24.205913+00:00"
+      },
+      {
+        "cycle": 9,
+        "axiom": "apply_self_regulation_and_accept_feedback",
+        "joules": 0.003007379281187847,
+        "ts": "2026-08-05T22:28:32.806563+00:00"
+      },
+      {
+        "cycle": 10,
+        "axiom": "integrate_rather_than_segregate",
+        "joules": 0.004947027332816478,
+        "ts": "2026-08-05T22:28:39.340559+00:00"
+      },
+      {
+        "cycle": 11,
+        "axiom": "use_and_value_diversity",
+        "joules": 0.0012587888187713533,
+        "ts": "2026-08-05T22:28:45.886037+00:00"
+      },
+      {
+        "cycle": 12,
+        "axiom": "design_from_patterns_to_details",
+        "joules": 0.000594874156160004,
+        "ts": "2026-08-05T22:28:52.465417+00:00"
+      },
+      {
+        "cycle": 13,
+        "axiom": "apply_self_regulation_and_accept_feedback",
+        "joules": 0.002916200206848783,
+        "ts": "2026-08-05T22:28:58.831074+00:00"
+      },
+      {
+        "cycle": 14,
+        "axiom": "use_and_value_diversity",
+        "joules": 0.004407512926591851,
+        "ts": "2026-08-05T22:29:05.978301+00:00"
+      },
+      {
+        "cycle": 15,
+        "axiom": "produce_no_waste",
+        "joules": 0.002580032732500655,
+        "ts": "2026-08-05T22:29:12.534842+00:00"
+      },
+      {
+        "cycle": 16,
+        "axiom": "creatively_use_and_respond_to_change",
+        "joules": 0.0012079462043607287,
+        "ts": "2026-08-05T22:29:18.983769+00:00"
+      },
+      {
+        "cycle": 17,
+        "axiom": "observe_and_interact",
+        "joules": 0.004733828893749912,
+        "ts": "2026-08-05T22:29:27.068546+00:00"
+      },
+      {
+        "cycle": 18,
+        "axiom": "apply_self_regulation_and_accept_feedback",
+        "joules": 0.0017596243911913638,
+        "ts": "2026-08-05T22:33:22.023038+00:00"
+      },
+      {
+        "cycle": 19,
+        "axiom": "creatively_use_and_respond_to_change",
+        "joules": 0.003177058890201463,
+        "ts": "2026-08-05T22:34:07.433786+00:00"
+      },
+      {
+        "cycle": 20,
+        "axiom": "creatively_use_and_respond_to_change",
+        "joules": 0.002090530568040214,
+        "ts": "2026-08-05T22:35:44.916458+00:00"
+      }
+    ],
+    "mesh_nodes": 10077696,
+    "energy_joules": 849.844892,
+    "fitness_score": 0.1502,
+    "last_error": null,
+    "guardian_scan_ts": "2026-08-05T22:35:47.844516+00:00",
+    "guardian_log_signals": 4,
+    "guardian_syntax_errors": 0,
+    "health_score": 80,
+    "last_health_check": "2026-08-05T22:34:11.281678+00:00",
+    "last_cycle_seconds": 7.596,
+    "compounding_rate": 0.130337,
+    "reset_ts": "2026-08-05T22:25:43.387907+00:00"
+  },
+  "health": {
+    "score": 80,
+    "checks": [
+      {
+        "check": "energy_per_cycle",
+        "status": "warn",
+        "value": "42.4922 J/cycle"
+      },
+      {
+        "check": "fitness_score",
+        "status": "ok",
+        "value": 0.1502
+      },
+      {
+        "check": "lesson_rate",
+        "status": "ok",
+        "value": "20/20"
+      },
+      {
+        "check": "mesh_growth",
+        "status": "ok",
+        "value": 10077696
+      },
+      {
+        "check": "last_error",
+        "status": "ok",
+        "value": null
+      }
+    ]
+  },
+  "trajectory": [
+    {
+      "cycles_ahead": 10,
+      "future_cycle": 30,
+      "projected_energy_j": 1274.7673,
+      "projected_mesh_nodes": 60466176,
+      "projected_lessons": 30,
+      "projected_fitness": 0.1602,
+      "projected_depth": 10
+    },
+    {
+      "cycles_ahead": 50,
+      "future_cycle": 70,
+      "projected_energy_j": 2974.4571,
+      "projected_mesh_nodes": 78364164096,
+      "projected_lessons": 70,
+      "projected_fitness": 0.2002,
+      "projected_depth": 14
+    },
+    {
+      "cycles_ahead": 100,
+      "future_cycle": 120,
+      "projected_energy_j": 5099.0694,
+      "projected_mesh_nodes": 16926659444736,
+      "projected_lessons": 120,
+      "projected_fitness": 0.2502,
+      "projected_depth": 17
+    },
+    {
+      "cycles_ahead": 500,
+      "future_cycle": 520,
+      "projected_energy_j": 22095.9672,
+      "projected_mesh_nodes": 16926659444736,
+      "projected_lessons": 520,
+      "projected_fitness": 0.6502,
+      "projected_depth": 17
+    },
+    {
+      "cycles_ahead": 1000,
+      "future_cycle": 1020,
+      "projected_energy_j": 43342.0895,
+      "projected_mesh_nodes": 16926659444736,
+      "projected_lessons": 1020,
+      "projected_fitness": 1.0,
+      "projected_depth": 17
+    }
+  ],
+  "axioms_active": [
+    "observe_and_interact",
+    "catch_and_store_energy",
+    "apply_self_regulation_and_accept_feedback",
+    "produce_no_waste",
+    "integrate_rather_than_segregate"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "score": 80,
+  "checks": [
+    {
+      "check": "energy_per_cycle",
+      "status": "warn",
+      "value": "42.4922 J/cycle"
+    },
+    {
+      "check": "fitness_score",
+      "status": "ok",
+      "value": 0.1502
+    },
+    {
+      "check": "lesson_rate",
+      "status": "ok",
+      "value": "20/20"
+    },
+    {
+      "check": "mesh_growth",
+      "status": "ok",
+      "value": 10077696
+    },
+    {
+      "check": "last_error",
+      "status": "ok",
+      "value": null
+    }
+  ]
+}

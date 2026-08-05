@@ -1,4 +1,4 @@
-import json, os, random
+import random
 from pathlib import Path
 from state_utils import load_ckpt, save_ckpt, stamp, append_lesson
 
@@ -12,22 +12,20 @@ AXIOMS = [
 ]
 
 def evaluate_fitness(state):
-    """Fitness = (lessons/cycle) * (1 - energy_penalty)."""
     lesson_count = len(state.get("lessons", []))
     energy = state.get("energy_joules", 0.0)
     cycle = max(state.get("cycle", 0), 1)
     
     base_rate = lesson_count / cycle
-    # Aggressive energy penalty: if energy > 100J, fitness drops sharply
-    energy_ratio = min(energy / 100.0, 10.0) 
-    penalty = min(energy_ratio * 0.1, 1.0) 
+    # Dynamic penalty: energy ratio relative to cycle count
+    energy_ratio = min(energy / (cycle * 10.0), 10.0) 
+    penalty = min(energy_ratio * 0.05, 1.0) 
     
     raw_fitness = max(0.0, base_rate * (1 - penalty))
     return round(min(raw_fitness, 1.0), 4)
 
 def evolve(state):
     axiom = random.choice(AXIOMS)
-    # Drastically reduced energy cost per mutation
     mutation_energy = random.uniform(0.0001, 0.005) 
     
     state["cycle"] = state.get("cycle", 0) + 1

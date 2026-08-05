@@ -1,42 +1,32 @@
-#!/bin/bash
-set -e
-echo "🚀 Starting Meta-Orchestrator..."
-USER="jesseray718"
-HUB="$HOME/une/meta_hub"
+#!/data/data/com.termux/files/usr/bin/bash
+set -euo pipefail
 
-mkdir -p "$HUB"
-cd "$HUB"
+export UNE_DIR="$HOME/une"
+LOG_FILE="$UNE_DIR/logs/meta_cycle.log"
 
-# Fetch repo list
-echo "🔍 Discovering repos..."
-REPOS=$(curl -s "https://api.github.com/users/$USER/repos?per_page=100" | python3 -c "
-import json, sys
-data = json.load(sys.stdin)
-if isinstance(data, list):
-    for r in data:
-        if not r.get('fork'):
-            print(r['name'] + '|' + r['clone_url'])
-")
+mkdir -p "$UNE_DIR/logs" "$UNE_DIR/snapshots"
 
-COUNT=0
-while IFS='|' read -r NAME URL; do
-    [ -z "$NAME" ] && continue
-    COUNT=$((COUNT + 1))
-    if [ ! -d "$NAME" ]; then
-        echo "📦 Cloning: $NAME"
-        git clone "$URL" "$NAME" 2>/dev/null || echo "  ⚠️ Failed to clone $NAME"
-    else
-        echo "ℹ️  Pulling: $NAME"
-        (cd "$NAME" && git pull origin main 2>/dev/null || git pull origin master 2>/dev/null || true)
-    fi
-done <<< "$REPOS"
+log() { echo "[$(date '+%Y-%m-%dT%H:%M:%S')] $*" | tee -a "$LOG_FILE"; }
 
-echo "✅ Cloned $COUNT repos."
-echo "🔬 Running Analyzer..."
-python3 repo_analyzer.py
+cd "$UNE_DIR" || { log "FATAL: cannot cd to $UNE_DIR"; exit 1; }
 
-echo ""
-echo "🎉 META-ORCHESTRATOR COMPLETE"
-echo "📖 Manual: $HUB/UNIFIED_MANUAL.md"
-echo "🌐 Dashboard: $HUB/index.html"
-echo "📊 Reports: $HUB/repo_reports.json"
+# ── 1. Snapshot pre-state ──
+log "SNAPSHOT_PRE_START"
+python3 "$UNE_DIR/snapshot.py" 2>&1 | tee -a "$LOG_FILE" || log "SNAPSHOT_PRE_FAIL — continuing"
+
+# ── 2. Evolution engine ──
+log "EVOLUTION_START"
+python3 "$UNE_DIR/evolution_engine.py" 2>&1 | tee -a "$LOG_FILE" || {
+  log "EVOLUTION_FAIL — aborting cycle"
+  exit 1
+}
+
+# ── 3. Autonomous mesh ──
+log "MESH_START"
+python3 "$UNE_DIR/autonomous_mesh.py" 2>&1 | tee -a "$LOG_FILE" || log "MESH_FAIL — partial cycle"
+
+# ── 4. Snapshot post-state (anchor the delta) ──
+log "SNAPSHOT_POST_START"
+python3 "$UNE_DIR/snapshot.py" 2>&1 | tee -a "$LOG_FILE" || log "POST_SNAPSHOT_FAIL"
+
+log "CYCLE_COMPLETE"
