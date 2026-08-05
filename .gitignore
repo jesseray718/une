@@ -37,3 +37,8 @@ guardian.py guardian_v4.py guardian_daemon.sh note.py snapshot.py resume.sh
 status
 .guardian_pid
 *.jsonl
+vendor_archive/
+quarantine/
+backups/
+__pycache__/
+*.pyc
