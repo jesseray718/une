@@ -1,69 +1,51 @@
-#!/usr/bin/env python3
-"""
-OpenRoot Recursive Loop Engine
-Raises inputs to the next higher order of abstraction.
-"""
+#!/data/data/com.termux/files/usr/bin/python3
+"""Recursive loop engine for wisdom processing."""
+import os, json, glob
 
-import json
-import sys
-from datetime import datetime
-
-CORPUS_PATH = "/data/data/com.termux/files/home/une/wisdom/wisdom_corpus.json"
+UNE_HOME = os.environ.get("UNE_HOME", os.path.expanduser("~/une"))
+OPENROOT = os.environ.get("OPENROOT_HOME", "/sdcard/openroot")
 
 def load_corpus():
-    try:
-        with open(CORPUS_PATH, "r") as f:
-            return json.load(f)
-    except FileNotFoundError:
+    """Load the wisdom corpus."""
+    path = os.path.join(UNE_HOME, "wisdom", "wisdom_corpus.json")
+    if not os.path.exists(path):
         return {}
+    with open(path) as f:
+        return json.load(f)
 
-def loop_1_observe(event, corpus):
-    print(f"🔍 Loop 1: Observing '{event}'...")
-    return {"order": 1, "type": "lesson", "raw_event": event, "analysis": "Event acknowledged. Cause identified.", "timestamp": datetime.now().isoformat()}
+def loop_1_observe(data):
+    """Observe the data structure."""
+    return {"observed": True, "keys": list(data.keys()) if isinstance(data, dict) else []}
 
-def loop_2_transform(lesson, corpus):
-    print(f"🔄 Loop 2: Transforming lesson into rule...")
-    return {"order": 2, "type": "rule", "derived_from": lesson["raw_event"], "logic": f"If encountering '{lesson['raw_event']}', apply specific fix.", "timestamp": datetime.now().isoformat()}
+def loop_2_transform(data):
+    """Transform the data."""
+    return {"transformed": True, "data": data}
 
-def loop_3_integrate(rule, corpus):
-    print(f"🧩 Loop 3: Integrating rule into pattern...")
-    return {"order": 3, "type": "pattern", "derived_from": rule["logic"], "template": "Apply this logic whenever similar context arises.", "connections": ["Permaculture: Small Solutions", "Sun Tzu: Know Yourself"], "timestamp": datetime.now().isoformat()}
+def loop_3_integrate(data):
+    """Integrate with context."""
+    return {"integrated": True, "context": "merged"}
 
-def loop_4_elevate(pattern, corpus):
-    print(f"⬆️ Loop 4: Elevating pattern to principle...")
-    return {"order": 4, "type": "principle", "derived_from": pattern["template"], "law": "Always convert resistance into energy. Trust the process over perfection.", "alignment": "John 13:34, Permaculture Principle 9", "timestamp": datetime.now().isoformat()}
+def loop_4_elevate(data):
+    """Elevate the insight."""
+    return {"elevated": True, "insight": "higher"}
 
-def loop_5_manifest(principle, corpus):
-    print(f"✨ Loop 5: Manifesting principle into reality...")
-    return {"order": 5, "type": "reality", "derived_from": principle["law"], "action": "Implement new system behavior based on principle.", "outcome": "System is now more resilient and trusting.", "timestamp": datetime.now().isoformat()}
+def loop_5_manifest(data):
+    """Manifest the result."""
+    out_path = os.path.join(OPENROOT, "context_bridge", "loop_result.json")
+    os.makedirs(os.path.dirname(out_path), exist_ok=True)
+    with open(out_path, "w") as f:
+        json.dump(data, f, indent=2)
+    return {"manifested": True, "path": out_path}
 
-def recursive_engine(input_data, max_orders=5):
-    current_order = 0
-    current_data = input_data
-    print(f"\n🚀 Starting Recursive Engine with: {input_data}\n")
-    
-    while current_order < max_orders:
-        current_order += 1
-        if current_order == 1: current_data = loop_1_observe(current_data, load_corpus())
-        elif current_order == 2: current_data = loop_2_transform(current_data, load_corpus())
-        elif current_order == 3: current_data = loop_3_integrate(current_data, load_corpus())
-        elif current_order == 4: current_data = loop_4_elevate(current_data, load_corpus())
-        elif current_order == 5: current_data = loop_5_manifest(current_data, load_corpus())
-        print(f"--- Order {current_order} Complete ---\n")
-        
-    return current_data
+def recursive_engine():
+    """Run the full recursive loop."""
+    data = load_corpus()
+    data = loop_1_observe(data)
+    data = loop_2_transform(data)
+    data = loop_3_integrate(data)
+    data = loop_4_elevate(data)
+    data = loop_5_manifest(data)
+    return data
 
 if __name__ == "__main__":
-    if len(sys.argv) < 2:
-        print("Usage: python3 recursive_loop.py '<your input event>'")
-        sys.exit(1)
-    input_event = " ".join(sys.argv[1:])
-    final_result = recursive_engine(input_event)
-    print("\n🏁 Final Result (Highest Order):")
-    print(json.dumps(final_result, indent=2))
-    output_path = f"/sdcard/openroot/loops/result_order_{final_result['order']}.json"
-    import os
-    os.makedirs(os.path.dirname(output_path), exist_ok=True)
-    with open(output_path, "w") as f:
-        json.dump(final_result, f, indent=2)
-    print(f"\n💾 Saved to: {output_path}")
+    print(recursive_engine())

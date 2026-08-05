@@ -1,11 +1,18 @@
 #!/usr/bin/env python3
 """Agape–Prime Scaling Law gate.
+import os
+try:
+    from paths import OPENROOT
+except ImportError:
+    OPENROOT = os.environ.get("OPENROOT_HOME", "/sdcard/openroot")
+    UNE_HOME = os.environ.get("UNE_HOME", os.path.expanduser("~/une"))
+
 Returns True only if the action is allowed under the locked law.
 """
 import json
 from pathlib import Path
 
-SEED = Path("/sdcard/openroot/session_seeds/current_seed.json")
+SEED = Path(os.path.join(OPENROOT, "session_seeds/current_seed.json"))
 LAW_FILE = Path.home() / "une/computational_flow/AGAPE_PRIME_SCALING_LAW.md"
 
 def load_law():

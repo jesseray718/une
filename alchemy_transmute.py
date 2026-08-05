@@ -1,5 +1,11 @@
 #!/data/data/com.termux/files/usr/bin/python3
 """
+try:
+    from paths import OPENROOT
+except ImportError:
+    OPENROOT = os.environ.get("OPENROOT_HOME", "/sdcard/openroot")
+    UNE_HOME = os.environ.get("UNE_HOME", os.path.expanduser("~/une"))
+
 Digital Alchemy: Transmute Waste into Fuel
 No deletion. Only compression, archiving, and re-contextualization.
 "Waste" becomes "Alchemy Archive".
@@ -11,8 +17,8 @@ import gzip
 import shutil
 from datetime import datetime
 
-IMMORTAL = "/sdcard/openroot/context_bridge/immortal_context.json"
-ARCHIVE_DIR = "/sdcard/openroot/alchemy_archive"
+IMMORTAL = os.path.join(OPENROOT, "context_bridge/immortal_context.json")
+ARCHIVE_DIR = os.path.join(OPENROOT, "alchemy_archive")
 ARCHIVE_PATH = f"{ARCHIVE_DIR}/alchemy_archive_{datetime.now().strftime('%Y%m%d_%H%M%S')}.tar.gz"
 
 # Load data

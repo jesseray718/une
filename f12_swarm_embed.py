@@ -1,5 +1,12 @@
 #!/data/data/com.termux/files/usr/bin/python3
 """
+import os
+try:
+    from paths import OPENROOT
+except ImportError:
+    OPENROOT = os.environ.get("OPENROOT_HOME", "/sdcard/openroot")
+    UNE_HOME = os.environ.get("UNE_HOME", os.path.expanduser("~/une"))
+
 f12_swarm_embed — The Mega Atomic Function
 One function. Maximum volume. Token-aware. Throughput-optimized.
 
@@ -20,8 +27,8 @@ from datetime import datetime
 # f12_swarm_embed — SINGLE ATOMIC FUNCTION
 # ============================================================
 
-IMMORTAL = "/sdcard/openroot/context_bridge/immortal_context.json"
-OUTPUT = "/sdcard/openroot/vectors/atomic_vector_map.jsonl"
+IMMORTAL = os.path.join(OPENROOT, "context_bridge/immortal_context.json")
+OUTPUT = os.path.join(OPENROOT, "vectors/atomic_vector_map.jsonl")
 OLLAMA_URL = "http://localhost:11434/api/embeddings"
 OLLAMA_MODEL = "nomic-embed-text"
 MAX_TOKENS_PER_FILE = 8192

@@ -1,6 +1,13 @@
 #!/data/data/com.termux/files/usr/bin/env python3
 import sys
-sys.path.insert(0, "/data/data/com.termux/files/home/une/computational_flow")
+import os
+try:
+    from paths import UNE_HOME
+except ImportError:
+    OPENROOT = os.environ.get("OPENROOT_HOME", "/sdcard/openroot")
+    UNE_HOME = os.environ.get("UNE_HOME", os.path.expanduser("~/une"))
+
+sys.path.insert(0, os.path.join(UNE_HOME, "computational_flow"))
 from agape_engine import AgapeSwarm, AgapeEngine
 
 def test_zero_cost():

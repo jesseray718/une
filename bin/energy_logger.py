@@ -2,10 +2,17 @@
 import json, os, sys, time, signal
 from datetime import datetime, timezone
 
-BIN_DIR = "/sdcard/openroot/bin"
-LOG_FILE = "/data/data/com.termux/files/home/une/logs/energy/stream.jsonl"
-CACHE_FILE = "/data/data/com.termux/files/home/une/storage/joule_cache.json"
-CONTEXT_FILE = "/data/data/com.termux/files/home/une/context_bridge/context.json"
+import os
+try:
+    from paths import OPENROOT, UNE_HOME
+except ImportError:
+    OPENROOT = os.environ.get("OPENROOT_HOME", "/sdcard/openroot")
+    UNE_HOME = os.environ.get("UNE_HOME", os.path.expanduser("~/une"))
+
+BIN_DIR = os.path.join(OPENROOT, "bin")
+LOG_FILE = os.path.join(UNE_HOME, "logs/energy/stream.jsonl")
+CACHE_FILE = os.path.join(UNE_HOME, "storage/joule_cache.json")
+CONTEXT_FILE = os.path.join(UNE_HOME, "context_bridge/context.json")
 
 sys.path.insert(0, BIN_DIR)
 from rish_wrapper import get_battery_telemetry

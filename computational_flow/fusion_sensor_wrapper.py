@@ -4,6 +4,13 @@
 import os, json, subprocess, sys
 from datetime import datetime
 
+import os
+try:
+    from paths import OPENROOT, UNE_HOME
+except ImportError:
+    OPENROOT = os.environ.get("OPENROOT_HOME", "/sdcard/openroot")
+    UNE_HOME = os.environ.get("UNE_HOME", os.path.expanduser("~/une"))
+
 def get_battery_status():
     """Returns 'charging', 'discharging', or 'unknown'"""
     try:
@@ -40,10 +47,10 @@ def primitive_check():
     return "Fallback: Local manual check passed"
 
 # --- RUN FUSION LOGIC ---
-sys.path.insert(0, "/data/data/com.termux/files/home/une/computational_flow")
+sys.path.insert(0, os.path.join(UNE_HOME, "computational_flow"))
 from fusion_core import FusionSystem
 
-ctx_path = "/sdcard/openroot/context_bridge/context.json"
+ctx_path = os.path.join(OPENROOT, "context_bridge/context.json")
 os.makedirs(os.path.dirname(ctx_path), exist_ok=True)
 
 ws = FusionSystem("RealSensorMonitor", primitive_check, modern_check, ctx_path)

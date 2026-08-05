@@ -1,40 +1,17 @@
-#!/usr/bin/env python3
-"""
-Transform Lesson to Blessing
-"""
-import json
-import sys
-import os
-from datetime import datetime
+#!/data/data/com.termux/files/usr/bin/python3
+"""Transform lessons into actionable insights."""
+import os, json
 
-OUTPUT_PATH = "/sdcard/openroot/lessons/transformed_lesson.json"
+OPENROOT = os.environ.get("OPENROOT_HOME", "/sdcard/openroot")
+BRIDGE = os.path.join(OPENROOT, "context_bridge", "lessons.jsonl")
 
-def transform(error_msg):
+def transform(raw_lesson):
+    """Transform a raw lesson into structured format."""
     return {
-        "id": f"TRANS-{datetime.now().strftime('%Y%m%d%H%M%S')}",
-        "raw_lesson": error_msg,
-        "steps": [
-            "ACKNOWLEDGE: This happened.",
-            "ANALYZE: What caused it?",
-            "ACCEPT: No resistance.",
-            "CONVERT: How does this help others?",
-            "RELEASE: Energy freed."
-        ],
-        "blessing": f"If encountering '{error_msg}', apply the derived rule.",
-        "timestamp": datetime.now().isoformat()
+        "original": raw_lesson,
+        "structured": True,
+        "timestamp": os.popen("date -u +%Y-%m-%dT%H:%M:%SZ").read().strip()
     }
 
 if __name__ == "__main__":
-    if len(sys.argv) < 2:
-        print("Usage: python3 transform_lesson.py '<error message>'")
-        sys.exit(1)
-        
-    error = " ".join(sys.argv[1:])
-    result = transform(error)
-    
-    os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
-    with open(OUTPUT_PATH, "w") as f:
-        json.dump(result, f, indent=2)
-        
-    print("✅ Transformed!")
-    print(json.dumps(result, indent=2))
+    print(transform("Test lesson"))

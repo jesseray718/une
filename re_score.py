@@ -1,5 +1,11 @@
 #!/data/data/com.termux/files/usr/bin/python3
 """
+try:
+    from paths import OPENROOT
+except ImportError:
+    OPENROOT = os.environ.get("OPENROOT_HOME", "/sdcard/openroot")
+    UNE_HOME = os.environ.get("UNE_HOME", os.path.expanduser("~/une"))
+
 Re-Scorer v1.0: Classifies files by semantic meaning, not literal word match.
 Scores based on: extension, directory context, project membership, and filename keywords.
 """
@@ -7,7 +13,7 @@ import json
 import os
 import re
 
-IMMORTAL = "/sdcard/openroot/context_bridge/immortal_context.json"
+IMMORTAL = os.path.join(OPENROOT, "context_bridge/immortal_context.json")
 
 # === CLASSIFICATION RULES ===
 

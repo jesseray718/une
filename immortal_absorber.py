@@ -1,5 +1,11 @@
 #!/data/data/com.termux/files/usr/bin/python3
 """
+try:
+    from paths import OPENROOT
+except ImportError:
+    OPENROOT = os.environ.get("OPENROOT_HOME", "/sdcard/openroot")
+    UNE_HOME = os.environ.get("UNE_HOME", os.path.expanduser("~/une"))
+
 Immortal Absorber v1.0
 Purpose: Scan ALL files, assign Universical Primes, and update the Immortal Context Bridge.
 Output: /sdcard/openroot/context_bridge/immortal_context.json
@@ -13,10 +19,10 @@ from universical_primes import interpret_prime
 from red_words_translator import translate_to_primes, calculate_alignment_score
 
 # Paths
-DUMP_DIR = "/sdcard/openroot/dump/chunks"
-CONTEXT_BRIDGE = "/sdcard/openroot/context_bridge/context.json"
-IMMORTAL_CONTEXT = "/sdcard/openroot/context_bridge/immortal_context.json"
-MASTER_INDEX = "/sdcard/openroot/tasks/master_index.json"
+DUMP_DIR = os.path.join(OPENROOT, "dump/chunks")
+CONTEXT_BRIDGE = os.path.join(OPENROOT, "context_bridge/context.json")
+IMMORTAL_CONTEXT = os.path.join(OPENROOT, "context_bridge/immortal_context.json")
+MASTER_INDEX = os.path.join(OPENROOT, "tasks/master_index.json")
 
 def load_master_index():
     """Load all files from all chunks."""
@@ -126,8 +132,8 @@ def main():
             "parasitic_waste": len([x for x in enriched_data if x["category"] == "PARASITIC_WASTE"])
         },
         "file_index": enriched_data,
-        "wisdom_corpus_ref": "/sdcard/openroot/wisdom/wisdom_corpus.json",
-        "encyclopedia_ref": "/sdcard/openroot/universical/encyclopedia.json"
+        "wisdom_corpus_ref": os.path.join(OPENROOT, "wisdom/wisdom_corpus.json"),
+        "encyclopedia_ref": os.path.join(OPENROOT, "universical/encyclopedia.json")
     }
 
     # Save

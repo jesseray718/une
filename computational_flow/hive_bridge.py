@@ -1,5 +1,11 @@
 #!/data/data/com.termux/files/usr/bin/python3
 """
+try:
+    from paths import UNE_HOME
+except ImportError:
+    OPENROOT = os.environ.get("OPENROOT_HOME", "/sdcard/openroot")
+    UNE_HOME = os.environ.get("UNE_HOME", os.path.expanduser("~/une"))
+
 hive_bridge.py — offline-first, dependency-free communication + dividend layer
 η-maximizing. No external packages required.
 """
@@ -11,7 +17,7 @@ import os
 from pathlib import Path
 
 # Paths (absolute, Termux-safe)
-BASE = Path("/data/data/com.termux/files/home/une/context_bridge")
+BASE = Path(os.path.join(UNE_HOME, "context_bridge"))
 PARTICIPANTS = BASE / "participants.jsonl"
 DIVIDEND_LOG = BASE / "dividend_log.jsonl"
 QUERY_LOG = BASE / "query_log.jsonl"

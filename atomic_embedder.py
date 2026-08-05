@@ -1,5 +1,11 @@
 #!/data/data/com.termux/files/usr/bin/python3
 """
+try:
+    from paths import OPENROOT, UNE_HOME
+except ImportError:
+    OPENROOT = os.environ.get("OPENROOT_HOME", "/sdcard/openroot")
+    UNE_HOME = os.environ.get("UNE_HOME", os.path.expanduser("~/une"))
+
 Atomic Embedder: The Joule-Native Vector Map
 Uses core_atomic.py (f1-f11) to embed files while measuring physical cost.
 Outputs: /sdcard/openroot/vectors/atomic_vector_map.jsonl
@@ -11,9 +17,9 @@ import time
 from datetime import datetime
 
 # Path to your atomic core
-CORE_PATH = "/data/data/com.termux/files/home/une/computational_flow/core_atomic.py"
-IMMORTAL = "/sdcard/openroot/context_bridge/immortal_context.json"
-OUTPUT = "/sdcard/openroot/vectors/atomic_vector_map.jsonl"
+CORE_PATH = os.path.join(UNE_HOME, "computational_flow/core_atomic.py")
+IMMORTAL = os.path.join(OPENROOT, "context_bridge/immortal_context.json")
+OUTPUT = os.path.join(OPENROOT, "vectors/atomic_vector_map.jsonl")
 
 # Ensure output dir exists
 os.makedirs(os.path.dirname(OUTPUT), exist_ok=True)

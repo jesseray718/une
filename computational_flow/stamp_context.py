@@ -3,8 +3,15 @@
 import json, time
 from pathlib import Path
 
-BRIDGE = Path("/sdcard/openroot/context_bridge/agape_context_bridge.json")
-PROGRESS = Path("/sdcard/openroot/context_bridge/progress_log.jsonl")
+import os
+try:
+    from paths import OPENROOT
+except ImportError:
+    OPENROOT = os.environ.get("OPENROOT_HOME", "/sdcard/openroot")
+    UNE_HOME = os.environ.get("UNE_HOME", os.path.expanduser("~/une"))
+
+BRIDGE = Path(os.path.join(OPENROOT, "context_bridge/agape_context_bridge.json"))
+PROGRESS = Path(os.path.join(OPENROOT, "context_bridge/progress_log.jsonl"))
 
 def stamp(action, detail, metrics=None):
     entry = {

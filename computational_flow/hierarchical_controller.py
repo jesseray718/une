@@ -1,5 +1,12 @@
 #!/usr/bin/env python3
 """
+import os
+try:
+    from paths import OPENROOT
+except ImportError:
+    OPENROOT = os.environ.get("OPENROOT_HOME", "/sdcard/openroot")
+    UNE_HOME = os.environ.get("UNE_HOME", os.path.expanduser("~/une"))
+
 Agape–Prime Hierarchical Controller
 Tier 0: heartbeat
 Tier 1: real evaluator (agape_evaluate logic)
@@ -15,7 +22,7 @@ from datetime import datetime
 
 HOME = Path.home()
 UNE = HOME / "une" / "computational_flow"
-SEED = Path("/sdcard/openroot/session_seeds/current_seed.json")
+SEED = Path(os.path.join(OPENROOT, "session_seeds/current_seed.json"))
 BLACKBOARD = UNE / "knowledge_graph.json"
 LOG = UNE / "logs" / "hierarchical_controller.log"
 EVALUATOR = UNE / "agape_evaluate.py"

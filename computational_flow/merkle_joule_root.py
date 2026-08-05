@@ -1,5 +1,11 @@
 #!/data/data/com.termux/files/usr/bin/env python3
 """
+try:
+    from paths import OPENROOT
+except ImportError:
+    OPENROOT = os.environ.get("OPENROOT_HOME", "/sdcard/openroot")
+    UNE_HOME = os.environ.get("UNE_HOME", os.path.expanduser("~/une"))
+
 MERKLE JOULE ROOT — Civilization 2.0 Foundation
 η = useful_joules / human_joules
 Every irreversible bit costs ≥ kT ln(2). Every bit has mass via E=mc².
@@ -18,9 +24,9 @@ LANDAUER = kB * T * 0.693147  # ≈ 2.870e-21 J/bit
 c2 = 8.9875517923e16       # c² (m²/s²)
 MASS_PER_BIT = LANDAUER / c2  # kg
 
-LEDGER = Path("/sdcard/openroot/joule_ledger/root.jsonl")
-POSTULATES = Path("/sdcard/openroot/agape_kb/postulates.json")
-STATE = Path("/sdcard/openroot/joule_ledger/state.json")
+LEDGER = Path(os.path.join(OPENROOT, "joule_ledger/root.jsonl"))
+POSTULATES = Path(os.path.join(OPENROOT, "agape_kb/postulates.json"))
+STATE = Path(os.path.join(OPENROOT, "joule_ledger/state.json"))
 
 def landauer_cost(bits: int) -> float:
     return bits * LANDAUER

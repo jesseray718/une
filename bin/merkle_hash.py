@@ -1,6 +1,13 @@
 #!/data/data/com.termux/files/usr/bin/python3
 import hashlib, json, sys, os
 
+import os
+try:
+    from paths import UNE_HOME
+except ImportError:
+    OPENROOT = os.environ.get("OPENROOT_HOME", "/sdcard/openroot")
+    UNE_HOME = os.environ.get("UNE_HOME", os.path.expanduser("~/une"))
+
 def sha256(data):
     return hashlib.sha256(data.encode()).hexdigest()
 
@@ -13,7 +20,7 @@ def merkle_root(leaves):
     return layer[0]
 
 def main():
-    path = sys.argv[1] if len(sys.argv) > 1 else "/data/data/com.termux/files/home/une/logs/energy/stream.jsonl"
+    path = sys.argv[1] if len(sys.argv) > 1 else os.path.join(UNE_HOME, "logs/energy/stream.jsonl")
     if not os.path.exists(path):
         print(json.dumps({"error": "Ledger not found", "path": path})); return
     leaves = [line.strip() for line in open(path) if line.strip()]

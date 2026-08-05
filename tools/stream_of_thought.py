@@ -1,3 +1,4 @@
+import os
 #!/usr/bin/env python3
 """
 OpenRoot Stream of Thought Analyzer
@@ -10,8 +11,8 @@ import subprocess
 from pathlib import Path
 
 REPO_ROOT = "/data/data/com.termux/files/home"
-OUTPUT_FILE = "/sdcard/openroot/stream_of_thought_report.json"
-WISDOM_CORPUS_PATH = "/data/data/com.termux/files/home/une/wisdom/wisdom_corpus.json"
+OUTPUT_FILE = "os.environ.get("OPENROOT_HOME", "/sdcard/openroot") + "/"stream_of_thought_report.json"
+WISDOM_CORPUS_PATH = "os.environ.get("UNE_HOME", os.path.expanduser("~/une")) + "/"wisdom/wisdom_corpus.json"
 
 def run_git_command(repo_path, command):
     try:

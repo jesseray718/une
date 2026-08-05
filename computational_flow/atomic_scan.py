@@ -1,5 +1,12 @@
 #!/usr/bin/env python3
 """
+import os
+try:
+    from paths import OPENROOT, UNE_HOME
+except ImportError:
+    OPENROOT = os.environ.get("OPENROOT_HOME", "/sdcard/openroot")
+    UNE_HOME = os.environ.get("UNE_HOME", os.path.expanduser("~/une"))
+
 ATOMIC SCAN: Rule-based Fractal Swarm Analysis
 Uses 20 Elements to detect patterns without LLM.
 """
@@ -8,11 +15,11 @@ from datetime import datetime
 
 REPO_PATHS = [
     "/data/data/com.termux/files/home/une",
-    "/sdcard/openroot/github_clone_temp/une",
-    "/sdcard/openroot/github_clone_temp/openroot"
+    os.path.join(OPENROOT, "github_clone_temp/une"),
+    os.path.join(OPENROOT, "github_clone_temp/openroot")
 ]
-CORPUS = "/data/data/com.termux/files/home/une/wisdom/wisdom_corpus.json"
-LOG = "/sdcard/openroot/session_seeds/atomic_scan_log.jsonl"
+CORPUS = os.path.join(UNE_HOME, "wisdom/wisdom_corpus.json")
+LOG = os.path.join(OPENROOT, "session_seeds/atomic_scan_log.jsonl")
 
 # Define patterns for the 20 Elements (Simplified for Atomic Scan)
 ELEMENT_PATTERNS = {

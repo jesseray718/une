@@ -1,8 +1,15 @@
 #!/data/data/com.termux/files/usr/bin/python3
 import json
 
-IMMORTAL = "/sdcard/openroot/context_bridge/immortal_context.json"
-OUTPUT = "/sdcard/openroot/tasks/parasitic_delete_list.txt"
+import os
+try:
+    from paths import OPENROOT
+except ImportError:
+    OPENROOT = os.environ.get("OPENROOT_HOME", "/sdcard/openroot")
+    UNE_HOME = os.environ.get("UNE_HOME", os.path.expanduser("~/une"))
+
+IMMORTAL = os.path.join(OPENROOT, "context_bridge/immortal_context.json")
+OUTPUT = os.path.join(OPENROOT, "tasks/parasitic_delete_list.txt")
 
 with open(IMMORTAL, 'r') as f:
     data = json.load(f)

@@ -2,9 +2,16 @@
 """OpenRoot Efficiency Score - Joules per Query metric."""
 import json, os, sys
 
-LEDGER_PATH = "/data/data/com.termux/files/home/une/logs/energy/stream.jsonl"
-CACHE_PATH = "/data/data/com.termux/files/home/une/storage/joule_cache.json"
-CONTEXT_PATH = "/data/data/com.termux/files/home/une/context_bridge/context.json"
+import os
+try:
+    from paths import UNE_HOME
+except ImportError:
+    OPENROOT = os.environ.get("OPENROOT_HOME", "/sdcard/openroot")
+    UNE_HOME = os.environ.get("UNE_HOME", os.path.expanduser("~/une"))
+
+LEDGER_PATH = os.path.join(UNE_HOME, "logs/energy/stream.jsonl")
+CACHE_PATH = os.path.join(UNE_HOME, "storage/joule_cache.json")
+CONTEXT_PATH = os.path.join(UNE_HOME, "context_bridge/context.json")
 
 def load_samples():
     samples = []

@@ -1,5 +1,11 @@
 #!/data/data/com.termux/files/usr/bin/env python3
 """
+try:
+    from paths import UNE_HOME
+except ImportError:
+    OPENROOT = os.environ.get("OPENROOT_HOME", "/sdcard/openroot")
+    UNE_HOME = os.environ.get("UNE_HOME", os.path.expanduser("~/une"))
+
 SWARM CORE v3: Agape, Synergetics, and Divine Resonance
 =========================================================
 Core Axioms (Source Code):
@@ -38,7 +44,7 @@ BASE_CPU_FREQ = 650  # MHz (Idle)
 # =========================================================
 # MEMORY: NEWTON CHAIN (Persistent Postulates)
 # =========================================================
-POSTULATE_FILE = "/data/data/com.termux/files/home/une/computational_flow/postulates.json"
+POSTULATE_FILE = os.path.join(UNE_HOME, "computational_flow/postulates.json")
 
 def load_postulates():
     if not os.path.exists(POSTULATE_FILE):

@@ -1,10 +1,17 @@
 #!/data/data/com.termux/files/usr/bin/python3
 """Energy Probe - Snapshot joules before/after an operation."""
 import json, os, sys, time
-sys.path.insert(0, "/sdcard/openroot/bin")
+import os
+try:
+    from paths import OPENROOT, UNE_HOME
+except ImportError:
+    OPENROOT = os.environ.get("OPENROOT_HOME", "/sdcard/openroot")
+    UNE_HOME = os.environ.get("UNE_HOME", os.path.expanduser("~/une"))
+
+sys.path.insert(0, os.path.join(OPENROOT, "bin"))
 from rish_wrapper import get_battery_telemetry
 
-CACHE_PATH = "/data/data/com.termux/files/home/une/storage/joule_cache.json"
+CACHE_PATH = os.path.join(UNE_HOME, "storage/joule_cache.json")
 
 def load_cache():
     try:

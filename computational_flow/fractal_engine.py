@@ -1,5 +1,12 @@
 #!/usr/bin/env python3
 """
+import os
+try:
+    from paths import OPENROOT
+except ImportError:
+    OPENROOT = os.environ.get("OPENROOT_HOME", "/sdcard/openroot")
+    UNE_HOME = os.environ.get("UNE_HOME", os.path.expanduser("~/une"))
+
 Fractal Engine — HONEST VERSION
 Actually executes every atomic operation.
 No pass statements. No skipped ops. Real measurement.
@@ -7,7 +14,7 @@ No pass statements. No skipped ops. Real measurement.
 import os, json, time, sys
 from datetime import datetime, timezone
 
-LOG = "/sdcard/openroot/session_seeds/fractal_engine_log.jsonl"
+LOG = os.path.join(OPENROOT, "session_seeds/fractal_engine_log.jsonl")
 
 def f1(d): return {"t":"cap","d":d,"ts":time.time()}
 def f2(d): return {"t":"hash","h":str(hash(str(d)))}

@@ -4,8 +4,15 @@ import os, json
 from pathlib import Path
 from collections import defaultdict
 
+import os
+try:
+    from paths import OPENROOT
+except ImportError:
+    OPENROOT = os.environ.get("OPENROOT_HOME", "/sdcard/openroot")
+    UNE_HOME = os.environ.get("UNE_HOME", os.path.expanduser("~/une"))
+
 UNE_ROOT = Path("/data/data/com.termux/files/home/une")
-KB_PATH = Path("/sdcard/openroot/agape_kb/repo_snapshot.json")
+KB_PATH = Path(os.path.join(OPENROOT, "agape_kb/repo_snapshot.json"))
 
 def snapshot(root=UNE_ROOT):
     files_by_ext = defaultdict(list)

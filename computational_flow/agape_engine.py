@@ -1,4 +1,26 @@
-#!/data/data/com.termux/files/usr/bin/env python3
+
+import os
+try:
+    from paths import OPENROOT
+except ImportError:
+    OPENROOT = os.environ.get("OPENROOT_HOME", "/sdcard/openroot")
+    UNE_HOME = os.environ.get("UNE_HOME", os.path.expanduser("~/une"))
+
+# === DYNAMIC PATHS (auto-patched) ===
+import sys as _sys
+_sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+try:
+    from paths import AGAPE_KB_PATH, AGAPE_POSTULATE_PATH, AGAPE_STATE_PATH
+    KNOWLEDGE_PATH = AGAPE_KB_PATH
+    POSTULATE_PATH = AGAPE_POSTULATE_PATH
+    STATE_PATH = AGAPE_STATE_PATH
+except ImportError:
+    _BASE = os.path.dirname(os.path.abspath(__file__))
+    KNOWLEDGE_PATH = os.path.join(_BASE, "knowledge.json")
+    POSTULATE_PATH = os.path.join(_BASE, "postulates.json")
+    STATE_PATH = os.path.join(_BASE, "state.json")
+# === END DYNAMIC PATHS ===
+\n#!/data/data/com.termux/files/usr/bin/env python3
 """
 Agape Engine v1.0 — fractal base-6 swarm, resonance=1.0 zero-coordination, 
 11 permaculture If-Then-Root routers, Newton Chain, offline A15 native.
@@ -14,11 +36,11 @@ from typing import Any
 BASE = 6
 K = 0.001
 ALPHA = 0.1
-KB_DIR = Path("/sdcard/openroot/agape_kb")
+KB_DIR = Path(os.path.join(OPENROOT, "agape_kb"))
 POSTULATES = KB_DIR / "postulates.json"
 KB = KB_DIR / "knowledge_base.json"
 STATE = KB_DIR / "engine_state.json"
-BRIDGE = Path("/sdcard/openroot/context_bridge/agape_context_bridge.json")
+BRIDGE = Path(os.path.join(OPENROOT, "context_bridge/agape_context_bridge.json"))
 
 PERMACULTURE = [
     "Observe & Interact",

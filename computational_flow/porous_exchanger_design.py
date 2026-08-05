@@ -91,7 +91,7 @@ def spiral_geom():
     return rc, stretch                         # L_helix = L_axial * stretch
 
 def ito_friction_ratio(de):
-    """Ito (1959) laminar curved-pipe friction multiplier, De > \~13.5."""
+    """Ito (1959) laminar curved-pipe friction multiplier, De > \\~13.5."""
     if de <= 13.5:
         return 1.0
     a = 1.729 / de
@@ -191,7 +191,7 @@ def water_soil():
     print(" capillary rise : %.2f m" % h_cap)
     print(" water use      : %.2f L/h @ %.0f W evap" % (lph, Q_EVAP))
     print(" soil capacity  : approx %.0f W sustained" % q_soil)
-    print(" rule: NTU past \~5 buys nothing but dP; soil interface is the cap")
+    print(" rule: NTU past \\~5 buys nothing but dP; soil interface is the cap")
 
 if __name__ == "__main__":
     avail = stack_pa()

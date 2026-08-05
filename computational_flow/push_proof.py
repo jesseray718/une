@@ -1,12 +1,19 @@
 #!/usr/bin/env python3
 """
+import os
+try:
+    from paths import OPENROOT
+except ImportError:
+    OPENROOT = os.environ.get("OPENROOT_HOME", "/sdcard/openroot")
+    UNE_HOME = os.environ.get("UNE_HOME", os.path.expanduser("~/une"))
+
 PUSH PROOF: Take the latest swarm result and push to GitHub.
 No Solana fees. GitHub is the ledger.
 """
 import os, json, subprocess, requests
 from datetime import datetime, timezone
 
-LOG_FILE = "/sdcard/openroot/session_seeds/fractal_server_log.jsonl"
+LOG_FILE = os.path.join(OPENROOT, "session_seeds/fractal_server_log.jsonl")
 REPO_PATH = "/data/data/com.termux/files/home/.projects/openroot"
 README_PATH = os.path.join(REPO_PATH, "README.md")
 

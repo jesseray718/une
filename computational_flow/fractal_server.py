@@ -1,5 +1,12 @@
 #!/usr/bin/env python3
 """
+import os
+try:
+    from paths import OPENROOT
+except ImportError:
+    OPENROOT = os.environ.get("OPENROOT_HOME", "/sdcard/openroot")
+    UNE_HOME = os.environ.get("UNE_HOME", os.path.expanduser("~/une"))
+
 FRACTAL SERVER — THE LETTER A (AGAPE)
 The Root. The Alpha. The Origin.
 """
@@ -8,7 +15,7 @@ from datetime import datetime, timezone
 from http.server import HTTPServer, BaseHTTPRequestHandler
 from urllib.parse import urlparse, parse_qs
 
-LOG = "/sdcard/openroot/session_seeds/fractal_server_log.jsonl"
+LOG = os.path.join(OPENROOT, "session_seeds/fractal_server_log.jsonl")
 
 # --- THE AXIOM ---
 # A = Agape. The First Commandment. The Origin.

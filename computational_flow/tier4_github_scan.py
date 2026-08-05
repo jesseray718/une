@@ -2,11 +2,18 @@
 import os, sys, json, time, subprocess
 from datetime import datetime
 
+import os
+try:
+    from paths import OPENROOT, UNE_HOME
+except ImportError:
+    OPENROOT = os.environ.get("OPENROOT_HOME", "/sdcard/openroot")
+    UNE_HOME = os.environ.get("UNE_HOME", os.path.expanduser("~/une"))
+
 USER = "jesseray718"
 REPOS = ["une", "openroot", "aerocement"]
-TEMP = "/sdcard/openroot/github_clone_temp"
-CORPUS = "/data/data/com.termux/files/home/une/wisdom/wisdom_corpus.json"
-LOG = "/sdcard/openroot/session_seeds/tier4_scan_log.jsonl"
+TEMP = os.path.join(OPENROOT, "github_clone_temp")
+CORPUS = os.path.join(UNE_HOME, "wisdom/wisdom_corpus.json")
+LOG = os.path.join(OPENROOT, "session_seeds/tier4_scan_log.jsonl")
 MODEL = "qwen2.5:1.5b"
 
 def freq():

@@ -2,8 +2,14 @@
 import json
 import os
 
-IMMORTAL = "/sdcard/openroot/context_bridge/immortal_context.json"
-LIST_FILE = "/sdcard/openroot/tasks/parasitic_delete_list.txt"
+try:
+    from paths import OPENROOT
+except ImportError:
+    OPENROOT = os.environ.get("OPENROOT_HOME", "/sdcard/openroot")
+    UNE_HOME = os.environ.get("UNE_HOME", os.path.expanduser("~/une"))
+
+IMMORTAL = os.path.join(OPENROOT, "context_bridge/immortal_context.json")
+LIST_FILE = os.path.join(OPENROOT, "tasks/parasitic_delete_list.txt")
 
 # Load list
 with open(LIST_FILE, 'r') as f:

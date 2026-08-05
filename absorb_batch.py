@@ -1,5 +1,11 @@
 #!/data/data/com.termux/files/usr/bin/python3
 """
+try:
+    from paths import OPENROOT
+except ImportError:
+    OPENROOT = os.environ.get("OPENROOT_HOME", "/sdcard/openroot")
+    UNE_HOME = os.environ.get("UNE_HOME", os.path.expanduser("~/une"))
+
 Batch Absorber: Processes a specific range of chunks (e.g., 1-20).
 Translates paths to Universical Primes and ranks by Alignment.
 """
@@ -11,7 +17,7 @@ sys.path.insert(0, '/data/data/com.termux/files/home/une')
 from universical_primes import interpret_prime
 from red_words_translator import translate_to_primes, calculate_alignment_score
 
-DUMP_DIR = "/sdcard/openroot/dump/chunks"
+DUMP_DIR = os.path.join(OPENROOT, "dump/chunks")
 START_TASK = 1
 END_TASK = 20
 
@@ -79,6 +85,6 @@ for i, r in enumerate(results):
     print()
 
 # Save to file
-with open("/sdcard/openroot/tasks/batch_1_20_ranked.json", "w") as f:
+with open(os.path.join(OPENROOT, "tasks/batch_1_20_ranked.json"), "w") as f:
     json.dump(results, f, indent=2)
 print("Saved to: /sdcard/openroot/tasks/batch_1_20_ranked.json")

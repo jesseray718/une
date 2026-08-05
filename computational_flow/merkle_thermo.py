@@ -1,5 +1,12 @@
 #!/data/data/com.termux/files/usr/bin/python3
 """
+import os
+try:
+    from paths import OPENROOT
+except ImportError:
+    OPENROOT = os.environ.get("OPENROOT_HOME", "/sdcard/openroot")
+    UNE_HOME = os.environ.get("UNE_HOME", os.path.expanduser("~/une"))
+
 merkle_thermo.py — Merkle tree + thermodynamic accounting
 Pure Python 3. Zero dependencies.
 Leaves can carry joules / E=mc² equivalents.
@@ -10,7 +17,7 @@ import hashlib
 import time
 from pathlib import Path
 
-BASE = Path("/sdcard/openroot/context_bridge")
+BASE = Path(os.path.join(OPENROOT, "context_bridge"))
 TREE_LOG = BASE / "merkle_tree.jsonl"
 C = 299_792_458          # m/s
 C2 = C * C

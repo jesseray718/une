@@ -1,5 +1,11 @@
 #!/data/data/com.termux/files/usr/bin/python3
 """
+try:
+    from paths import OPENROOT
+except ImportError:
+    OPENROOT = os.environ.get("OPENROOT_HOME", "/sdcard/openroot")
+    UNE_HOME = os.environ.get("UNE_HOME", os.path.expanduser("~/une"))
+
 Task Optimizer: Reorders your 472 tasks based on Semantic Alignment.
 Goal: Prioritize files that align with "Love/Give" and deprioritize "Parasitic" patterns.
 """
@@ -9,8 +15,8 @@ import sys
 sys.path.insert(0, '/data/data/com.termux/files/home/une')
 from prime_mapper import SemanticPrimeEngine
 
-TASK_DIR = "/sdcard/openroot/tasks"
-DUMP_DIR = "/sdcard/openroot/dump/chunks"
+TASK_DIR = os.path.join(OPENROOT, "tasks")
+DUMP_DIR = os.path.join(OPENROOT, "dump/chunks")
 STATE_FILE = f"{TASK_DIR}/engine_state.json"
 INDEX_FILE = f"{TASK_DIR}/.file_index"
 OUTPUT_QUEUE = f"{TASK_DIR}/optimized_queue.json"

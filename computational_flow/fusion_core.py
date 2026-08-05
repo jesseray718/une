@@ -5,6 +5,13 @@ import os, json
 from datetime import datetime
 from typing import Callable, Any
 
+import os
+try:
+    from paths import OPENROOT
+except ImportError:
+    OPENROOT = os.environ.get("OPENROOT_HOME", "/sdcard/openroot")
+    UNE_HOME = os.environ.get("UNE_HOME", os.path.expanduser("~/une"))
+
 class FusionSystem:
     def __init__(self, name, primitive_method, modern_method, context_file):
         self.name = name
@@ -55,7 +62,7 @@ class FusionSystem:
         print("[FUSION-" + self.name + "] " + event_type + ": " + message)
 
 if __name__ == "__main__":
-    ctx_path = "/sdcard/openroot/context_bridge/context.json"
+    ctx_path = os.path.join(OPENROOT, "context_bridge/context.json")
     os.makedirs(os.path.dirname(ctx_path), exist_ok=True)
 
     def modern_fail():

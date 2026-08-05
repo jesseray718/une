@@ -1,5 +1,12 @@
 #!/usr/bin/env python3
 """
+import os
+try:
+    from paths import OPENROOT
+except ImportError:
+    OPENROOT = os.environ.get("OPENROOT_HOME", "/sdcard/openroot")
+    UNE_HOME = os.environ.get("UNE_HOME", os.path.expanduser("~/une"))
+
 Hyperfusion Orchestrator
 ========================
 Agape–Prime Scaling Law + Blackboard + Tiered Swarm
@@ -27,9 +34,9 @@ from datetime import datetime
 # === Paths ===
 HOME = Path.home()
 UNE = HOME / "une" / "computational_flow"
-SEED = Path("/sdcard/openroot/session_seeds/current_seed.json")
+SEED = Path(os.path.join(OPENROOT, "session_seeds/current_seed.json"))
 BLACKBOARD = UNE / "knowledge_graph.json"
-CHUNKS = Path("/sdcard/openroot/context_chunks")
+CHUNKS = Path(os.path.join(OPENROOT, "context_chunks"))
 LOG = UNE / "logs" / "hyperfusion.log"
 
 LOG.parent.mkdir(parents=True, exist_ok=True)

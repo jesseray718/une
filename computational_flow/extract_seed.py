@@ -1,5 +1,12 @@
 #!/data/data/com.termux/files/usr/bin/python3
 """
+import os
+try:
+    from paths import OPENROOT
+except ImportError:
+    OPENROOT = os.environ.get("OPENROOT_HOME", "/sdcard/openroot")
+    UNE_HOME = os.environ.get("UNE_HOME", os.path.expanduser("~/une"))
+
 extract_seed.py
 Captures current session state: terminal log, context.json, git diff -> dense seed block.
 Usage: python3 extract_seed.py --output=/path/to/seed.json
@@ -21,7 +28,7 @@ def main():
     }
 
     # 1. Capture Context (if exists)
-    ctx_path = "/sdcard/openroot/context.json"
+    ctx_path = os.path.join(OPENROOT, "context.json")
     if os.path.exists(ctx_path):
         try:
             with open(ctx_path, 'r') as f:
@@ -39,7 +46,7 @@ def main():
     # 3. Capture Terminal Log Snippet (last 50 lines if available)
     # Note: In Termux, we might not have direct access to the full log buffer, 
     # but we can look for a log file if you set one up.
-    log_files = glob.glob("/sdcard/openroot/logs/*.log")
+    log_files = glob.glob(os.path.join(OPENROOT, "logs/*.log"))
     if log_files:
         latest_log = sorted(log_files)[-1]
         with open(latest_log, 'r') as f:

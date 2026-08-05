@@ -1,5 +1,12 @@
 #!/usr/bin/env python3
 """
+import os
+try:
+    from paths import OPENROOT
+except ImportError:
+    OPENROOT = os.environ.get("OPENROOT_HOME", "/sdcard/openroot")
+    UNE_HOME = os.environ.get("UNE_HOME", os.path.expanduser("~/une"))
+
 Agape-aware file evaluator with lightweight semantic analysis.
 Only runs higher-tier analysis when Υ > 0.
 """
@@ -12,7 +19,7 @@ from datetime import datetime
 from collections import Counter
 
 UNE = Path.home() / "une" / "computational_flow"
-SEED = Path("/sdcard/openroot/session_seeds/current_seed.json")
+SEED = Path(os.path.join(OPENROOT, "session_seeds/current_seed.json"))
 BLACKBOARD = UNE / "knowledge_graph.json"
 LOG = UNE / "logs" / "hyperfusion.log"
 
@@ -44,7 +51,7 @@ def measure_upsilon():
     count = 0
     if BLACKBOARD.exists():
         count += 1
-    chunks = Path("/sdcard/openroot/context_chunks")
+    chunks = Path(os.path.join(OPENROOT, "context_chunks"))
     if chunks.exists():
         count += len(list(chunks.glob("paste_*.txt")))
     return min(count / 50.0, 1.0)

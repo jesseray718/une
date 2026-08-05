@@ -1,62 +1,20 @@
-#!/usr/bin/env python3
-"""
-Universal absorber — feed any AI output into the canonical wisdom_corpus.json
-Usage:
-  python3 absorb.py               # reads from clipboard if available, else stdin
-  python3 absorb.py filename.txt  # reads from a file
-  echo "text" | python3 absorb.py
-"""
-import json, os, sys, datetime
+#!/data/data/com.termux/files/usr/bin/python3
+"""Absorb wisdom corpus into context bridge."""
+import os, json
 
-WISDOM = "/data/data/com.termux/files/home/une/wisdom/wisdom_corpus.json"
-os.makedirs(os.path.dirname(WISDOM), exist_ok=True)
+CORPUS = os.environ.get("UNE_HOME", os.path.expanduser("~/une")) + "/wisdom/wisdom_corpus.json"
+BRIDGE = os.environ.get("OPENROOT_HOME", "/sdcard/openroot") + "/context_bridge/context.json"
 
-def get_input():
-    if len(sys.argv) > 1 and os.path.isfile(sys.argv[1]):
-        with open(sys.argv[1]) as f:
-            return f.read().strip()
-    # try clipboard (Termux)
-    try:
-        import subprocess
-        clip = subprocess.check_output(["termux-clipboard-get"], text=True).strip()
-        if clip:
-            return clip
-    except Exception:
-        pass
-    # fallback to stdin
-    print("Paste the AI output, then press Ctrl+D when finished:")
-    return sys.stdin.read().strip()
+def absorb():
+    """Load corpus and inject into context bridge."""
+    if not os.path.exists(CORPUS):
+        return {"status": "no corpus"}
+    with open(CORPUS) as f:
+        data = json.load(f)
+    os.makedirs(os.path.dirname(BRIDGE), exist_ok=True)
+    with open(BRIDGE, "w") as f:
+        json.dump({"corpus": data}, f, indent=2)
+    return {"status": "absorbed", "entries": len(data) if isinstance(data, list) else len(data.keys())}
 
-text = get_input()
-if not text:
-    print("No content received. Aborting.")
-    sys.exit(1)
-
-entry = {
-    "ts": datetime.datetime.now().astimezone().isoformat(timespec="seconds"),
-    "source": "external_ai",
-    "type": "absorb",
-    "content": text
-}
-
-if os.path.exists(WISDOM):
-    try:
-        with open(WISDOM) as f:
-            data = json.load(f)
-    except Exception:
-        data = {"entries": []}
-else:
-    data = {"entries": [], "meta": {"canonical": True, "project": "Agape-UNE / OpenRoot"}}
-
-if "entries" not in data:
-    data["entries"] = []
-
-data["entries"].append(entry)
-data["last_updated"] = entry["ts"]
-
-with open(WISDOM, "w") as f:
-    json.dump(data, f, indent=2)
-
-print(f"Absorbed {len(text)} characters into:")
-print(WISDOM)
-print(f"Total entries: {len(data['entries'])}")
+if __name__ == "__main__":
+    print(absorb())

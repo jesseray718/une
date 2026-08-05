@@ -1,5 +1,12 @@
 #!/data/data/com.termux/files/usr/bin/python3
 """
+import os
+try:
+    from paths import OPENROOT
+except ImportError:
+    OPENROOT = os.environ.get("OPENROOT_HOME", "/sdcard/openroot")
+    UNE_HOME = os.environ.get("UNE_HOME", os.path.expanduser("~/une"))
+
 Swarm Query Interface
 =====================
 Searches the atomic vector map by:
@@ -20,9 +27,9 @@ Usage:
 import json, os, sys, math, time, argparse, subprocess
 from datetime import datetime
 
-VECTOR_MAP = "/sdcard/openroot/vectors/atomic_vector_map.jsonl"
+VECTOR_MAP = os.path.join(OPENROOT, "vectors/atomic_vector_map.jsonl")
 SWARM_CFG = "/data/data/com.termux/files/home/.governor/swarm-config.json"
-OUTPUT_DIR = "/sdcard/openroot/vectors"
+OUTPUT_DIR = os.path.join(OPENROOT, "vectors")
 
 # ============================================================
 # FIXED ETA CALCULATION (normalized, no saturation)

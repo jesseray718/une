@@ -3,8 +3,15 @@
 import os, sys, time, json, subprocess, statistics
 from datetime import datetime
 
-ARM_SCRIPT = "/data/data/com.termux/files/home/une/computational_flow/arm_energy.py"
-LOG_FILE = "/data/data/com.termux/files/home/une/computational_flow/logs/benchmark_results.jsonl"
+import os
+try:
+    from paths import UNE_HOME
+except ImportError:
+    OPENROOT = os.environ.get("OPENROOT_HOME", "/sdcard/openroot")
+    UNE_HOME = os.environ.get("UNE_HOME", os.path.expanduser("~/une"))
+
+ARM_SCRIPT = os.path.join(UNE_HOME, "computational_flow/arm_energy.py")
+LOG_FILE = os.path.join(UNE_HOME, "computational_flow/logs/benchmark_results.jsonl")
 
 def get_freq():
     try:
