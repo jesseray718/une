@@ -2,32 +2,30 @@
   {
     "name": "AeroCement_Ecosystem",
     "path": "/data/data/com.termux/files/home/une/meta_hub/AeroCement_Ecosystem",
-    "analyzed_at": "2026-08-04T23:54:57.693345",
-    "files_total": 13,
-    "python_files": 0,
+    "analyzed_at": "2026-08-05T00:02:06.426118",
+    "files_total": 15,
+    "python_files": 1,
     "syntax_errors": [],
     "tests_pass": null,
     "missing_standard_files": [
-      "LICENSE",
       "requirements.txt"
     ],
     "upgrades_applied": [
-      "generated LICENSE",
       "created contribution file"
     ],
     "status": "pushed",
     "has_readme": true,
     "has_gitignore": true,
-    "has_license": false,
+    "has_license": true,
     "has_requirements": false,
-    "commit_hash": "95a5488"
+    "commit_hash": "b1e0163"
   },
   {
     "name": "OpenCell-Thermal-System",
     "path": "/data/data/com.termux/files/home/une/meta_hub/OpenCell-Thermal-System",
-    "analyzed_at": "2026-08-04T23:54:59.445950",
-    "files_total": 36,
-    "python_files": 8,
+    "analyzed_at": "2026-08-05T00:02:08.115967",
+    "files_total": 38,
+    "python_files": 9,
     "syntax_errors": [
       {
         "file": "1_code/src/pdf-comp.py",
@@ -40,26 +38,24 @@
     ],
     "tests_pass": null,
     "missing_standard_files": [
-      ".gitignore",
       "requirements.txt"
     ],
     "upgrades_applied": [
-      "generated .gitignore",
       "created contribution file"
     ],
     "status": "pushed",
     "has_readme": true,
-    "has_gitignore": false,
+    "has_gitignore": true,
     "has_license": true,
     "has_requirements": false,
-    "commit_hash": "dfe0202"
+    "commit_hash": "7640a78"
   },
   {
     "name": "aerocement",
     "path": "/data/data/com.termux/files/home/une/meta_hub/aerocement",
-    "analyzed_at": "2026-08-04T23:55:00.966667",
-    "files_total": 85,
-    "python_files": 30,
+    "analyzed_at": "2026-08-05T00:02:09.456829",
+    "files_total": 86,
+    "python_files": 31,
     "syntax_errors": [],
     "tests_pass": null,
     "missing_standard_files": [
@@ -73,193 +69,161 @@
     "has_gitignore": true,
     "has_license": true,
     "has_requirements": false,
-    "commit_hash": "a16c044"
+    "commit_hash": "026a1eb"
   },
   {
     "name": "aerocement-",
     "path": "/data/data/com.termux/files/home/une/meta_hub/aerocement-",
-    "analyzed_at": "2026-08-04T23:55:02.573056",
-    "files_total": 0,
-    "python_files": 0,
+    "analyzed_at": "2026-08-05T00:02:10.978713",
+    "files_total": 4,
+    "python_files": 1,
     "syntax_errors": [],
     "tests_pass": null,
     "missing_standard_files": [
-      "README.md",
-      ".gitignore",
-      "LICENSE",
       "requirements.txt"
     ],
     "upgrades_applied": [
-      "generated README.md",
-      "generated .gitignore",
-      "generated LICENSE",
       "created contribution file"
     ],
     "status": "committed_local",
-    "has_readme": false,
-    "has_gitignore": false,
-    "has_license": false,
+    "has_readme": true,
+    "has_gitignore": true,
+    "has_license": true,
     "has_requirements": false,
-    "commit_hash": "4819ac3"
+    "commit_hash": "70b39ec"
   },
   {
     "name": "agape-coordination",
     "path": "/data/data/com.termux/files/home/une/meta_hub/agape-coordination",
-    "analyzed_at": "2026-08-04T23:55:03.120119",
-    "files_total": 7,
-    "python_files": 5,
+    "analyzed_at": "2026-08-05T00:02:11.511552",
+    "files_total": 11,
+    "python_files": 6,
     "syntax_errors": [],
     "tests_pass": null,
     "missing_standard_files": [
-      "README.md",
-      ".gitignore",
-      "LICENSE",
       "requirements.txt"
     ],
     "upgrades_applied": [
-      "generated README.md",
-      "generated .gitignore",
-      "generated LICENSE",
-      "created contribution file"
-    ],
-    "status": "pushed",
-    "has_readme": false,
-    "has_gitignore": false,
-    "has_license": false,
-    "has_requirements": false,
-    "commit_hash": "d1e734c"
-  },
-  {
-    "name": "agape-une",
-    "path": "/data/data/com.termux/files/home/une/meta_hub/agape-une",
-    "analyzed_at": "2026-08-04T23:55:04.573664",
-    "files_total": 3,
-    "python_files": 0,
-    "syntax_errors": [],
-    "tests_pass": null,
-    "missing_standard_files": [
-      ".gitignore",
-      "LICENSE",
-      "requirements.txt"
-    ],
-    "upgrades_applied": [
-      "generated .gitignore",
-      "generated LICENSE",
-      "created contribution file"
-    ],
-    "status": "pushed",
-    "has_readme": true,
-    "has_gitignore": false,
-    "has_license": false,
-    "has_requirements": false,
-    "commit_hash": "e9b2510"
-  },
-  {
-    "name": "black-locust-rmh",
-    "path": "/data/data/com.termux/files/home/une/meta_hub/black-locust-rmh",
-    "analyzed_at": "2026-08-04T23:55:06.238555",
-    "files_total": 4,
-    "python_files": 0,
-    "syntax_errors": [],
-    "tests_pass": null,
-    "missing_standard_files": [
-      ".gitignore",
-      "LICENSE",
-      "requirements.txt"
-    ],
-    "upgrades_applied": [
-      "generated .gitignore",
-      "generated LICENSE",
-      "created contribution file"
-    ],
-    "status": "pushed",
-    "has_readme": true,
-    "has_gitignore": false,
-    "has_license": false,
-    "has_requirements": false,
-    "commit_hash": "16d15f1"
-  },
-  {
-    "name": "civilization2.0",
-    "path": "/data/data/com.termux/files/home/une/meta_hub/civilization2.0",
-    "analyzed_at": "2026-08-04T23:55:07.790131",
-    "files_total": 4,
-    "python_files": 0,
-    "syntax_errors": [],
-    "tests_pass": null,
-    "missing_standard_files": [
-      ".gitignore",
-      "LICENSE",
-      "requirements.txt"
-    ],
-    "upgrades_applied": [
-      "generated .gitignore",
-      "generated LICENSE",
-      "created contribution file"
-    ],
-    "status": "committed_local",
-    "has_readme": true,
-    "has_gitignore": false,
-    "has_license": false,
-    "has_requirements": false,
-    "commit_hash": "2c48212"
-  },
-  {
-    "name": "jesseray718",
-    "path": "/data/data/com.termux/files/home/une/meta_hub/jesseray718",
-    "analyzed_at": "2026-08-04T23:55:08.416994",
-    "files_total": 4,
-    "python_files": 0,
-    "syntax_errors": [],
-    "tests_pass": null,
-    "missing_standard_files": [
-      "LICENSE",
-      "requirements.txt"
-    ],
-    "upgrades_applied": [
-      "generated LICENSE",
       "created contribution file"
     ],
     "status": "pushed",
     "has_readme": true,
     "has_gitignore": true,
-    "has_license": false,
+    "has_license": true,
     "has_requirements": false,
-    "commit_hash": "db889e7"
+    "commit_hash": "848a2d6"
+  },
+  {
+    "name": "agape-une",
+    "path": "/data/data/com.termux/files/home/une/meta_hub/agape-une",
+    "analyzed_at": "2026-08-05T00:02:12.904785",
+    "files_total": 6,
+    "python_files": 1,
+    "syntax_errors": [],
+    "tests_pass": null,
+    "missing_standard_files": [
+      "requirements.txt"
+    ],
+    "upgrades_applied": [
+      "created contribution file"
+    ],
+    "status": "pushed",
+    "has_readme": true,
+    "has_gitignore": true,
+    "has_license": true,
+    "has_requirements": false,
+    "commit_hash": "afad1c0"
+  },
+  {
+    "name": "black-locust-rmh",
+    "path": "/data/data/com.termux/files/home/une/meta_hub/black-locust-rmh",
+    "analyzed_at": "2026-08-05T00:02:14.310681",
+    "files_total": 7,
+    "python_files": 1,
+    "syntax_errors": [],
+    "tests_pass": null,
+    "missing_standard_files": [
+      "requirements.txt"
+    ],
+    "upgrades_applied": [
+      "created contribution file"
+    ],
+    "status": "pushed",
+    "has_readme": true,
+    "has_gitignore": true,
+    "has_license": true,
+    "has_requirements": false,
+    "commit_hash": "87b3797"
+  },
+  {
+    "name": "civilization2.0",
+    "path": "/data/data/com.termux/files/home/une/meta_hub/civilization2.0",
+    "analyzed_at": "2026-08-05T00:02:15.776328",
+    "files_total": 7,
+    "python_files": 1,
+    "syntax_errors": [],
+    "tests_pass": null,
+    "missing_standard_files": [
+      "requirements.txt"
+    ],
+    "upgrades_applied": [
+      "created contribution file"
+    ],
+    "status": "committed_local",
+    "has_readme": true,
+    "has_gitignore": true,
+    "has_license": true,
+    "has_requirements": false,
+    "commit_hash": "5d87331"
+  },
+  {
+    "name": "jesseray718",
+    "path": "/data/data/com.termux/files/home/une/meta_hub/jesseray718",
+    "analyzed_at": "2026-08-05T00:02:17.791512",
+    "files_total": 6,
+    "python_files": 1,
+    "syntax_errors": [],
+    "tests_pass": null,
+    "missing_standard_files": [
+      "requirements.txt"
+    ],
+    "upgrades_applied": [
+      "created contribution file"
+    ],
+    "status": "pushed",
+    "has_readme": true,
+    "has_gitignore": true,
+    "has_license": true,
+    "has_requirements": false,
+    "commit_hash": "0d2e885"
   },
   {
     "name": "open-cell-thermal-open-cell-the",
     "path": "/data/data/com.termux/files/home/une/meta_hub/open-cell-thermal-open-cell-the",
-    "analyzed_at": "2026-08-04T23:55:10.027834",
-    "files_total": 0,
-    "python_files": 0,
+    "analyzed_at": "2026-08-05T00:02:19.436638",
+    "files_total": 4,
+    "python_files": 1,
     "syntax_errors": [],
     "tests_pass": null,
     "missing_standard_files": [
-      "README.md",
-      ".gitignore",
-      "LICENSE",
       "requirements.txt"
     ],
     "upgrades_applied": [
-      "generated README.md",
-      "generated .gitignore",
-      "generated LICENSE",
       "created contribution file"
     ],
     "status": "committed_local",
-    "has_readme": false,
-    "has_gitignore": false,
-    "has_license": false,
+    "has_readme": true,
+    "has_gitignore": true,
+    "has_license": true,
     "has_requirements": false,
-    "commit_hash": "7cfcb32"
+    "commit_hash": "0b97cca"
   },
   {
     "name": "openroot",
     "path": "/data/data/com.termux/files/home/une/meta_hub/openroot",
-    "analyzed_at": "2026-08-04T23:55:10.703312",
-    "files_total": 7423,
-    "python_files": 446,
+    "analyzed_at": "2026-08-05T00:02:20.211427",
+    "files_total": 7424,
+    "python_files": 447,
     "syntax_errors": [
       {
         "file": "bin/h003_resonant_solver.py",
@@ -322,14 +286,14 @@
     "has_gitignore": true,
     "has_license": true,
     "has_requirements": false,
-    "commit_hash": "ef12433"
+    "commit_hash": "9d594e5"
   },
   {
     "name": "openroot-spoke-template",
     "path": "/data/data/com.termux/files/home/une/meta_hub/openroot-spoke-template",
-    "analyzed_at": "2026-08-04T23:55:17.887873",
-    "files_total": 10,
-    "python_files": 0,
+    "analyzed_at": "2026-08-05T00:02:25.611149",
+    "files_total": 11,
+    "python_files": 1,
     "syntax_errors": [],
     "tests_pass": null,
     "missing_standard_files": [
@@ -343,14 +307,14 @@
     "has_gitignore": true,
     "has_license": true,
     "has_requirements": false,
-    "commit_hash": "1415541"
+    "commit_hash": "5433445"
   },
   {
     "name": "renaissance-protocol",
     "path": "/data/data/com.termux/files/home/une/meta_hub/renaissance-protocol",
-    "analyzed_at": "2026-08-04T23:55:19.517732",
-    "files_total": 54,
-    "python_files": 5,
+    "analyzed_at": "2026-08-05T00:02:27.329713",
+    "files_total": 55,
+    "python_files": 6,
     "syntax_errors": [
       {
         "file": "src/log_temp.py",
@@ -369,14 +333,14 @@
     "has_gitignore": true,
     "has_license": true,
     "has_requirements": false,
-    "commit_hash": "9946a92"
+    "commit_hash": "3760064"
   },
   {
     "name": "skills-introduction-to-github",
     "path": "/data/data/com.termux/files/home/une/meta_hub/skills-introduction-to-github",
-    "analyzed_at": "2026-08-04T23:55:20.526145",
-    "files_total": 25,
-    "python_files": 0,
+    "analyzed_at": "2026-08-05T00:02:27.978066",
+    "files_total": 26,
+    "python_files": 1,
     "syntax_errors": [],
     "tests_pass": null,
     "missing_standard_files": [
@@ -390,14 +354,14 @@
     "has_gitignore": true,
     "has_license": true,
     "has_requirements": false,
-    "commit_hash": "81fe942"
+    "commit_hash": "fba7de6"
   },
   {
     "name": "une",
     "path": "/data/data/com.termux/files/home/une/meta_hub/une",
-    "analyzed_at": "2026-08-04T23:55:22.050571",
-    "files_total": 159,
-    "python_files": 103,
+    "analyzed_at": "2026-08-05T00:02:29.316179",
+    "files_total": 160,
+    "python_files": 104,
     "syntax_errors": [
       {
         "file": "create_scripture_corpus.py",
@@ -428,29 +392,27 @@
     "has_gitignore": true,
     "has_license": true,
     "has_requirements": false,
-    "commit_hash": "2bdb622"
+    "commit_hash": "120644f"
   },
   {
     "name": "wisdom-scaffold",
     "path": "/data/data/com.termux/files/home/une/meta_hub/wisdom-scaffold",
-    "analyzed_at": "2026-08-04T23:55:25.045609",
-    "files_total": 18,
-    "python_files": 3,
+    "analyzed_at": "2026-08-05T00:02:31.124335",
+    "files_total": 20,
+    "python_files": 4,
     "syntax_errors": [],
     "tests_pass": null,
     "missing_standard_files": [
-      ".gitignore",
       "requirements.txt"
     ],
     "upgrades_applied": [
-      "generated .gitignore",
       "created contribution file"
     ],
     "status": "pushed",
     "has_readme": true,
-    "has_gitignore": false,
+    "has_gitignore": true,
     "has_license": true,
     "has_requirements": false,
-    "commit_hash": "30aa2b0"
+    "commit_hash": "185ba9b"
   }
 ]
