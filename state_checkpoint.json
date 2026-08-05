@@ -135,5 +135,9 @@
   "last_health_check": "2026-08-05T22:35:49.280554+00:00",
   "last_cycle_seconds": 9.126,
   "compounding_rate": 0.016458,
-  "reset_ts": "2026-08-05T22:25:43.387907+00:00"
+  "reset_ts": "2026-08-05T22:25:43.387907+00:00",
+  "ecosystem_nodes": 6,
+  "ecosystem_depth": 2,
+  "ecosystem_capacity": 36,
+  "last_agape_sync": "2026-08-05T23:09:39.928508+00:00"
 }

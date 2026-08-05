@@ -1,0 +1,113 @@
+{
+  "nodes": {
+    "node_0000": {
+      "repo": "aerocement",
+      "role": [
+        "physical_systems"
+      ],
+      "integration_points": [
+        "json_state_bus",
+        "computational_math"
+      ],
+      "health": "active",
+      "file_count": 125,
+      "lines_of_code": 1679,
+      "children": [
+        "node_0001",
+        "node_0002",
+        "node_0003",
+        "node_0004",
+        "node_0005"
+      ],
+      "parent": "root",
+      "synced": true,
+      "ts": "2026-08-05T23:09:33.097330+00:00"
+    },
+    "node_0001": {
+      "repo": "cannonball",
+      "role": [
+        "failed"
+      ],
+      "integration_points": [],
+      "health": "clone_failed",
+      "file_count": 0,
+      "lines_of_code": 0,
+      "children": [],
+      "parent": "root",
+      "synced": false,
+      "ts": "2026-08-05T23:09:33.097389+00:00"
+    },
+    "node_0002": {
+      "repo": "jesseray718",
+      "role": [
+        "profile_hub"
+      ],
+      "integration_points": [
+        "standalone"
+      ],
+      "health": "minimal",
+      "file_count": 24,
+      "lines_of_code": 16,
+      "children": [],
+      "parent": "root",
+      "synced": false,
+      "ts": "2026-08-05T23:09:33.097403+00:00"
+    },
+    "node_0003": {
+      "repo": "openroot",
+      "role": [
+        "system_kernel"
+      ],
+      "integration_points": [
+        "json_state_bus",
+        "merkle_anchoring",
+        "computational_math"
+      ],
+      "health": "active",
+      "file_count": 2819,
+      "lines_of_code": 38364,
+      "children": [],
+      "parent": "root",
+      "synced": true,
+      "ts": "2026-08-05T23:09:33.097413+00:00"
+    },
+    "node_0004": {
+      "repo": "une",
+      "role": [
+        "energy_accounting",
+        "wisdom_engine"
+      ],
+      "integration_points": [
+        "computational_math"
+      ],
+      "health": "active",
+      "file_count": 9400,
+      "lines_of_code": 92766,
+      "children": [],
+      "parent": "root",
+      "synced": true,
+      "ts": "2026-08-05T23:09:33.097423+00:00"
+    },
+    "node_0005": {
+      "repo": "wisdom-scaffold",
+      "role": [
+        "wisdom_engine"
+      ],
+      "integration_points": [
+        "json_state_bus"
+      ],
+      "health": "active",
+      "file_count": 42,
+      "lines_of_code": 198,
+      "children": [],
+      "parent": "root",
+      "synced": true,
+      "ts": "2026-08-05T23:09:33.097432+00:00"
+    }
+  },
+  "total_nodes": 6,
+  "max_depth": 2,
+  "base_degree": 6,
+  "capacity": 36,
+  "ts": "2026-08-05T23:09:33.098382+00:00"
+}

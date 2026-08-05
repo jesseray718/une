@@ -558,5 +558,10 @@
     "ts": "2026-08-05T22:35:47.862172+00:00",
     "text": "STRESS: meta_cycle.log:48 Error",
     "severity": "warning"
+  },
+  {
+    "ts": "2026-08-05T23:09:39.941594+00:00",
+    "text": "Agape sync: 6 nodes, depth 2",
+    "severity": "info"
   }
 ]
