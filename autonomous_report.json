@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-08-05T00:52:58.088220",
-  "scanned_files": 1392,
+  "timestamp": "2026-08-05T00:55:25.259155",
+  "scanned_files": 1424,
   "problems_found": 423,
-  "problems_fixed": 115,
+  "problems_fixed": 133,
   "lessons_learned": 0,
   "evolution_patches": 1,
   "errors_blocked_by_wisdom": 71,
@@ -10,8 +10,8 @@
     {
       "scanner": "dedup",
       "duplicate_groups": 40,
-      "redundant_files": 114,
-      "reclaimable_kb": 4038,
+      "redundant_files": 130,
+      "reclaimable_kb": 4039,
       "sample": [
         [
           "e3b0c44298fc1c14",
@@ -160,8 +160,8 @@
     },
     {
       "scanner": "contributions_bloat",
-      "total_files": 6,
-      "prunable": 1
+      "total_files": 8,
+      "prunable": 3
     }
   ]
 }
