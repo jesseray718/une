@@ -1,39 +1,55 @@
+# Auto-generated backups
+backups/
+*.bak
+*.tmp
+
+# Quarantined dead scripts
+quarantine/
+
+# Archived vendored code (not part of core OpenRoot)
+vendor_archive/
+
+# Mesh system files
+.autonomous_mesh_cache/
+.meshignore
+
+# Logs (keep in local storage, not git)
 logs/
-*.ots
-*.jsonl
-queue/
-tasks/
+*.log
+autonomous_daemon.log
+autonomous_report.json
+autonomous_snapshot.json
+
+# Python cache
 __pycache__/
 *.pyc
-*.bak
-*.pub
-computational_flow/EOF
-*\(*
-*.bak
-*.pub
-*\(*
-computational_flow/EOF
-*.bak
-*.pub
-*\(*
-computational_flow/EOF
-__pycache__/
-*.bak
-*.pub
-*\(*
-computational_flow/EOF
-__pycache__/
-*.bak
-*.pub
-*\(*
-computational_flow/EOF
-__pycache__/
-# Temp scripts (local only)
-setup_master.py ultimate_fix.py apply_all.py build_final.py
-fix_all_issues.py fix_round2.py final_fix.py cleanup_final.py
-bulk_migrate.py repair_imports.py last_fix.py wire_core.py
-guardian.py guardian_v4.py guardian_daemon.sh note.py snapshot.py resume.sh
-*.log *.jsonl
-status
-.guardian_pid
-*.jsonl
+*.pyo
+*.pyd
+.Python
+
+# IDE & Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Termux specific
+.data/
+.termux/
+
+# Large binary files
+*.gguf
+*.bin
+*.safetensors
+*.pth
+*.pt
+
+# Session data
+.session_*
+state_checkpoint.json
+
+# Fair data (local only)
+fair/chili_scores.jsonl
+fair/nutrient_profiles.jsonl
+fair/extraction_events.jsonl
+fair/gift_baskets_sent.jsonl

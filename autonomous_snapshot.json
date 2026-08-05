@@ -1,19 +1,19 @@
 {
-  "timestamp": "2026-08-05T01:23:05.512842",
+  "timestamp": "2026-08-05T03:05:00.435144",
   "report": {
-    "timestamp": "2026-08-05T01:23:02.602913",
-    "scanned_files": 1424,
-    "problems_found": 423,
-    "problems_fixed": 131,
+    "timestamp": "2026-08-05T03:04:56.705405",
+    "scanned_files": 1478,
+    "problems_found": 338,
+    "problems_fixed": 163,
     "lessons_learned": 0,
     "evolution_patches": 1,
-    "errors_blocked_by_wisdom": 71,
+    "errors_blocked_by_wisdom": 61,
     "details": [
       {
         "scanner": "dedup",
         "duplicate_groups": 40,
-        "redundant_files": 130,
-        "reclaimable_kb": 4039,
+        "redundant_files": 162,
+        "reclaimable_kb": 4041,
         "sample": [
           [
             "e3b0c44298fc1c14",
@@ -60,7 +60,7 @@
       },
       {
         "scanner": "syntax",
-        "error_count": 60,
+        "error_count": 50,
         "errors": [
           {
             "file": "aerocement/rmh.py",
@@ -116,7 +116,7 @@
       },
       {
         "scanner": "hardcoded_paths",
-        "count": 363,
+        "count": 288,
         "findings": [
           {
             "file": "aerocement/01_git_storage_fix.sh",

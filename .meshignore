@@ -1,0 +1,8 @@
+quarantine/
+vendor_archive/
+openroot-unified-backup/
+backups/
+node_modules/
+*.gguf
+*.bin
+*.safetensors

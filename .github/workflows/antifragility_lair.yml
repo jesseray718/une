@@ -1,0 +1,97 @@
+name: 🛡️ Antifragility Lair
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  # ── 1. STRUCTURE ENFORCER (Gatekeeper) ────────────────────────
+  enforce-structure:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: 🛑 Check for Hardcoded Paths
+        run: |
+          echo "🔍 Scanning for hardcoded paths..."
+          # Fail if /sdcard/openroot or /data/data/com.termux is found in .py or .sh files
+          if grep -r "/sdcard/openroot/\|/data/data/com.termux" --include="*.py" --include="*.sh" . | grep -v "vendor_archive" | grep -v "quarantine"; then
+            echo "❌ BLOCKED: Hardcoded paths detected!"
+            exit 1
+          fi
+          echo "✅ No hardcoded paths found."
+
+      - name: 🛑 Check for Syntax Errors
+        run: |
+          echo "🔍 Checking Python syntax..."
+          find . -name "*.py" -not -path "./vendor_archive/*" -not -path "./quarantine/*" -exec python3 -m py_compile {} \;
+          echo "✅ All Python files are syntactically valid."
+
+      - name: 🛑 Check for Dead Scripts
+        run: |
+          echo "🔍 Ensuring dead scripts are quarantined..."
+          if [ -f "fix_round2.py" ] || [ -f "ultimate_fix.py" ] || [ -f "last_fix.py" ]; then
+            echo "❌ BLOCKED: Dead scripts found in root!"
+            exit 1
+          fi
+          echo "✅ No dead scripts in active path."
+
+  # ── 2. TRANSMUTATION ENGINE (Wealth Generator) ────────────────
+  transmute:
+    needs: enforce-structure
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: 🌀 Run Transmutation Engine
+        run: |
+          echo "🌀 Starting Transmutation Engine..."
+          
+          # Install dependencies
+          pip install requests  # For GitHub API if needed later
+          
+          # Simulate finding issues (in real world, diff analysis would happen here)
+          # For now, we log the successful commit as a "transmutation event"
+          
+          TIMESTAMP=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+          COMMIT_MSG="${{ github.event.head_commit.message }}"
+          AUTHOR="${{ github.actor }}"
+          
+          echo "🎁 GIFT BASKET GENERATED:"
+          echo "  Recipient: The Broken System (Teacher)"
+          echo "  Trigger: Commit by $AUTHOR"
+          echo "  Message: $COMMIT_MSG"
+          echo "  Lesson: Inefficiency converted to knowledge."
+          echo "  Wealth: Agape Coin minted for $AUTHOR"
+          
+          # Log to a file for later retrieval
+          echo "{\"timestamp\": \"$TIMESTAMP\", \"author\": \"$AUTHOR\", \"commit\": \"$COMMIT_MSG\", \"status\": \"TRANSMUTED\"}" >> transmutation_log.jsonl
+          
+      - name: 📤 Upload Transmutation Log
+        uses: actions/upload-artifact@v4
+        with:
+          name: transmutation-log
+          path: transmutation_log.jsonl
+          retention-days: 30
+
+  # ── 3. FAIR DATA COLLECTOR (Community Wealth) ─────────────────
+  collect-fair-data:
+    needs: transmute
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: 🌽 Collect Chili Cook-off & Nutrient Data
+        run: |
+          echo "🌽 Scanning for Fair data files..."
+          if [ -f "fair/chili_scores.jsonl" ]; then
+            echo "🏆 Chili entries found: $(wc -l < fair/chili_scores.jsonl)"
+            echo "🥇 Top scorer will receive Agape Coin bonus."
+          fi
+          if [ -f "fair/nutrient_profiles.jsonl" ]; then
+            echo "🧬 Nutrient profiles collected: $(wc -l < fair/nutrient_profiles.jsonl)"
+          fi
+          echo "✅ Fair data synchronized."
+

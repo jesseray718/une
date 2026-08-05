@@ -1,0 +1,24 @@
+#!/data/data/com.termux/files/usr/bin/bash
+echo "═══ OPENROOT STATUS ═══"
+echo ""
+echo "─── SMOKE ───"
+cd ~/une && python3 tests/test_smoke.py 2>&1 | tail -1
+echo ""
+echo "─── GIT ───"
+cd ~/une && git status --short | wc -l | xargs echo "modified files:"
+cd ~/une && git status --short | head -5
+echo ""
+echo "─── GUARDIAN ───"
+if [ -f ~/une/.guardian_pid ]; then
+    PID=$(cat ~/une/.guardian_pid)
+    kill -0 $PID 2>/dev/null && echo "🟢 Running ($PID)" || echo "🔴 Dead"
+else
+    echo "⚪ Off"
+fi
+echo ""
+echo "─── NOTES ───"
+tail -3 /sdcard/openroot/notes.txt 2>/dev/null || echo "(none)"
+echo ""
+echo "─── PIPELINE ───"
+cd ~/une && python3 core_atomic.py pipeline 2>&1 | grep "eta"
+echo "══════════════════════"

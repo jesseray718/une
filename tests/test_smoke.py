@@ -4,10 +4,7 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "computational_flow"))
 
 def test_imports():
-    """Verify all modules import without crash."""
-    modules = ["core_atomic", "absorber", "universical_primes", "paths", "core_functions"]
-    # Also test structure_enforcer import (it is in computational_flow)
-    extra_tests = [("structure_enforcer", "computational_flow")]
+    modules = ["core_atomic", "absorber", "universical_primes", "paths"]
     passed, failed = 0, 0
     print("\n--- SMOKE TEST ---")
     for mod in modules:

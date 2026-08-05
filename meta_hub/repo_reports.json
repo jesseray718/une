@@ -2,9 +2,9 @@
   {
     "name": "AeroCement_Ecosystem",
     "path": "/data/data/com.termux/files/home/une/meta_hub/AeroCement_Ecosystem",
-    "analyzed_at": "2026-08-05T00:54:28.489130",
-    "files_total": 18,
-    "python_files": 4,
+    "analyzed_at": "2026-08-05T03:04:07.945777",
+    "files_total": 20,
+    "python_files": 6,
     "syntax_errors": [],
     "tests_pass": null,
     "missing_standard_files": [
@@ -18,14 +18,14 @@
     "has_gitignore": true,
     "has_license": true,
     "has_requirements": false,
-    "commit_hash": "158fed6"
+    "commit_hash": "3aaef5f"
   },
   {
     "name": "OpenCell-Thermal-System",
     "path": "/data/data/com.termux/files/home/une/meta_hub/OpenCell-Thermal-System",
-    "analyzed_at": "2026-08-05T00:54:29.906523",
-    "files_total": 41,
-    "python_files": 12,
+    "analyzed_at": "2026-08-05T03:04:09.957847",
+    "files_total": 43,
+    "python_files": 14,
     "syntax_errors": [
       {
         "file": "1_code/src/pdf-comp.py",
@@ -48,14 +48,14 @@
     "has_gitignore": true,
     "has_license": true,
     "has_requirements": false,
-    "commit_hash": "b3fec48"
+    "commit_hash": "0097658"
   },
   {
     "name": "aerocement",
     "path": "/data/data/com.termux/files/home/une/meta_hub/aerocement",
-    "analyzed_at": "2026-08-05T00:54:31.323653",
-    "files_total": 89,
-    "python_files": 34,
+    "analyzed_at": "2026-08-05T03:04:11.582364",
+    "files_total": 91,
+    "python_files": 36,
     "syntax_errors": [
       {
         "file": "rmh.py",
@@ -86,14 +86,14 @@
     "has_gitignore": true,
     "has_license": true,
     "has_requirements": false,
-    "commit_hash": "cd5a2af"
+    "commit_hash": "8261b61"
   },
   {
     "name": "aerocement-",
     "path": "/data/data/com.termux/files/home/une/meta_hub/aerocement-",
-    "analyzed_at": "2026-08-05T00:54:32.856994",
-    "files_total": 7,
-    "python_files": 4,
+    "analyzed_at": "2026-08-05T03:04:13.197501",
+    "files_total": 9,
+    "python_files": 6,
     "syntax_errors": [],
     "tests_pass": null,
     "missing_standard_files": [
@@ -107,14 +107,14 @@
     "has_gitignore": true,
     "has_license": true,
     "has_requirements": false,
-    "commit_hash": "aaa6ad8"
+    "commit_hash": "3b6efa2"
   },
   {
     "name": "agape-coordination",
     "path": "/data/data/com.termux/files/home/une/meta_hub/agape-coordination",
-    "analyzed_at": "2026-08-05T00:54:33.424657",
-    "files_total": 14,
-    "python_files": 9,
+    "analyzed_at": "2026-08-05T03:04:13.706656",
+    "files_total": 16,
+    "python_files": 11,
     "syntax_errors": [
       {
         "file": "agape_engine.py",
@@ -137,14 +137,14 @@
     "has_gitignore": true,
     "has_license": true,
     "has_requirements": false,
-    "commit_hash": "50f2047"
+    "commit_hash": "20ccedd"
   },
   {
     "name": "agape-une",
     "path": "/data/data/com.termux/files/home/une/meta_hub/agape-une",
-    "analyzed_at": "2026-08-05T00:54:34.817396",
-    "files_total": 9,
-    "python_files": 4,
+    "analyzed_at": "2026-08-05T03:04:15.119763",
+    "files_total": 11,
+    "python_files": 6,
     "syntax_errors": [],
     "tests_pass": null,
     "missing_standard_files": [
@@ -158,14 +158,14 @@
     "has_gitignore": true,
     "has_license": true,
     "has_requirements": false,
-    "commit_hash": "9b5f3c4"
+    "commit_hash": "2d9e113"
   },
   {
     "name": "black-locust-rmh",
     "path": "/data/data/com.termux/files/home/une/meta_hub/black-locust-rmh",
-    "analyzed_at": "2026-08-05T00:54:36.259253",
-    "files_total": 10,
-    "python_files": 4,
+    "analyzed_at": "2026-08-05T03:04:16.706059",
+    "files_total": 12,
+    "python_files": 6,
     "syntax_errors": [],
     "tests_pass": null,
     "missing_standard_files": [
@@ -179,14 +179,14 @@
     "has_gitignore": true,
     "has_license": true,
     "has_requirements": false,
-    "commit_hash": "3174345"
+    "commit_hash": "17f55c3"
   },
   {
     "name": "civilization2.0",
     "path": "/data/data/com.termux/files/home/une/meta_hub/civilization2.0",
-    "analyzed_at": "2026-08-05T00:54:37.807938",
-    "files_total": 10,
-    "python_files": 4,
+    "analyzed_at": "2026-08-05T03:04:18.510460",
+    "files_total": 12,
+    "python_files": 6,
     "syntax_errors": [],
     "tests_pass": null,
     "missing_standard_files": [
@@ -200,14 +200,14 @@
     "has_gitignore": true,
     "has_license": true,
     "has_requirements": false,
-    "commit_hash": "5b6d4b5"
+    "commit_hash": "81e1dc5"
   },
   {
     "name": "jesseray718",
     "path": "/data/data/com.termux/files/home/une/meta_hub/jesseray718",
-    "analyzed_at": "2026-08-05T00:54:38.348810",
-    "files_total": 9,
-    "python_files": 4,
+    "analyzed_at": "2026-08-05T03:04:19.051518",
+    "files_total": 11,
+    "python_files": 6,
     "syntax_errors": [],
     "tests_pass": null,
     "missing_standard_files": [
@@ -221,14 +221,14 @@
     "has_gitignore": true,
     "has_license": true,
     "has_requirements": false,
-    "commit_hash": "c52370e"
+    "commit_hash": "087f7a1"
   },
   {
     "name": "open-cell-thermal-open-cell-the",
     "path": "/data/data/com.termux/files/home/une/meta_hub/open-cell-thermal-open-cell-the",
-    "analyzed_at": "2026-08-05T00:54:39.761453",
-    "files_total": 7,
-    "python_files": 4,
+    "analyzed_at": "2026-08-05T03:04:20.437340",
+    "files_total": 9,
+    "python_files": 6,
     "syntax_errors": [],
     "tests_pass": null,
     "missing_standard_files": [
@@ -242,14 +242,14 @@
     "has_gitignore": true,
     "has_license": true,
     "has_requirements": false,
-    "commit_hash": "3861d60"
+    "commit_hash": "066eb44"
   },
   {
     "name": "openroot",
     "path": "/data/data/com.termux/files/home/une/meta_hub/openroot",
-    "analyzed_at": "2026-08-05T00:54:40.331596",
-    "files_total": 7427,
-    "python_files": 450,
+    "analyzed_at": "2026-08-05T03:04:21.146819",
+    "files_total": 2187,
+    "python_files": 256,
     "syntax_errors": [
       {
         "file": "test_configs.py",
@@ -396,14 +396,14 @@
     "has_gitignore": true,
     "has_license": true,
     "has_requirements": false,
-    "commit_hash": "99160ec"
+    "commit_hash": "8cfd084"
   },
   {
     "name": "openroot-spoke-template",
     "path": "/data/data/com.termux/files/home/une/meta_hub/openroot-spoke-template",
-    "analyzed_at": "2026-08-05T00:54:45.936749",
-    "files_total": 14,
-    "python_files": 4,
+    "analyzed_at": "2026-08-05T03:04:28.242249",
+    "files_total": 16,
+    "python_files": 6,
     "syntax_errors": [],
     "tests_pass": null,
     "missing_standard_files": [
@@ -417,14 +417,14 @@
     "has_gitignore": true,
     "has_license": true,
     "has_requirements": false,
-    "commit_hash": "6b84619"
+    "commit_hash": "cc13c8a"
   },
   {
     "name": "renaissance-protocol",
     "path": "/data/data/com.termux/files/home/une/meta_hub/renaissance-protocol",
-    "analyzed_at": "2026-08-05T00:54:47.428202",
-    "files_total": 58,
-    "python_files": 9,
+    "analyzed_at": "2026-08-05T03:04:29.786271",
+    "files_total": 60,
+    "python_files": 11,
     "syntax_errors": [
       {
         "file": "src/log_temp.py",
@@ -443,14 +443,14 @@
     "has_gitignore": true,
     "has_license": true,
     "has_requirements": false,
-    "commit_hash": "e2cc123"
+    "commit_hash": "e3e6857"
   },
   {
     "name": "skills-introduction-to-github",
     "path": "/data/data/com.termux/files/home/une/meta_hub/skills-introduction-to-github",
-    "analyzed_at": "2026-08-05T00:54:48.093159",
-    "files_total": 29,
-    "python_files": 4,
+    "analyzed_at": "2026-08-05T03:04:30.489476",
+    "files_total": 31,
+    "python_files": 6,
     "syntax_errors": [],
     "tests_pass": null,
     "missing_standard_files": [
@@ -464,14 +464,14 @@
     "has_gitignore": true,
     "has_license": true,
     "has_requirements": false,
-    "commit_hash": "016be43"
+    "commit_hash": "6edf772"
   },
   {
     "name": "une",
     "path": "/data/data/com.termux/files/home/une/meta_hub/une",
-    "analyzed_at": "2026-08-05T00:54:49.404677",
-    "files_total": 163,
-    "python_files": 107,
+    "analyzed_at": "2026-08-05T03:04:32.047852",
+    "files_total": 155,
+    "python_files": 99,
     "syntax_errors": [
       {
         "file": "absorb_batch.py",
@@ -482,40 +482,12 @@
         "error": "invalid syntax. Perhaps you forgot a comma? (<unknown>, line 115)"
       },
       {
-        "file": "apply_all.py",
-        "error": "invalid syntax. Perhaps you forgot a comma? (<unknown>, line 77)"
-      },
-      {
-        "file": "build_final.py",
-        "error": "invalid syntax. Perhaps you forgot a comma? (<unknown>, line 7)"
-      },
-      {
-        "file": "bulk_migrate.py",
-        "error": "invalid syntax. Perhaps you forgot a comma? (<unknown>, line 6)"
-      },
-      {
-        "file": "cleanup_final.py",
-        "error": "invalid syntax. Perhaps you forgot a comma? (<unknown>, line 6)"
-      },
-      {
         "file": "create_scripture_corpus.py",
         "error": "'{' was never closed (<unknown>, line 1039)"
       },
       {
         "file": "evolution_engine.py",
         "error": "invalid syntax. Is this intended to be part of the string? (<unknown>, line 9)"
-      },
-      {
-        "file": "final_fix.py",
-        "error": "invalid syntax. Perhaps you forgot a comma? (<unknown>, line 6)"
-      },
-      {
-        "file": "fix_all_issues.py",
-        "error": "invalid syntax. Perhaps you forgot a comma? (<unknown>, line 6)"
-      },
-      {
-        "file": "fix_round2.py",
-        "error": "invalid syntax. Perhaps you forgot a comma? (<unknown>, line 6)"
       },
       {
         "file": "guardian.py",
@@ -530,16 +502,8 @@
         "error": "invalid syntax. Is this intended to be part of the string? (<unknown>, line 10)"
       },
       {
-        "file": "last_fix.py",
-        "error": "invalid syntax. Perhaps you forgot a comma? (<unknown>, line 6)"
-      },
-      {
         "file": "note.py",
         "error": "invalid syntax. Is this intended to be part of the string? (<unknown>, line 6)"
-      },
-      {
-        "file": "repair_imports.py",
-        "error": "invalid syntax. Perhaps you forgot a comma? (<unknown>, line 6)"
       },
       {
         "file": "self_clone.py",
@@ -552,10 +516,6 @@
       {
         "file": "swarm_query.py",
         "error": "invalid syntax (<unknown>, line 31)"
-      },
-      {
-        "file": "ultimate_fix.py",
-        "error": "invalid syntax. Perhaps you forgot a comma? (<unknown>, line 6)"
       },
       {
         "file": "wire_core.py",
@@ -594,14 +554,14 @@
     "has_gitignore": true,
     "has_license": true,
     "has_requirements": false,
-    "commit_hash": "640be77"
+    "commit_hash": "65e772a"
   },
   {
     "name": "wisdom-scaffold",
     "path": "/data/data/com.termux/files/home/une/meta_hub/wisdom-scaffold",
-    "analyzed_at": "2026-08-05T00:54:51.752860",
-    "files_total": 23,
-    "python_files": 7,
+    "analyzed_at": "2026-08-05T03:04:34.293881",
+    "files_total": 25,
+    "python_files": 9,
     "syntax_errors": [
       {
         "file": "computational_flow/fusion_core.py",
@@ -624,6 +584,6 @@
     "has_gitignore": true,
     "has_license": true,
     "has_requirements": false,
-    "commit_hash": "0c86cc8"
+    "commit_hash": "5723fa9"
   }
 ]
