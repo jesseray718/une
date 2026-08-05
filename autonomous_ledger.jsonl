@@ -9320,3 +9320,965 @@
 {"timestamp": "2026-08-05T03:05:00.445719", "message": "   Fix rate: 48.2%"}
 {"timestamp": "2026-08-05T03:05:00.446123", "message": "\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550"}
 {"timestamp": "2026-08-05T03:05:00.449249", "message": "\ud83d\udccb Report saved: /data/data/com.termux/files/home/une/autonomous_report.json"}
+{"timestamp": "2026-08-05T03:22:39.479526", "message": "\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550"}
+{"timestamp": "2026-08-05T03:22:39.480938", "message": "\ud83e\udd81 AUTONOMOUS MESH ENGINE v1.0 \u2014 CYCLE START"}
+{"timestamp": "2026-08-05T03:22:39.481663", "message": "   Base: /data/data/com.termux/files/home/une"}
+{"timestamp": "2026-08-05T03:22:39.482281", "message": "   Meta Hub: /data/data/com.termux/files/home/une/meta_hub"}
+{"timestamp": "2026-08-05T03:22:39.482882", "message": "   Wisdom: /data/data/com.termux/files/home/une/wisdom/error_patterns.json"}
+{"timestamp": "2026-08-05T03:22:39.483423", "message": "\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550"}
+{"timestamp": "2026-08-05T03:22:39.483962", "message": "\n\u2500\u2500 PHASE 1: OBSERVE \u2500\u2500"}
+{"timestamp": "2026-08-05T03:22:39.484485", "message": "\ud83d\udd0d SCANNER: Deduplication scan starting..."}
+{"timestamp": "2026-08-05T03:22:41.864377", "message": "\ud83d\udd0d DEDUP: Found 40 duplicate groups, 162 redundant files, ~4041KB reclaimable"}
+{"timestamp": "2026-08-05T03:22:41.868415", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 duplicate_file"}
+{"timestamp": "2026-08-05T03:22:41.868784", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 duplicate_file"}
+{"timestamp": "2026-08-05T03:22:41.869034", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 duplicate_file"}
+{"timestamp": "2026-08-05T03:22:41.869284", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 duplicate_file"}
+{"timestamp": "2026-08-05T03:22:41.869537", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 duplicate_file"}
+{"timestamp": "2026-08-05T03:22:41.870040", "message": "\ud83d\udd0d SCANNER: Syntax scan starting..."}
+{"timestamp": "2026-08-05T03:22:41.892305", "message": "\u274c SYNTAX ERROR: aerocement/rmh.py:56 \u2014 invalid syntax. Perhaps you forgot a comma?"}
+{"timestamp": "2026-08-05T03:22:41.894520", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:22:41.961318", "message": "\u274c SYNTAX ERROR: aerocement/scripts/data_logger.py:2 \u2014 invalid syntax"}
+{"timestamp": "2026-08-05T03:22:41.961822", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:22:41.964430", "message": "\u274c SYNTAX ERROR: aerocement/scripts/data_logger_v03.py:16 \u2014 invalid syntax. Is this intended to be part of the string?"}
+{"timestamp": "2026-08-05T03:22:41.965604", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:22:42.018110", "message": "\u274c SYNTAX ERROR: aerocement/une-dev/test_une_fixed.py:19 \u2014 invalid syntax. Perhaps you forgot a comma?"}
+{"timestamp": "2026-08-05T03:22:42.018557", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:22:42.072044", "message": "\u274c SYNTAX ERROR: agape-coordination/agape_engine.py:57 \u2014 invalid syntax. Is this intended to be part of the string?"}
+{"timestamp": "2026-08-05T03:22:42.072463", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:22:42.122986", "message": "\u274c SYNTAX ERROR: agape-coordination/swarm_core_v3.py:41 \u2014 invalid syntax"}
+{"timestamp": "2026-08-05T03:22:42.125791", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:22:42.195483", "message": "\u274c SYNTAX ERROR: OpenCell-Thermal-System/1_code/src/pdf-comp.py:1 \u2014 invalid syntax"}
+{"timestamp": "2026-08-05T03:22:42.204729", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:22:42.207311", "message": "\u274c SYNTAX ERROR: OpenCell-Thermal-System/1_code/src/pdf-compile.py:1 \u2014 invalid syntax"}
+{"timestamp": "2026-08-05T03:22:42.208467", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:22:42.243695", "message": "\u274c SYNTAX ERROR: openroot/test_configs.py:6 \u2014 invalid syntax. Is this intended to be part of the string?"}
+{"timestamp": "2026-08-05T03:22:42.244258", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:22:42.249698", "message": "\u274c SYNTAX ERROR: openroot/bin/acre_mint_claim.py:13 \u2014 invalid syntax. Is this intended to be part of the string?"}
+{"timestamp": "2026-08-05T03:22:42.250093", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:22:42.274875", "message": "\u274c SYNTAX ERROR: openroot/bin/auto_sensor_capture.py:14 \u2014 invalid syntax. Is this intended to be part of the string?"}
+{"timestamp": "2026-08-05T03:22:42.276444", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:22:42.297461", "message": "\u274c SYNTAX ERROR: openroot/bin/embed_docs.py:7 \u2014 invalid syntax. Perhaps you forgot a comma?"}
+{"timestamp": "2026-08-05T03:22:42.297876", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:22:42.310526", "message": "\u274c SYNTAX ERROR: openroot/bin/h003_resonant_solver.py:348 \u2014 invalid decimal literal"}
+{"timestamp": "2026-08-05T03:22:42.314562", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:22:42.317547", "message": "\u274c SYNTAX ERROR: openroot/bin/instrument_ledger.py:15 \u2014 invalid syntax. Is this intended to be part of the string?"}
+{"timestamp": "2026-08-05T03:22:42.317974", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:22:42.377168", "message": "\u274c SYNTAX ERROR: openroot/bin/offline_rank.py:6 \u2014 invalid syntax. Perhaps you forgot a comma?"}
+{"timestamp": "2026-08-05T03:22:42.377579", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:22:42.378442", "message": "\u274c SYNTAX ERROR: openroot/bin/offline_writer.py:12 \u2014 invalid syntax. Perhaps you forgot a comma?"}
+{"timestamp": "2026-08-05T03:22:42.380618", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:22:42.384210", "message": "\u274c SYNTAX ERROR: openroot/bin/orphan_cleanup.py:16 \u2014 invalid syntax. Is this intended to be part of the string?"}
+{"timestamp": "2026-08-05T03:22:42.384613", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:22:42.385627", "message": "\u274c SYNTAX ERROR: openroot/bin/query_agent.py:12 \u2014 invalid syntax. Perhaps you forgot a comma?"}
+{"timestamp": "2026-08-05T03:22:42.386054", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:22:42.572204", "message": "\u274c SYNTAX ERROR: openroot/bin/thermal_v62_balanced.py:300 \u2014 invalid syntax. Perhaps you forgot a comma?"}
+{"timestamp": "2026-08-05T03:22:42.582690", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:22:42.606158", "message": "\u274c SYNTAX ERROR: openroot/bin/vecquery.py:8 \u2014 invalid syntax. Perhaps you forgot a comma?"}
+{"timestamp": "2026-08-05T03:22:42.606487", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:22:42.628431", "message": "\u274c SYNTAX ERROR: openroot/context_bridge/absorb_full_session.py:5 \u2014 invalid syntax"}
+{"timestamp": "2026-08-05T03:22:42.628758", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:22:42.635592", "message": "\u274c SYNTAX ERROR: openroot/context_bridge/absorb_now.py:5 \u2014 invalid syntax"}
+{"timestamp": "2026-08-05T03:22:42.636160", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:22:42.636930", "message": "\u274c SYNTAX ERROR: openroot/context_bridge/absorb_to_wisdom.py:5 \u2014 invalid syntax"}
+{"timestamp": "2026-08-05T03:22:42.637232", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:22:42.640841", "message": "\u274c SYNTAX ERROR: openroot/context_bridge/openroot_state.py:11 \u2014 invalid syntax. Perhaps you forgot a comma?"}
+{"timestamp": "2026-08-05T03:22:42.641152", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:22:42.653939", "message": "\u274c SYNTAX ERROR: openroot/lattice/meta_mesh_engine.py:17 \u2014 invalid syntax. Is this intended to be part of the string?"}
+{"timestamp": "2026-08-05T03:22:42.654500", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:22:42.655315", "message": "\u274c SYNTAX ERROR: openroot/ledger/cpu_joules.py:5 \u2014 invalid syntax"}
+{"timestamp": "2026-08-05T03:22:42.655616", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:22:42.656433", "message": "\u274c SYNTAX ERROR: openroot/ledger/merkle_joule_ledger.py:12 \u2014 invalid syntax. Perhaps you forgot a comma?"}
+{"timestamp": "2026-08-05T03:22:42.656732", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:22:42.657523", "message": "\u274c SYNTAX ERROR: openroot/ledger/state_and_viz.py:6 \u2014 invalid syntax"}
+{"timestamp": "2026-08-05T03:22:42.657847", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:22:42.658502", "message": "\u274c SYNTAX ERROR: openroot/ledger/thermo_ledger.py:4 \u2014 invalid syntax"}
+{"timestamp": "2026-08-05T03:22:42.658802", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:22:42.659486", "message": "\u274c SYNTAX ERROR: openroot/ledger/thermo_ledger_sqlite.py:5 \u2014 invalid syntax"}
+{"timestamp": "2026-08-05T03:22:42.664767", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:22:42.865230", "message": "\u274c SYNTAX ERROR: renaissance-protocol/src/log_temp.py:1 \u2014 invalid syntax"}
+{"timestamp": "2026-08-05T03:22:42.865806", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:22:42.875070", "message": "\u274c SYNTAX ERROR: une/absorb_batch.py:90 \u2014 invalid syntax. Is this intended to be part of the string?"}
+{"timestamp": "2026-08-05T03:22:42.875484", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:22:42.890518", "message": "\u274c SYNTAX ERROR: une/alchemy_transmute.py:115 \u2014 invalid syntax. Perhaps you forgot a comma?"}
+{"timestamp": "2026-08-05T03:22:42.890953", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:22:42.928935", "message": "\u274c SYNTAX ERROR: une/create_scripture_corpus.py:1039 \u2014 '{' was never closed"}
+{"timestamp": "2026-08-05T03:22:42.929440", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:22:42.930432", "message": "\u274c SYNTAX ERROR: une/evolution_engine.py:9 \u2014 invalid syntax. Is this intended to be part of the string?"}
+{"timestamp": "2026-08-05T03:22:42.930786", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:22:42.947248", "message": "\u274c SYNTAX ERROR: une/guardian.py:21 \u2014 invalid syntax. Is this intended to be part of the string?"}
+{"timestamp": "2026-08-05T03:22:42.947620", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:22:42.948467", "message": "\u274c SYNTAX ERROR: une/guardian_v4.py:12 \u2014 invalid syntax. Is this intended to be part of the string?"}
+{"timestamp": "2026-08-05T03:22:42.948807", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:22:42.954769", "message": "\u274c SYNTAX ERROR: une/kernel_init.py:10 \u2014 invalid syntax. Is this intended to be part of the string?"}
+{"timestamp": "2026-08-05T03:22:42.955159", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:22:42.957250", "message": "\u274c SYNTAX ERROR: une/note.py:6 \u2014 invalid syntax. Is this intended to be part of the string?"}
+{"timestamp": "2026-08-05T03:22:42.957626", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:22:42.982191", "message": "\u274c SYNTAX ERROR: une/self_clone.py:10 \u2014 invalid syntax"}
+{"timestamp": "2026-08-05T03:22:42.982580", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:22:42.984975", "message": "\u274c SYNTAX ERROR: une/snapshot.py:15 \u2014 invalid syntax. Perhaps you forgot a comma?"}
+{"timestamp": "2026-08-05T03:22:42.985771", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:22:42.990176", "message": "\u274c SYNTAX ERROR: une/swarm_query.py:31 \u2014 invalid syntax"}
+{"timestamp": "2026-08-05T03:22:42.990598", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:22:42.996839", "message": "\u274c SYNTAX ERROR: une/wire_core.py:13 \u2014 invalid syntax. Perhaps you forgot a comma?"}
+{"timestamp": "2026-08-05T03:22:42.997590", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:22:43.085386", "message": "\u274c SYNTAX ERROR: une/computational_flow/atomic_scan.py:17 \u2014 invalid syntax. Perhaps you forgot a comma?"}
+{"timestamp": "2026-08-05T03:22:43.086769", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:22:43.096950", "message": "\u274c SYNTAX ERROR: une/computational_flow/extract_seed.py:41 \u2014 invalid syntax. Perhaps you forgot a comma?"}
+{"timestamp": "2026-08-05T03:22:43.097406", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:22:43.115393", "message": "\u274c SYNTAX ERROR: une/computational_flow/fs_hook.py:14 \u2014 invalid syntax. Perhaps you forgot a comma?"}
+{"timestamp": "2026-08-05T03:22:43.116051", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:22:43.175598", "message": "\u274c SYNTAX ERROR: une/computational_flow/push_proof.py:17 \u2014 invalid syntax"}
+{"timestamp": "2026-08-05T03:22:43.176001", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:22:43.261332", "message": "\u274c SYNTAX ERROR: une/tools/stream_of_thought.py:14 \u2014 invalid syntax. Is this intended to be part of the string?"}
+{"timestamp": "2026-08-05T03:22:43.261698", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:22:43.281868", "message": "\u274c SYNTAX ERROR: wisdom-scaffold/computational_flow/fusion_core.py:58 \u2014 invalid syntax. Is this intended to be part of the string?"}
+{"timestamp": "2026-08-05T03:22:43.282227", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:22:43.284332", "message": "\u274c SYNTAX ERROR: wisdom-scaffold/computational_flow/fusion_sensor_wrapper.py:43 \u2014 invalid syntax. Perhaps you forgot a comma?"}
+{"timestamp": "2026-08-05T03:22:43.284692", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:22:43.286711", "message": "\ud83d\udd0d SYNTAX: Found 50 syntax errors"}
+{"timestamp": "2026-08-05T03:22:43.286978", "message": "\ud83d\udd0d SCANNER: Hardcoded path scan starting..."}
+{"timestamp": "2026-08-05T03:22:43.672076", "message": "\ud83d\udd0d PATHS: Found 288 hardcoded path references"}
+{"timestamp": "2026-08-05T03:22:43.672353", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 hardcoded_path"}
+{"timestamp": "2026-08-05T03:22:43.672559", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 hardcoded_path"}
+{"timestamp": "2026-08-05T03:22:43.672724", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 hardcoded_path"}
+{"timestamp": "2026-08-05T03:22:43.672877", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 hardcoded_path"}
+{"timestamp": "2026-08-05T03:22:43.673017", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 hardcoded_path"}
+{"timestamp": "2026-08-05T03:22:43.673161", "message": "\ud83d\udd0d SCANNER: Contributions bloat scan starting..."}
+{"timestamp": "2026-08-05T03:22:43.674730", "message": "\n\u2500\u2500 PHASE 2: DIAGNOSE \u2500\u2500"}
+{"timestamp": "2026-08-05T03:22:43.676933", "message": "   Total problems found: 338"}
+{"timestamp": "2026-08-05T03:22:43.677275", "message": "   Lessons learned: 0"}
+{"timestamp": "2026-08-05T03:22:43.677484", "message": "   Known patterns blocked: 60"}
+{"timestamp": "2026-08-05T03:22:43.677623", "message": "\n\u2500\u2500 PHASE 3: MUTATE \u2500\u2500"}
+{"timestamp": "2026-08-05T03:22:43.677739", "message": "\ud83d\udd27 MUTATION: Deduplication fix starting..."}
+{"timestamp": "2026-08-05T03:22:43.681099", "message": "  \ud83d\udd17 LINKED: aerocement/data/.gitkeep \u2192 une/une/__init__.py"}
+{"timestamp": "2026-08-05T03:22:43.681471", "action": "dedup_symlink", "file": "aerocement/data/.gitkeep", "details": "\u2192 une/une/__init__.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.682414", "message": "  \ud83d\udd17 LINKED: OpenCell-Thermal-System/0_data/raw/raw_data.csv \u2192 une/une/__init__.py"}
+{"timestamp": "2026-08-05T03:22:43.682679", "action": "dedup_symlink", "file": "OpenCell-Thermal-System/0_data/raw/raw_data.csv", "details": "\u2192 une/une/__init__.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.683459", "message": "  \ud83d\udd17 LINKED: OpenCell-Thermal-System/docs/specifications/permissions-audit.txt \u2192 une/une/__init__.py"}
+{"timestamp": "2026-08-05T03:22:43.683673", "action": "dedup_symlink", "file": "OpenCell-Thermal-System/docs/specifications/permissions-audit.txt", "details": "\u2192 une/une/__init__.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.684374", "message": "  \ud83d\udd17 LINKED: openroot/relay/input.txt \u2192 une/une/__init__.py"}
+{"timestamp": "2026-08-05T03:22:43.684582", "action": "dedup_symlink", "file": "openroot/relay/input.txt", "details": "\u2192 une/une/__init__.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.685295", "message": "  \ud83d\udd17 LINKED: openroot-spoke-template/bom/.gitkeep \u2192 une/une/__init__.py"}
+{"timestamp": "2026-08-05T03:22:43.685523", "action": "dedup_symlink", "file": "openroot-spoke-template/bom/.gitkeep", "details": "\u2192 une/une/__init__.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.686239", "message": "  \ud83d\udd17 LINKED: openroot-spoke-template/cad/.gitkeep \u2192 une/une/__init__.py"}
+{"timestamp": "2026-08-05T03:22:43.686451", "action": "dedup_symlink", "file": "openroot-spoke-template/cad/.gitkeep", "details": "\u2192 une/une/__init__.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.687366", "message": "  \ud83d\udd17 LINKED: openroot-spoke-template/docs/.gitkeep \u2192 une/une/__init__.py"}
+{"timestamp": "2026-08-05T03:22:43.687659", "action": "dedup_symlink", "file": "openroot-spoke-template/docs/.gitkeep", "details": "\u2192 une/une/__init__.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.690653", "message": "  \ud83d\udd17 LINKED: openroot-spoke-template/src/.gitkeep \u2192 une/une/__init__.py"}
+{"timestamp": "2026-08-05T03:22:43.690982", "action": "dedup_symlink", "file": "openroot-spoke-template/src/.gitkeep", "details": "\u2192 une/une/__init__.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.691757", "message": "  \ud83d\udd17 LINKED: renaissance-protocol/docs/case_studies/README.md \u2192 une/une/__init__.py"}
+{"timestamp": "2026-08-05T03:22:43.691966", "action": "dedup_symlink", "file": "renaissance-protocol/docs/case_studies/README.md", "details": "\u2192 une/une/__init__.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.693547", "message": "  \ud83d\udd17 LINKED: renaissance-protocol/docs/engineering/README.md \u2192 une/une/__init__.py"}
+{"timestamp": "2026-08-05T03:22:43.693846", "action": "dedup_symlink", "file": "renaissance-protocol/docs/engineering/README.md", "details": "\u2192 une/une/__init__.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.694611", "message": "  \ud83d\udd17 LINKED: renaissance-protocol/hardware/hho/README.md \u2192 une/une/__init__.py"}
+{"timestamp": "2026-08-05T03:22:43.694845", "action": "dedup_symlink", "file": "renaissance-protocol/hardware/hho/README.md", "details": "\u2192 une/une/__init__.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.698699", "message": "  \ud83d\udd17 LINKED: renaissance-protocol/hardware/labyrinth/README.md \u2192 une/une/__init__.py"}
+{"timestamp": "2026-08-05T03:22:43.699021", "action": "dedup_symlink", "file": "renaissance-protocol/hardware/labyrinth/README.md", "details": "\u2192 une/une/__init__.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.699813", "message": "  \ud83d\udd17 LINKED: renaissance-protocol/hardware/panels/README.md \u2192 une/une/__init__.py"}
+{"timestamp": "2026-08-05T03:22:43.700076", "action": "dedup_symlink", "file": "renaissance-protocol/hardware/panels/README.md", "details": "\u2192 une/une/__init__.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.700834", "message": "  \ud83d\udd17 LINKED: renaissance-protocol/hardware/stirling/README.md \u2192 une/une/__init__.py"}
+{"timestamp": "2026-08-05T03:22:43.701045", "action": "dedup_symlink", "file": "renaissance-protocol/hardware/stirling/README.md", "details": "\u2192 une/une/__init__.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.701805", "message": "  \ud83d\udd17 LINKED: renaissance-protocol/hardware/welder/HHO_Electrolysis_Module.md \u2192 une/une/__init__.py"}
+{"timestamp": "2026-08-05T03:22:43.702028", "action": "dedup_symlink", "file": "renaissance-protocol/hardware/welder/HHO_Electrolysis_Module.md", "details": "\u2192 une/une/__init__.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.704381", "message": "  \ud83d\udd17 LINKED: renaissance-protocol/library/volumes/README.md \u2192 une/une/__init__.py"}
+{"timestamp": "2026-08-05T03:22:43.704710", "action": "dedup_symlink", "file": "renaissance-protocol/library/volumes/README.md", "details": "\u2192 une/une/__init__.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.705574", "message": "  \ud83d\udd17 LINKED: renaissance-protocol/src/README.md \u2192 une/une/__init__.py"}
+{"timestamp": "2026-08-05T03:22:43.705812", "action": "dedup_symlink", "file": "renaissance-protocol/src/README.md", "details": "\u2192 une/une/__init__.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.706509", "message": "  \ud83d\udd17 LINKED: wisdom-scaffold/--body \u2192 une/une/__init__.py"}
+{"timestamp": "2026-08-05T03:22:43.706678", "action": "dedup_symlink", "file": "wisdom-scaffold/--body", "details": "\u2192 une/une/__init__.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.707262", "message": "  \ud83d\udd17 LINKED: wisdom-scaffold/--label \u2192 une/une/__init__.py"}
+{"timestamp": "2026-08-05T03:22:43.707430", "action": "dedup_symlink", "file": "wisdom-scaffold/--label", "details": "\u2192 une/une/__init__.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.708003", "message": "  \ud83d\udd17 LINKED: wisdom-scaffold/--repo \u2192 une/une/__init__.py"}
+{"timestamp": "2026-08-05T03:22:43.708162", "action": "dedup_symlink", "file": "wisdom-scaffold/--repo", "details": "\u2192 une/une/__init__.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.708731", "message": "  \ud83d\udd17 LINKED: wisdom-scaffold/--title \u2192 une/une/__init__.py"}
+{"timestamp": "2026-08-05T03:22:43.708875", "action": "dedup_symlink", "file": "wisdom-scaffold/--title", "details": "\u2192 une/une/__init__.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.709861", "message": "  \ud83d\udd17 LINKED: openroot/recovered_blueprints/une_h003_capture.sh \u2192 aerocement/observations/une_h003_capture.sh"}
+{"timestamp": "2026-08-05T03:22:43.710151", "action": "dedup_symlink", "file": "openroot/recovered_blueprints/une_h003_capture.sh", "details": "\u2192 aerocement/observations/une_h003_capture.sh", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.710984", "message": "  \ud83d\udd17 LINKED: openroot/computational_flow/tasks/task_h003.json \u2192 aerocement/swarm/tasks/task_h003.json"}
+{"timestamp": "2026-08-05T03:22:43.711208", "action": "dedup_symlink", "file": "openroot/computational_flow/tasks/task_h003.json", "details": "\u2192 aerocement/swarm/tasks/task_h003.json", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.712574", "message": "  \ud83d\udd17 LINKED: openroot/une_protocol/demo_final.py \u2192 aerocement/une-dev/demo_final.py"}
+{"timestamp": "2026-08-05T03:22:43.713262", "action": "dedup_symlink", "file": "openroot/une_protocol/demo_final.py", "details": "\u2192 aerocement/une-dev/demo_final.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.715377", "message": "  \ud83d\udd17 LINKED: openroot/recovered_blueprints/une_server_old.py \u2192 aerocement/une-dev/une_server_old.py"}
+{"timestamp": "2026-08-05T03:22:43.715918", "action": "dedup_symlink", "file": "openroot/recovered_blueprints/une_server_old.py", "details": "\u2192 aerocement/une-dev/une_server_old.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.718135", "message": "  \ud83d\udd17 LINKED: aerocement/contributions/meta_upgrade_20260805_000209.py \u2192 aerocement/contributions/meta_upgrade_20260804_235501.py"}
+{"timestamp": "2026-08-05T03:22:43.718683", "action": "dedup_symlink", "file": "aerocement/contributions/meta_upgrade_20260805_000209.py", "details": "\u2192 aerocement/contributions/meta_upgrade_20260804_235501.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.720674", "message": "  \ud83d\udd17 LINKED: aerocement/contributions/meta_upgrade_20260805_003528.py \u2192 aerocement/contributions/meta_upgrade_20260804_235501.py"}
+{"timestamp": "2026-08-05T03:22:43.721495", "action": "dedup_symlink", "file": "aerocement/contributions/meta_upgrade_20260805_003528.py", "details": "\u2192 aerocement/contributions/meta_upgrade_20260804_235501.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.724546", "message": "  \ud83d\udd17 LINKED: aerocement/contributions/meta_upgrade_20260805_003724.py \u2192 aerocement/contributions/meta_upgrade_20260804_235501.py"}
+{"timestamp": "2026-08-05T03:22:43.724795", "action": "dedup_symlink", "file": "aerocement/contributions/meta_upgrade_20260805_003724.py", "details": "\u2192 aerocement/contributions/meta_upgrade_20260804_235501.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.726258", "message": "  \ud83d\udd17 LINKED: aerocement/contributions/meta_upgrade_20260805_005431.py \u2192 aerocement/contributions/meta_upgrade_20260804_235501.py"}
+{"timestamp": "2026-08-05T03:22:43.726748", "action": "dedup_symlink", "file": "aerocement/contributions/meta_upgrade_20260805_005431.py", "details": "\u2192 aerocement/contributions/meta_upgrade_20260804_235501.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.730754", "message": "  \ud83d\udd17 LINKED: aerocement/contributions/meta_upgrade_20260805_015941.py \u2192 aerocement/contributions/meta_upgrade_20260804_235501.py"}
+{"timestamp": "2026-08-05T03:22:43.731029", "action": "dedup_symlink", "file": "aerocement/contributions/meta_upgrade_20260805_015941.py", "details": "\u2192 aerocement/contributions/meta_upgrade_20260804_235501.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.734827", "message": "  \ud83d\udd17 LINKED: aerocement/contributions/meta_upgrade_20260805_030411.py \u2192 aerocement/contributions/meta_upgrade_20260804_235501.py"}
+{"timestamp": "2026-08-05T03:22:43.735102", "action": "dedup_symlink", "file": "aerocement/contributions/meta_upgrade_20260805_030411.py", "details": "\u2192 aerocement/contributions/meta_upgrade_20260804_235501.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.736386", "message": "  \ud83d\udd17 LINKED: aerocement-/.gitignore \u2192 agape-une/.gitignore"}
+{"timestamp": "2026-08-05T03:22:43.736994", "action": "dedup_symlink", "file": "aerocement-/.gitignore", "details": "\u2192 agape-une/.gitignore", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.739197", "message": "  \ud83d\udd17 LINKED: agape-coordination/.gitignore \u2192 agape-une/.gitignore"}
+{"timestamp": "2026-08-05T03:22:43.739740", "action": "dedup_symlink", "file": "agape-coordination/.gitignore", "details": "\u2192 agape-une/.gitignore", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.741467", "message": "  \ud83d\udd17 LINKED: black-locust-rmh/.gitignore \u2192 agape-une/.gitignore"}
+{"timestamp": "2026-08-05T03:22:43.741718", "action": "dedup_symlink", "file": "black-locust-rmh/.gitignore", "details": "\u2192 agape-une/.gitignore", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.742561", "message": "  \ud83d\udd17 LINKED: civilization2.0/.gitignore \u2192 agape-une/.gitignore"}
+{"timestamp": "2026-08-05T03:22:43.743039", "action": "dedup_symlink", "file": "civilization2.0/.gitignore", "details": "\u2192 agape-une/.gitignore", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.744642", "message": "  \ud83d\udd17 LINKED: open-cell-thermal-open-cell-the/.gitignore \u2192 agape-une/.gitignore"}
+{"timestamp": "2026-08-05T03:22:43.749348", "action": "dedup_symlink", "file": "open-cell-thermal-open-cell-the/.gitignore", "details": "\u2192 agape-une/.gitignore", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.751222", "message": "  \ud83d\udd17 LINKED: OpenCell-Thermal-System/.gitignore \u2192 agape-une/.gitignore"}
+{"timestamp": "2026-08-05T03:22:43.751471", "action": "dedup_symlink", "file": "OpenCell-Thermal-System/.gitignore", "details": "\u2192 agape-une/.gitignore", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.752942", "message": "  \ud83d\udd17 LINKED: wisdom-scaffold/.gitignore \u2192 agape-une/.gitignore"}
+{"timestamp": "2026-08-05T03:22:43.753655", "action": "dedup_symlink", "file": "wisdom-scaffold/.gitignore", "details": "\u2192 agape-une/.gitignore", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.757579", "message": "  \ud83d\udd17 LINKED: aerocement-/LICENSE \u2192 agape-une/LICENSE"}
+{"timestamp": "2026-08-05T03:22:43.758127", "action": "dedup_symlink", "file": "aerocement-/LICENSE", "details": "\u2192 agape-une/LICENSE", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.759787", "message": "  \ud83d\udd17 LINKED: AeroCement_Ecosystem/LICENSE \u2192 agape-une/LICENSE"}
+{"timestamp": "2026-08-05T03:22:43.760245", "action": "dedup_symlink", "file": "AeroCement_Ecosystem/LICENSE", "details": "\u2192 agape-une/LICENSE", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.761152", "message": "  \ud83d\udd17 LINKED: agape-coordination/LICENSE \u2192 agape-une/LICENSE"}
+{"timestamp": "2026-08-05T03:22:43.761405", "action": "dedup_symlink", "file": "agape-coordination/LICENSE", "details": "\u2192 agape-une/LICENSE", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.762121", "message": "  \ud83d\udd17 LINKED: black-locust-rmh/LICENSE \u2192 agape-une/LICENSE"}
+{"timestamp": "2026-08-05T03:22:43.762307", "action": "dedup_symlink", "file": "black-locust-rmh/LICENSE", "details": "\u2192 agape-une/LICENSE", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.762985", "message": "  \ud83d\udd17 LINKED: civilization2.0/LICENSE \u2192 agape-une/LICENSE"}
+{"timestamp": "2026-08-05T03:22:43.763152", "action": "dedup_symlink", "file": "civilization2.0/LICENSE", "details": "\u2192 agape-une/LICENSE", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.763779", "message": "  \ud83d\udd17 LINKED: jesseray718/LICENSE \u2192 agape-une/LICENSE"}
+{"timestamp": "2026-08-05T03:22:43.763960", "action": "dedup_symlink", "file": "jesseray718/LICENSE", "details": "\u2192 agape-une/LICENSE", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.765324", "message": "  \ud83d\udd17 LINKED: open-cell-thermal-open-cell-the/LICENSE \u2192 agape-une/LICENSE"}
+{"timestamp": "2026-08-05T03:22:43.765876", "action": "dedup_symlink", "file": "open-cell-thermal-open-cell-the/LICENSE", "details": "\u2192 agape-une/LICENSE", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.767706", "message": "  \ud83d\udd17 LINKED: aerocement-/contributions/meta_upgrade_20260805_000210.py \u2192 aerocement-/contributions/meta_upgrade_20260804_235502.py"}
+{"timestamp": "2026-08-05T03:22:43.768182", "action": "dedup_symlink", "file": "aerocement-/contributions/meta_upgrade_20260805_000210.py", "details": "\u2192 aerocement-/contributions/meta_upgrade_20260804_235502.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.769463", "message": "  \ud83d\udd17 LINKED: aerocement-/contributions/meta_upgrade_20260805_003529.py \u2192 aerocement-/contributions/meta_upgrade_20260804_235502.py"}
+{"timestamp": "2026-08-05T03:22:43.769691", "action": "dedup_symlink", "file": "aerocement-/contributions/meta_upgrade_20260805_003529.py", "details": "\u2192 aerocement-/contributions/meta_upgrade_20260804_235502.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.770436", "message": "  \ud83d\udd17 LINKED: aerocement-/contributions/meta_upgrade_20260805_003725.py \u2192 aerocement-/contributions/meta_upgrade_20260804_235502.py"}
+{"timestamp": "2026-08-05T03:22:43.770648", "action": "dedup_symlink", "file": "aerocement-/contributions/meta_upgrade_20260805_003725.py", "details": "\u2192 aerocement-/contributions/meta_upgrade_20260804_235502.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.771369", "message": "  \ud83d\udd17 LINKED: aerocement-/contributions/meta_upgrade_20260805_005432.py \u2192 aerocement-/contributions/meta_upgrade_20260804_235502.py"}
+{"timestamp": "2026-08-05T03:22:43.771577", "action": "dedup_symlink", "file": "aerocement-/contributions/meta_upgrade_20260805_005432.py", "details": "\u2192 aerocement-/contributions/meta_upgrade_20260804_235502.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.772252", "message": "  \ud83d\udd17 LINKED: aerocement-/contributions/meta_upgrade_20260805_015942.py \u2192 aerocement-/contributions/meta_upgrade_20260804_235502.py"}
+{"timestamp": "2026-08-05T03:22:43.772421", "action": "dedup_symlink", "file": "aerocement-/contributions/meta_upgrade_20260805_015942.py", "details": "\u2192 aerocement-/contributions/meta_upgrade_20260804_235502.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.774308", "message": "  \ud83d\udd17 LINKED: aerocement-/contributions/meta_upgrade_20260805_030413.py \u2192 aerocement-/contributions/meta_upgrade_20260804_235502.py"}
+{"timestamp": "2026-08-05T03:22:43.774846", "action": "dedup_symlink", "file": "aerocement-/contributions/meta_upgrade_20260805_030413.py", "details": "\u2192 aerocement-/contributions/meta_upgrade_20260804_235502.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.776584", "message": "  \ud83d\udd17 LINKED: AeroCement_Ecosystem/contributions/meta_upgrade_20260805_000206.py \u2192 AeroCement_Ecosystem/contributions/meta_upgrade_20260804_235457.py"}
+{"timestamp": "2026-08-05T03:22:43.776817", "action": "dedup_symlink", "file": "AeroCement_Ecosystem/contributions/meta_upgrade_20260805_000206.py", "details": "\u2192 AeroCement_Ecosystem/contributions/meta_upgrade_20260804_235457.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.777603", "message": "  \ud83d\udd17 LINKED: AeroCement_Ecosystem/contributions/meta_upgrade_20260805_003525.py \u2192 AeroCement_Ecosystem/contributions/meta_upgrade_20260804_235457.py"}
+{"timestamp": "2026-08-05T03:22:43.777799", "action": "dedup_symlink", "file": "AeroCement_Ecosystem/contributions/meta_upgrade_20260805_003525.py", "details": "\u2192 AeroCement_Ecosystem/contributions/meta_upgrade_20260804_235457.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.778406", "message": "  \ud83d\udd17 LINKED: AeroCement_Ecosystem/contributions/meta_upgrade_20260805_003721.py \u2192 AeroCement_Ecosystem/contributions/meta_upgrade_20260804_235457.py"}
+{"timestamp": "2026-08-05T03:22:43.778565", "action": "dedup_symlink", "file": "AeroCement_Ecosystem/contributions/meta_upgrade_20260805_003721.py", "details": "\u2192 AeroCement_Ecosystem/contributions/meta_upgrade_20260804_235457.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.779148", "message": "  \ud83d\udd17 LINKED: AeroCement_Ecosystem/contributions/meta_upgrade_20260805_005428.py \u2192 AeroCement_Ecosystem/contributions/meta_upgrade_20260804_235457.py"}
+{"timestamp": "2026-08-05T03:22:43.779306", "action": "dedup_symlink", "file": "AeroCement_Ecosystem/contributions/meta_upgrade_20260805_005428.py", "details": "\u2192 AeroCement_Ecosystem/contributions/meta_upgrade_20260804_235457.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.779931", "message": "  \ud83d\udd17 LINKED: AeroCement_Ecosystem/contributions/meta_upgrade_20260805_015938.py \u2192 AeroCement_Ecosystem/contributions/meta_upgrade_20260804_235457.py"}
+{"timestamp": "2026-08-05T03:22:43.780122", "action": "dedup_symlink", "file": "AeroCement_Ecosystem/contributions/meta_upgrade_20260805_015938.py", "details": "\u2192 AeroCement_Ecosystem/contributions/meta_upgrade_20260804_235457.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.785179", "message": "  \ud83d\udd17 LINKED: AeroCement_Ecosystem/contributions/meta_upgrade_20260805_030407.py \u2192 AeroCement_Ecosystem/contributions/meta_upgrade_20260804_235457.py"}
+{"timestamp": "2026-08-05T03:22:43.785840", "action": "dedup_symlink", "file": "AeroCement_Ecosystem/contributions/meta_upgrade_20260805_030407.py", "details": "\u2192 AeroCement_Ecosystem/contributions/meta_upgrade_20260804_235457.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.787436", "message": "  \ud83d\udd17 LINKED: agape-coordination/AGAPE_THESIS.md \u2192 une/AGAPE_THESIS.md"}
+{"timestamp": "2026-08-05T03:22:43.787695", "action": "dedup_symlink", "file": "agape-coordination/AGAPE_THESIS.md", "details": "\u2192 une/AGAPE_THESIS.md", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.789074", "message": "  \ud83d\udd17 LINKED: une/computational_flow/agape_stress_test.py \u2192 agape-coordination/agape_stress_test.py"}
+{"timestamp": "2026-08-05T03:22:43.791149", "action": "dedup_symlink", "file": "une/computational_flow/agape_stress_test.py", "details": "\u2192 agape-coordination/agape_stress_test.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.792005", "message": "  \ud83d\udd17 LINKED: une/computational_flow/cosmic_query_engine.py \u2192 agape-coordination/cosmic_query_engine.py"}
+{"timestamp": "2026-08-05T03:22:43.792205", "action": "dedup_symlink", "file": "une/computational_flow/cosmic_query_engine.py", "details": "\u2192 agape-coordination/cosmic_query_engine.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.792924", "message": "  \ud83d\udd17 LINKED: une/computational_flow/thermal_cascade_optimizer.py \u2192 agape-coordination/thermal_cascade_optimizer.py"}
+{"timestamp": "2026-08-05T03:22:43.793129", "action": "dedup_symlink", "file": "une/computational_flow/thermal_cascade_optimizer.py", "details": "\u2192 agape-coordination/thermal_cascade_optimizer.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.794139", "message": "  \ud83d\udd17 LINKED: agape-coordination/contributions/meta_upgrade_20260805_000211.py \u2192 agape-coordination/contributions/meta_upgrade_20260804_235503.py"}
+{"timestamp": "2026-08-05T03:22:43.794339", "action": "dedup_symlink", "file": "agape-coordination/contributions/meta_upgrade_20260805_000211.py", "details": "\u2192 agape-coordination/contributions/meta_upgrade_20260804_235503.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.794969", "message": "  \ud83d\udd17 LINKED: agape-coordination/contributions/meta_upgrade_20260805_003530.py \u2192 agape-coordination/contributions/meta_upgrade_20260804_235503.py"}
+{"timestamp": "2026-08-05T03:22:43.795158", "action": "dedup_symlink", "file": "agape-coordination/contributions/meta_upgrade_20260805_003530.py", "details": "\u2192 agape-coordination/contributions/meta_upgrade_20260804_235503.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.795805", "message": "  \ud83d\udd17 LINKED: agape-coordination/contributions/meta_upgrade_20260805_003726.py \u2192 agape-coordination/contributions/meta_upgrade_20260804_235503.py"}
+{"timestamp": "2026-08-05T03:22:43.795988", "action": "dedup_symlink", "file": "agape-coordination/contributions/meta_upgrade_20260805_003726.py", "details": "\u2192 agape-coordination/contributions/meta_upgrade_20260804_235503.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.796659", "message": "  \ud83d\udd17 LINKED: agape-coordination/contributions/meta_upgrade_20260805_005433.py \u2192 agape-coordination/contributions/meta_upgrade_20260804_235503.py"}
+{"timestamp": "2026-08-05T03:22:43.796854", "action": "dedup_symlink", "file": "agape-coordination/contributions/meta_upgrade_20260805_005433.py", "details": "\u2192 agape-coordination/contributions/meta_upgrade_20260804_235503.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.797620", "message": "  \ud83d\udd17 LINKED: agape-coordination/contributions/meta_upgrade_20260805_015943.py \u2192 agape-coordination/contributions/meta_upgrade_20260804_235503.py"}
+{"timestamp": "2026-08-05T03:22:43.797822", "action": "dedup_symlink", "file": "agape-coordination/contributions/meta_upgrade_20260805_015943.py", "details": "\u2192 agape-coordination/contributions/meta_upgrade_20260804_235503.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.799903", "message": "  \ud83d\udd17 LINKED: agape-coordination/contributions/meta_upgrade_20260805_030413.py \u2192 agape-coordination/contributions/meta_upgrade_20260804_235503.py"}
+{"timestamp": "2026-08-05T03:22:43.800107", "action": "dedup_symlink", "file": "agape-coordination/contributions/meta_upgrade_20260805_030413.py", "details": "\u2192 agape-coordination/contributions/meta_upgrade_20260804_235503.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.800773", "message": "  \ud83d\udd17 LINKED: agape-une/contributions/meta_upgrade_20260805_000212.py \u2192 agape-une/contributions/meta_upgrade_20260804_235504.py"}
+{"timestamp": "2026-08-05T03:22:43.800956", "action": "dedup_symlink", "file": "agape-une/contributions/meta_upgrade_20260805_000212.py", "details": "\u2192 agape-une/contributions/meta_upgrade_20260804_235504.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.801686", "message": "  \ud83d\udd17 LINKED: agape-une/contributions/meta_upgrade_20260805_003531.py \u2192 agape-une/contributions/meta_upgrade_20260804_235504.py"}
+{"timestamp": "2026-08-05T03:22:43.801890", "action": "dedup_symlink", "file": "agape-une/contributions/meta_upgrade_20260805_003531.py", "details": "\u2192 agape-une/contributions/meta_upgrade_20260804_235504.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.802556", "message": "  \ud83d\udd17 LINKED: agape-une/contributions/meta_upgrade_20260805_003727.py \u2192 agape-une/contributions/meta_upgrade_20260804_235504.py"}
+{"timestamp": "2026-08-05T03:22:43.802735", "action": "dedup_symlink", "file": "agape-une/contributions/meta_upgrade_20260805_003727.py", "details": "\u2192 agape-une/contributions/meta_upgrade_20260804_235504.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.803341", "message": "  \ud83d\udd17 LINKED: agape-une/contributions/meta_upgrade_20260805_005434.py \u2192 agape-une/contributions/meta_upgrade_20260804_235504.py"}
+{"timestamp": "2026-08-05T03:22:43.803513", "action": "dedup_symlink", "file": "agape-une/contributions/meta_upgrade_20260805_005434.py", "details": "\u2192 agape-une/contributions/meta_upgrade_20260804_235504.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.804167", "message": "  \ud83d\udd17 LINKED: agape-une/contributions/meta_upgrade_20260805_015945.py \u2192 agape-une/contributions/meta_upgrade_20260804_235504.py"}
+{"timestamp": "2026-08-05T03:22:43.804382", "action": "dedup_symlink", "file": "agape-une/contributions/meta_upgrade_20260805_015945.py", "details": "\u2192 agape-une/contributions/meta_upgrade_20260804_235504.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.806013", "message": "  \ud83d\udd17 LINKED: agape-une/contributions/meta_upgrade_20260805_030415.py \u2192 agape-une/contributions/meta_upgrade_20260804_235504.py"}
+{"timestamp": "2026-08-05T03:22:43.806216", "action": "dedup_symlink", "file": "agape-une/contributions/meta_upgrade_20260805_030415.py", "details": "\u2192 agape-une/contributions/meta_upgrade_20260804_235504.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.806900", "message": "  \ud83d\udd17 LINKED: black-locust-rmh/handbook_energy_DV.GEN.BL.RMH.001.md \u2192 black-locust-rmh/DV.GEN.BL.RMH.001.md"}
+{"timestamp": "2026-08-05T03:22:43.807108", "action": "dedup_symlink", "file": "black-locust-rmh/handbook_energy_DV.GEN.BL.RMH.001.md", "details": "\u2192 black-locust-rmh/DV.GEN.BL.RMH.001.md", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.807759", "message": "  \ud83d\udd17 LINKED: black-locust-rmh/handbook/energy/DV.GEN.BL.RMH.001.md \u2192 black-locust-rmh/DV.GEN.BL.RMH.001.md"}
+{"timestamp": "2026-08-05T03:22:43.807937", "action": "dedup_symlink", "file": "black-locust-rmh/handbook/energy/DV.GEN.BL.RMH.001.md", "details": "\u2192 black-locust-rmh/DV.GEN.BL.RMH.001.md", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.808605", "message": "  \ud83d\udd17 LINKED: black-locust-rmh/contributions/meta_upgrade_20260805_000214.py \u2192 black-locust-rmh/contributions/meta_upgrade_20260804_235506.py"}
+{"timestamp": "2026-08-05T03:22:43.808779", "action": "dedup_symlink", "file": "black-locust-rmh/contributions/meta_upgrade_20260805_000214.py", "details": "\u2192 black-locust-rmh/contributions/meta_upgrade_20260804_235506.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.809618", "message": "  \ud83d\udd17 LINKED: black-locust-rmh/contributions/meta_upgrade_20260805_003533.py \u2192 black-locust-rmh/contributions/meta_upgrade_20260804_235506.py"}
+{"timestamp": "2026-08-05T03:22:43.809882", "action": "dedup_symlink", "file": "black-locust-rmh/contributions/meta_upgrade_20260805_003533.py", "details": "\u2192 black-locust-rmh/contributions/meta_upgrade_20260804_235506.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.810661", "message": "  \ud83d\udd17 LINKED: black-locust-rmh/contributions/meta_upgrade_20260805_003729.py \u2192 black-locust-rmh/contributions/meta_upgrade_20260804_235506.py"}
+{"timestamp": "2026-08-05T03:22:43.810861", "action": "dedup_symlink", "file": "black-locust-rmh/contributions/meta_upgrade_20260805_003729.py", "details": "\u2192 black-locust-rmh/contributions/meta_upgrade_20260804_235506.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.811529", "message": "  \ud83d\udd17 LINKED: black-locust-rmh/contributions/meta_upgrade_20260805_005436.py \u2192 black-locust-rmh/contributions/meta_upgrade_20260804_235506.py"}
+{"timestamp": "2026-08-05T03:22:43.811698", "action": "dedup_symlink", "file": "black-locust-rmh/contributions/meta_upgrade_20260805_005436.py", "details": "\u2192 black-locust-rmh/contributions/meta_upgrade_20260804_235506.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.812379", "message": "  \ud83d\udd17 LINKED: black-locust-rmh/contributions/meta_upgrade_20260805_015946.py \u2192 black-locust-rmh/contributions/meta_upgrade_20260804_235506.py"}
+{"timestamp": "2026-08-05T03:22:43.812569", "action": "dedup_symlink", "file": "black-locust-rmh/contributions/meta_upgrade_20260805_015946.py", "details": "\u2192 black-locust-rmh/contributions/meta_upgrade_20260804_235506.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.814676", "message": "  \ud83d\udd17 LINKED: black-locust-rmh/contributions/meta_upgrade_20260805_030416.py \u2192 black-locust-rmh/contributions/meta_upgrade_20260804_235506.py"}
+{"timestamp": "2026-08-05T03:22:43.814914", "action": "dedup_symlink", "file": "black-locust-rmh/contributions/meta_upgrade_20260805_030416.py", "details": "\u2192 black-locust-rmh/contributions/meta_upgrade_20260804_235506.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.815687", "message": "  \ud83d\udd17 LINKED: civilization2.0/contributions/meta_upgrade_20260805_000215.py \u2192 civilization2.0/contributions/meta_upgrade_20260804_235507.py"}
+{"timestamp": "2026-08-05T03:22:43.815887", "action": "dedup_symlink", "file": "civilization2.0/contributions/meta_upgrade_20260805_000215.py", "details": "\u2192 civilization2.0/contributions/meta_upgrade_20260804_235507.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.816553", "message": "  \ud83d\udd17 LINKED: civilization2.0/contributions/meta_upgrade_20260805_003534.py \u2192 civilization2.0/contributions/meta_upgrade_20260804_235507.py"}
+{"timestamp": "2026-08-05T03:22:43.816741", "action": "dedup_symlink", "file": "civilization2.0/contributions/meta_upgrade_20260805_003534.py", "details": "\u2192 civilization2.0/contributions/meta_upgrade_20260804_235507.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.817436", "message": "  \ud83d\udd17 LINKED: civilization2.0/contributions/meta_upgrade_20260805_003730.py \u2192 civilization2.0/contributions/meta_upgrade_20260804_235507.py"}
+{"timestamp": "2026-08-05T03:22:43.817678", "action": "dedup_symlink", "file": "civilization2.0/contributions/meta_upgrade_20260805_003730.py", "details": "\u2192 civilization2.0/contributions/meta_upgrade_20260804_235507.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.818459", "message": "  \ud83d\udd17 LINKED: civilization2.0/contributions/meta_upgrade_20260805_005437.py \u2192 civilization2.0/contributions/meta_upgrade_20260804_235507.py"}
+{"timestamp": "2026-08-05T03:22:43.818663", "action": "dedup_symlink", "file": "civilization2.0/contributions/meta_upgrade_20260805_005437.py", "details": "\u2192 civilization2.0/contributions/meta_upgrade_20260804_235507.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.819300", "message": "  \ud83d\udd17 LINKED: civilization2.0/contributions/meta_upgrade_20260805_015948.py \u2192 civilization2.0/contributions/meta_upgrade_20260804_235507.py"}
+{"timestamp": "2026-08-05T03:22:43.819490", "action": "dedup_symlink", "file": "civilization2.0/contributions/meta_upgrade_20260805_015948.py", "details": "\u2192 civilization2.0/contributions/meta_upgrade_20260804_235507.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.822938", "message": "  \ud83d\udd17 LINKED: civilization2.0/contributions/meta_upgrade_20260805_030418.py \u2192 civilization2.0/contributions/meta_upgrade_20260804_235507.py"}
+{"timestamp": "2026-08-05T03:22:43.823544", "action": "dedup_symlink", "file": "civilization2.0/contributions/meta_upgrade_20260805_030418.py", "details": "\u2192 civilization2.0/contributions/meta_upgrade_20260804_235507.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.825359", "message": "  \ud83d\udd17 LINKED: jesseray718/contributions/meta_upgrade_20260805_000217.py \u2192 jesseray718/contributions/meta_upgrade_20260804_235508.py"}
+{"timestamp": "2026-08-05T03:22:43.825609", "action": "dedup_symlink", "file": "jesseray718/contributions/meta_upgrade_20260805_000217.py", "details": "\u2192 jesseray718/contributions/meta_upgrade_20260804_235508.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.826357", "message": "  \ud83d\udd17 LINKED: jesseray718/contributions/meta_upgrade_20260805_003535.py \u2192 jesseray718/contributions/meta_upgrade_20260804_235508.py"}
+{"timestamp": "2026-08-05T03:22:43.826578", "action": "dedup_symlink", "file": "jesseray718/contributions/meta_upgrade_20260805_003535.py", "details": "\u2192 jesseray718/contributions/meta_upgrade_20260804_235508.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.827332", "message": "  \ud83d\udd17 LINKED: jesseray718/contributions/meta_upgrade_20260805_003731.py \u2192 jesseray718/contributions/meta_upgrade_20260804_235508.py"}
+{"timestamp": "2026-08-05T03:22:43.827534", "action": "dedup_symlink", "file": "jesseray718/contributions/meta_upgrade_20260805_003731.py", "details": "\u2192 jesseray718/contributions/meta_upgrade_20260804_235508.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.828245", "message": "  \ud83d\udd17 LINKED: jesseray718/contributions/meta_upgrade_20260805_005438.py \u2192 jesseray718/contributions/meta_upgrade_20260804_235508.py"}
+{"timestamp": "2026-08-05T03:22:43.828455", "action": "dedup_symlink", "file": "jesseray718/contributions/meta_upgrade_20260805_005438.py", "details": "\u2192 jesseray718/contributions/meta_upgrade_20260804_235508.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.829111", "message": "  \ud83d\udd17 LINKED: jesseray718/contributions/meta_upgrade_20260805_015948.py \u2192 jesseray718/contributions/meta_upgrade_20260804_235508.py"}
+{"timestamp": "2026-08-05T03:22:43.829343", "action": "dedup_symlink", "file": "jesseray718/contributions/meta_upgrade_20260805_015948.py", "details": "\u2192 jesseray718/contributions/meta_upgrade_20260804_235508.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.832758", "message": "  \ud83d\udd17 LINKED: jesseray718/contributions/meta_upgrade_20260805_030419.py \u2192 jesseray718/contributions/meta_upgrade_20260804_235508.py"}
+{"timestamp": "2026-08-05T03:22:43.833573", "action": "dedup_symlink", "file": "jesseray718/contributions/meta_upgrade_20260805_030419.py", "details": "\u2192 jesseray718/contributions/meta_upgrade_20260804_235508.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.839758", "message": "  \ud83d\udd17 LINKED: open-cell-thermal-open-cell-the/contributions/meta_upgrade_20260805_000219.py \u2192 open-cell-thermal-open-cell-the/contributions/meta_upgrade_20260804_235510.py"}
+{"timestamp": "2026-08-05T03:22:43.840377", "action": "dedup_symlink", "file": "open-cell-thermal-open-cell-the/contributions/meta_upgrade_20260805_000219.py", "details": "\u2192 open-cell-thermal-open-cell-the/contributions/meta_upgrade_20260804_235510.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.841353", "message": "  \ud83d\udd17 LINKED: open-cell-thermal-open-cell-the/contributions/meta_upgrade_20260805_003536.py \u2192 open-cell-thermal-open-cell-the/contributions/meta_upgrade_20260804_235510.py"}
+{"timestamp": "2026-08-05T03:22:43.841581", "action": "dedup_symlink", "file": "open-cell-thermal-open-cell-the/contributions/meta_upgrade_20260805_003536.py", "details": "\u2192 open-cell-thermal-open-cell-the/contributions/meta_upgrade_20260804_235510.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.843564", "message": "  \ud83d\udd17 LINKED: open-cell-thermal-open-cell-the/contributions/meta_upgrade_20260805_003732.py \u2192 open-cell-thermal-open-cell-the/contributions/meta_upgrade_20260804_235510.py"}
+{"timestamp": "2026-08-05T03:22:43.843864", "action": "dedup_symlink", "file": "open-cell-thermal-open-cell-the/contributions/meta_upgrade_20260805_003732.py", "details": "\u2192 open-cell-thermal-open-cell-the/contributions/meta_upgrade_20260804_235510.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.844733", "message": "  \ud83d\udd17 LINKED: open-cell-thermal-open-cell-the/contributions/meta_upgrade_20260805_005439.py \u2192 open-cell-thermal-open-cell-the/contributions/meta_upgrade_20260804_235510.py"}
+{"timestamp": "2026-08-05T03:22:43.845451", "action": "dedup_symlink", "file": "open-cell-thermal-open-cell-the/contributions/meta_upgrade_20260805_005439.py", "details": "\u2192 open-cell-thermal-open-cell-the/contributions/meta_upgrade_20260804_235510.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.846425", "message": "  \ud83d\udd17 LINKED: open-cell-thermal-open-cell-the/contributions/meta_upgrade_20260805_015950.py \u2192 open-cell-thermal-open-cell-the/contributions/meta_upgrade_20260804_235510.py"}
+{"timestamp": "2026-08-05T03:22:43.846657", "action": "dedup_symlink", "file": "open-cell-thermal-open-cell-the/contributions/meta_upgrade_20260805_015950.py", "details": "\u2192 open-cell-thermal-open-cell-the/contributions/meta_upgrade_20260804_235510.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.852320", "message": "  \ud83d\udd17 LINKED: open-cell-thermal-open-cell-the/contributions/meta_upgrade_20260805_030420.py \u2192 open-cell-thermal-open-cell-the/contributions/meta_upgrade_20260804_235510.py"}
+{"timestamp": "2026-08-05T03:22:43.852545", "action": "dedup_symlink", "file": "open-cell-thermal-open-cell-the/contributions/meta_upgrade_20260805_030420.py", "details": "\u2192 open-cell-thermal-open-cell-the/contributions/meta_upgrade_20260804_235510.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.853350", "message": "  \ud83d\udd17 LINKED: OpenCell-Thermal-System/docs/manuscript/nifa-application.md \u2192 OpenCell-Thermal-System/nifa-application.md"}
+{"timestamp": "2026-08-05T03:22:43.853554", "action": "dedup_symlink", "file": "OpenCell-Thermal-System/docs/manuscript/nifa-application.md", "details": "\u2192 OpenCell-Thermal-System/nifa-application.md", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.855390", "message": "  \ud83d\udd17 LINKED: OpenCell-Thermal-System/1_code/src/pdf-compile.py \u2192 OpenCell-Thermal-System/1_code/src/pdf-comp.py"}
+{"timestamp": "2026-08-05T03:22:43.855645", "action": "dedup_symlink", "file": "OpenCell-Thermal-System/1_code/src/pdf-compile.py", "details": "\u2192 OpenCell-Thermal-System/1_code/src/pdf-comp.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.856497", "message": "  \ud83d\udd17 LINKED: renaissance-protocol/library/volumes/06_ENTROPY_LEARNING/entropy_learnjng.md \u2192 OpenCell-Thermal-System/docs/manuscript/File: 06_ENTROPY_LEARNING.md"}
+{"timestamp": "2026-08-05T03:22:43.856719", "action": "dedup_symlink", "file": "renaissance-protocol/library/volumes/06_ENTROPY_LEARNING/entropy_learnjng.md", "details": "\u2192 OpenCell-Thermal-System/docs/manuscript/File: 06_ENTROPY_LEARNING.md", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.860424", "message": "  \ud83d\udd17 LINKED: OpenCell-Thermal-System/contributions/meta_upgrade_20260805_000208.py \u2192 OpenCell-Thermal-System/contributions/meta_upgrade_20260804_235459.py"}
+{"timestamp": "2026-08-05T03:22:43.860951", "action": "dedup_symlink", "file": "OpenCell-Thermal-System/contributions/meta_upgrade_20260805_000208.py", "details": "\u2192 OpenCell-Thermal-System/contributions/meta_upgrade_20260804_235459.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.864143", "message": "  \ud83d\udd17 LINKED: OpenCell-Thermal-System/contributions/meta_upgrade_20260805_003526.py \u2192 OpenCell-Thermal-System/contributions/meta_upgrade_20260804_235459.py"}
+{"timestamp": "2026-08-05T03:22:43.866555", "action": "dedup_symlink", "file": "OpenCell-Thermal-System/contributions/meta_upgrade_20260805_003526.py", "details": "\u2192 OpenCell-Thermal-System/contributions/meta_upgrade_20260804_235459.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.870187", "message": "  \ud83d\udd17 LINKED: OpenCell-Thermal-System/contributions/meta_upgrade_20260805_003722.py \u2192 OpenCell-Thermal-System/contributions/meta_upgrade_20260804_235459.py"}
+{"timestamp": "2026-08-05T03:22:43.871458", "action": "dedup_symlink", "file": "OpenCell-Thermal-System/contributions/meta_upgrade_20260805_003722.py", "details": "\u2192 OpenCell-Thermal-System/contributions/meta_upgrade_20260804_235459.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.877056", "message": "  \ud83d\udd17 LINKED: OpenCell-Thermal-System/contributions/meta_upgrade_20260805_005429.py \u2192 OpenCell-Thermal-System/contributions/meta_upgrade_20260804_235459.py"}
+{"timestamp": "2026-08-05T03:22:43.877400", "action": "dedup_symlink", "file": "OpenCell-Thermal-System/contributions/meta_upgrade_20260805_005429.py", "details": "\u2192 OpenCell-Thermal-System/contributions/meta_upgrade_20260804_235459.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.881597", "message": "  \ud83d\udd17 LINKED: OpenCell-Thermal-System/contributions/meta_upgrade_20260805_015939.py \u2192 OpenCell-Thermal-System/contributions/meta_upgrade_20260804_235459.py"}
+{"timestamp": "2026-08-05T03:22:43.882299", "action": "dedup_symlink", "file": "OpenCell-Thermal-System/contributions/meta_upgrade_20260805_015939.py", "details": "\u2192 OpenCell-Thermal-System/contributions/meta_upgrade_20260804_235459.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.885962", "message": "  \ud83d\udd17 LINKED: OpenCell-Thermal-System/contributions/meta_upgrade_20260805_030410.py \u2192 OpenCell-Thermal-System/contributions/meta_upgrade_20260804_235459.py"}
+{"timestamp": "2026-08-05T03:22:43.886216", "action": "dedup_symlink", "file": "OpenCell-Thermal-System/contributions/meta_upgrade_20260805_030410.py", "details": "\u2192 OpenCell-Thermal-System/contributions/meta_upgrade_20260804_235459.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.887199", "message": "  \ud83d\udd17 LINKED: openroot/.github/copilot-instructions.md \u2192 une/docs/copilot-instructions.md"}
+{"timestamp": "2026-08-05T03:22:43.887478", "action": "dedup_symlink", "file": "openroot/.github/copilot-instructions.md", "details": "\u2192 une/docs/copilot-instructions.md", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.888397", "message": "  \ud83d\udd17 LINKED: openroot/docs/copilot-instructions.md \u2192 une/docs/copilot-instructions.md"}
+{"timestamp": "2026-08-05T03:22:43.888613", "action": "dedup_symlink", "file": "openroot/docs/copilot-instructions.md", "details": "\u2192 une/docs/copilot-instructions.md", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.889389", "message": "  \ud83d\udd17 LINKED: openroot/computational_flow/queue/task_2_queue.json.aiq_output \u2192 openroot/computational_flow/queue/task_1_queue.json.aiq_output"}
+{"timestamp": "2026-08-05T03:22:43.889633", "action": "dedup_symlink", "file": "openroot/computational_flow/queue/task_2_queue.json.aiq_output", "details": "\u2192 openroot/computational_flow/queue/task_1_queue.json.aiq_output", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.890350", "message": "  \ud83d\udd17 LINKED: openroot/computational_flow/queue/task_3_queue.json.aiq_output \u2192 openroot/computational_flow/queue/task_1_queue.json.aiq_output"}
+{"timestamp": "2026-08-05T03:22:43.890550", "action": "dedup_symlink", "file": "openroot/computational_flow/queue/task_3_queue.json.aiq_output", "details": "\u2192 openroot/computational_flow/queue/task_1_queue.json.aiq_output", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.891242", "message": "  \ud83d\udd17 LINKED: openroot/computational_flow/queue/task_4_queue.json.aiq_output \u2192 openroot/computational_flow/queue/task_1_queue.json.aiq_output"}
+{"timestamp": "2026-08-05T03:22:43.891448", "action": "dedup_symlink", "file": "openroot/computational_flow/queue/task_4_queue.json.aiq_output", "details": "\u2192 openroot/computational_flow/queue/task_1_queue.json.aiq_output", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.900863", "message": "  \ud83d\udd17 LINKED: openroot/context_bridge/foundation_map_20260726_183722.json \u2192 openroot/context_bridge/foundation_map.json"}
+{"timestamp": "2026-08-05T03:22:43.901117", "action": "dedup_symlink", "file": "openroot/context_bridge/foundation_map_20260726_183722.json", "details": "\u2192 openroot/context_bridge/foundation_map.json", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.907259", "message": "  \ud83d\udd17 LINKED: openroot/context_bridge/foundation_map_20260726_185316.json \u2192 openroot/context_bridge/foundation_map.json"}
+{"timestamp": "2026-08-05T03:22:43.907489", "action": "dedup_symlink", "file": "openroot/context_bridge/foundation_map_20260726_185316.json", "details": "\u2192 openroot/context_bridge/foundation_map.json", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.908168", "message": "  \ud83d\udd17 LINKED: openroot/dist/publication/state.md \u2192 openroot/docs/context/state.md"}
+{"timestamp": "2026-08-05T03:22:43.908351", "action": "dedup_symlink", "file": "openroot/dist/publication/state.md", "details": "\u2192 openroot/docs/context/state.md", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.909678", "message": "  \ud83d\udd17 LINKED: openroot/docs/public-validation/THERMAL-CASCADE-VETIFICATION.md \u2192 openroot/dist/zenodo-upload/THERMAL-CASCADE-VETIFICATION.md"}
+{"timestamp": "2026-08-05T03:22:43.910308", "action": "dedup_symlink", "file": "openroot/docs/public-validation/THERMAL-CASCADE-VETIFICATION.md", "details": "\u2192 openroot/dist/zenodo-upload/THERMAL-CASCADE-VETIFICATION.md", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.912293", "message": "  \ud83d\udd17 LINKED: openroot/recovered_blueprints/050_hive_bridge.json \u2192 openroot/dump/chunks/050_hive_bridge.json"}
+{"timestamp": "2026-08-05T03:22:43.912826", "action": "dedup_symlink", "file": "openroot/recovered_blueprints/050_hive_bridge.json", "details": "\u2192 openroot/dump/chunks/050_hive_bridge.json", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.918592", "message": "  \ud83d\udd17 LINKED: openroot/swarm/audits/jesseray718_20260717_041221/metrics.csv \u2192 openroot/swarm/audits/jesseray718_20260717_040954/metrics.csv"}
+{"timestamp": "2026-08-05T03:22:43.919154", "action": "dedup_symlink", "file": "openroot/swarm/audits/jesseray718_20260717_041221/metrics.csv", "details": "\u2192 openroot/swarm/audits/jesseray718_20260717_040954/metrics.csv", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.921373", "message": "  \ud83d\udd17 LINKED: openroot/swarm/audits/jesseray718_20260717_041414/metrics.csv \u2192 openroot/swarm/audits/jesseray718_20260717_040954/metrics.csv"}
+{"timestamp": "2026-08-05T03:22:43.921945", "action": "dedup_symlink", "file": "openroot/swarm/audits/jesseray718_20260717_041414/metrics.csv", "details": "\u2192 openroot/swarm/audits/jesseray718_20260717_040954/metrics.csv", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.924237", "message": "  \ud83d\udd17 LINKED: openroot/swarm/audits/jesseray718_20260717_041625/metrics.csv \u2192 openroot/swarm/audits/jesseray718_20260717_040954/metrics.csv"}
+{"timestamp": "2026-08-05T03:22:43.924901", "action": "dedup_symlink", "file": "openroot/swarm/audits/jesseray718_20260717_041625/metrics.csv", "details": "\u2192 openroot/swarm/audits/jesseray718_20260717_040954/metrics.csv", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.927243", "message": "  \ud83d\udd17 LINKED: openroot/swarm/audits/jesseray718_20260717_042458/metrics.csv \u2192 openroot/swarm/audits/jesseray718_20260717_040954/metrics.csv"}
+{"timestamp": "2026-08-05T03:22:43.927874", "action": "dedup_symlink", "file": "openroot/swarm/audits/jesseray718_20260717_042458/metrics.csv", "details": "\u2192 openroot/swarm/audits/jesseray718_20260717_040954/metrics.csv", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.929485", "message": "  \ud83d\udd17 LINKED: openroot/swarm/audits/jesseray718_20260717_042849/metrics.csv \u2192 openroot/swarm/audits/jesseray718_20260717_040954/metrics.csv"}
+{"timestamp": "2026-08-05T03:22:43.929738", "action": "dedup_symlink", "file": "openroot/swarm/audits/jesseray718_20260717_042849/metrics.csv", "details": "\u2192 openroot/swarm/audits/jesseray718_20260717_040954/metrics.csv", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.931789", "message": "  \ud83d\udd17 LINKED: openroot/swarm/audits/jesseray718_20260717_043146/metrics.csv \u2192 openroot/swarm/audits/jesseray718_20260717_040954/metrics.csv"}
+{"timestamp": "2026-08-05T03:22:43.932437", "action": "dedup_symlink", "file": "openroot/swarm/audits/jesseray718_20260717_043146/metrics.csv", "details": "\u2192 openroot/swarm/audits/jesseray718_20260717_040954/metrics.csv", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.933542", "message": "  \ud83d\udd17 LINKED: openroot/contributions/meta_upgrade_20260805_000223.py \u2192 openroot/contributions/meta_upgrade_20260804_235515.py"}
+{"timestamp": "2026-08-05T03:22:43.933751", "action": "dedup_symlink", "file": "openroot/contributions/meta_upgrade_20260805_000223.py", "details": "\u2192 openroot/contributions/meta_upgrade_20260804_235515.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.934461", "message": "  \ud83d\udd17 LINKED: openroot/contributions/meta_upgrade_20260805_003542.py \u2192 openroot/contributions/meta_upgrade_20260804_235515.py"}
+{"timestamp": "2026-08-05T03:22:43.934646", "action": "dedup_symlink", "file": "openroot/contributions/meta_upgrade_20260805_003542.py", "details": "\u2192 openroot/contributions/meta_upgrade_20260804_235515.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.935336", "message": "  \ud83d\udd17 LINKED: openroot/contributions/meta_upgrade_20260805_003737.py \u2192 openroot/contributions/meta_upgrade_20260804_235515.py"}
+{"timestamp": "2026-08-05T03:22:43.935516", "action": "dedup_symlink", "file": "openroot/contributions/meta_upgrade_20260805_003737.py", "details": "\u2192 openroot/contributions/meta_upgrade_20260804_235515.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.936164", "message": "  \ud83d\udd17 LINKED: openroot/contributions/meta_upgrade_20260805_005443.py \u2192 openroot/contributions/meta_upgrade_20260804_235515.py"}
+{"timestamp": "2026-08-05T03:22:43.936329", "action": "dedup_symlink", "file": "openroot/contributions/meta_upgrade_20260805_005443.py", "details": "\u2192 openroot/contributions/meta_upgrade_20260804_235515.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.937718", "message": "  \ud83d\udd17 LINKED: openroot/contributions/meta_upgrade_20260805_015954.py \u2192 openroot/contributions/meta_upgrade_20260804_235515.py"}
+{"timestamp": "2026-08-05T03:22:43.937929", "action": "dedup_symlink", "file": "openroot/contributions/meta_upgrade_20260805_015954.py", "details": "\u2192 openroot/contributions/meta_upgrade_20260804_235515.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.939966", "message": "  \ud83d\udd17 LINKED: openroot/contributions/meta_upgrade_20260805_030423.py \u2192 openroot/contributions/meta_upgrade_20260804_235515.py"}
+{"timestamp": "2026-08-05T03:22:43.940185", "action": "dedup_symlink", "file": "openroot/contributions/meta_upgrade_20260805_030423.py", "details": "\u2192 openroot/contributions/meta_upgrade_20260804_235515.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.940866", "message": "  \ud83d\udd17 LINKED: openroot-spoke-template/contributions/meta_upgrade_20260805_000225.py \u2192 openroot-spoke-template/contributions/meta_upgrade_20260804_235517.py"}
+{"timestamp": "2026-08-05T03:22:43.941029", "action": "dedup_symlink", "file": "openroot-spoke-template/contributions/meta_upgrade_20260805_000225.py", "details": "\u2192 openroot-spoke-template/contributions/meta_upgrade_20260804_235517.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.941703", "message": "  \ud83d\udd17 LINKED: openroot-spoke-template/contributions/meta_upgrade_20260805_003543.py \u2192 openroot-spoke-template/contributions/meta_upgrade_20260804_235517.py"}
+{"timestamp": "2026-08-05T03:22:43.941898", "action": "dedup_symlink", "file": "openroot-spoke-template/contributions/meta_upgrade_20260805_003543.py", "details": "\u2192 openroot-spoke-template/contributions/meta_upgrade_20260804_235517.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.944185", "message": "  \ud83d\udd17 LINKED: openroot-spoke-template/contributions/meta_upgrade_20260805_003739.py \u2192 openroot-spoke-template/contributions/meta_upgrade_20260804_235517.py"}
+{"timestamp": "2026-08-05T03:22:43.944425", "action": "dedup_symlink", "file": "openroot-spoke-template/contributions/meta_upgrade_20260805_003739.py", "details": "\u2192 openroot-spoke-template/contributions/meta_upgrade_20260804_235517.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.945094", "message": "  \ud83d\udd17 LINKED: openroot-spoke-template/contributions/meta_upgrade_20260805_005445.py \u2192 openroot-spoke-template/contributions/meta_upgrade_20260804_235517.py"}
+{"timestamp": "2026-08-05T03:22:43.945334", "action": "dedup_symlink", "file": "openroot-spoke-template/contributions/meta_upgrade_20260805_005445.py", "details": "\u2192 openroot-spoke-template/contributions/meta_upgrade_20260804_235517.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.946019", "message": "  \ud83d\udd17 LINKED: openroot-spoke-template/contributions/meta_upgrade_20260805_015955.py \u2192 openroot-spoke-template/contributions/meta_upgrade_20260804_235517.py"}
+{"timestamp": "2026-08-05T03:22:43.946194", "action": "dedup_symlink", "file": "openroot-spoke-template/contributions/meta_upgrade_20260805_015955.py", "details": "\u2192 openroot-spoke-template/contributions/meta_upgrade_20260804_235517.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:43.947854", "message": "  \ud83d\udd17 LINKED: openroot-spoke-template/contributions/meta_upgrade_20260805_030428.py \u2192 openroot-spoke-template/contributions/meta_upgrade_20260804_235517.py"}
+{"timestamp": "2026-08-05T03:22:43.948073", "action": "dedup_symlink", "file": "openroot-spoke-template/contributions/meta_upgrade_20260805_030428.py", "details": "\u2192 openroot-spoke-template/contributions/meta_upgrade_20260804_235517.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:44.012824", "message": "  \ud83d\udd17 LINKED: renaissance-protocol/library/volumes/06_ENTROPY_LEARNING/scripts/kai_unknown \u2192 renaissance-protocol/library/volumes/06_ENTROPY_LEARNING/scripts/joy_log.py"}
+{"timestamp": "2026-08-05T03:22:44.013117", "action": "dedup_symlink", "file": "renaissance-protocol/library/volumes/06_ENTROPY_LEARNING/scripts/kai_unknown", "details": "\u2192 renaissance-protocol/library/volumes/06_ENTROPY_LEARNING/scripts/joy_log.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:44.014081", "message": "  \ud83d\udd17 LINKED: renaissance-protocol/contributions/meta_upgrade_20260805_000227.py \u2192 renaissance-protocol/contributions/meta_upgrade_20260804_235519.py"}
+{"timestamp": "2026-08-05T03:22:44.014334", "action": "dedup_symlink", "file": "renaissance-protocol/contributions/meta_upgrade_20260805_000227.py", "details": "\u2192 renaissance-protocol/contributions/meta_upgrade_20260804_235519.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:44.015171", "message": "  \ud83d\udd17 LINKED: renaissance-protocol/contributions/meta_upgrade_20260805_003545.py \u2192 renaissance-protocol/contributions/meta_upgrade_20260804_235519.py"}
+{"timestamp": "2026-08-05T03:22:44.015473", "action": "dedup_symlink", "file": "renaissance-protocol/contributions/meta_upgrade_20260805_003545.py", "details": "\u2192 renaissance-protocol/contributions/meta_upgrade_20260804_235519.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:44.016309", "message": "  \ud83d\udd17 LINKED: renaissance-protocol/contributions/meta_upgrade_20260805_003740.py \u2192 renaissance-protocol/contributions/meta_upgrade_20260804_235519.py"}
+{"timestamp": "2026-08-05T03:22:44.016548", "action": "dedup_symlink", "file": "renaissance-protocol/contributions/meta_upgrade_20260805_003740.py", "details": "\u2192 renaissance-protocol/contributions/meta_upgrade_20260804_235519.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:44.017390", "message": "  \ud83d\udd17 LINKED: renaissance-protocol/contributions/meta_upgrade_20260805_005447.py \u2192 renaissance-protocol/contributions/meta_upgrade_20260804_235519.py"}
+{"timestamp": "2026-08-05T03:22:44.017642", "action": "dedup_symlink", "file": "renaissance-protocol/contributions/meta_upgrade_20260805_005447.py", "details": "\u2192 renaissance-protocol/contributions/meta_upgrade_20260804_235519.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:44.019522", "message": "  \ud83d\udd17 LINKED: renaissance-protocol/contributions/meta_upgrade_20260805_015957.py \u2192 renaissance-protocol/contributions/meta_upgrade_20260804_235519.py"}
+{"timestamp": "2026-08-05T03:22:44.019828", "action": "dedup_symlink", "file": "renaissance-protocol/contributions/meta_upgrade_20260805_015957.py", "details": "\u2192 renaissance-protocol/contributions/meta_upgrade_20260804_235519.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:44.022363", "message": "  \ud83d\udd17 LINKED: renaissance-protocol/contributions/meta_upgrade_20260805_030429.py \u2192 renaissance-protocol/contributions/meta_upgrade_20260804_235519.py"}
+{"timestamp": "2026-08-05T03:22:44.023030", "action": "dedup_symlink", "file": "renaissance-protocol/contributions/meta_upgrade_20260805_030429.py", "details": "\u2192 renaissance-protocol/contributions/meta_upgrade_20260804_235519.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:44.024498", "message": "  \ud83d\udd17 LINKED: skills-introduction-to-github/contributions/meta_upgrade_20260805_000227.py \u2192 skills-introduction-to-github/contributions/meta_upgrade_20260804_235520.py"}
+{"timestamp": "2026-08-05T03:22:44.024906", "action": "dedup_symlink", "file": "skills-introduction-to-github/contributions/meta_upgrade_20260805_000227.py", "details": "\u2192 skills-introduction-to-github/contributions/meta_upgrade_20260804_235520.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:44.026353", "message": "  \ud83d\udd17 LINKED: skills-introduction-to-github/contributions/meta_upgrade_20260805_003545.py \u2192 skills-introduction-to-github/contributions/meta_upgrade_20260804_235520.py"}
+{"timestamp": "2026-08-05T03:22:44.026588", "action": "dedup_symlink", "file": "skills-introduction-to-github/contributions/meta_upgrade_20260805_003545.py", "details": "\u2192 skills-introduction-to-github/contributions/meta_upgrade_20260804_235520.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:44.027350", "message": "  \ud83d\udd17 LINKED: skills-introduction-to-github/contributions/meta_upgrade_20260805_003741.py \u2192 skills-introduction-to-github/contributions/meta_upgrade_20260804_235520.py"}
+{"timestamp": "2026-08-05T03:22:44.027589", "action": "dedup_symlink", "file": "skills-introduction-to-github/contributions/meta_upgrade_20260805_003741.py", "details": "\u2192 skills-introduction-to-github/contributions/meta_upgrade_20260804_235520.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:44.028290", "message": "  \ud83d\udd17 LINKED: skills-introduction-to-github/contributions/meta_upgrade_20260805_005448.py \u2192 skills-introduction-to-github/contributions/meta_upgrade_20260804_235520.py"}
+{"timestamp": "2026-08-05T03:22:44.028487", "action": "dedup_symlink", "file": "skills-introduction-to-github/contributions/meta_upgrade_20260805_005448.py", "details": "\u2192 skills-introduction-to-github/contributions/meta_upgrade_20260804_235520.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:44.029601", "message": "  \ud83d\udd17 LINKED: skills-introduction-to-github/contributions/meta_upgrade_20260805_015958.py \u2192 skills-introduction-to-github/contributions/meta_upgrade_20260804_235520.py"}
+{"timestamp": "2026-08-05T03:22:44.030239", "action": "dedup_symlink", "file": "skills-introduction-to-github/contributions/meta_upgrade_20260805_015958.py", "details": "\u2192 skills-introduction-to-github/contributions/meta_upgrade_20260804_235520.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:44.033413", "message": "  \ud83d\udd17 LINKED: skills-introduction-to-github/contributions/meta_upgrade_20260805_030430.py \u2192 skills-introduction-to-github/contributions/meta_upgrade_20260804_235520.py"}
+{"timestamp": "2026-08-05T03:22:44.034211", "action": "dedup_symlink", "file": "skills-introduction-to-github/contributions/meta_upgrade_20260805_030430.py", "details": "\u2192 skills-introduction-to-github/contributions/meta_upgrade_20260804_235520.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:44.037671", "message": "  \ud83d\udd17 LINKED: wisdom-scaffold/computational_flow/drill_scheduler.sh \u2192 une/computational_flow/drill_scheduler.sh"}
+{"timestamp": "2026-08-05T03:22:44.038511", "action": "dedup_symlink", "file": "wisdom-scaffold/computational_flow/drill_scheduler.sh", "details": "\u2192 une/computational_flow/drill_scheduler.sh", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:44.041726", "message": "  \ud83d\udd17 LINKED: une/contributions/meta_upgrade_20260805_000229.py \u2192 une/contributions/meta_upgrade_20260804_235522.py"}
+{"timestamp": "2026-08-05T03:22:44.042035", "action": "dedup_symlink", "file": "une/contributions/meta_upgrade_20260805_000229.py", "details": "\u2192 une/contributions/meta_upgrade_20260804_235522.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:44.043278", "message": "  \ud83d\udd17 LINKED: une/contributions/meta_upgrade_20260805_003547.py \u2192 une/contributions/meta_upgrade_20260804_235522.py"}
+{"timestamp": "2026-08-05T03:22:44.043958", "action": "dedup_symlink", "file": "une/contributions/meta_upgrade_20260805_003547.py", "details": "\u2192 une/contributions/meta_upgrade_20260804_235522.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:44.045707", "message": "  \ud83d\udd17 LINKED: une/contributions/meta_upgrade_20260805_003742.py \u2192 une/contributions/meta_upgrade_20260804_235522.py"}
+{"timestamp": "2026-08-05T03:22:44.046068", "action": "dedup_symlink", "file": "une/contributions/meta_upgrade_20260805_003742.py", "details": "\u2192 une/contributions/meta_upgrade_20260804_235522.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:44.046915", "message": "  \ud83d\udd17 LINKED: une/contributions/meta_upgrade_20260805_005449.py \u2192 une/contributions/meta_upgrade_20260804_235522.py"}
+{"timestamp": "2026-08-05T03:22:44.047134", "action": "dedup_symlink", "file": "une/contributions/meta_upgrade_20260805_005449.py", "details": "\u2192 une/contributions/meta_upgrade_20260804_235522.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:44.047955", "message": "  \ud83d\udd17 LINKED: une/contributions/meta_upgrade_20260805_020000.py \u2192 une/contributions/meta_upgrade_20260804_235522.py"}
+{"timestamp": "2026-08-05T03:22:44.048180", "action": "dedup_symlink", "file": "une/contributions/meta_upgrade_20260805_020000.py", "details": "\u2192 une/contributions/meta_upgrade_20260804_235522.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:44.050723", "message": "  \ud83d\udd17 LINKED: une/contributions/meta_upgrade_20260805_030432.py \u2192 une/contributions/meta_upgrade_20260804_235522.py"}
+{"timestamp": "2026-08-05T03:22:44.051207", "action": "dedup_symlink", "file": "une/contributions/meta_upgrade_20260805_030432.py", "details": "\u2192 une/contributions/meta_upgrade_20260804_235522.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:44.056822", "message": "  \ud83d\udd17 LINKED: wisdom-scaffold/contributions/meta_upgrade_20260805_000231.py \u2192 wisdom-scaffold/contributions/meta_upgrade_20260804_235525.py"}
+{"timestamp": "2026-08-05T03:22:44.057319", "action": "dedup_symlink", "file": "wisdom-scaffold/contributions/meta_upgrade_20260805_000231.py", "details": "\u2192 wisdom-scaffold/contributions/meta_upgrade_20260804_235525.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:44.060283", "message": "  \ud83d\udd17 LINKED: wisdom-scaffold/contributions/meta_upgrade_20260805_003549.py \u2192 wisdom-scaffold/contributions/meta_upgrade_20260804_235525.py"}
+{"timestamp": "2026-08-05T03:22:44.060637", "action": "dedup_symlink", "file": "wisdom-scaffold/contributions/meta_upgrade_20260805_003549.py", "details": "\u2192 wisdom-scaffold/contributions/meta_upgrade_20260804_235525.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:44.062031", "message": "  \ud83d\udd17 LINKED: wisdom-scaffold/contributions/meta_upgrade_20260805_003744.py \u2192 wisdom-scaffold/contributions/meta_upgrade_20260804_235525.py"}
+{"timestamp": "2026-08-05T03:22:44.062759", "action": "dedup_symlink", "file": "wisdom-scaffold/contributions/meta_upgrade_20260805_003744.py", "details": "\u2192 wisdom-scaffold/contributions/meta_upgrade_20260804_235525.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:44.065796", "message": "  \ud83d\udd17 LINKED: wisdom-scaffold/contributions/meta_upgrade_20260805_005451.py \u2192 wisdom-scaffold/contributions/meta_upgrade_20260804_235525.py"}
+{"timestamp": "2026-08-05T03:22:44.066470", "action": "dedup_symlink", "file": "wisdom-scaffold/contributions/meta_upgrade_20260805_005451.py", "details": "\u2192 wisdom-scaffold/contributions/meta_upgrade_20260804_235525.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:44.069669", "message": "  \ud83d\udd17 LINKED: wisdom-scaffold/contributions/meta_upgrade_20260805_020001.py \u2192 wisdom-scaffold/contributions/meta_upgrade_20260804_235525.py"}
+{"timestamp": "2026-08-05T03:22:44.070280", "action": "dedup_symlink", "file": "wisdom-scaffold/contributions/meta_upgrade_20260805_020001.py", "details": "\u2192 wisdom-scaffold/contributions/meta_upgrade_20260804_235525.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:44.071728", "message": "  \ud83d\udd17 LINKED: wisdom-scaffold/contributions/meta_upgrade_20260805_030434.py \u2192 wisdom-scaffold/contributions/meta_upgrade_20260804_235525.py"}
+{"timestamp": "2026-08-05T03:22:44.072008", "action": "dedup_symlink", "file": "wisdom-scaffold/contributions/meta_upgrade_20260805_030434.py", "details": "\u2192 wisdom-scaffold/contributions/meta_upgrade_20260804_235525.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:22:44.072223", "message": "\ud83d\udd27 DEDUP: Consolidated 162 files into symlinks"}
+{"timestamp": "2026-08-05T03:22:44.072398", "message": "\ud83d\udd27 MUTATION: Syntax fix starting..."}
+{"timestamp": "2026-08-05T03:22:44.086617", "message": "\ud83d\udd27 SYNTAX: Fixed 0/50 errors"}
+{"timestamp": "2026-08-05T03:22:44.086836", "message": "\ud83d\udd27 MUTATION: Hardcoded path fix starting..."}
+{"timestamp": "2026-08-05T03:22:44.123936", "message": "\ud83d\udd27 PATHS: Fixed 0/288 hardcoded paths"}
+{"timestamp": "2026-08-05T03:22:44.124145", "message": "\ud83d\udd27 MUTATION: Pruning old contributions..."}
+{"timestamp": "2026-08-05T03:22:44.124278", "message": "\n\u2500\u2500 PHASE 4: EVOLVE \u2500\u2500"}
+{"timestamp": "2026-08-05T03:22:44.124394", "message": "\ud83e\uddec EVOLUTION: Generating self-improvement patch..."}
+{"timestamp": "2026-08-05T03:22:44.126530", "message": "\ud83e\uddec EVOLUTION: Patch /data/data/com.termux/files/home/une/contributions/auto_evolution_20260805_032244.py generated and verified"}
+{"timestamp": "2026-08-05T03:22:44.126835", "action": "evolution_patch", "file": "/data/data/com.termux/files/home/une/contributions/auto_evolution_20260805_032244.py", "details": "wisdom=14, fix_rate=47.9%", "status": "generated"}
+{"timestamp": "2026-08-05T03:22:44.127018", "message": "\n\u2500\u2500 PHASE 5: PRACTICE \u2500\u2500"}
+{"timestamp": "2026-08-05T03:22:44.127135", "message": "\ud83d\udd01 PRACTICE: Testing previous evolution patches..."}
+{"timestamp": "2026-08-05T03:22:44.723609", "message": "\ud83d\udd01 PRACTICE: 4 passed, 0 failed out of 4 tested"}
+{"timestamp": "2026-08-05T03:22:44.724130", "message": "\n\u2500\u2500 PHASE 6: SNAPSHOT \u2500\u2500"}
+{"timestamp": "2026-08-05T03:22:44.724430", "message": "\ud83d\udcf8 SNAPSHOT: Capturing post-cycle state..."}
+{"timestamp": "2026-08-05T03:22:44.728900", "message": "\ud83d\udcf8 SNAPSHOT: Saved to /data/data/com.termux/files/home/une/autonomous_snapshot.json"}
+{"timestamp": "2026-08-05T03:22:44.729581", "message": "\n\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550"}
+{"timestamp": "2026-08-05T03:22:44.730050", "message": "\ud83c\udfc6 CYCLE COMPLETE"}
+{"timestamp": "2026-08-05T03:22:44.730360", "message": "   Files scanned: 1478"}
+{"timestamp": "2026-08-05T03:22:44.730638", "message": "   Problems found: 338"}
+{"timestamp": "2026-08-05T03:22:44.730863", "message": "   Problems fixed: 162"}
+{"timestamp": "2026-08-05T03:22:44.731084", "message": "   Lessons learned: 0"}
+{"timestamp": "2026-08-05T03:22:44.731388", "message": "   Wisdom patterns blocked: 60"}
+{"timestamp": "2026-08-05T03:22:44.731835", "message": "   Evolution patches generated: 1"}
+{"timestamp": "2026-08-05T03:22:44.732357", "message": "   Fix rate: 47.9%"}
+{"timestamp": "2026-08-05T03:22:44.732809", "message": "\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550"}
+{"timestamp": "2026-08-05T03:22:44.736718", "message": "\ud83d\udccb Report saved: /data/data/com.termux/files/home/une/autonomous_report.json"}
+{"timestamp": "2026-08-05T03:23:23.144422", "message": "\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550"}
+{"timestamp": "2026-08-05T03:23:23.145246", "message": "\ud83e\udd81 AUTONOMOUS MESH ENGINE v1.0 \u2014 CYCLE START"}
+{"timestamp": "2026-08-05T03:23:23.145563", "message": "   Base: /data/data/com.termux/files/home/une"}
+{"timestamp": "2026-08-05T03:23:23.145738", "message": "   Meta Hub: /data/data/com.termux/files/home/une/meta_hub"}
+{"timestamp": "2026-08-05T03:23:23.145882", "message": "   Wisdom: /data/data/com.termux/files/home/une/wisdom/error_patterns.json"}
+{"timestamp": "2026-08-05T03:23:23.146022", "message": "\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550"}
+{"timestamp": "2026-08-05T03:23:23.146162", "message": "\n\u2500\u2500 PHASE 1: OBSERVE \u2500\u2500"}
+{"timestamp": "2026-08-05T03:23:23.146298", "message": "\ud83d\udd0d SCANNER: Deduplication scan starting..."}
+{"timestamp": "2026-08-05T03:23:24.532375", "message": "\ud83d\udd0d DEDUP: Found 40 duplicate groups, 162 redundant files, ~4041KB reclaimable"}
+{"timestamp": "2026-08-05T03:23:24.532770", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 duplicate_file"}
+{"timestamp": "2026-08-05T03:23:24.533026", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 duplicate_file"}
+{"timestamp": "2026-08-05T03:23:24.533286", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 duplicate_file"}
+{"timestamp": "2026-08-05T03:23:24.533508", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 duplicate_file"}
+{"timestamp": "2026-08-05T03:23:24.533690", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 duplicate_file"}
+{"timestamp": "2026-08-05T03:23:24.534079", "message": "\ud83d\udd0d SCANNER: Syntax scan starting..."}
+{"timestamp": "2026-08-05T03:23:24.543705", "message": "\u274c SYNTAX ERROR: aerocement/rmh.py:56 \u2014 invalid syntax. Perhaps you forgot a comma?"}
+{"timestamp": "2026-08-05T03:23:24.544111", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:23:24.564776", "message": "\u274c SYNTAX ERROR: aerocement/scripts/data_logger.py:2 \u2014 invalid syntax"}
+{"timestamp": "2026-08-05T03:23:24.565078", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:23:24.565837", "message": "\u274c SYNTAX ERROR: aerocement/scripts/data_logger_v03.py:16 \u2014 invalid syntax. Is this intended to be part of the string?"}
+{"timestamp": "2026-08-05T03:23:24.566137", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:23:24.582745", "message": "\u274c SYNTAX ERROR: aerocement/une-dev/test_une_fixed.py:19 \u2014 invalid syntax. Perhaps you forgot a comma?"}
+{"timestamp": "2026-08-05T03:23:24.583051", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:23:24.599799", "message": "\u274c SYNTAX ERROR: agape-coordination/agape_engine.py:57 \u2014 invalid syntax. Is this intended to be part of the string?"}
+{"timestamp": "2026-08-05T03:23:24.600151", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:23:24.611407", "message": "\u274c SYNTAX ERROR: agape-coordination/swarm_core_v3.py:41 \u2014 invalid syntax"}
+{"timestamp": "2026-08-05T03:23:24.611743", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:23:24.650646", "message": "\u274c SYNTAX ERROR: OpenCell-Thermal-System/1_code/src/pdf-comp.py:1 \u2014 invalid syntax"}
+{"timestamp": "2026-08-05T03:23:24.651249", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:23:24.651950", "message": "\u274c SYNTAX ERROR: OpenCell-Thermal-System/1_code/src/pdf-compile.py:1 \u2014 invalid syntax"}
+{"timestamp": "2026-08-05T03:23:24.652222", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:23:24.666182", "message": "\u274c SYNTAX ERROR: openroot/test_configs.py:6 \u2014 invalid syntax. Is this intended to be part of the string?"}
+{"timestamp": "2026-08-05T03:23:24.666485", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:23:24.671817", "message": "\u274c SYNTAX ERROR: openroot/bin/acre_mint_claim.py:13 \u2014 invalid syntax. Is this intended to be part of the string?"}
+{"timestamp": "2026-08-05T03:23:24.672180", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:23:24.686592", "message": "\u274c SYNTAX ERROR: openroot/bin/auto_sensor_capture.py:14 \u2014 invalid syntax. Is this intended to be part of the string?"}
+{"timestamp": "2026-08-05T03:23:24.686905", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:23:24.698834", "message": "\u274c SYNTAX ERROR: openroot/bin/embed_docs.py:7 \u2014 invalid syntax. Perhaps you forgot a comma?"}
+{"timestamp": "2026-08-05T03:23:24.699157", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:23:24.710923", "message": "\u274c SYNTAX ERROR: openroot/bin/h003_resonant_solver.py:348 \u2014 invalid decimal literal"}
+{"timestamp": "2026-08-05T03:23:24.711581", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:23:24.712657", "message": "\u274c SYNTAX ERROR: openroot/bin/instrument_ledger.py:15 \u2014 invalid syntax. Is this intended to be part of the string?"}
+{"timestamp": "2026-08-05T03:23:24.712956", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:23:24.736648", "message": "\u274c SYNTAX ERROR: openroot/bin/offline_rank.py:6 \u2014 invalid syntax. Perhaps you forgot a comma?"}
+{"timestamp": "2026-08-05T03:23:24.736945", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:23:24.738619", "message": "\u274c SYNTAX ERROR: openroot/bin/offline_writer.py:12 \u2014 invalid syntax. Perhaps you forgot a comma?"}
+{"timestamp": "2026-08-05T03:23:24.738959", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:23:24.741555", "message": "\u274c SYNTAX ERROR: openroot/bin/orphan_cleanup.py:16 \u2014 invalid syntax. Is this intended to be part of the string?"}
+{"timestamp": "2026-08-05T03:23:24.741964", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:23:24.742758", "message": "\u274c SYNTAX ERROR: openroot/bin/query_agent.py:12 \u2014 invalid syntax. Perhaps you forgot a comma?"}
+{"timestamp": "2026-08-05T03:23:24.743075", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:23:24.845721", "message": "\u274c SYNTAX ERROR: openroot/bin/thermal_v62_balanced.py:300 \u2014 invalid syntax. Perhaps you forgot a comma?"}
+{"timestamp": "2026-08-05T03:23:24.846104", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:23:24.867255", "message": "\u274c SYNTAX ERROR: openroot/bin/vecquery.py:8 \u2014 invalid syntax. Perhaps you forgot a comma?"}
+{"timestamp": "2026-08-05T03:23:24.867599", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:23:24.884142", "message": "\u274c SYNTAX ERROR: openroot/context_bridge/absorb_full_session.py:5 \u2014 invalid syntax"}
+{"timestamp": "2026-08-05T03:23:24.884445", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:23:24.885073", "message": "\u274c SYNTAX ERROR: openroot/context_bridge/absorb_now.py:5 \u2014 invalid syntax"}
+{"timestamp": "2026-08-05T03:23:24.885402", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:23:24.886001", "message": "\u274c SYNTAX ERROR: openroot/context_bridge/absorb_to_wisdom.py:5 \u2014 invalid syntax"}
+{"timestamp": "2026-08-05T03:23:24.886262", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:23:24.889694", "message": "\u274c SYNTAX ERROR: openroot/context_bridge/openroot_state.py:11 \u2014 invalid syntax. Perhaps you forgot a comma?"}
+{"timestamp": "2026-08-05T03:23:24.889993", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:23:24.902460", "message": "\u274c SYNTAX ERROR: openroot/lattice/meta_mesh_engine.py:17 \u2014 invalid syntax. Is this intended to be part of the string?"}
+{"timestamp": "2026-08-05T03:23:24.902764", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:23:24.903363", "message": "\u274c SYNTAX ERROR: openroot/ledger/cpu_joules.py:5 \u2014 invalid syntax"}
+{"timestamp": "2026-08-05T03:23:24.903573", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:23:24.905135", "message": "\u274c SYNTAX ERROR: openroot/ledger/merkle_joule_ledger.py:12 \u2014 invalid syntax. Perhaps you forgot a comma?"}
+{"timestamp": "2026-08-05T03:23:24.905533", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:23:24.906726", "message": "\u274c SYNTAX ERROR: openroot/ledger/state_and_viz.py:6 \u2014 invalid syntax"}
+{"timestamp": "2026-08-05T03:23:24.907051", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:23:24.907600", "message": "\u274c SYNTAX ERROR: openroot/ledger/thermo_ledger.py:4 \u2014 invalid syntax"}
+{"timestamp": "2026-08-05T03:23:24.907835", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:23:24.908407", "message": "\u274c SYNTAX ERROR: openroot/ledger/thermo_ledger_sqlite.py:5 \u2014 invalid syntax"}
+{"timestamp": "2026-08-05T03:23:24.908693", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:23:25.047365", "message": "\u274c SYNTAX ERROR: renaissance-protocol/src/log_temp.py:1 \u2014 invalid syntax"}
+{"timestamp": "2026-08-05T03:23:25.047645", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:23:25.056730", "message": "\u274c SYNTAX ERROR: une/absorb_batch.py:90 \u2014 invalid syntax. Is this intended to be part of the string?"}
+{"timestamp": "2026-08-05T03:23:25.057049", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:23:25.071134", "message": "\u274c SYNTAX ERROR: une/alchemy_transmute.py:115 \u2014 invalid syntax. Perhaps you forgot a comma?"}
+{"timestamp": "2026-08-05T03:23:25.071477", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:23:25.102190", "message": "\u274c SYNTAX ERROR: une/create_scripture_corpus.py:1039 \u2014 '{' was never closed"}
+{"timestamp": "2026-08-05T03:23:25.102530", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:23:25.103278", "message": "\u274c SYNTAX ERROR: une/evolution_engine.py:9 \u2014 invalid syntax. Is this intended to be part of the string?"}
+{"timestamp": "2026-08-05T03:23:25.103547", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:23:25.112850", "message": "\u274c SYNTAX ERROR: une/guardian.py:21 \u2014 invalid syntax. Is this intended to be part of the string?"}
+{"timestamp": "2026-08-05T03:23:25.113115", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:23:25.113799", "message": "\u274c SYNTAX ERROR: une/guardian_v4.py:12 \u2014 invalid syntax. Is this intended to be part of the string?"}
+{"timestamp": "2026-08-05T03:23:25.114026", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:23:25.118517", "message": "\u274c SYNTAX ERROR: une/kernel_init.py:10 \u2014 invalid syntax. Is this intended to be part of the string?"}
+{"timestamp": "2026-08-05T03:23:25.118766", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:23:25.120046", "message": "\u274c SYNTAX ERROR: une/note.py:6 \u2014 invalid syntax. Is this intended to be part of the string?"}
+{"timestamp": "2026-08-05T03:23:25.120247", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:23:25.137129", "message": "\u274c SYNTAX ERROR: une/self_clone.py:10 \u2014 invalid syntax"}
+{"timestamp": "2026-08-05T03:23:25.137627", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:23:25.139448", "message": "\u274c SYNTAX ERROR: une/snapshot.py:15 \u2014 invalid syntax. Perhaps you forgot a comma?"}
+{"timestamp": "2026-08-05T03:23:25.139700", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:23:25.141874", "message": "\u274c SYNTAX ERROR: une/swarm_query.py:31 \u2014 invalid syntax"}
+{"timestamp": "2026-08-05T03:23:25.142171", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:23:25.145805", "message": "\u274c SYNTAX ERROR: une/wire_core.py:13 \u2014 invalid syntax. Perhaps you forgot a comma?"}
+{"timestamp": "2026-08-05T03:23:25.146075", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:23:25.202184", "message": "\u274c SYNTAX ERROR: une/computational_flow/atomic_scan.py:17 \u2014 invalid syntax. Perhaps you forgot a comma?"}
+{"timestamp": "2026-08-05T03:23:25.202453", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:23:25.210413", "message": "\u274c SYNTAX ERROR: une/computational_flow/extract_seed.py:41 \u2014 invalid syntax. Perhaps you forgot a comma?"}
+{"timestamp": "2026-08-05T03:23:25.210704", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:23:25.222955", "message": "\u274c SYNTAX ERROR: une/computational_flow/fs_hook.py:14 \u2014 invalid syntax. Perhaps you forgot a comma?"}
+{"timestamp": "2026-08-05T03:23:25.223230", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:23:25.256987", "message": "\u274c SYNTAX ERROR: une/computational_flow/push_proof.py:17 \u2014 invalid syntax"}
+{"timestamp": "2026-08-05T03:23:25.257311", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:23:25.308630", "message": "\u274c SYNTAX ERROR: une/tools/stream_of_thought.py:14 \u2014 invalid syntax. Is this intended to be part of the string?"}
+{"timestamp": "2026-08-05T03:23:25.308906", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:23:25.321065", "message": "\u274c SYNTAX ERROR: wisdom-scaffold/computational_flow/fusion_core.py:58 \u2014 invalid syntax. Is this intended to be part of the string?"}
+{"timestamp": "2026-08-05T03:23:25.321730", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:23:25.323658", "message": "\u274c SYNTAX ERROR: wisdom-scaffold/computational_flow/fusion_sensor_wrapper.py:43 \u2014 invalid syntax. Perhaps you forgot a comma?"}
+{"timestamp": "2026-08-05T03:23:25.323941", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 syntax_error"}
+{"timestamp": "2026-08-05T03:23:25.325308", "message": "\ud83d\udd0d SYNTAX: Found 50 syntax errors"}
+{"timestamp": "2026-08-05T03:23:25.325537", "message": "\ud83d\udd0d SCANNER: Hardcoded path scan starting..."}
+{"timestamp": "2026-08-05T03:23:25.641961", "message": "\ud83d\udd0d PATHS: Found 288 hardcoded path references"}
+{"timestamp": "2026-08-05T03:23:25.642206", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 hardcoded_path"}
+{"timestamp": "2026-08-05T03:23:25.642385", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 hardcoded_path"}
+{"timestamp": "2026-08-05T03:23:25.642538", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 hardcoded_path"}
+{"timestamp": "2026-08-05T03:23:25.642702", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 hardcoded_path"}
+{"timestamp": "2026-08-05T03:23:25.642839", "message": "\u2705 WISDOM HIT: Pattern already known \u2014 hardcoded_path"}
+{"timestamp": "2026-08-05T03:23:25.642969", "message": "\ud83d\udd0d SCANNER: Contributions bloat scan starting..."}
+{"timestamp": "2026-08-05T03:23:25.647134", "message": "\n\u2500\u2500 PHASE 2: DIAGNOSE \u2500\u2500"}
+{"timestamp": "2026-08-05T03:23:25.647857", "message": "   Total problems found: 338"}
+{"timestamp": "2026-08-05T03:23:25.648474", "message": "   Lessons learned: 0"}
+{"timestamp": "2026-08-05T03:23:25.649059", "message": "   Known patterns blocked: 60"}
+{"timestamp": "2026-08-05T03:23:25.649638", "message": "\n\u2500\u2500 PHASE 3: MUTATE \u2500\u2500"}
+{"timestamp": "2026-08-05T03:23:25.649871", "message": "\ud83d\udd27 MUTATION: Deduplication fix starting..."}
+{"timestamp": "2026-08-05T03:23:25.654832", "message": "  \ud83d\udd17 LINKED: aerocement/data/.gitkeep \u2192 une/une/__init__.py"}
+{"timestamp": "2026-08-05T03:23:25.655102", "action": "dedup_symlink", "file": "aerocement/data/.gitkeep", "details": "\u2192 une/une/__init__.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.656925", "message": "  \ud83d\udd17 LINKED: OpenCell-Thermal-System/0_data/raw/raw_data.csv \u2192 une/une/__init__.py"}
+{"timestamp": "2026-08-05T03:23:25.657181", "action": "dedup_symlink", "file": "OpenCell-Thermal-System/0_data/raw/raw_data.csv", "details": "\u2192 une/une/__init__.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.662133", "message": "  \ud83d\udd17 LINKED: OpenCell-Thermal-System/docs/specifications/permissions-audit.txt \u2192 une/une/__init__.py"}
+{"timestamp": "2026-08-05T03:23:25.662729", "action": "dedup_symlink", "file": "OpenCell-Thermal-System/docs/specifications/permissions-audit.txt", "details": "\u2192 une/une/__init__.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.665987", "message": "  \ud83d\udd17 LINKED: openroot/relay/input.txt \u2192 une/une/__init__.py"}
+{"timestamp": "2026-08-05T03:23:25.666271", "action": "dedup_symlink", "file": "openroot/relay/input.txt", "details": "\u2192 une/une/__init__.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.669508", "message": "  \ud83d\udd17 LINKED: openroot-spoke-template/bom/.gitkeep \u2192 une/une/__init__.py"}
+{"timestamp": "2026-08-05T03:23:25.669754", "action": "dedup_symlink", "file": "openroot-spoke-template/bom/.gitkeep", "details": "\u2192 une/une/__init__.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.671903", "message": "  \ud83d\udd17 LINKED: openroot-spoke-template/cad/.gitkeep \u2192 une/une/__init__.py"}
+{"timestamp": "2026-08-05T03:23:25.672240", "action": "dedup_symlink", "file": "openroot-spoke-template/cad/.gitkeep", "details": "\u2192 une/une/__init__.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.675716", "message": "  \ud83d\udd17 LINKED: openroot-spoke-template/docs/.gitkeep \u2192 une/une/__init__.py"}
+{"timestamp": "2026-08-05T03:23:25.676064", "action": "dedup_symlink", "file": "openroot-spoke-template/docs/.gitkeep", "details": "\u2192 une/une/__init__.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.679334", "message": "  \ud83d\udd17 LINKED: openroot-spoke-template/src/.gitkeep \u2192 une/une/__init__.py"}
+{"timestamp": "2026-08-05T03:23:25.679565", "action": "dedup_symlink", "file": "openroot-spoke-template/src/.gitkeep", "details": "\u2192 une/une/__init__.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.680672", "message": "  \ud83d\udd17 LINKED: renaissance-protocol/docs/case_studies/README.md \u2192 une/une/__init__.py"}
+{"timestamp": "2026-08-05T03:23:25.680928", "action": "dedup_symlink", "file": "renaissance-protocol/docs/case_studies/README.md", "details": "\u2192 une/une/__init__.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.683050", "message": "  \ud83d\udd17 LINKED: renaissance-protocol/docs/engineering/README.md \u2192 une/une/__init__.py"}
+{"timestamp": "2026-08-05T03:23:25.684231", "action": "dedup_symlink", "file": "renaissance-protocol/docs/engineering/README.md", "details": "\u2192 une/une/__init__.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.687432", "message": "  \ud83d\udd17 LINKED: renaissance-protocol/hardware/hho/README.md \u2192 une/une/__init__.py"}
+{"timestamp": "2026-08-05T03:23:25.688003", "action": "dedup_symlink", "file": "renaissance-protocol/hardware/hho/README.md", "details": "\u2192 une/une/__init__.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.691372", "message": "  \ud83d\udd17 LINKED: renaissance-protocol/hardware/labyrinth/README.md \u2192 une/une/__init__.py"}
+{"timestamp": "2026-08-05T03:23:25.691626", "action": "dedup_symlink", "file": "renaissance-protocol/hardware/labyrinth/README.md", "details": "\u2192 une/une/__init__.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.695782", "message": "  \ud83d\udd17 LINKED: renaissance-protocol/hardware/panels/README.md \u2192 une/une/__init__.py"}
+{"timestamp": "2026-08-05T03:23:25.696120", "action": "dedup_symlink", "file": "renaissance-protocol/hardware/panels/README.md", "details": "\u2192 une/une/__init__.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.698384", "message": "  \ud83d\udd17 LINKED: renaissance-protocol/hardware/stirling/README.md \u2192 une/une/__init__.py"}
+{"timestamp": "2026-08-05T03:23:25.699156", "action": "dedup_symlink", "file": "renaissance-protocol/hardware/stirling/README.md", "details": "\u2192 une/une/__init__.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.702266", "message": "  \ud83d\udd17 LINKED: renaissance-protocol/hardware/welder/HHO_Electrolysis_Module.md \u2192 une/une/__init__.py"}
+{"timestamp": "2026-08-05T03:23:25.702488", "action": "dedup_symlink", "file": "renaissance-protocol/hardware/welder/HHO_Electrolysis_Module.md", "details": "\u2192 une/une/__init__.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.703449", "message": "  \ud83d\udd17 LINKED: renaissance-protocol/library/volumes/README.md \u2192 une/une/__init__.py"}
+{"timestamp": "2026-08-05T03:23:25.703668", "action": "dedup_symlink", "file": "renaissance-protocol/library/volumes/README.md", "details": "\u2192 une/une/__init__.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.705858", "message": "  \ud83d\udd17 LINKED: renaissance-protocol/src/README.md \u2192 une/une/__init__.py"}
+{"timestamp": "2026-08-05T03:23:25.706329", "action": "dedup_symlink", "file": "renaissance-protocol/src/README.md", "details": "\u2192 une/une/__init__.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.707891", "message": "  \ud83d\udd17 LINKED: wisdom-scaffold/--body \u2192 une/une/__init__.py"}
+{"timestamp": "2026-08-05T03:23:25.708135", "action": "dedup_symlink", "file": "wisdom-scaffold/--body", "details": "\u2192 une/une/__init__.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.709991", "message": "  \ud83d\udd17 LINKED: wisdom-scaffold/--label \u2192 une/une/__init__.py"}
+{"timestamp": "2026-08-05T03:23:25.710237", "action": "dedup_symlink", "file": "wisdom-scaffold/--label", "details": "\u2192 une/une/__init__.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.713256", "message": "  \ud83d\udd17 LINKED: wisdom-scaffold/--repo \u2192 une/une/__init__.py"}
+{"timestamp": "2026-08-05T03:23:25.713465", "action": "dedup_symlink", "file": "wisdom-scaffold/--repo", "details": "\u2192 une/une/__init__.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.714370", "message": "  \ud83d\udd17 LINKED: wisdom-scaffold/--title \u2192 une/une/__init__.py"}
+{"timestamp": "2026-08-05T03:23:25.714573", "action": "dedup_symlink", "file": "wisdom-scaffold/--title", "details": "\u2192 une/une/__init__.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.716820", "message": "  \ud83d\udd17 LINKED: openroot/recovered_blueprints/une_h003_capture.sh \u2192 aerocement/observations/une_h003_capture.sh"}
+{"timestamp": "2026-08-05T03:23:25.717347", "action": "dedup_symlink", "file": "openroot/recovered_blueprints/une_h003_capture.sh", "details": "\u2192 aerocement/observations/une_h003_capture.sh", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.721182", "message": "  \ud83d\udd17 LINKED: openroot/computational_flow/tasks/task_h003.json \u2192 aerocement/swarm/tasks/task_h003.json"}
+{"timestamp": "2026-08-05T03:23:25.722007", "action": "dedup_symlink", "file": "openroot/computational_flow/tasks/task_h003.json", "details": "\u2192 aerocement/swarm/tasks/task_h003.json", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.725350", "message": "  \ud83d\udd17 LINKED: openroot/une_protocol/demo_final.py \u2192 aerocement/une-dev/demo_final.py"}
+{"timestamp": "2026-08-05T03:23:25.725595", "action": "dedup_symlink", "file": "openroot/une_protocol/demo_final.py", "details": "\u2192 aerocement/une-dev/demo_final.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.729917", "message": "  \ud83d\udd17 LINKED: openroot/recovered_blueprints/une_server_old.py \u2192 aerocement/une-dev/une_server_old.py"}
+{"timestamp": "2026-08-05T03:23:25.730615", "action": "dedup_symlink", "file": "openroot/recovered_blueprints/une_server_old.py", "details": "\u2192 aerocement/une-dev/une_server_old.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.734685", "message": "  \ud83d\udd17 LINKED: aerocement/contributions/meta_upgrade_20260805_000209.py \u2192 aerocement/contributions/meta_upgrade_20260804_235501.py"}
+{"timestamp": "2026-08-05T03:23:25.735198", "action": "dedup_symlink", "file": "aerocement/contributions/meta_upgrade_20260805_000209.py", "details": "\u2192 aerocement/contributions/meta_upgrade_20260804_235501.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.738633", "message": "  \ud83d\udd17 LINKED: aerocement/contributions/meta_upgrade_20260805_003528.py \u2192 aerocement/contributions/meta_upgrade_20260804_235501.py"}
+{"timestamp": "2026-08-05T03:23:25.739546", "action": "dedup_symlink", "file": "aerocement/contributions/meta_upgrade_20260805_003528.py", "details": "\u2192 aerocement/contributions/meta_upgrade_20260804_235501.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.741900", "message": "  \ud83d\udd17 LINKED: aerocement/contributions/meta_upgrade_20260805_003724.py \u2192 aerocement/contributions/meta_upgrade_20260804_235501.py"}
+{"timestamp": "2026-08-05T03:23:25.742141", "action": "dedup_symlink", "file": "aerocement/contributions/meta_upgrade_20260805_003724.py", "details": "\u2192 aerocement/contributions/meta_upgrade_20260804_235501.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.744261", "message": "  \ud83d\udd17 LINKED: aerocement/contributions/meta_upgrade_20260805_005431.py \u2192 aerocement/contributions/meta_upgrade_20260804_235501.py"}
+{"timestamp": "2026-08-05T03:23:25.744520", "action": "dedup_symlink", "file": "aerocement/contributions/meta_upgrade_20260805_005431.py", "details": "\u2192 aerocement/contributions/meta_upgrade_20260804_235501.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.747125", "message": "  \ud83d\udd17 LINKED: aerocement/contributions/meta_upgrade_20260805_015941.py \u2192 aerocement/contributions/meta_upgrade_20260804_235501.py"}
+{"timestamp": "2026-08-05T03:23:25.747741", "action": "dedup_symlink", "file": "aerocement/contributions/meta_upgrade_20260805_015941.py", "details": "\u2192 aerocement/contributions/meta_upgrade_20260804_235501.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.752500", "message": "  \ud83d\udd17 LINKED: aerocement/contributions/meta_upgrade_20260805_030411.py \u2192 aerocement/contributions/meta_upgrade_20260804_235501.py"}
+{"timestamp": "2026-08-05T03:23:25.752761", "action": "dedup_symlink", "file": "aerocement/contributions/meta_upgrade_20260805_030411.py", "details": "\u2192 aerocement/contributions/meta_upgrade_20260804_235501.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.756300", "message": "  \ud83d\udd17 LINKED: aerocement-/.gitignore \u2192 agape-une/.gitignore"}
+{"timestamp": "2026-08-05T03:23:25.756928", "action": "dedup_symlink", "file": "aerocement-/.gitignore", "details": "\u2192 agape-une/.gitignore", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.760981", "message": "  \ud83d\udd17 LINKED: agape-coordination/.gitignore \u2192 agape-une/.gitignore"}
+{"timestamp": "2026-08-05T03:23:25.762526", "action": "dedup_symlink", "file": "agape-coordination/.gitignore", "details": "\u2192 agape-une/.gitignore", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.765566", "message": "  \ud83d\udd17 LINKED: black-locust-rmh/.gitignore \u2192 agape-une/.gitignore"}
+{"timestamp": "2026-08-05T03:23:25.765955", "action": "dedup_symlink", "file": "black-locust-rmh/.gitignore", "details": "\u2192 agape-une/.gitignore", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.768905", "message": "  \ud83d\udd17 LINKED: civilization2.0/.gitignore \u2192 agape-une/.gitignore"}
+{"timestamp": "2026-08-05T03:23:25.769127", "action": "dedup_symlink", "file": "civilization2.0/.gitignore", "details": "\u2192 agape-une/.gitignore", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.771632", "message": "  \ud83d\udd17 LINKED: open-cell-thermal-open-cell-the/.gitignore \u2192 agape-une/.gitignore"}
+{"timestamp": "2026-08-05T03:23:25.772278", "action": "dedup_symlink", "file": "open-cell-thermal-open-cell-the/.gitignore", "details": "\u2192 agape-une/.gitignore", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.775868", "message": "  \ud83d\udd17 LINKED: OpenCell-Thermal-System/.gitignore \u2192 agape-une/.gitignore"}
+{"timestamp": "2026-08-05T03:23:25.776114", "action": "dedup_symlink", "file": "OpenCell-Thermal-System/.gitignore", "details": "\u2192 agape-une/.gitignore", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.777856", "message": "  \ud83d\udd17 LINKED: wisdom-scaffold/.gitignore \u2192 agape-une/.gitignore"}
+{"timestamp": "2026-08-05T03:23:25.778061", "action": "dedup_symlink", "file": "wisdom-scaffold/.gitignore", "details": "\u2192 agape-une/.gitignore", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.779523", "message": "  \ud83d\udd17 LINKED: aerocement-/LICENSE \u2192 agape-une/LICENSE"}
+{"timestamp": "2026-08-05T03:23:25.779744", "action": "dedup_symlink", "file": "aerocement-/LICENSE", "details": "\u2192 agape-une/LICENSE", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.781966", "message": "  \ud83d\udd17 LINKED: AeroCement_Ecosystem/LICENSE \u2192 agape-une/LICENSE"}
+{"timestamp": "2026-08-05T03:23:25.782304", "action": "dedup_symlink", "file": "AeroCement_Ecosystem/LICENSE", "details": "\u2192 agape-une/LICENSE", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.786099", "message": "  \ud83d\udd17 LINKED: agape-coordination/LICENSE \u2192 agape-une/LICENSE"}
+{"timestamp": "2026-08-05T03:23:25.786983", "action": "dedup_symlink", "file": "agape-coordination/LICENSE", "details": "\u2192 agape-une/LICENSE", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.790191", "message": "  \ud83d\udd17 LINKED: black-locust-rmh/LICENSE \u2192 agape-une/LICENSE"}
+{"timestamp": "2026-08-05T03:23:25.790426", "action": "dedup_symlink", "file": "black-locust-rmh/LICENSE", "details": "\u2192 agape-une/LICENSE", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.792343", "message": "  \ud83d\udd17 LINKED: civilization2.0/LICENSE \u2192 agape-une/LICENSE"}
+{"timestamp": "2026-08-05T03:23:25.792563", "action": "dedup_symlink", "file": "civilization2.0/LICENSE", "details": "\u2192 agape-une/LICENSE", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.796182", "message": "  \ud83d\udd17 LINKED: jesseray718/LICENSE \u2192 agape-une/LICENSE"}
+{"timestamp": "2026-08-05T03:23:25.796421", "action": "dedup_symlink", "file": "jesseray718/LICENSE", "details": "\u2192 agape-une/LICENSE", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.797539", "message": "  \ud83d\udd17 LINKED: open-cell-thermal-open-cell-the/LICENSE \u2192 agape-une/LICENSE"}
+{"timestamp": "2026-08-05T03:23:25.797767", "action": "dedup_symlink", "file": "open-cell-thermal-open-cell-the/LICENSE", "details": "\u2192 agape-une/LICENSE", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.799913", "message": "  \ud83d\udd17 LINKED: aerocement-/contributions/meta_upgrade_20260805_000210.py \u2192 aerocement-/contributions/meta_upgrade_20260804_235502.py"}
+{"timestamp": "2026-08-05T03:23:25.800159", "action": "dedup_symlink", "file": "aerocement-/contributions/meta_upgrade_20260805_000210.py", "details": "\u2192 aerocement-/contributions/meta_upgrade_20260804_235502.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.803136", "message": "  \ud83d\udd17 LINKED: aerocement-/contributions/meta_upgrade_20260805_003529.py \u2192 aerocement-/contributions/meta_upgrade_20260804_235502.py"}
+{"timestamp": "2026-08-05T03:23:25.803335", "action": "dedup_symlink", "file": "aerocement-/contributions/meta_upgrade_20260805_003529.py", "details": "\u2192 aerocement-/contributions/meta_upgrade_20260804_235502.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.805246", "message": "  \ud83d\udd17 LINKED: aerocement-/contributions/meta_upgrade_20260805_003725.py \u2192 aerocement-/contributions/meta_upgrade_20260804_235502.py"}
+{"timestamp": "2026-08-05T03:23:25.805497", "action": "dedup_symlink", "file": "aerocement-/contributions/meta_upgrade_20260805_003725.py", "details": "\u2192 aerocement-/contributions/meta_upgrade_20260804_235502.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.808411", "message": "  \ud83d\udd17 LINKED: aerocement-/contributions/meta_upgrade_20260805_005432.py \u2192 aerocement-/contributions/meta_upgrade_20260804_235502.py"}
+{"timestamp": "2026-08-05T03:23:25.808651", "action": "dedup_symlink", "file": "aerocement-/contributions/meta_upgrade_20260805_005432.py", "details": "\u2192 aerocement-/contributions/meta_upgrade_20260804_235502.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.809956", "message": "  \ud83d\udd17 LINKED: aerocement-/contributions/meta_upgrade_20260805_015942.py \u2192 aerocement-/contributions/meta_upgrade_20260804_235502.py"}
+{"timestamp": "2026-08-05T03:23:25.810167", "action": "dedup_symlink", "file": "aerocement-/contributions/meta_upgrade_20260805_015942.py", "details": "\u2192 aerocement-/contributions/meta_upgrade_20260804_235502.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.811126", "message": "  \ud83d\udd17 LINKED: aerocement-/contributions/meta_upgrade_20260805_030413.py \u2192 aerocement-/contributions/meta_upgrade_20260804_235502.py"}
+{"timestamp": "2026-08-05T03:23:25.811316", "action": "dedup_symlink", "file": "aerocement-/contributions/meta_upgrade_20260805_030413.py", "details": "\u2192 aerocement-/contributions/meta_upgrade_20260804_235502.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.812220", "message": "  \ud83d\udd17 LINKED: AeroCement_Ecosystem/contributions/meta_upgrade_20260805_000206.py \u2192 AeroCement_Ecosystem/contributions/meta_upgrade_20260804_235457.py"}
+{"timestamp": "2026-08-05T03:23:25.812395", "action": "dedup_symlink", "file": "AeroCement_Ecosystem/contributions/meta_upgrade_20260805_000206.py", "details": "\u2192 AeroCement_Ecosystem/contributions/meta_upgrade_20260804_235457.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.813293", "message": "  \ud83d\udd17 LINKED: AeroCement_Ecosystem/contributions/meta_upgrade_20260805_003525.py \u2192 AeroCement_Ecosystem/contributions/meta_upgrade_20260804_235457.py"}
+{"timestamp": "2026-08-05T03:23:25.813488", "action": "dedup_symlink", "file": "AeroCement_Ecosystem/contributions/meta_upgrade_20260805_003525.py", "details": "\u2192 AeroCement_Ecosystem/contributions/meta_upgrade_20260804_235457.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.815191", "message": "  \ud83d\udd17 LINKED: AeroCement_Ecosystem/contributions/meta_upgrade_20260805_003721.py \u2192 AeroCement_Ecosystem/contributions/meta_upgrade_20260804_235457.py"}
+{"timestamp": "2026-08-05T03:23:25.815600", "action": "dedup_symlink", "file": "AeroCement_Ecosystem/contributions/meta_upgrade_20260805_003721.py", "details": "\u2192 AeroCement_Ecosystem/contributions/meta_upgrade_20260804_235457.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.819560", "message": "  \ud83d\udd17 LINKED: AeroCement_Ecosystem/contributions/meta_upgrade_20260805_005428.py \u2192 AeroCement_Ecosystem/contributions/meta_upgrade_20260804_235457.py"}
+{"timestamp": "2026-08-05T03:23:25.820119", "action": "dedup_symlink", "file": "AeroCement_Ecosystem/contributions/meta_upgrade_20260805_005428.py", "details": "\u2192 AeroCement_Ecosystem/contributions/meta_upgrade_20260804_235457.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.822766", "message": "  \ud83d\udd17 LINKED: AeroCement_Ecosystem/contributions/meta_upgrade_20260805_015938.py \u2192 AeroCement_Ecosystem/contributions/meta_upgrade_20260804_235457.py"}
+{"timestamp": "2026-08-05T03:23:25.822972", "action": "dedup_symlink", "file": "AeroCement_Ecosystem/contributions/meta_upgrade_20260805_015938.py", "details": "\u2192 AeroCement_Ecosystem/contributions/meta_upgrade_20260804_235457.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.824182", "message": "  \ud83d\udd17 LINKED: AeroCement_Ecosystem/contributions/meta_upgrade_20260805_030407.py \u2192 AeroCement_Ecosystem/contributions/meta_upgrade_20260804_235457.py"}
+{"timestamp": "2026-08-05T03:23:25.824391", "action": "dedup_symlink", "file": "AeroCement_Ecosystem/contributions/meta_upgrade_20260805_030407.py", "details": "\u2192 AeroCement_Ecosystem/contributions/meta_upgrade_20260804_235457.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.825375", "message": "  \ud83d\udd17 LINKED: agape-coordination/AGAPE_THESIS.md \u2192 une/AGAPE_THESIS.md"}
+{"timestamp": "2026-08-05T03:23:25.825593", "action": "dedup_symlink", "file": "agape-coordination/AGAPE_THESIS.md", "details": "\u2192 une/AGAPE_THESIS.md", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.827898", "message": "  \ud83d\udd17 LINKED: une/computational_flow/agape_stress_test.py \u2192 agape-coordination/agape_stress_test.py"}
+{"timestamp": "2026-08-05T03:23:25.828508", "action": "dedup_symlink", "file": "une/computational_flow/agape_stress_test.py", "details": "\u2192 agape-coordination/agape_stress_test.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.831967", "message": "  \ud83d\udd17 LINKED: une/computational_flow/cosmic_query_engine.py \u2192 agape-coordination/cosmic_query_engine.py"}
+{"timestamp": "2026-08-05T03:23:25.832197", "action": "dedup_symlink", "file": "une/computational_flow/cosmic_query_engine.py", "details": "\u2192 agape-coordination/cosmic_query_engine.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.834086", "message": "  \ud83d\udd17 LINKED: une/computational_flow/thermal_cascade_optimizer.py \u2192 agape-coordination/thermal_cascade_optimizer.py"}
+{"timestamp": "2026-08-05T03:23:25.834349", "action": "dedup_symlink", "file": "une/computational_flow/thermal_cascade_optimizer.py", "details": "\u2192 agape-coordination/thermal_cascade_optimizer.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.838336", "message": "  \ud83d\udd17 LINKED: agape-coordination/contributions/meta_upgrade_20260805_000211.py \u2192 agape-coordination/contributions/meta_upgrade_20260804_235503.py"}
+{"timestamp": "2026-08-05T03:23:25.838556", "action": "dedup_symlink", "file": "agape-coordination/contributions/meta_upgrade_20260805_000211.py", "details": "\u2192 agape-coordination/contributions/meta_upgrade_20260804_235503.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.841447", "message": "  \ud83d\udd17 LINKED: agape-coordination/contributions/meta_upgrade_20260805_003530.py \u2192 agape-coordination/contributions/meta_upgrade_20260804_235503.py"}
+{"timestamp": "2026-08-05T03:23:25.841670", "action": "dedup_symlink", "file": "agape-coordination/contributions/meta_upgrade_20260805_003530.py", "details": "\u2192 agape-coordination/contributions/meta_upgrade_20260804_235503.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.843641", "message": "  \ud83d\udd17 LINKED: agape-coordination/contributions/meta_upgrade_20260805_003726.py \u2192 agape-coordination/contributions/meta_upgrade_20260804_235503.py"}
+{"timestamp": "2026-08-05T03:23:25.844214", "action": "dedup_symlink", "file": "agape-coordination/contributions/meta_upgrade_20260805_003726.py", "details": "\u2192 agape-coordination/contributions/meta_upgrade_20260804_235503.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.849850", "message": "  \ud83d\udd17 LINKED: agape-coordination/contributions/meta_upgrade_20260805_005433.py \u2192 agape-coordination/contributions/meta_upgrade_20260804_235503.py"}
+{"timestamp": "2026-08-05T03:23:25.850114", "action": "dedup_symlink", "file": "agape-coordination/contributions/meta_upgrade_20260805_005433.py", "details": "\u2192 agape-coordination/contributions/meta_upgrade_20260804_235503.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.852445", "message": "  \ud83d\udd17 LINKED: agape-coordination/contributions/meta_upgrade_20260805_015943.py \u2192 agape-coordination/contributions/meta_upgrade_20260804_235503.py"}
+{"timestamp": "2026-08-05T03:23:25.852707", "action": "dedup_symlink", "file": "agape-coordination/contributions/meta_upgrade_20260805_015943.py", "details": "\u2192 agape-coordination/contributions/meta_upgrade_20260804_235503.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.854547", "message": "  \ud83d\udd17 LINKED: agape-coordination/contributions/meta_upgrade_20260805_030413.py \u2192 agape-coordination/contributions/meta_upgrade_20260804_235503.py"}
+{"timestamp": "2026-08-05T03:23:25.854790", "action": "dedup_symlink", "file": "agape-coordination/contributions/meta_upgrade_20260805_030413.py", "details": "\u2192 agape-coordination/contributions/meta_upgrade_20260804_235503.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.856830", "message": "  \ud83d\udd17 LINKED: agape-une/contributions/meta_upgrade_20260805_000212.py \u2192 agape-une/contributions/meta_upgrade_20260804_235504.py"}
+{"timestamp": "2026-08-05T03:23:25.857076", "action": "dedup_symlink", "file": "agape-une/contributions/meta_upgrade_20260805_000212.py", "details": "\u2192 agape-une/contributions/meta_upgrade_20260804_235504.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.860436", "message": "  \ud83d\udd17 LINKED: agape-une/contributions/meta_upgrade_20260805_003531.py \u2192 agape-une/contributions/meta_upgrade_20260804_235504.py"}
+{"timestamp": "2026-08-05T03:23:25.860661", "action": "dedup_symlink", "file": "agape-une/contributions/meta_upgrade_20260805_003531.py", "details": "\u2192 agape-une/contributions/meta_upgrade_20260804_235504.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.862571", "message": "  \ud83d\udd17 LINKED: agape-une/contributions/meta_upgrade_20260805_003727.py \u2192 agape-une/contributions/meta_upgrade_20260804_235504.py"}
+{"timestamp": "2026-08-05T03:23:25.862805", "action": "dedup_symlink", "file": "agape-une/contributions/meta_upgrade_20260805_003727.py", "details": "\u2192 agape-une/contributions/meta_upgrade_20260804_235504.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.866937", "message": "  \ud83d\udd17 LINKED: agape-une/contributions/meta_upgrade_20260805_005434.py \u2192 agape-une/contributions/meta_upgrade_20260804_235504.py"}
+{"timestamp": "2026-08-05T03:23:25.867491", "action": "dedup_symlink", "file": "agape-une/contributions/meta_upgrade_20260805_005434.py", "details": "\u2192 agape-une/contributions/meta_upgrade_20260804_235504.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.870079", "message": "  \ud83d\udd17 LINKED: agape-une/contributions/meta_upgrade_20260805_015945.py \u2192 agape-une/contributions/meta_upgrade_20260804_235504.py"}
+{"timestamp": "2026-08-05T03:23:25.870295", "action": "dedup_symlink", "file": "agape-une/contributions/meta_upgrade_20260805_015945.py", "details": "\u2192 agape-une/contributions/meta_upgrade_20260804_235504.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.875548", "message": "  \ud83d\udd17 LINKED: agape-une/contributions/meta_upgrade_20260805_030415.py \u2192 agape-une/contributions/meta_upgrade_20260804_235504.py"}
+{"timestamp": "2026-08-05T03:23:25.876162", "action": "dedup_symlink", "file": "agape-une/contributions/meta_upgrade_20260805_030415.py", "details": "\u2192 agape-une/contributions/meta_upgrade_20260804_235504.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.880050", "message": "  \ud83d\udd17 LINKED: black-locust-rmh/handbook_energy_DV.GEN.BL.RMH.001.md \u2192 black-locust-rmh/DV.GEN.BL.RMH.001.md"}
+{"timestamp": "2026-08-05T03:23:25.880759", "action": "dedup_symlink", "file": "black-locust-rmh/handbook_energy_DV.GEN.BL.RMH.001.md", "details": "\u2192 black-locust-rmh/DV.GEN.BL.RMH.001.md", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.885554", "message": "  \ud83d\udd17 LINKED: black-locust-rmh/handbook/energy/DV.GEN.BL.RMH.001.md \u2192 black-locust-rmh/DV.GEN.BL.RMH.001.md"}
+{"timestamp": "2026-08-05T03:23:25.885841", "action": "dedup_symlink", "file": "black-locust-rmh/handbook/energy/DV.GEN.BL.RMH.001.md", "details": "\u2192 black-locust-rmh/DV.GEN.BL.RMH.001.md", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.888951", "message": "  \ud83d\udd17 LINKED: black-locust-rmh/contributions/meta_upgrade_20260805_000214.py \u2192 black-locust-rmh/contributions/meta_upgrade_20260804_235506.py"}
+{"timestamp": "2026-08-05T03:23:25.889177", "action": "dedup_symlink", "file": "black-locust-rmh/contributions/meta_upgrade_20260805_000214.py", "details": "\u2192 black-locust-rmh/contributions/meta_upgrade_20260804_235506.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.892952", "message": "  \ud83d\udd17 LINKED: black-locust-rmh/contributions/meta_upgrade_20260805_003533.py \u2192 black-locust-rmh/contributions/meta_upgrade_20260804_235506.py"}
+{"timestamp": "2026-08-05T03:23:25.893389", "action": "dedup_symlink", "file": "black-locust-rmh/contributions/meta_upgrade_20260805_003533.py", "details": "\u2192 black-locust-rmh/contributions/meta_upgrade_20260804_235506.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.896200", "message": "  \ud83d\udd17 LINKED: black-locust-rmh/contributions/meta_upgrade_20260805_003729.py \u2192 black-locust-rmh/contributions/meta_upgrade_20260804_235506.py"}
+{"timestamp": "2026-08-05T03:23:25.896452", "action": "dedup_symlink", "file": "black-locust-rmh/contributions/meta_upgrade_20260805_003729.py", "details": "\u2192 black-locust-rmh/contributions/meta_upgrade_20260804_235506.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.898755", "message": "  \ud83d\udd17 LINKED: black-locust-rmh/contributions/meta_upgrade_20260805_005436.py \u2192 black-locust-rmh/contributions/meta_upgrade_20260804_235506.py"}
+{"timestamp": "2026-08-05T03:23:25.899020", "action": "dedup_symlink", "file": "black-locust-rmh/contributions/meta_upgrade_20260805_005436.py", "details": "\u2192 black-locust-rmh/contributions/meta_upgrade_20260804_235506.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.903267", "message": "  \ud83d\udd17 LINKED: black-locust-rmh/contributions/meta_upgrade_20260805_015946.py \u2192 black-locust-rmh/contributions/meta_upgrade_20260804_235506.py"}
+{"timestamp": "2026-08-05T03:23:25.903804", "action": "dedup_symlink", "file": "black-locust-rmh/contributions/meta_upgrade_20260805_015946.py", "details": "\u2192 black-locust-rmh/contributions/meta_upgrade_20260804_235506.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.907575", "message": "  \ud83d\udd17 LINKED: black-locust-rmh/contributions/meta_upgrade_20260805_030416.py \u2192 black-locust-rmh/contributions/meta_upgrade_20260804_235506.py"}
+{"timestamp": "2026-08-05T03:23:25.907828", "action": "dedup_symlink", "file": "black-locust-rmh/contributions/meta_upgrade_20260805_030416.py", "details": "\u2192 black-locust-rmh/contributions/meta_upgrade_20260804_235506.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.912159", "message": "  \ud83d\udd17 LINKED: civilization2.0/contributions/meta_upgrade_20260805_000215.py \u2192 civilization2.0/contributions/meta_upgrade_20260804_235507.py"}
+{"timestamp": "2026-08-05T03:23:25.912831", "action": "dedup_symlink", "file": "civilization2.0/contributions/meta_upgrade_20260805_000215.py", "details": "\u2192 civilization2.0/contributions/meta_upgrade_20260804_235507.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.916944", "message": "  \ud83d\udd17 LINKED: civilization2.0/contributions/meta_upgrade_20260805_003534.py \u2192 civilization2.0/contributions/meta_upgrade_20260804_235507.py"}
+{"timestamp": "2026-08-05T03:23:25.917340", "action": "dedup_symlink", "file": "civilization2.0/contributions/meta_upgrade_20260805_003534.py", "details": "\u2192 civilization2.0/contributions/meta_upgrade_20260804_235507.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.919995", "message": "  \ud83d\udd17 LINKED: civilization2.0/contributions/meta_upgrade_20260805_003730.py \u2192 civilization2.0/contributions/meta_upgrade_20260804_235507.py"}
+{"timestamp": "2026-08-05T03:23:25.920233", "action": "dedup_symlink", "file": "civilization2.0/contributions/meta_upgrade_20260805_003730.py", "details": "\u2192 civilization2.0/contributions/meta_upgrade_20260804_235507.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.922814", "message": "  \ud83d\udd17 LINKED: civilization2.0/contributions/meta_upgrade_20260805_005437.py \u2192 civilization2.0/contributions/meta_upgrade_20260804_235507.py"}
+{"timestamp": "2026-08-05T03:23:25.923409", "action": "dedup_symlink", "file": "civilization2.0/contributions/meta_upgrade_20260805_005437.py", "details": "\u2192 civilization2.0/contributions/meta_upgrade_20260804_235507.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.926402", "message": "  \ud83d\udd17 LINKED: civilization2.0/contributions/meta_upgrade_20260805_015948.py \u2192 civilization2.0/contributions/meta_upgrade_20260804_235507.py"}
+{"timestamp": "2026-08-05T03:23:25.926633", "action": "dedup_symlink", "file": "civilization2.0/contributions/meta_upgrade_20260805_015948.py", "details": "\u2192 civilization2.0/contributions/meta_upgrade_20260804_235507.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.927664", "message": "  \ud83d\udd17 LINKED: civilization2.0/contributions/meta_upgrade_20260805_030418.py \u2192 civilization2.0/contributions/meta_upgrade_20260804_235507.py"}
+{"timestamp": "2026-08-05T03:23:25.927868", "action": "dedup_symlink", "file": "civilization2.0/contributions/meta_upgrade_20260805_030418.py", "details": "\u2192 civilization2.0/contributions/meta_upgrade_20260804_235507.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.928847", "message": "  \ud83d\udd17 LINKED: jesseray718/contributions/meta_upgrade_20260805_000217.py \u2192 jesseray718/contributions/meta_upgrade_20260804_235508.py"}
+{"timestamp": "2026-08-05T03:23:25.929057", "action": "dedup_symlink", "file": "jesseray718/contributions/meta_upgrade_20260805_000217.py", "details": "\u2192 jesseray718/contributions/meta_upgrade_20260804_235508.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.931052", "message": "  \ud83d\udd17 LINKED: jesseray718/contributions/meta_upgrade_20260805_003535.py \u2192 jesseray718/contributions/meta_upgrade_20260804_235508.py"}
+{"timestamp": "2026-08-05T03:23:25.931327", "action": "dedup_symlink", "file": "jesseray718/contributions/meta_upgrade_20260805_003535.py", "details": "\u2192 jesseray718/contributions/meta_upgrade_20260804_235508.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.935248", "message": "  \ud83d\udd17 LINKED: jesseray718/contributions/meta_upgrade_20260805_003731.py \u2192 jesseray718/contributions/meta_upgrade_20260804_235508.py"}
+{"timestamp": "2026-08-05T03:23:25.935810", "action": "dedup_symlink", "file": "jesseray718/contributions/meta_upgrade_20260805_003731.py", "details": "\u2192 jesseray718/contributions/meta_upgrade_20260804_235508.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.938472", "message": "  \ud83d\udd17 LINKED: jesseray718/contributions/meta_upgrade_20260805_005438.py \u2192 jesseray718/contributions/meta_upgrade_20260804_235508.py"}
+{"timestamp": "2026-08-05T03:23:25.938695", "action": "dedup_symlink", "file": "jesseray718/contributions/meta_upgrade_20260805_005438.py", "details": "\u2192 jesseray718/contributions/meta_upgrade_20260804_235508.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.941045", "message": "  \ud83d\udd17 LINKED: jesseray718/contributions/meta_upgrade_20260805_015948.py \u2192 jesseray718/contributions/meta_upgrade_20260804_235508.py"}
+{"timestamp": "2026-08-05T03:23:25.941749", "action": "dedup_symlink", "file": "jesseray718/contributions/meta_upgrade_20260805_015948.py", "details": "\u2192 jesseray718/contributions/meta_upgrade_20260804_235508.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.945633", "message": "  \ud83d\udd17 LINKED: jesseray718/contributions/meta_upgrade_20260805_030419.py \u2192 jesseray718/contributions/meta_upgrade_20260804_235508.py"}
+{"timestamp": "2026-08-05T03:23:25.946008", "action": "dedup_symlink", "file": "jesseray718/contributions/meta_upgrade_20260805_030419.py", "details": "\u2192 jesseray718/contributions/meta_upgrade_20260804_235508.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.947188", "message": "  \ud83d\udd17 LINKED: open-cell-thermal-open-cell-the/contributions/meta_upgrade_20260805_000219.py \u2192 open-cell-thermal-open-cell-the/contributions/meta_upgrade_20260804_235510.py"}
+{"timestamp": "2026-08-05T03:23:25.947402", "action": "dedup_symlink", "file": "open-cell-thermal-open-cell-the/contributions/meta_upgrade_20260805_000219.py", "details": "\u2192 open-cell-thermal-open-cell-the/contributions/meta_upgrade_20260804_235510.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.949625", "message": "  \ud83d\udd17 LINKED: open-cell-thermal-open-cell-the/contributions/meta_upgrade_20260805_003536.py \u2192 open-cell-thermal-open-cell-the/contributions/meta_upgrade_20260804_235510.py"}
+{"timestamp": "2026-08-05T03:23:25.950087", "action": "dedup_symlink", "file": "open-cell-thermal-open-cell-the/contributions/meta_upgrade_20260805_003536.py", "details": "\u2192 open-cell-thermal-open-cell-the/contributions/meta_upgrade_20260804_235510.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.953834", "message": "  \ud83d\udd17 LINKED: open-cell-thermal-open-cell-the/contributions/meta_upgrade_20260805_003732.py \u2192 open-cell-thermal-open-cell-the/contributions/meta_upgrade_20260804_235510.py"}
+{"timestamp": "2026-08-05T03:23:25.954427", "action": "dedup_symlink", "file": "open-cell-thermal-open-cell-the/contributions/meta_upgrade_20260805_003732.py", "details": "\u2192 open-cell-thermal-open-cell-the/contributions/meta_upgrade_20260804_235510.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.957175", "message": "  \ud83d\udd17 LINKED: open-cell-thermal-open-cell-the/contributions/meta_upgrade_20260805_005439.py \u2192 open-cell-thermal-open-cell-the/contributions/meta_upgrade_20260804_235510.py"}
+{"timestamp": "2026-08-05T03:23:25.957433", "action": "dedup_symlink", "file": "open-cell-thermal-open-cell-the/contributions/meta_upgrade_20260805_005439.py", "details": "\u2192 open-cell-thermal-open-cell-the/contributions/meta_upgrade_20260804_235510.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.958314", "message": "  \ud83d\udd17 LINKED: open-cell-thermal-open-cell-the/contributions/meta_upgrade_20260805_015950.py \u2192 open-cell-thermal-open-cell-the/contributions/meta_upgrade_20260804_235510.py"}
+{"timestamp": "2026-08-05T03:23:25.958487", "action": "dedup_symlink", "file": "open-cell-thermal-open-cell-the/contributions/meta_upgrade_20260805_015950.py", "details": "\u2192 open-cell-thermal-open-cell-the/contributions/meta_upgrade_20260804_235510.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.960376", "message": "  \ud83d\udd17 LINKED: open-cell-thermal-open-cell-the/contributions/meta_upgrade_20260805_030420.py \u2192 open-cell-thermal-open-cell-the/contributions/meta_upgrade_20260804_235510.py"}
+{"timestamp": "2026-08-05T03:23:25.960985", "action": "dedup_symlink", "file": "open-cell-thermal-open-cell-the/contributions/meta_upgrade_20260805_030420.py", "details": "\u2192 open-cell-thermal-open-cell-the/contributions/meta_upgrade_20260804_235510.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.964318", "message": "  \ud83d\udd17 LINKED: OpenCell-Thermal-System/docs/manuscript/nifa-application.md \u2192 OpenCell-Thermal-System/nifa-application.md"}
+{"timestamp": "2026-08-05T03:23:25.964944", "action": "dedup_symlink", "file": "OpenCell-Thermal-System/docs/manuscript/nifa-application.md", "details": "\u2192 OpenCell-Thermal-System/nifa-application.md", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.966543", "message": "  \ud83d\udd17 LINKED: OpenCell-Thermal-System/1_code/src/pdf-compile.py \u2192 OpenCell-Thermal-System/1_code/src/pdf-comp.py"}
+{"timestamp": "2026-08-05T03:23:25.966778", "action": "dedup_symlink", "file": "OpenCell-Thermal-System/1_code/src/pdf-compile.py", "details": "\u2192 OpenCell-Thermal-System/1_code/src/pdf-comp.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.968799", "message": "  \ud83d\udd17 LINKED: renaissance-protocol/library/volumes/06_ENTROPY_LEARNING/entropy_learnjng.md \u2192 OpenCell-Thermal-System/docs/manuscript/File: 06_ENTROPY_LEARNING.md"}
+{"timestamp": "2026-08-05T03:23:25.969035", "action": "dedup_symlink", "file": "renaissance-protocol/library/volumes/06_ENTROPY_LEARNING/entropy_learnjng.md", "details": "\u2192 OpenCell-Thermal-System/docs/manuscript/File: 06_ENTROPY_LEARNING.md", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.972892", "message": "  \ud83d\udd17 LINKED: OpenCell-Thermal-System/contributions/meta_upgrade_20260805_000208.py \u2192 OpenCell-Thermal-System/contributions/meta_upgrade_20260804_235459.py"}
+{"timestamp": "2026-08-05T03:23:25.973159", "action": "dedup_symlink", "file": "OpenCell-Thermal-System/contributions/meta_upgrade_20260805_000208.py", "details": "\u2192 OpenCell-Thermal-System/contributions/meta_upgrade_20260804_235459.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.978111", "message": "  \ud83d\udd17 LINKED: OpenCell-Thermal-System/contributions/meta_upgrade_20260805_003526.py \u2192 OpenCell-Thermal-System/contributions/meta_upgrade_20260804_235459.py"}
+{"timestamp": "2026-08-05T03:23:25.978707", "action": "dedup_symlink", "file": "OpenCell-Thermal-System/contributions/meta_upgrade_20260805_003526.py", "details": "\u2192 OpenCell-Thermal-System/contributions/meta_upgrade_20260804_235459.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.981296", "message": "  \ud83d\udd17 LINKED: OpenCell-Thermal-System/contributions/meta_upgrade_20260805_003722.py \u2192 OpenCell-Thermal-System/contributions/meta_upgrade_20260804_235459.py"}
+{"timestamp": "2026-08-05T03:23:25.981530", "action": "dedup_symlink", "file": "OpenCell-Thermal-System/contributions/meta_upgrade_20260805_003722.py", "details": "\u2192 OpenCell-Thermal-System/contributions/meta_upgrade_20260804_235459.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.983519", "message": "  \ud83d\udd17 LINKED: OpenCell-Thermal-System/contributions/meta_upgrade_20260805_005429.py \u2192 OpenCell-Thermal-System/contributions/meta_upgrade_20260804_235459.py"}
+{"timestamp": "2026-08-05T03:23:25.983855", "action": "dedup_symlink", "file": "OpenCell-Thermal-System/contributions/meta_upgrade_20260805_005429.py", "details": "\u2192 OpenCell-Thermal-System/contributions/meta_upgrade_20260804_235459.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.988276", "message": "  \ud83d\udd17 LINKED: OpenCell-Thermal-System/contributions/meta_upgrade_20260805_015939.py \u2192 OpenCell-Thermal-System/contributions/meta_upgrade_20260804_235459.py"}
+{"timestamp": "2026-08-05T03:23:25.988888", "action": "dedup_symlink", "file": "OpenCell-Thermal-System/contributions/meta_upgrade_20260805_015939.py", "details": "\u2192 OpenCell-Thermal-System/contributions/meta_upgrade_20260804_235459.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.991414", "message": "  \ud83d\udd17 LINKED: OpenCell-Thermal-System/contributions/meta_upgrade_20260805_030410.py \u2192 OpenCell-Thermal-System/contributions/meta_upgrade_20260804_235459.py"}
+{"timestamp": "2026-08-05T03:23:25.991633", "action": "dedup_symlink", "file": "OpenCell-Thermal-System/contributions/meta_upgrade_20260805_030410.py", "details": "\u2192 OpenCell-Thermal-System/contributions/meta_upgrade_20260804_235459.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.992562", "message": "  \ud83d\udd17 LINKED: openroot/.github/copilot-instructions.md \u2192 une/docs/copilot-instructions.md"}
+{"timestamp": "2026-08-05T03:23:25.992780", "action": "dedup_symlink", "file": "openroot/.github/copilot-instructions.md", "details": "\u2192 une/docs/copilot-instructions.md", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.994620", "message": "  \ud83d\udd17 LINKED: openroot/docs/copilot-instructions.md \u2192 une/docs/copilot-instructions.md"}
+{"timestamp": "2026-08-05T03:23:25.994855", "action": "dedup_symlink", "file": "openroot/docs/copilot-instructions.md", "details": "\u2192 une/docs/copilot-instructions.md", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:25.999217", "message": "  \ud83d\udd17 LINKED: openroot/computational_flow/queue/task_2_queue.json.aiq_output \u2192 openroot/computational_flow/queue/task_1_queue.json.aiq_output"}
+{"timestamp": "2026-08-05T03:23:25.999460", "action": "dedup_symlink", "file": "openroot/computational_flow/queue/task_2_queue.json.aiq_output", "details": "\u2192 openroot/computational_flow/queue/task_1_queue.json.aiq_output", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:26.002966", "message": "  \ud83d\udd17 LINKED: openroot/computational_flow/queue/task_3_queue.json.aiq_output \u2192 openroot/computational_flow/queue/task_1_queue.json.aiq_output"}
+{"timestamp": "2026-08-05T03:23:26.003245", "action": "dedup_symlink", "file": "openroot/computational_flow/queue/task_3_queue.json.aiq_output", "details": "\u2192 openroot/computational_flow/queue/task_1_queue.json.aiq_output", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:26.006105", "message": "  \ud83d\udd17 LINKED: openroot/computational_flow/queue/task_4_queue.json.aiq_output \u2192 openroot/computational_flow/queue/task_1_queue.json.aiq_output"}
+{"timestamp": "2026-08-05T03:23:26.006350", "action": "dedup_symlink", "file": "openroot/computational_flow/queue/task_4_queue.json.aiq_output", "details": "\u2192 openroot/computational_flow/queue/task_1_queue.json.aiq_output", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:26.018503", "message": "  \ud83d\udd17 LINKED: openroot/context_bridge/foundation_map_20260726_183722.json \u2192 openroot/context_bridge/foundation_map.json"}
+{"timestamp": "2026-08-05T03:23:26.019096", "action": "dedup_symlink", "file": "openroot/context_bridge/foundation_map_20260726_183722.json", "details": "\u2192 openroot/context_bridge/foundation_map.json", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:26.024086", "message": "  \ud83d\udd17 LINKED: openroot/context_bridge/foundation_map_20260726_185316.json \u2192 openroot/context_bridge/foundation_map.json"}
+{"timestamp": "2026-08-05T03:23:26.024332", "action": "dedup_symlink", "file": "openroot/context_bridge/foundation_map_20260726_185316.json", "details": "\u2192 openroot/context_bridge/foundation_map.json", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:26.026663", "message": "  \ud83d\udd17 LINKED: openroot/dist/publication/state.md \u2192 openroot/docs/context/state.md"}
+{"timestamp": "2026-08-05T03:23:26.026900", "action": "dedup_symlink", "file": "openroot/dist/publication/state.md", "details": "\u2192 openroot/docs/context/state.md", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:26.029458", "message": "  \ud83d\udd17 LINKED: openroot/docs/public-validation/THERMAL-CASCADE-VETIFICATION.md \u2192 openroot/dist/zenodo-upload/THERMAL-CASCADE-VETIFICATION.md"}
+{"timestamp": "2026-08-05T03:23:26.030014", "action": "dedup_symlink", "file": "openroot/docs/public-validation/THERMAL-CASCADE-VETIFICATION.md", "details": "\u2192 openroot/dist/zenodo-upload/THERMAL-CASCADE-VETIFICATION.md", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:26.033586", "message": "  \ud83d\udd17 LINKED: openroot/recovered_blueprints/050_hive_bridge.json \u2192 openroot/dump/chunks/050_hive_bridge.json"}
+{"timestamp": "2026-08-05T03:23:26.033819", "action": "dedup_symlink", "file": "openroot/recovered_blueprints/050_hive_bridge.json", "details": "\u2192 openroot/dump/chunks/050_hive_bridge.json", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:26.036301", "message": "  \ud83d\udd17 LINKED: openroot/swarm/audits/jesseray718_20260717_041221/metrics.csv \u2192 openroot/swarm/audits/jesseray718_20260717_040954/metrics.csv"}
+{"timestamp": "2026-08-05T03:23:26.036524", "action": "dedup_symlink", "file": "openroot/swarm/audits/jesseray718_20260717_041221/metrics.csv", "details": "\u2192 openroot/swarm/audits/jesseray718_20260717_040954/metrics.csv", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:26.037634", "message": "  \ud83d\udd17 LINKED: openroot/swarm/audits/jesseray718_20260717_041414/metrics.csv \u2192 openroot/swarm/audits/jesseray718_20260717_040954/metrics.csv"}
+{"timestamp": "2026-08-05T03:23:26.037844", "action": "dedup_symlink", "file": "openroot/swarm/audits/jesseray718_20260717_041414/metrics.csv", "details": "\u2192 openroot/swarm/audits/jesseray718_20260717_040954/metrics.csv", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:26.040027", "message": "  \ud83d\udd17 LINKED: openroot/swarm/audits/jesseray718_20260717_041625/metrics.csv \u2192 openroot/swarm/audits/jesseray718_20260717_040954/metrics.csv"}
+{"timestamp": "2026-08-05T03:23:26.040320", "action": "dedup_symlink", "file": "openroot/swarm/audits/jesseray718_20260717_041625/metrics.csv", "details": "\u2192 openroot/swarm/audits/jesseray718_20260717_040954/metrics.csv", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:26.044379", "message": "  \ud83d\udd17 LINKED: openroot/swarm/audits/jesseray718_20260717_042458/metrics.csv \u2192 openroot/swarm/audits/jesseray718_20260717_040954/metrics.csv"}
+{"timestamp": "2026-08-05T03:23:26.044651", "action": "dedup_symlink", "file": "openroot/swarm/audits/jesseray718_20260717_042458/metrics.csv", "details": "\u2192 openroot/swarm/audits/jesseray718_20260717_040954/metrics.csv", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:26.047009", "message": "  \ud83d\udd17 LINKED: openroot/swarm/audits/jesseray718_20260717_042849/metrics.csv \u2192 openroot/swarm/audits/jesseray718_20260717_040954/metrics.csv"}
+{"timestamp": "2026-08-05T03:23:26.047221", "action": "dedup_symlink", "file": "openroot/swarm/audits/jesseray718_20260717_042849/metrics.csv", "details": "\u2192 openroot/swarm/audits/jesseray718_20260717_040954/metrics.csv", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:26.049278", "message": "  \ud83d\udd17 LINKED: openroot/swarm/audits/jesseray718_20260717_043146/metrics.csv \u2192 openroot/swarm/audits/jesseray718_20260717_040954/metrics.csv"}
+{"timestamp": "2026-08-05T03:23:26.049539", "action": "dedup_symlink", "file": "openroot/swarm/audits/jesseray718_20260717_043146/metrics.csv", "details": "\u2192 openroot/swarm/audits/jesseray718_20260717_040954/metrics.csv", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:26.052813", "message": "  \ud83d\udd17 LINKED: openroot/contributions/meta_upgrade_20260805_000223.py \u2192 openroot/contributions/meta_upgrade_20260804_235515.py"}
+{"timestamp": "2026-08-05T03:23:26.053047", "action": "dedup_symlink", "file": "openroot/contributions/meta_upgrade_20260805_000223.py", "details": "\u2192 openroot/contributions/meta_upgrade_20260804_235515.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:26.055310", "message": "  \ud83d\udd17 LINKED: openroot/contributions/meta_upgrade_20260805_003542.py \u2192 openroot/contributions/meta_upgrade_20260804_235515.py"}
+{"timestamp": "2026-08-05T03:23:26.055789", "action": "dedup_symlink", "file": "openroot/contributions/meta_upgrade_20260805_003542.py", "details": "\u2192 openroot/contributions/meta_upgrade_20260804_235515.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:26.059036", "message": "  \ud83d\udd17 LINKED: openroot/contributions/meta_upgrade_20260805_003737.py \u2192 openroot/contributions/meta_upgrade_20260804_235515.py"}
+{"timestamp": "2026-08-05T03:23:26.059694", "action": "dedup_symlink", "file": "openroot/contributions/meta_upgrade_20260805_003737.py", "details": "\u2192 openroot/contributions/meta_upgrade_20260804_235515.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:26.063822", "message": "  \ud83d\udd17 LINKED: openroot/contributions/meta_upgrade_20260805_005443.py \u2192 openroot/contributions/meta_upgrade_20260804_235515.py"}
+{"timestamp": "2026-08-05T03:23:26.064492", "action": "dedup_symlink", "file": "openroot/contributions/meta_upgrade_20260805_005443.py", "details": "\u2192 openroot/contributions/meta_upgrade_20260804_235515.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:26.067295", "message": "  \ud83d\udd17 LINKED: openroot/contributions/meta_upgrade_20260805_015954.py \u2192 openroot/contributions/meta_upgrade_20260804_235515.py"}
+{"timestamp": "2026-08-05T03:23:26.067514", "action": "dedup_symlink", "file": "openroot/contributions/meta_upgrade_20260805_015954.py", "details": "\u2192 openroot/contributions/meta_upgrade_20260804_235515.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:26.069637", "message": "  \ud83d\udd17 LINKED: openroot/contributions/meta_upgrade_20260805_030423.py \u2192 openroot/contributions/meta_upgrade_20260804_235515.py"}
+{"timestamp": "2026-08-05T03:23:26.069904", "action": "dedup_symlink", "file": "openroot/contributions/meta_upgrade_20260805_030423.py", "details": "\u2192 openroot/contributions/meta_upgrade_20260804_235515.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:26.073108", "message": "  \ud83d\udd17 LINKED: openroot-spoke-template/contributions/meta_upgrade_20260805_000225.py \u2192 openroot-spoke-template/contributions/meta_upgrade_20260804_235517.py"}
+{"timestamp": "2026-08-05T03:23:26.073384", "action": "dedup_symlink", "file": "openroot-spoke-template/contributions/meta_upgrade_20260805_000225.py", "details": "\u2192 openroot-spoke-template/contributions/meta_upgrade_20260804_235517.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:26.075437", "message": "  \ud83d\udd17 LINKED: openroot-spoke-template/contributions/meta_upgrade_20260805_003543.py \u2192 openroot-spoke-template/contributions/meta_upgrade_20260804_235517.py"}
+{"timestamp": "2026-08-05T03:23:26.076099", "action": "dedup_symlink", "file": "openroot-spoke-template/contributions/meta_upgrade_20260805_003543.py", "details": "\u2192 openroot-spoke-template/contributions/meta_upgrade_20260804_235517.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:26.078524", "message": "  \ud83d\udd17 LINKED: openroot-spoke-template/contributions/meta_upgrade_20260805_003739.py \u2192 openroot-spoke-template/contributions/meta_upgrade_20260804_235517.py"}
+{"timestamp": "2026-08-05T03:23:26.078740", "action": "dedup_symlink", "file": "openroot-spoke-template/contributions/meta_upgrade_20260805_003739.py", "details": "\u2192 openroot-spoke-template/contributions/meta_upgrade_20260804_235517.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:26.080400", "message": "  \ud83d\udd17 LINKED: openroot-spoke-template/contributions/meta_upgrade_20260805_005445.py \u2192 openroot-spoke-template/contributions/meta_upgrade_20260804_235517.py"}
+{"timestamp": "2026-08-05T03:23:26.080798", "action": "dedup_symlink", "file": "openroot-spoke-template/contributions/meta_upgrade_20260805_005445.py", "details": "\u2192 openroot-spoke-template/contributions/meta_upgrade_20260804_235517.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:26.084086", "message": "  \ud83d\udd17 LINKED: openroot-spoke-template/contributions/meta_upgrade_20260805_015955.py \u2192 openroot-spoke-template/contributions/meta_upgrade_20260804_235517.py"}
+{"timestamp": "2026-08-05T03:23:26.084317", "action": "dedup_symlink", "file": "openroot-spoke-template/contributions/meta_upgrade_20260805_015955.py", "details": "\u2192 openroot-spoke-template/contributions/meta_upgrade_20260804_235517.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:26.086930", "message": "  \ud83d\udd17 LINKED: openroot-spoke-template/contributions/meta_upgrade_20260805_030428.py \u2192 openroot-spoke-template/contributions/meta_upgrade_20260804_235517.py"}
+{"timestamp": "2026-08-05T03:23:26.087931", "action": "dedup_symlink", "file": "openroot-spoke-template/contributions/meta_upgrade_20260805_030428.py", "details": "\u2192 openroot-spoke-template/contributions/meta_upgrade_20260804_235517.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:26.090755", "message": "  \ud83d\udd17 LINKED: renaissance-protocol/library/volumes/06_ENTROPY_LEARNING/scripts/kai_unknown \u2192 renaissance-protocol/library/volumes/06_ENTROPY_LEARNING/scripts/joy_log.py"}
+{"timestamp": "2026-08-05T03:23:26.090941", "action": "dedup_symlink", "file": "renaissance-protocol/library/volumes/06_ENTROPY_LEARNING/scripts/kai_unknown", "details": "\u2192 renaissance-protocol/library/volumes/06_ENTROPY_LEARNING/scripts/joy_log.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:26.091895", "message": "  \ud83d\udd17 LINKED: renaissance-protocol/contributions/meta_upgrade_20260805_000227.py \u2192 renaissance-protocol/contributions/meta_upgrade_20260804_235519.py"}
+{"timestamp": "2026-08-05T03:23:26.092062", "action": "dedup_symlink", "file": "renaissance-protocol/contributions/meta_upgrade_20260805_000227.py", "details": "\u2192 renaissance-protocol/contributions/meta_upgrade_20260804_235519.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:26.092893", "message": "  \ud83d\udd17 LINKED: renaissance-protocol/contributions/meta_upgrade_20260805_003545.py \u2192 renaissance-protocol/contributions/meta_upgrade_20260804_235519.py"}
+{"timestamp": "2026-08-05T03:23:26.093087", "action": "dedup_symlink", "file": "renaissance-protocol/contributions/meta_upgrade_20260805_003545.py", "details": "\u2192 renaissance-protocol/contributions/meta_upgrade_20260804_235519.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:26.094435", "message": "  \ud83d\udd17 LINKED: renaissance-protocol/contributions/meta_upgrade_20260805_003740.py \u2192 renaissance-protocol/contributions/meta_upgrade_20260804_235519.py"}
+{"timestamp": "2026-08-05T03:23:26.094661", "action": "dedup_symlink", "file": "renaissance-protocol/contributions/meta_upgrade_20260805_003740.py", "details": "\u2192 renaissance-protocol/contributions/meta_upgrade_20260804_235519.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:26.095686", "message": "  \ud83d\udd17 LINKED: renaissance-protocol/contributions/meta_upgrade_20260805_005447.py \u2192 renaissance-protocol/contributions/meta_upgrade_20260804_235519.py"}
+{"timestamp": "2026-08-05T03:23:26.095902", "action": "dedup_symlink", "file": "renaissance-protocol/contributions/meta_upgrade_20260805_005447.py", "details": "\u2192 renaissance-protocol/contributions/meta_upgrade_20260804_235519.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:26.097885", "message": "  \ud83d\udd17 LINKED: renaissance-protocol/contributions/meta_upgrade_20260805_015957.py \u2192 renaissance-protocol/contributions/meta_upgrade_20260804_235519.py"}
+{"timestamp": "2026-08-05T03:23:26.098120", "action": "dedup_symlink", "file": "renaissance-protocol/contributions/meta_upgrade_20260805_015957.py", "details": "\u2192 renaissance-protocol/contributions/meta_upgrade_20260804_235519.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:26.101040", "message": "  \ud83d\udd17 LINKED: renaissance-protocol/contributions/meta_upgrade_20260805_030429.py \u2192 renaissance-protocol/contributions/meta_upgrade_20260804_235519.py"}
+{"timestamp": "2026-08-05T03:23:26.101313", "action": "dedup_symlink", "file": "renaissance-protocol/contributions/meta_upgrade_20260805_030429.py", "details": "\u2192 renaissance-protocol/contributions/meta_upgrade_20260804_235519.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:26.103841", "message": "  \ud83d\udd17 LINKED: skills-introduction-to-github/contributions/meta_upgrade_20260805_000227.py \u2192 skills-introduction-to-github/contributions/meta_upgrade_20260804_235520.py"}
+{"timestamp": "2026-08-05T03:23:26.104446", "action": "dedup_symlink", "file": "skills-introduction-to-github/contributions/meta_upgrade_20260805_000227.py", "details": "\u2192 skills-introduction-to-github/contributions/meta_upgrade_20260804_235520.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:26.107061", "message": "  \ud83d\udd17 LINKED: skills-introduction-to-github/contributions/meta_upgrade_20260805_003545.py \u2192 skills-introduction-to-github/contributions/meta_upgrade_20260804_235520.py"}
+{"timestamp": "2026-08-05T03:23:26.107311", "action": "dedup_symlink", "file": "skills-introduction-to-github/contributions/meta_upgrade_20260805_003545.py", "details": "\u2192 skills-introduction-to-github/contributions/meta_upgrade_20260804_235520.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:26.109496", "message": "  \ud83d\udd17 LINKED: skills-introduction-to-github/contributions/meta_upgrade_20260805_003741.py \u2192 skills-introduction-to-github/contributions/meta_upgrade_20260804_235520.py"}
+{"timestamp": "2026-08-05T03:23:26.109754", "action": "dedup_symlink", "file": "skills-introduction-to-github/contributions/meta_upgrade_20260805_003741.py", "details": "\u2192 skills-introduction-to-github/contributions/meta_upgrade_20260804_235520.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:26.110747", "message": "  \ud83d\udd17 LINKED: skills-introduction-to-github/contributions/meta_upgrade_20260805_005448.py \u2192 skills-introduction-to-github/contributions/meta_upgrade_20260804_235520.py"}
+{"timestamp": "2026-08-05T03:23:26.110939", "action": "dedup_symlink", "file": "skills-introduction-to-github/contributions/meta_upgrade_20260805_005448.py", "details": "\u2192 skills-introduction-to-github/contributions/meta_upgrade_20260804_235520.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:26.112790", "message": "  \ud83d\udd17 LINKED: skills-introduction-to-github/contributions/meta_upgrade_20260805_015958.py \u2192 skills-introduction-to-github/contributions/meta_upgrade_20260804_235520.py"}
+{"timestamp": "2026-08-05T03:23:26.113283", "action": "dedup_symlink", "file": "skills-introduction-to-github/contributions/meta_upgrade_20260805_015958.py", "details": "\u2192 skills-introduction-to-github/contributions/meta_upgrade_20260804_235520.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:26.116334", "message": "  \ud83d\udd17 LINKED: skills-introduction-to-github/contributions/meta_upgrade_20260805_030430.py \u2192 skills-introduction-to-github/contributions/meta_upgrade_20260804_235520.py"}
+{"timestamp": "2026-08-05T03:23:26.116555", "action": "dedup_symlink", "file": "skills-introduction-to-github/contributions/meta_upgrade_20260805_030430.py", "details": "\u2192 skills-introduction-to-github/contributions/meta_upgrade_20260804_235520.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:26.118263", "message": "  \ud83d\udd17 LINKED: wisdom-scaffold/computational_flow/drill_scheduler.sh \u2192 une/computational_flow/drill_scheduler.sh"}
+{"timestamp": "2026-08-05T03:23:26.118448", "action": "dedup_symlink", "file": "wisdom-scaffold/computational_flow/drill_scheduler.sh", "details": "\u2192 une/computational_flow/drill_scheduler.sh", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:26.119654", "message": "  \ud83d\udd17 LINKED: une/contributions/meta_upgrade_20260805_000229.py \u2192 une/contributions/meta_upgrade_20260804_235522.py"}
+{"timestamp": "2026-08-05T03:23:26.119850", "action": "dedup_symlink", "file": "une/contributions/meta_upgrade_20260805_000229.py", "details": "\u2192 une/contributions/meta_upgrade_20260804_235522.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:26.121479", "message": "  \ud83d\udd17 LINKED: une/contributions/meta_upgrade_20260805_003547.py \u2192 une/contributions/meta_upgrade_20260804_235522.py"}
+{"timestamp": "2026-08-05T03:23:26.121693", "action": "dedup_symlink", "file": "une/contributions/meta_upgrade_20260805_003547.py", "details": "\u2192 une/contributions/meta_upgrade_20260804_235522.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:26.122550", "message": "  \ud83d\udd17 LINKED: une/contributions/meta_upgrade_20260805_003742.py \u2192 une/contributions/meta_upgrade_20260804_235522.py"}
+{"timestamp": "2026-08-05T03:23:26.122741", "action": "dedup_symlink", "file": "une/contributions/meta_upgrade_20260805_003742.py", "details": "\u2192 une/contributions/meta_upgrade_20260804_235522.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:26.123543", "message": "  \ud83d\udd17 LINKED: une/contributions/meta_upgrade_20260805_005449.py \u2192 une/contributions/meta_upgrade_20260804_235522.py"}
+{"timestamp": "2026-08-05T03:23:26.123695", "action": "dedup_symlink", "file": "une/contributions/meta_upgrade_20260805_005449.py", "details": "\u2192 une/contributions/meta_upgrade_20260804_235522.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:26.124471", "message": "  \ud83d\udd17 LINKED: une/contributions/meta_upgrade_20260805_020000.py \u2192 une/contributions/meta_upgrade_20260804_235522.py"}
+{"timestamp": "2026-08-05T03:23:26.124621", "action": "dedup_symlink", "file": "une/contributions/meta_upgrade_20260805_020000.py", "details": "\u2192 une/contributions/meta_upgrade_20260804_235522.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:26.125441", "message": "  \ud83d\udd17 LINKED: une/contributions/meta_upgrade_20260805_030432.py \u2192 une/contributions/meta_upgrade_20260804_235522.py"}
+{"timestamp": "2026-08-05T03:23:26.125606", "action": "dedup_symlink", "file": "une/contributions/meta_upgrade_20260805_030432.py", "details": "\u2192 une/contributions/meta_upgrade_20260804_235522.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:26.126503", "message": "  \ud83d\udd17 LINKED: wisdom-scaffold/contributions/meta_upgrade_20260805_000231.py \u2192 wisdom-scaffold/contributions/meta_upgrade_20260804_235525.py"}
+{"timestamp": "2026-08-05T03:23:26.126728", "action": "dedup_symlink", "file": "wisdom-scaffold/contributions/meta_upgrade_20260805_000231.py", "details": "\u2192 wisdom-scaffold/contributions/meta_upgrade_20260804_235525.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:26.128582", "message": "  \ud83d\udd17 LINKED: wisdom-scaffold/contributions/meta_upgrade_20260805_003549.py \u2192 wisdom-scaffold/contributions/meta_upgrade_20260804_235525.py"}
+{"timestamp": "2026-08-05T03:23:26.129140", "action": "dedup_symlink", "file": "wisdom-scaffold/contributions/meta_upgrade_20260805_003549.py", "details": "\u2192 wisdom-scaffold/contributions/meta_upgrade_20260804_235525.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:26.133213", "message": "  \ud83d\udd17 LINKED: wisdom-scaffold/contributions/meta_upgrade_20260805_003744.py \u2192 wisdom-scaffold/contributions/meta_upgrade_20260804_235525.py"}
+{"timestamp": "2026-08-05T03:23:26.133487", "action": "dedup_symlink", "file": "wisdom-scaffold/contributions/meta_upgrade_20260805_003744.py", "details": "\u2192 wisdom-scaffold/contributions/meta_upgrade_20260804_235525.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:26.136195", "message": "  \ud83d\udd17 LINKED: wisdom-scaffold/contributions/meta_upgrade_20260805_005451.py \u2192 wisdom-scaffold/contributions/meta_upgrade_20260804_235525.py"}
+{"timestamp": "2026-08-05T03:23:26.136392", "action": "dedup_symlink", "file": "wisdom-scaffold/contributions/meta_upgrade_20260805_005451.py", "details": "\u2192 wisdom-scaffold/contributions/meta_upgrade_20260804_235525.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:26.137331", "message": "  \ud83d\udd17 LINKED: wisdom-scaffold/contributions/meta_upgrade_20260805_020001.py \u2192 wisdom-scaffold/contributions/meta_upgrade_20260804_235525.py"}
+{"timestamp": "2026-08-05T03:23:26.137562", "action": "dedup_symlink", "file": "wisdom-scaffold/contributions/meta_upgrade_20260805_020001.py", "details": "\u2192 wisdom-scaffold/contributions/meta_upgrade_20260804_235525.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:26.139516", "message": "  \ud83d\udd17 LINKED: wisdom-scaffold/contributions/meta_upgrade_20260805_030434.py \u2192 wisdom-scaffold/contributions/meta_upgrade_20260804_235525.py"}
+{"timestamp": "2026-08-05T03:23:26.140043", "action": "dedup_symlink", "file": "wisdom-scaffold/contributions/meta_upgrade_20260805_030434.py", "details": "\u2192 wisdom-scaffold/contributions/meta_upgrade_20260804_235525.py", "status": "fixed"}
+{"timestamp": "2026-08-05T03:23:26.140528", "message": "\ud83d\udd27 DEDUP: Consolidated 162 files into symlinks"}
+{"timestamp": "2026-08-05T03:23:26.140967", "message": "\ud83d\udd27 MUTATION: Syntax fix starting..."}
+{"timestamp": "2026-08-05T03:23:26.147563", "message": "\ud83d\udd27 SYNTAX: Fixed 0/50 errors"}
+{"timestamp": "2026-08-05T03:23:26.147732", "message": "\ud83d\udd27 MUTATION: Hardcoded path fix starting..."}
+{"timestamp": "2026-08-05T03:23:26.176667", "message": "\ud83d\udd27 PATHS: Fixed 0/288 hardcoded paths"}
+{"timestamp": "2026-08-05T03:23:26.176849", "message": "\ud83d\udd27 MUTATION: Pruning old contributions..."}
+{"timestamp": "2026-08-05T03:23:26.176979", "message": "\n\u2500\u2500 PHASE 4: EVOLVE \u2500\u2500"}
+{"timestamp": "2026-08-05T03:23:26.177119", "message": "\ud83e\uddec EVOLUTION: Generating self-improvement patch..."}
+{"timestamp": "2026-08-05T03:23:26.181813", "message": "\ud83e\uddec EVOLUTION: Patch /data/data/com.termux/files/home/une/contributions/auto_evolution_20260805_032326.py generated and verified"}
+{"timestamp": "2026-08-05T03:23:26.182117", "action": "evolution_patch", "file": "/data/data/com.termux/files/home/une/contributions/auto_evolution_20260805_032326.py", "details": "wisdom=14, fix_rate=47.9%", "status": "generated"}
+{"timestamp": "2026-08-05T03:23:26.182319", "message": "\n\u2500\u2500 PHASE 5: PRACTICE \u2500\u2500"}
+{"timestamp": "2026-08-05T03:23:26.182458", "message": "\ud83d\udd01 PRACTICE: Testing previous evolution patches..."}
+{"timestamp": "2026-08-05T03:23:26.741547", "message": "\ud83d\udd01 PRACTICE: 5 passed, 0 failed out of 5 tested"}
+{"timestamp": "2026-08-05T03:23:26.741797", "message": "\n\u2500\u2500 PHASE 6: SNAPSHOT \u2500\u2500"}
+{"timestamp": "2026-08-05T03:23:26.741911", "message": "\ud83d\udcf8 SNAPSHOT: Capturing post-cycle state..."}
+{"timestamp": "2026-08-05T03:23:26.745585", "message": "\ud83d\udcf8 SNAPSHOT: Saved to /data/data/com.termux/files/home/une/autonomous_snapshot.json"}
+{"timestamp": "2026-08-05T03:23:26.745782", "message": "\n\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550"}
+{"timestamp": "2026-08-05T03:23:26.745898", "message": "\ud83c\udfc6 CYCLE COMPLETE"}
+{"timestamp": "2026-08-05T03:23:26.745988", "message": "   Files scanned: 1478"}
+{"timestamp": "2026-08-05T03:23:26.746070", "message": "   Problems found: 338"}
+{"timestamp": "2026-08-05T03:23:26.746148", "message": "   Problems fixed: 162"}
+{"timestamp": "2026-08-05T03:23:26.746227", "message": "   Lessons learned: 0"}
+{"timestamp": "2026-08-05T03:23:26.746304", "message": "   Wisdom patterns blocked: 60"}
+{"timestamp": "2026-08-05T03:23:26.746379", "message": "   Evolution patches generated: 1"}
+{"timestamp": "2026-08-05T03:23:26.746464", "message": "   Fix rate: 47.9%"}
+{"timestamp": "2026-08-05T03:23:26.746540", "message": "\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550"}
+{"timestamp": "2026-08-05T03:23:26.749554", "message": "\ud83d\udccb Report saved: /data/data/com.termux/files/home/une/autonomous_report.json"}

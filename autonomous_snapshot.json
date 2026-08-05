@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-08-05T03:05:00.435144",
+  "timestamp": "2026-08-05T03:23:26.741992",
   "report": {
-    "timestamp": "2026-08-05T03:04:56.705405",
+    "timestamp": "2026-08-05T03:23:23.143013",
     "scanned_files": 1478,
     "problems_found": 338,
-    "problems_fixed": 163,
+    "problems_fixed": 162,
     "lessons_learned": 0,
     "evolution_patches": 1,
-    "errors_blocked_by_wisdom": 61,
+    "errors_blocked_by_wisdom": 60,
     "details": [
       {
         "scanner": "dedup",
@@ -162,8 +162,8 @@
       },
       {
         "scanner": "contributions_bloat",
-        "total_files": 6,
-        "prunable": 1
+        "total_files": 4,
+        "prunable": 0
       }
     ]
   },
