@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-08-05T00:55:25.259155",
+  "timestamp": "2026-08-05T01:23:02.602913",
   "scanned_files": 1424,
   "problems_found": 423,
-  "problems_fixed": 133,
+  "problems_fixed": 131,
   "lessons_learned": 0,
   "evolution_patches": 1,
   "errors_blocked_by_wisdom": 71,
@@ -160,8 +160,8 @@
     },
     {
       "scanner": "contributions_bloat",
-      "total_files": 8,
-      "prunable": 3
+      "total_files": 6,
+      "prunable": 1
     }
   ]
 }
