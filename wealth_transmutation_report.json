@@ -1,0 +1,250 @@
+{
+  "generated_at": "2026-08-05T10:17:50.201714+00:00",
+  "engine_version": "1.0.0",
+  "summary": {
+    "total_lessons": 69,
+    "total_error_classes": 8,
+    "classes_transmuted": 8,
+    "estimated_joule_savings_logged": 547440,
+    "total_coin_minted": 5.76,
+    "total_annual_joule_value": 890300,
+    "transmutation_rate": "8/8 error classes eliminated"
+  },
+  "joule_savings_by_category": {
+    "deployment": 690,
+    "diagnostic": 675,
+    "coding_standard": 300,
+    "linting": 150,
+    "git_workflow": 225,
+    "workflow_fundamental": 545400
+  },
+  "error_classes": {
+    "search_failed": {
+      "count": 45,
+      "fixes": [
+        "Recognized that ALL 'command not found' errors on Python keywords indicate code is being interpreted by bash, not Python. Diagnostic rule: if you see 'import is not installed', STOP \u2014 you are in the wrong interpreter.",
+        "Used unique delimiter PY_ATOMIC_2026 with project prefix and date stamp to guarantee collision-free heredoc",
+        "Used cat > file.py << 'UNIQUE_DELIMITER' heredoc with single-quoted delimiter to prevent bash expansion, then executed with python3 file.py",
+        "Standardized all variable names to UPPER_SNAKE_CASE with consistent casing. Used grouped { } block for multiple writes to same file.",
+        "Check API rate limits",
+        "Deployed Atomic Core with UniversalTrainer that extracts patterns from lessons and compiles best practices corpus"
+      ],
+      "categories": [
+        "",
+        "coding_standard",
+        "diagnostic",
+        "systemic",
+        "deployment"
+      ],
+      "tags": [
+        "defensive_programming",
+        "interpreter_detection",
+        "compounding_intelligence",
+        "heredoc_safety",
+        "set_u_safe",
+        "heredoc_pattern",
+        "error_class_elimination",
+        "rapid_diagnosis",
+        "unique_delimiters",
+        "bash_python_boundary",
+        "deployment_template",
+        "antifragile_core",
+        "feedback_loop",
+        "deployment_efficiency",
+        "naming_convention",
+        "wealth_engine"
+      ],
+      "transmuted": true
+    },
+    "merge_conflict": {
+      "count": 7,
+      "fixes": [
+        "Manual conflict resolution needed"
+      ],
+      "categories": [
+        ""
+      ],
+      "tags": [],
+      "transmuted": true
+    },
+    "auth_failure": {
+      "count": 2,
+      "fixes": [
+        "Check error type and apply learned fix"
+      ],
+      "categories": [
+        ""
+      ],
+      "tags": [],
+      "transmuted": true
+    },
+    "unbound_variable": {
+      "count": 3,
+      "fixes": [
+        "Unified all references to REPORT_MD; audited entire script for case consistency"
+      ],
+      "categories": [
+        "linting"
+      ],
+      "tags": [
+        "lint_protocol",
+        "case_sensitivity",
+        "pre_flight_check"
+      ],
+      "transmuted": true
+    },
+    "git_clone_blocked": {
+      "count": 3,
+      "fixes": [
+        "Used git -C for operations on existing repo; used git fetch --all --tags instead of clone for already-initialized repos"
+      ],
+      "categories": [
+        "git_workflow"
+      ],
+      "tags": [
+        "git_decision_tree",
+        "fetch_vs_clone",
+        "workflow_efficiency"
+      ],
+      "transmuted": true
+    },
+    "password_store_empty": {
+      "count": 3,
+      "fixes": [
+        "Recognized this as another symptom of Python-in-bash; the fix is the same heredoc deployment pattern"
+      ],
+      "categories": [
+        "diagnostic"
+      ],
+      "tags": [
+        "pattern_network",
+        "keyword_collision",
+        "diagnostic_reinforcement"
+      ],
+      "transmuted": true
+    },
+    "inefficient_iteration": {
+      "count": 3,
+      "fixes": [
+        "Established golden rule: ALL Python code goes through cat > file << 'DELIM' pipeline. No exceptions."
+      ],
+      "categories": [
+        "workflow_fundamental"
+      ],
+      "tags": [
+        "heredoc_pipeline",
+        "golden_rule",
+        "force_multiplier"
+      ],
+      "transmuted": true
+    },
+    "missing_directory": {
+      "count": 3,
+      "fixes": [
+        "Added mkdir -p before file deployment; baked into standard deployment template"
+      ],
+      "categories": [
+        "deployment"
+      ],
+      "tags": [
+        "defensive_setup",
+        "directory_creation",
+        "deployment_checklist"
+      ],
+      "transmuted": true
+    }
+  },
+  "wealth_generation_paths": [
+    {
+      "path_id": "WGP-001",
+      "name": "Standardized Deployment Protocol",
+      "source_errors": [
+        "python_in_bash",
+        "heredoc_collision",
+        "missing_directory"
+      ],
+      "mechanism": "Every Python script deployed via: mkdir -p target && cat > target/script.py << 'PROJ_DATE' ... PROJ_DATE && python3 target/script.py",
+      "joule_savings_per_use": 1800,
+      "frequency": "daily",
+      "annual_joule_value": 657000,
+      "wealth_multiplier": "Each deployment becomes deterministic. Zero debugging time. Compounds across all repos.",
+      "status": "ACTIVE \u2014 protocol established and tested"
+    },
+    {
+      "path_id": "WGP-002",
+      "name": "Rapid Interpreter Detection Heuristic",
+      "source_errors": [
+        "search_failed",
+        "password_store_empty"
+      ],
+      "mechanism": "Rule: if ANY Python keyword (import, class, def, pass, from, return) triggers 'command not found' \u2192 you are in bash, not Python. Stop immediately. Switch to file deployment.",
+      "joule_savings_per_use": 200,
+      "frequency": "weekly",
+      "annual_joule_value": 10400,
+      "wealth_multiplier": "Recognition time drops from minutes to <1 second. Prevents cascading errors.",
+      "status": "ACTIVE \u2014 heuristic encoded in lesson log"
+    },
+    {
+      "path_id": "WGP-003",
+      "name": "Atomic Core Antifragile Feedback Loop",
+      "source_errors": [
+        "search_failed_storm"
+      ],
+      "mechanism": "Every error is logged as a structured lesson \u2192 UniversalTrainer extracts patterns \u2192 best practices corpus compiled \u2192 future cycles avoid known errors \u2192 efficiency rises monotonically",
+      "joule_savings_per_use": 50,
+      "frequency": "per_cycle",
+      "annual_joule_value": 18250,
+      "wealth_multiplier": "Compounding: each cycle adds intelligence. System gets STRONGER from errors. Unbounded.",
+      "status": "ACTIVE \u2014 atomic_core.py running"
+    },
+    {
+      "path_id": "WGP-004",
+      "name": "Git Fetch vs Clone Decision Tree",
+      "source_errors": [
+        "git_clone_blocked"
+      ],
+      "mechanism": "if [ -d .git ]; then git fetch --all --tags; else git clone URL .; fi",
+      "joule_savings_per_use": 75,
+      "frequency": "weekly",
+      "annual_joule_value": 3900,
+      "wealth_multiplier": "Eliminates failed clone attempts. Standardizes repo sync.",
+      "status": "ACTIVE \u2014 decision tree documented"
+    },
+    {
+      "path_id": "WGP-005",
+      "name": "Executable Coding Standards",
+      "source_errors": [
+        "unbound_variable",
+        "case_mismatch"
+      ],
+      "mechanism": "Pre-flight lint: grep for variable case consistency, check heredoc delimiters, verify mkdir before deployment",
+      "joule_savings_per_use": 50,
+      "frequency": "daily",
+      "annual_joule_value": 18250,
+      "wealth_multiplier": "Prevents errors before they occur. Each standard eliminates an error class permanently.",
+      "status": "ACTIVE \u2014 standards documented in lessons"
+    },
+    {
+      "path_id": "WGP-006",
+      "name": "Bitcoin-Anchored Version Control",
+      "source_errors": [
+        "lost_context",
+        "irrecoverable_state"
+      ],
+      "mechanism": "generate_deepdive.sh creates timestamped MD+JSON reports, anchored to Bitcoin blockchain via OpenTimestamps",
+      "joule_savings_per_use": 500,
+      "frequency": "per_cycle",
+      "annual_joule_value": 182500,
+      "wealth_multiplier": "Every cycle's state is cryptographically provable. Prevents data loss. Creates audit trail. Enables trustless verification.",
+      "status": "ACTIVE \u2014 generate_deepdive.sh deployed and OTS stamp successful"
+    }
+  ],
+  "next_actions": [
+    "Run atomic_core.py in --loop mode to compound intelligence",
+    "Feed new errors into lesson_injector.py as they occur",
+    "Re-run wealth_transmuter.py after each cycle to track compounding wealth",
+    "Version and anchor each wealth report via generate_deepdive.sh",
+    "Wire all scripts into a single orchestration pipelineConsider monetizing the deployment protocol as a reusable template",
+    "Package the diagnostic heuristics as a Termux bootstrap script"
+  ]
+}

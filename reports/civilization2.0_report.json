@@ -1,0 +1,17 @@
+{
+  "repo": "civilization2.0",
+  "private": false,
+  "scanned_at": "2026-08-05T04:40:50.299938",
+  "health_score": 100,
+  "issues": [],
+  "stats": {
+    "total_files": 15,
+    "python_files": 8,
+    "last_commit": "2026-08-05 auto: mesh loop cycle 1 \u2014 health scan + alignment"
+  },
+  "lessons_applicable": [
+    "push_failed_auth_failure"
+  ],
+  "recommendations": [],
+  "changes_applied": []
+}

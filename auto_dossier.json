@@ -1,0 +1,83 @@
+{
+  "generated_at": "2026-08-05T10:17:50.080983+00:00",
+  "core_version": "1.0.0",
+  "dedup_stats": {
+    "total_unique_entries": 15,
+    "new_this_cycle": 2,
+    "master_file": "/data/data/com.termux/files/home/une/core/master_snapshot.jsonl"
+  },
+  "coin_efficiency": {
+    "latest": {
+      "timestamp": "2026-08-05T10:17:50.074970+00:00",
+      "cycle": "cycle_3",
+      "input_joules": 50,
+      "output_value": 60,
+      "efficiency": 1.2,
+      "cooperative_multiplier": 1.6,
+      "participants": 6,
+      "coin_minted": 1.92,
+      "synergy_magnitude": 3.07
+    },
+    "trend": {
+      "trend": "stable",
+      "avg_efficiency": 1.2,
+      "avg_coin": 1.92,
+      "total_coin": 5.76,
+      "total_synergy": 9.21,
+      "cycles": 3
+    }
+  },
+  "training_stats": {
+    "total_error_patterns": 16,
+    "total_synergy_labels": 11,
+    "total_efficiency_records": 3,
+    "best_practices": {
+      "search_failed": "Check API rate limits",
+      "merge_conflict": "Manual conflict resolution needed",
+      "auth_failure": "Check error type and apply learned fix",
+      "unknown": "refresh_gh_auth",
+      "unbound_variable": "Unified all references to REPORT_MD; audited entire script for case consistency",
+      "git_clone_blocked": "Used git -C for operations on existing repo; used git fetch --all --tags instead of clone for already-initialized repos",
+      "password_store_empty": "Recognized this as another symptom of Python-in-bash; the fix is the same heredoc deployment pattern",
+      "inefficient_iteration": "Established golden rule: ALL Python code goes through cat > file << 'DELIM' pipeline. No exceptions.",
+      "missing_directory": "Added mkdir -p before file deployment; baked into standard deployment template"
+    }
+  },
+  "seismic_events": [
+    {
+      "type": "error_storm",
+      "magnitude": 5,
+      "detail": "5x search_failed errors in recent lessons",
+      "severity": "warning"
+    }
+  ],
+  "graph_data": [
+    {
+      "cycle": 1,
+      "input_joules": 50,
+      "output_value": 60,
+      "efficiency": 1.2,
+      "coin_minted": 1.92,
+      "synergy": 3.07,
+      "participants": 6
+    },
+    {
+      "cycle": 2,
+      "input_joules": 50,
+      "output_value": 60,
+      "efficiency": 1.2,
+      "coin_minted": 1.92,
+      "synergy": 3.07,
+      "participants": 6
+    },
+    {
+      "cycle": 3,
+      "input_joules": 50,
+      "output_value": 60,
+      "efficiency": 1.2,
+      "coin_minted": 1.92,
+      "synergy": 3.07,
+      "participants": 6
+    }
+  ]
+}

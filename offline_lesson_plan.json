@@ -1,0 +1,67 @@
+{
+  "generated_at": "2026-08-05T04:04:20.060301",
+  "total_lessons": 7,
+  "error_distribution": {
+    "hardcoded_path": 1,
+    "auth_failure": 4,
+    "non_fast_forward": 2
+  },
+  "priority_fixes": [
+    {
+      "error_type": "auth_failure",
+      "frequency": 4,
+      "proposed_fix": "Run 'gh auth refresh' or check token scopes.",
+      "affected_nodes": [],
+      "action": "Run fix script for auth_failure"
+    },
+    {
+      "error_type": "auth_failure",
+      "frequency": 3,
+      "proposed_fix": "Run 'gh auth refresh' or check token scopes.",
+      "affected_nodes": [],
+      "action": "Run fix script for auth_failure"
+    },
+    {
+      "error_type": "auth_failure",
+      "frequency": 2,
+      "proposed_fix": "Run 'gh auth refresh' or check token scopes.",
+      "affected_nodes": [],
+      "action": "Run fix script for auth_failure"
+    },
+    {
+      "error_type": "non_fast_forward",
+      "frequency": 2,
+      "proposed_fix": "Run 'git fetch origin && git rebase origin/main' or force-push.",
+      "affected_nodes": [],
+      "action": "Run fix script for non_fast_forward"
+    },
+    {
+      "error_type": "hardcoded_path",
+      "frequency": 1,
+      "proposed_fix": "Replace with Path(__file__).parent.resolve() pattern.",
+      "affected_nodes": [
+        "mesh_updater"
+      ],
+      "action": "Run fix script for hardcoded_path"
+    },
+    {
+      "error_type": "auth_failure",
+      "frequency": 1,
+      "proposed_fix": "Run 'gh auth refresh' or check token scopes.",
+      "affected_nodes": [],
+      "action": "Run fix script for auth_failure"
+    },
+    {
+      "error_type": "non_fast_forward",
+      "frequency": 1,
+      "proposed_fix": "Run 'git fetch origin && git rebase origin/main' or force-push.",
+      "affected_nodes": [],
+      "action": "Run fix script for non_fast_forward"
+    }
+  ],
+  "network_health": {
+    "total_nodes": 5,
+    "total_edges": 1,
+    "total_lessons": 14
+  }
+}

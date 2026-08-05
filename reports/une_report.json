@@ -1,0 +1,24 @@
+{
+  "repo": "une",
+  "private": false,
+  "scanned_at": "2026-08-05T04:39:59.383745",
+  "health_score": 85,
+  "issues": [
+    {
+      "type": "hardcoded_path",
+      "message": "./absorb_batch.py:#!/data/data/com.termux/files/usr/bin/python3\n./absorb_batch.py:    OPENROOT = os.environ.get(\"OPENROOT_HOME\", \"/sdcard/openroot\")\n./absorb_batch.py:print(\"Saved to: os.environ.get(\""
+    }
+  ],
+  "stats": {
+    "total_files": 8090,
+    "python_files": 415,
+    "last_commit": "2026-08-05 feat: Meta-Orchestrator upgrade (1 changes)"
+  },
+  "lessons_applicable": [],
+  "recommendations": [
+    "Replace hardcoded paths with Path(__file__).parent.resolve()"
+  ],
+  "changes_applied": [
+    "Flagged for path migration"
+  ]
+}

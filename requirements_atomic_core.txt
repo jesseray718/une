@@ -1,0 +1,20 @@
+# Core Data & Physics
+numpy>=1.24.0
+scipy>=1.10.0
+pandas>=2.0.0
+
+# Graphing & Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.15.0
+
+# Network & Mesh
+networkx>=3.1.0
+
+# Aggregation & Deduplication
+xxhash>=3.2.0  # Faster than sha256 for large datasets
+jsonlines>=3.1.0
+
+# Optional: Local ML for "Trainer" (lightweight)
+scikit-learn>=1.2.0
+# Note: Avoid heavy torch/tensorflow for mobile efficiency unless needed

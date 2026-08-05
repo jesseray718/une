@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-08-05T04:08:22.945417",
+  "source_node": "extraction_events",
+  "error_type": "hardcoded_path",
+  "message": "{\"timestamp\": \"2026-08-05T03:05:54.710735\", \"type\": \"hardcoded_path\", \"location\": \"bin/path_migration_bot.py\", \"description\": \"Found /sdcard/openroot/ hardcoded.\", \"status\": \"IDENTIFIED\"}",
+  "frequency": 1,
+  "severity": "medium",
+  "proposed_fix": "Replace with Path(__file__).parent.resolve() pattern.",
+  "affected_nodes": [
+    "mesh_updater"
+  ]
+}

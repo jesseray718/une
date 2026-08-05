@@ -139,7 +139,37 @@
       "file": "aerocement/rmh.py",
       "signature": "syntax:invalid syntax. Perhaps you forgot a comma?",
       "prevention_rule": "Reject code matching: syntax:invalid syntax. Perhaps you forgot a comma?"
+    },
+    {
+      "id": "072a2d28490ccc04",
+      "timestamp": "2026-08-05T04:15:49.635111",
+      "error_type": "duplicate_file",
+      "root_cause": "Files duplicated across repos: agape-une, open-cell-thermal-open-cell-the, OpenCell-Thermal-System",
+      "fix_applied": "Flagged for consolidation to canonical path",
+      "file": "aerocement/.gitignore",
+      "signature": "dup:ef361501dbc6733b",
+      "prevention_rule": "Reject code matching: dup:ef361501dbc6733b"
+    },
+    {
+      "id": "06043e16fbe8b13c",
+      "timestamp": "2026-08-05T04:15:50.932096",
+      "error_type": "syntax_error",
+      "root_cause": "Unterminated string literal \u2014 likely truncated heredoc",
+      "fix_applied": "Pending mutation",
+      "file": "une/councils/tri_council.py",
+      "signature": "syntax:unterminated string literal (detected at line 610)",
+      "prevention_rule": "Reject code matching: syntax:unterminated string literal (detected at line 610)"
+    },
+    {
+      "id": "bbb43dc72e39d59e",
+      "timestamp": "2026-08-05T04:56:59.255874",
+      "error_type": "duplicate_file",
+      "root_cause": "Files duplicated across repos: black-locust-rmh, aerocement-, agape-coordination",
+      "fix_applied": "Flagged for consolidation to canonical path",
+      "file": "aerocement/.gitignore",
+      "signature": "dup:e3e46382e4e8e304",
+      "prevention_rule": "Reject code matching: dup:e3e46382e4e8e304"
     }
   ],
-  "last_updated": "2026-08-05T00:52:10.551091"
+  "last_updated": "2026-08-05T04:56:59.255912"
 }

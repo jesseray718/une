@@ -1,20 +1,59 @@
 {
-  "timestamp": "2026-08-05T03:23:26.741992",
+  "timestamp": "2026-08-05T04:57:02.386980",
   "report": {
-    "timestamp": "2026-08-05T03:23:23.143013",
-    "scanned_files": 1478,
-    "problems_found": 338,
-    "problems_fixed": 162,
-    "lessons_learned": 0,
+    "timestamp": "2026-08-05T04:56:57.837184",
+    "scanned_files": 2708,
+    "problems_found": 532,
+    "problems_fixed": 387,
+    "lessons_learned": 1,
     "evolution_patches": 1,
-    "errors_blocked_by_wisdom": 60,
+    "errors_blocked_by_wisdom": 89,
     "details": [
       {
         "scanner": "dedup",
-        "duplicate_groups": 40,
-        "redundant_files": 162,
-        "reclaimable_kb": 4041,
+        "duplicate_groups": 63,
+        "redundant_files": 386,
+        "reclaimable_kb": 8251,
         "sample": [
+          [
+            "e3e46382e4e8e304",
+            [
+              "aerocement/.gitignore",
+              "aerocement-/.gitignore",
+              "AeroCement_Ecosystem/.gitignore",
+              "agape-coordination/.gitignore",
+              "agape-une/.gitignore",
+              "black-locust-rmh/.gitignore",
+              "civilization2.0/.gitignore",
+              "jesseray718/.gitignore",
+              "open-cell-thermal-open-cell-the/.gitignore",
+              "OpenCell-Thermal-System/.gitignore",
+              "openroot/.gitignore",
+              "openroot-spoke-template/.gitignore",
+              "renaissance-protocol/.gitignore",
+              "skills-introduction-to-github/.gitignore"
+            ]
+          ],
+          [
+            "ef361501dbc6733b",
+            [
+              "aerocement/.gitignore.bak",
+              "aerocement-/.gitignore.bak",
+              "AeroCement_Ecosystem/.gitignore.bak",
+              "agape-coordination/.gitignore.bak",
+              "agape-une/.gitignore.bak",
+              "black-locust-rmh/.gitignore.bak",
+              "civilization2.0/.gitignore.bak",
+              "jesseray718/.gitignore.bak",
+              "open-cell-thermal-open-cell-the/.gitignore.bak",
+              "OpenCell-Thermal-System/.gitignore.bak",
+              "openroot/.gitignore.bak",
+              "openroot-spoke-template/.gitignore.bak",
+              "renaissance-protocol/.gitignore.bak",
+              "skills-introduction-to-github/.gitignore.bak",
+              "une/.gitignore"
+            ]
+          ],
           [
             "e3b0c44298fc1c14",
             [
@@ -35,32 +74,42 @@
               "renaissance-protocol/hardware/welder/HHO_Electrolysis_Module.md",
               "renaissance-protocol/library/volumes/README.md",
               "renaissance-protocol/src/README.md",
+              "une/backups/auto_fix_20260805/dup_138698c8_raw_data.csv",
+              "une/backups/auto_fix_20260805/dup_18f732a7_input.txt",
+              "une/backups/auto_fix_20260805/dup_28749656_.gitkeep",
+              "une/backups/auto_fix_20260805/dup_32c4f8f5_permissions-audit.txt",
+              "une/backups/auto_fix_20260805/dup_367b4930_.gitkeep",
+              "une/backups/auto_fix_20260805/dup_380f010c_.gitkeep",
+              "une/backups/auto_fix_20260805/dup_54494d76_HHO_Electrolysis_Module.md",
+              "une/backups/auto_fix_20260805/dup_553c571f_README.md",
+              "une/backups/auto_fix_20260805/dup_63e1a9f8_README.md",
+              "une/backups/auto_fix_20260805/dup_64495ee3_--title",
+              "une/backups/auto_fix_20260805/dup_66bb2d77_--repo",
+              "une/backups/auto_fix_20260805/dup_8201a630_.gitkeep",
+              "une/backups/auto_fix_20260805/dup_8a135eba_README.md",
+              "une/backups/auto_fix_20260805/dup_bc868787_--body",
+              "une/backups/auto_fix_20260805/dup_e1bd8d24_.gitkeep",
+              "une/backups/auto_fix_20260805/dup_e4b96542_README.md",
+              "une/backups/auto_fix_20260805/dup_96c92c12_README.md",
+              "une/backups/auto_fix_20260805/dup_acf26d4b_README.md",
+              "une/backups/auto_fix_20260805/dup_b4c39936_README.md",
+              "une/backups/auto_fix_20260805/dup_bdfbbaaf_README.md",
+              "une/backups/auto_fix_20260805/dup_f13953c0_--label",
               "une/une/__init__.py",
+              "une/meta_hub/*Whether",
+              "une/meta_hub/\u26a0\ufe0f",
               "wisdom-scaffold/--body",
               "wisdom-scaffold/--label",
               "wisdom-scaffold/--repo",
-              "wisdom-scaffold/--title"
-            ]
-          ],
-          [
-            "5341f257ed238a76",
-            [
-              "aerocement/observations/une_h003_capture.sh",
-              "openroot/recovered_blueprints/une_h003_capture.sh"
-            ]
-          ],
-          [
-            "9045932e1ca4a133",
-            [
-              "aerocement/swarm/tasks/task_h003.json",
-              "openroot/computational_flow/tasks/task_h003.json"
+              "wisdom-scaffold/--title",
+              "markor/app/src/main/assets/.gitkeep"
             ]
           ]
         ]
       },
       {
         "scanner": "syntax",
-        "error_count": 50,
+        "error_count": 79,
         "errors": [
           {
             "file": "aerocement/rmh.py",
@@ -116,7 +165,7 @@
       },
       {
         "scanner": "hardcoded_paths",
-        "count": 288,
+        "count": 453,
         "findings": [
           {
             "file": "aerocement/01_git_storage_fix.sh",
@@ -162,12 +211,12 @@
       },
       {
         "scanner": "contributions_bloat",
-        "total_files": 4,
-        "prunable": 0
+        "total_files": 6,
+        "prunable": 1
       }
     ]
   },
-  "wisdom_count": 14,
+  "wisdom_count": 17,
   "wisdom_file": "/data/data/com.termux/files/home/une/wisdom/error_patterns.json",
   "ledger_file": "/data/data/com.termux/files/home/une/autonomous_ledger.jsonl"
 }

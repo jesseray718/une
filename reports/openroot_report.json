@@ -1,0 +1,24 @@
+{
+  "repo": "openroot",
+  "private": false,
+  "scanned_at": "2026-08-05T04:39:02.584373",
+  "health_score": 85,
+  "issues": [
+    {
+      "type": "hardcoded_path",
+      "message": "./bin/acre_ledger.sh:#!/data/data/com.termux/files/usr/bin/bash\n./bin/acre_mint_claim.py:LEDGER_PATH = \"os.environ.get(\"OPENROOT_BASE\", \"/sdcard/openroot\") + \"/\"context_bridge/thermo_ledger.jsonl\"\n./b"
+    }
+  ],
+  "stats": {
+    "total_files": 2386,
+    "python_files": 258,
+    "last_commit": "2026-08-05 auto: mesh loop cycle 1 \u2014 health scan + alignment"
+  },
+  "lessons_applicable": [],
+  "recommendations": [
+    "Replace hardcoded paths with Path(__file__).parent.resolve()"
+  ],
+  "changes_applied": [
+    "Flagged for path migration"
+  ]
+}

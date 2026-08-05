@@ -1,0 +1,243 @@
+{
+  "generated_at": "2026-08-05T09-59-52Z",
+  "repository": "github.com/jesseray718/une",
+  "tags": [],
+  "recent_commits": [
+    {
+      "hash": "69614e746080a36f28e7b7a2f4424c4d948ea09e",
+      "short": "69614e7",
+      "msg": "fix: reset .gitignore to break symlink loop",
+      "date": "2026-08-05 03:30:51 -0500"
+    },
+    {
+      "hash": "96ca614eb12f79d3e49fed061a33e28d7099c42d",
+      "short": "96ca614",
+      "msg": "fix: exclude vendor_archive/quarantine/backups from enforcer, remove broken scripts",
+      "date": "2026-08-05 03:29:22 -0500"
+    },
+    {
+      "hash": "53121d70331e57ad19f711b1b131ebc0aaabeb65",
+      "short": "53121d7",
+      "msg": "feat: deploy Antifragility Lair (GitHub Actions)",
+      "date": "2026-08-05 03:25:26 -0500"
+    },
+    {
+      "hash": "2d1160b16c927ee3a1aefbc9d1d444fc13d92cb7",
+      "short": "2d1160b",
+      "msg": "feat: auto-evolution cycle #12 — fix+contribute",
+      "date": "2026-08-05 01:42:58 -0500"
+    },
+    {
+      "hash": "a56758aa8a7bde9b31a6ede9934df632a21dbef5",
+      "short": "a56758a",
+      "msg": "feat: auto-evolution cycle #11 — fix+contribute",
+      "date": "2026-08-05 00:57:58 -0500"
+    },
+    {
+      "hash": "471b9e73871ba8b2267bf22fb5e8219836c4a860",
+      "short": "471b9e7",
+      "msg": "feat: auto-evolution cycle #10 — fix+contribute",
+      "date": "2026-08-05 00:56:45 -0500"
+    },
+    {
+      "hash": "31ba5724683ca90c02d88751e7bd14c856b5aa82",
+      "short": "31ba572",
+      "msg": "feat: auto-evolution cycle #9 — fix+contribute",
+      "date": "2026-08-05 00:55:10 -0500"
+    },
+    {
+      "hash": "3a091aa0dc29ed9a3cddd3ea482e5e72e358c30c",
+      "short": "3a091aa",
+      "msg": "feat: auto-evolution cycle #8 — fix+contribute",
+      "date": "2026-08-05 00:53:49 -0500"
+    },
+    {
+      "hash": "a399887c1ae7d871ce3516dc5aae1833b7d63da3",
+      "short": "a399887",
+      "msg": "feat: auto-evolution cycle #7 — fix+contribute",
+      "date": "2026-08-05 00:36:51 -0500"
+    },
+    {
+      "hash": "3152be332dfafd5150eee70ca7840d13d2aad46b",
+      "short": "3152be3",
+      "msg": "feat: auto-evolution cycle #6 — fix+contribute",
+      "date": "2026-08-05 00:34:13 -0500"
+    },
+    {
+      "hash": "93ae503ca944cb7af58a2a20aa3ca9a6e8e645d3",
+      "short": "93ae503",
+      "msg": "feat: auto-evolution cycle #5 — fix+contribute",
+      "date": "2026-08-05 00:20:27 -0500"
+    },
+    {
+      "hash": "9bf6d403f11cdf7db705c93718dd596aa1649264",
+      "short": "9bf6d40",
+      "msg": "feat: auto-evolution cycle #4 — fix+contribute",
+      "date": "2026-08-05 00:10:58 -0500"
+    },
+    {
+      "hash": "85cec605bf3ed0b4d2e549ee2645d27b6c556755",
+      "short": "85cec60",
+      "msg": "feat: auto-evolution cycle #3 — fix+contribute",
+      "date": "2026-08-05 00:00:43 -0500"
+    },
+    {
+      "hash": "70217781c1dba46d8d46916b3856cdd4cc69403b",
+      "short": "7021778",
+      "msg": "feat: auto-evolution cycle #2 — fix+contribute",
+      "date": "2026-08-04 23:26:57 -0500"
+    },
+    {
+      "hash": "672256481e62a100a9426687998326deca5cbfe0",
+      "short": "6722564",
+      "msg": "feat: Newton Kernel v2.0 — SYSTEM_PROMPT.md, self_clone.py, engine v5.2, start_day_one.sh",
+      "date": "2026-08-04 23:25:15 -0500"
+    },
+    {
+      "hash": "b409cd14f8d4f5042746f6a8a0de5bbb145f0ef4",
+      "short": "b409cd1",
+      "msg": "feat: auto-evolution cycle #1 — fix+contribute",
+      "date": "2026-08-04 23:06:02 -0500"
+    },
+    {
+      "hash": "1cf8f53e48ccff8e9503c3e1c12d803c76003715",
+      "short": "1cf8f53",
+      "msg": "feat: v2.0 core + paths.py + guardian v4.1 + snapshot system + gitignore cleanup",
+      "date": "2026-08-04 22:48:18 -0500"
+    },
+    {
+      "hash": "99753929b653ea3e84598b5753322bbc903501cd",
+      "short": "9975392",
+      "msg": "feat: v2.0 core + paths.py + guardian v4.1 + snapshot system + gitignore cleanup",
+      "date": "2026-08-04 22:20:38 -0500"
+    },
+    {
+      "hash": "2ce7f15669e8e319eb9fc4cb2ca2d9c5cc02ef01",
+      "short": "2ce7f15",
+      "msg": "agape: v1.0 engine + zero-cost theorem + 11 routers + Newton Chain + tests",
+      "date": "2026-08-04 06:44:53 -0500"
+    },
+    {
+      "hash": "036c9c1ff466a0d8c92e68127ba1cdf648510637",
+      "short": "036c9c1",
+      "msg": "feat: Feature Agape Theorem front and center",
+      "date": "2026-08-03 23:31:52 -0500"
+    },
+    {
+      "hash": "aa07a86d0c45e79b0a32cfcead0313aafa534ce6",
+      "short": "aa07a86",
+      "msg": "fix: wrap f5_synthesize and f6_verify in fs_override guard 20260803_2303",
+      "date": "2026-08-03 23:03:21 -0500"
+    },
+    {
+      "hash": "9a4a56a68b3a6691f55a618ec1eae1d4b9627b91",
+      "short": "9a4a56a",
+      "msg": "feat: fs_hook wired cleanly before f5_synthesize 20260803_2258",
+      "date": "2026-08-03 22:58:43 -0500"
+    },
+    {
+      "hash": "116e535cc8d6653901221ffde3a33b184c5b8753",
+      "short": "116e535",
+      "msg": "fix: synergy_mult KeyError + junk cleanup + fs_hook + accumulating context stamps 20260803_2238",
+      "date": "2026-08-03 22:38:47 -0500"
+    },
+    {
+      "hash": "748f40a952a7f7fe2b764451576119b363006a74",
+      "short": "748f40a",
+      "msg": "fix: synergy_mult KeyError + junk cleanup + fs_hook + accumulating context stamps 20260803_2236",
+      "date": "2026-08-03 22:36:15 -0500"
+    },
+    {
+      "hash": "4d7c1e6e21b78a5a68cc254b4e757bebd37066bd",
+      "short": "4d7c1e6",
+      "msg": "fix: KeyError patch + remove heredoc artifacts + gitignore hardening",
+      "date": "2026-08-03 22:33:23 -0500"
+    },
+    {
+      "hash": "ca779ca1afd6412757b0a37a09feee8cc7c51002",
+      "short": "ca779ca",
+      "msg": "fix: patch synergy_mult KeyError + remove heredoc artifacts + gitignore",
+      "date": "2026-08-03 22:30:37 -0500"
+    },
+    {
+      "hash": "19e85db79d63ac1fac2149fc5bd0c110aec0675d",
+      "short": "19e85db",
+      "msg": "fix: remove junk artifacts from escaped heredoc bug",
+      "date": "2026-08-03 22:30:04 -0500"
+    },
+    {
+      "hash": "b9e27bd379baec139af4f9b980bf31e479a4d18a",
+      "short": "b9e27bd",
+      "msg": "full-loop: ACRE mint + Merkle root + reversible accounting + RMH key + high-η swarm + Civilization 2.0 20260803_2213",
+      "date": "2026-08-03 22:13:02 -0500"
+    },
+    {
+      "hash": "d01d241e8a3d59d4d22f673f56e02373bd93a5a2",
+      "short": "d01d241",
+      "msg": "feat: Agape Coordination Theorem + Working Engine v1.0",
+      "date": "2026-08-03 21:30:17 -0500"
+    },
+    {
+      "hash": "e14d186920250159986fa0e78ce889ba454781dc",
+      "short": "e14d186",
+      "msg": "feat: merkle_hash + energy tools + first ACRE claim (root 61a4128c…)",
+      "date": "2026-07-27 00:05:58 -0500"
+    },
+    {
+      "hash": "a3d5f625967fd7d79d37993a6c4155342c5f35ae",
+      "short": "a3d5f62",
+      "msg": "feat: hive_bridge + merkle_thermo + dt/phi tools",
+      "date": "2026-07-26 15:25:59 -0500"
+    },
+    {
+      "hash": "2bf49c9b4325566c2ca601c817d1361aebfb1e28",
+      "short": "2bf49c9",
+      "msg": "feat(foundation): agape scaling + fractal engine + hierarchical controller",
+      "date": "2026-07-26 12:45:01 -0500"
+    },
+    {
+      "hash": "5871dfd1ae410c2b02c5becb56451e4bb8bdca98",
+      "short": "5871dfd",
+      "msg": "sync: absorbers + window_absorber + swarm embeds + computational_flow — η-maximizing local UNE state 20260724",
+      "date": "2026-07-24 07:14:45 -0500"
+    },
+    {
+      "hash": "ece59f8bb87162fbc09561cbe7f6f281c5d419b6",
+      "short": "ece59f8",
+      "msg": "Phase 3: Add reusable session extractor script",
+      "date": "2026-07-22 13:00:48 -0500"
+    },
+    {
+      "hash": "72c1e5f213e065e066dc13c137d337bf84da8438",
+      "short": "72c1e5f",
+      "msg": "Phase 1: Deploy Fusion Core, Drill Scheduler, and Sensor Wrapper",
+      "date": "2026-07-22 12:35:36 -0500"
+    },
+    {
+      "hash": "fc123f3e90a5371a2591617e895e08cf2ca39b7d",
+      "short": "fc123f3",
+      "msg": "CLEAN: Purge prose, push core, seal repo",
+      "date": "2026-07-22 02:28:22 -0500"
+    },
+    {
+      "hash": "e349ce7fb6868a567a4d80ade1f39ecf9c8dbc92",
+      "short": "e349ce7",
+      "msg": "WISDOM CORPUS v2.0: Universal Element Taxonomy",
+      "date": "2026-07-22 02:05:34 -0500"
+    },
+    {
+      "hash": "13fdbe5403575584fa852cf72e46f3a9a68e9709",
+      "short": "13fdbe5",
+      "msg": "restore: reconstruct src/une, foundation/, tools/ after repo reset",
+      "date": "2026-07-20 23:43:02 -0500"
+    },
+    {
+      "hash": "7ded2a8842d720929f8c17b107e6201316f0ed65",
+      "short": "7ded2a8",
+      "msg": "fresh start: re-initialized UNE repo",
+      "date": "2026-07-20 17:10:00 -0500"
+    }
+  ],
+  "total_tags": 0,
+  "total_recent_commits": 39
+}

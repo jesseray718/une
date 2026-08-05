@@ -1,0 +1,68 @@
+{
+  "error_fixes": {
+    "search_failed": {
+      "Check API rate limits": 90,
+      "Used cat > file.py << 'UNIQUE_DELIMITER' heredoc with single-quoted delimiter to prevent bash expansion, then executed with python3 file.py": 5,
+      "Recognized that ALL 'command not found' errors on Python keywords indicate code is being interpreted by bash, not Python. Diagnostic rule: if you see 'import is not installed', STOP \u2014 you are in the wrong interpreter.": 5,
+      "Standardized all variable names to UPPER_SNAKE_CASE with consistent casing. Used grouped { } block for multiple writes to same file.": 5,
+      "Used unique delimiter PY_ATOMIC_2026 with project prefix and date stamp to guarantee collision-free heredoc": 5,
+      "Deployed Atomic Core with UniversalTrainer that extracts patterns from lessons and compiles best practices corpus": 5
+    },
+    "merge_conflict": {
+      "Manual conflict resolution needed": 21
+    },
+    "auth_failure": {
+      "Check error type and apply learned fix": 6
+    },
+    "unknown": {
+      "refresh_gh_auth": 12,
+      "fetch_rebase_or_force": 9,
+      "add_remote": 3
+    },
+    "unbound_variable": {
+      "Unified all references to REPORT_MD; audited entire script for case consistency": 5
+    },
+    "git_clone_blocked": {
+      "Used git -C for operations on existing repo; used git fetch --all --tags instead of clone for already-initialized repos": 5
+    },
+    "password_store_empty": {
+      "Recognized this as another symptom of Python-in-bash; the fix is the same heredoc deployment pattern": 5
+    },
+    "inefficient_iteration": {
+      "Established golden rule: ALL Python code goes through cat > file << 'DELIM' pipeline. No exceptions.": 5
+    },
+    "missing_directory": {
+      "Added mkdir -p before file deployment; baked into standard deployment template": 5
+    }
+  },
+  "synergy_patterns": {
+    "system_snapshot": 3,
+    "cycle_report": 3,
+    "mesh_update": 3,
+    "dossier": 6,
+    "lesson_plan": 3,
+    "neural_graph": 3,
+    "session_log": 3,
+    "mesh_lessons": 3,
+    "neural_lessons": 3,
+    "full_mesh_lessons": 6,
+    "heartbeat": 3
+  },
+  "efficiency_trends": [
+    {
+      "efficiency": 1.2,
+      "participants": 6,
+      "coin": 1.92
+    },
+    {
+      "efficiency": 1.2,
+      "participants": 6,
+      "coin": 1.92
+    },
+    {
+      "efficiency": 1.2,
+      "participants": 6,
+      "coin": 1.92
+    }
+  ]
+}

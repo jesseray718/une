@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-08-05T04:08:22.962301",
+  "source_node": "mesh_lessons",
+  "error_type": "auth_failure",
+  "message": "{\"timestamp\": \"2026-08-05T03:44:41.591198\", \"repo\": \"renaissance-protocol\", \"error\": \" remote: This repository was archived so it is read-only.\\nfatal: unable to access 'https://github.com/jesseray718/renaissance-protocol.git/': The requested URL returned error: 403\", \"root_cause\": \"auth_failure\", \"fix_applied\": \"refresh_gh_auth\", \"category\": \"push_failure\", \"occurrence_count\": 1}",
+  "frequency": 4,
+  "severity": "high",
+  "proposed_fix": "Run 'gh auth refresh' or check token scopes.",
+  "affected_nodes": []
+}

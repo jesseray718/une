@@ -1,4 +1,19 @@
+# Core Exclusions
+vendor_archive/
+quarantine/
+backups/
+logs/
+fair/*.jsonl
+*.log
+autonomous_daemon.log
+autonomous_report.json
+autonomous_snapshot.json
+autonomous_ledger.jsonl
 __pycache__/
 *.pyc
-.env
-node_modules/
+*.pyo
+*.gguf
+*.bin
+*.pth
+*.pt
+meta_hub/

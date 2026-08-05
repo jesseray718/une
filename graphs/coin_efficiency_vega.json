@@ -1,0 +1,78 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "title": {
+    "text": "Coin Efficiency & Synergy Growth",
+    "subtitle": "Tracking input joules vs output value across 3 cycles"
+  },
+  "data": {
+    "values": [
+      {
+        "cycle": 1,
+        "value": 1.2,
+        "series": "Efficiency"
+      },
+      {
+        "cycle": 1,
+        "value": 1.92,
+        "series": "Coin Minted"
+      },
+      {
+        "cycle": 1,
+        "value": 3.07,
+        "series": "Synergy"
+      },
+      {
+        "cycle": 2,
+        "value": 1.2,
+        "series": "Efficiency"
+      },
+      {
+        "cycle": 2,
+        "value": 1.92,
+        "series": "Coin Minted"
+      },
+      {
+        "cycle": 2,
+        "value": 3.07,
+        "series": "Synergy"
+      },
+      {
+        "cycle": 3,
+        "value": 1.2,
+        "series": "Efficiency"
+      },
+      {
+        "cycle": 3,
+        "value": 1.92,
+        "series": "Coin Minted"
+      },
+      {
+        "cycle": 3,
+        "value": 3.07,
+        "series": "Synergy"
+      }
+    ]
+  },
+  "mark": {
+    "type": "line",
+    "point": true,
+    "interpolate": "monotone"
+  },
+  "encoding": {
+    "x": {
+      "field": "cycle",
+      "type": "ordinal",
+      "title": "Cycle"
+    },
+    "y": {
+      "field": "value",
+      "type": "quantitative",
+      "title": "Magnitude"
+    },
+    "color": {
+      "field": "series",
+      "type": "nominal"
+    }
+  }
+}

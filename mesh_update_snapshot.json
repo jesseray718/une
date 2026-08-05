@@ -1,0 +1,49 @@
+{
+  "timestamp": "2026-08-05T03:47:06.022880",
+  "repos_total": 18,
+  "repos_pushed": 13,
+  "repos_clean": 0,
+  "repos_skipped": 0,
+  "repos_failed": 5,
+  "total_lessons": 8,
+  "results": {
+    "AeroCement_Ecosystem": "pushed",
+    "OpenCell-Thermal-System": "pushed",
+    "aerocement": "pushed",
+    "aerocement-": "auth_failed",
+    "agape-coordination": "pushed",
+    "agape-une": "pushed",
+    "black-locust-rmh": "pushed",
+    "civilization2.0": "auth_failed",
+    "jesseray718": "pushed",
+    "open-cell-thermal-open-cell-the": "auth_failed",
+    "openroot": "pushed",
+    "openroot-spoke-template": "pushed",
+    "renaissance-protocol": "auth_failed",
+    "skills-introduction-to-github": "pushed",
+    "une": "pushed",
+    "wisdom-scaffold": "pushed",
+    "openroot-unified-backup": "failed",
+    "scaffold": "pushed"
+  },
+  "new_lessons": [
+    {
+      "timestamp": "2026-08-05T03:44:44.355378",
+      "repo": "une",
+      "error": " To https://github.com/jesseray718/une.git\n ! [rejected]        main -> main (fetch first)\nerror: failed to push some refs to 'https://github.com/jesseray718/une.git'\nhint: Updates were rejected because the remote contains work that you do not\nhint: have locally. This is usually caused by another re",
+      "root_cause": "non_fast_forward",
+      "fix_applied": "fetch_rebase_or_force",
+      "category": "push_failure",
+      "occurrence_count": 1
+    },
+    {
+      "timestamp": "2026-08-05T03:46:55.171011",
+      "repo": "wisdom-scaffold",
+      "error": " To https://github.com/jesseray718/wisdom-scaffold.git\n ! [rejected]        main -> main (non-fast-forward)\nerror: failed to push some refs to 'https://github.com/jesseray718/wisdom-scaffold.git'\nhint: Updates were rejected because a pushed branch tip is behind its remote\nhint: counterpart. If you w",
+      "root_cause": "non_fast_forward",
+      "fix_applied": "fetch_rebase_or_force",
+      "category": "push_failure",
+      "occurrence_count": 1
+    }
+  ]
+}

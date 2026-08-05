@@ -1,0 +1,24 @@
+{
+  "repo": "agape-coordination",
+  "private": false,
+  "scanned_at": "2026-08-05T04:38:53.447051",
+  "health_score": 85,
+  "issues": [
+    {
+      "type": "hardcoded_path",
+      "message": "./agape_engine.py:#!/data/data/com.termux/files/usr/bin/env python3\n./agape_engine.py:  The knowledge base lives on os.environ.get(\"OPENROOT_BASE\", \"/sdcard/openroot\") + \"/\"agape_kb/\n./agape_engine.py"
+    }
+  ],
+  "stats": {
+    "total_files": 21,
+    "python_files": 13,
+    "last_commit": "2026-08-05 auto: mesh loop cycle 1 \u2014 health scan + alignment"
+  },
+  "lessons_applicable": [],
+  "recommendations": [
+    "Replace hardcoded paths with Path(__file__).parent.resolve()"
+  ],
+  "changes_applied": [
+    "Flagged for path migration"
+  ]
+}

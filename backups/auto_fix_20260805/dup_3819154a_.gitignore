@@ -1,4 +1,7 @@
-__pycache__/
+vendor_archive/
+quarantine/
+backups/
+logs/
+*.log
 *.pyc
-.env
-node_modules/
+__pycache__/
