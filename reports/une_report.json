@@ -1,7 +1,7 @@
 {
   "repo": "une",
   "private": false,
-  "scanned_at": "2026-08-05T04:39:59.383745",
+  "scanned_at": "2026-08-05T14:12:15.861263",
   "health_score": 85,
   "issues": [
     {
@@ -10,9 +10,9 @@
     }
   ],
   "stats": {
-    "total_files": 8090,
-    "python_files": 415,
-    "last_commit": "2026-08-05 feat: Meta-Orchestrator upgrade (1 changes)"
+    "total_files": 2812,
+    "python_files": 100,
+    "last_commit": "2026-08-05 propose: merge Agape Offline-First Core (R-governed, zero deletions)"
   },
   "lessons_applicable": [],
   "recommendations": [

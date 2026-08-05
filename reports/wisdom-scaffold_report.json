@@ -1,7 +1,7 @@
 {
   "repo": "wisdom-scaffold",
   "private": false,
-  "scanned_at": "2026-08-05T04:39:56.904632",
+  "scanned_at": "2026-08-05T14:12:10.394529",
   "health_score": 85,
   "issues": [
     {
@@ -10,9 +10,9 @@
     }
   ],
   "stats": {
-    "total_files": 26,
+    "total_files": 31,
     "python_files": 10,
-    "last_commit": "2026-08-05 auto: mesh loop cycle 1 \u2014 health scan + alignment"
+    "last_commit": "2026-08-05 propose: merge Agape Offline-First Core (R-governed, zero deletions)"
   },
   "lessons_applicable": [
     "diverged_histories"

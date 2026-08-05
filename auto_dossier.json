@@ -1,83 +1,737 @@
 {
-  "generated_at": "2026-08-05T10:17:50.080983+00:00",
-  "core_version": "1.0.0",
-  "dedup_stats": {
-    "total_unique_entries": 15,
-    "new_this_cycle": 2,
-    "master_file": "/data/data/com.termux/files/home/une/core/master_snapshot.jsonl"
+  "generated_at": "2026-08-05T14:14:41.515179",
+  "cycle": 1,
+  "total_wealth_generated": 250,
+  "mesh_summary": {
+    "total_repos": 20,
+    "healthy": 17,
+    "degraded": 3,
+    "critical": 0,
+    "average_health": 89.0,
+    "total_issues": 21,
+    "total_changes_applied": 19,
+    "stuck_repos": []
   },
-  "coin_efficiency": {
-    "latest": {
-      "timestamp": "2026-08-05T10:17:50.074970+00:00",
-      "cycle": "cycle_3",
-      "input_joules": 50,
-      "output_value": 60,
-      "efficiency": 1.2,
-      "cooperative_multiplier": 1.6,
-      "participants": 6,
-      "coin_minted": 1.92,
-      "synergy_magnitude": 3.07
+  "external_opportunities": [],
+  "repo_reports": {
+    "jesseray718": {
+      "repo": "jesseray718",
+      "private": false,
+      "scanned_at": "2026-08-05T14:12:04.804528",
+      "health_score": 90,
+      "issues": [
+        {
+          "type": "symlink_loop",
+          "message": ".gitignore is a symlink"
+        }
+      ],
+      "stats": {
+        "total_files": 17,
+        "python_files": 8,
+        "last_commit": "2026-08-05 propose: merge Agape Offline-First Core (R-governed, zero deletions)"
+      },
+      "lessons_applicable": [],
+      "recommendations": [],
+      "changes_applied": [
+        "Destroyed symlink .gitignore, replaced with static file"
+      ]
     },
-    "trend": {
-      "trend": "stable",
-      "avg_efficiency": 1.2,
-      "avg_coin": 1.92,
-      "total_coin": 5.76,
-      "total_synergy": 9.21,
-      "cycles": 3
+    "wisdom-scaffold": {
+      "repo": "wisdom-scaffold",
+      "private": false,
+      "scanned_at": "2026-08-05T14:12:10.394529",
+      "health_score": 85,
+      "issues": [
+        {
+          "type": "hardcoded_path",
+          "message": "./computational_flow/extract_seed.py:#!/data/data/com.termux/files/usr/bin/python3\n./computational_flow/extract_seed.py:seed_dir = 'os.environ.get(\"OPENROOT_BASE\", \"/sdcard/openroot\") + \"/\"session_see"
+        }
+      ],
+      "stats": {
+        "total_files": 31,
+        "python_files": 10,
+        "last_commit": "2026-08-05 propose: merge Agape Offline-First Core (R-governed, zero deletions)"
+      },
+      "lessons_applicable": [
+        "diverged_histories"
+      ],
+      "recommendations": [
+        "Replace hardcoded paths with Path(__file__).parent.resolve()"
+      ],
+      "changes_applied": [
+        "Flagged for path migration"
+      ]
+    },
+    "une": {
+      "repo": "une",
+      "private": false,
+      "scanned_at": "2026-08-05T14:12:15.861263",
+      "health_score": 85,
+      "issues": [
+        {
+          "type": "hardcoded_path",
+          "message": "./absorb_batch.py:#!/data/data/com.termux/files/usr/bin/python3\n./absorb_batch.py:    OPENROOT = os.environ.get(\"OPENROOT_HOME\", \"/sdcard/openroot\")\n./absorb_batch.py:print(\"Saved to: os.environ.get(\""
+        }
+      ],
+      "stats": {
+        "total_files": 2812,
+        "python_files": 100,
+        "last_commit": "2026-08-05 propose: merge Agape Offline-First Core (R-governed, zero deletions)"
+      },
+      "lessons_applicable": [],
+      "recommendations": [
+        "Replace hardcoded paths with Path(__file__).parent.resolve()"
+      ],
+      "changes_applied": [
+        "Flagged for path migration"
+      ]
+    },
+    "skills-introduction-to-github": {
+      "repo": "skills-introduction-to-github",
+      "private": false,
+      "scanned_at": "2026-08-05T14:12:39.387961",
+      "health_score": 90,
+      "issues": [
+        {
+          "type": "symlink_loop",
+          "message": ".gitignore is a symlink"
+        }
+      ],
+      "stats": {
+        "total_files": 37,
+        "python_files": 8,
+        "last_commit": "2026-08-05 propose: merge Agape Offline-First Core (R-governed, zero deletions)"
+      },
+      "lessons_applicable": [],
+      "recommendations": [],
+      "changes_applied": [
+        "Destroyed symlink .gitignore, replaced with static file"
+      ]
+    },
+    "openroot-spoke-template": {
+      "repo": "openroot-spoke-template",
+      "private": false,
+      "scanned_at": "2026-08-05T14:12:43.589736",
+      "health_score": 90,
+      "issues": [
+        {
+          "type": "symlink_loop",
+          "message": ".gitignore is a symlink"
+        }
+      ],
+      "stats": {
+        "total_files": 19,
+        "python_files": 8,
+        "last_commit": "2026-08-05 propose: merge Agape Offline-First Core (R-governed, zero deletions)"
+      },
+      "lessons_applicable": [],
+      "recommendations": [],
+      "changes_applied": [
+        "Destroyed symlink .gitignore, replaced with static file"
+      ]
+    },
+    "openroot": {
+      "repo": "openroot",
+      "private": false,
+      "scanned_at": "2026-08-05T14:12:47.499710",
+      "health_score": 85,
+      "issues": [
+        {
+          "type": "hardcoded_path",
+          "message": "./bin/acre_ledger.sh:#!/data/data/com.termux/files/usr/bin/bash\n./bin/acre_mint_claim.py:LEDGER_PATH = \"os.environ.get(\"OPENROOT_BASE\", \"/sdcard/openroot\") + \"/\"context_bridge/thermo_ledger.jsonl\"\n./b"
+        }
+      ],
+      "stats": {
+        "total_files": 2390,
+        "python_files": 258,
+        "last_commit": "2026-08-05 propose: merge Agape Offline-First Core (R-governed, zero deletions)"
+      },
+      "lessons_applicable": [],
+      "recommendations": [
+        "Replace hardcoded paths with Path(__file__).parent.resolve()"
+      ],
+      "changes_applied": [
+        "Flagged for path migration"
+      ]
+    },
+    "markor": {
+      "repo": "markor",
+      "private": false,
+      "scanned_at": "2026-08-05T14:13:42.398860",
+      "health_score": 100,
+      "issues": [],
+      "stats": {
+        "total_files": 863,
+        "python_files": 0,
+        "last_commit": "2026-08-05 propose: merge Agape Offline-First Core (R-governed, zero deletions)"
+      },
+      "lessons_applicable": [
+        "diverged_histories"
+      ],
+      "recommendations": [],
+      "changes_applied": []
+    },
+    "kai9000": {
+      "repo": "kai9000",
+      "private": true,
+      "scanned_at": "2026-08-05T14:13:43.598454",
+      "health_score": 100,
+      "issues": [],
+      "stats": {
+        "total_files": 5,
+        "python_files": 0,
+        "last_commit": "2026-08-05 propose: merge Agape Offline-First Core (R-governed, zero deletions)"
+      },
+      "lessons_applicable": [
+        "diverged_histories"
+      ],
+      "recommendations": [],
+      "changes_applied": []
+    },
+    "kai-memory": {
+      "repo": "kai-memory",
+      "private": true,
+      "scanned_at": "2026-08-05T14:13:44.900611",
+      "health_score": 100,
+      "issues": [],
+      "stats": {
+        "total_files": 6,
+        "python_files": 0,
+        "last_commit": "2026-08-05 propose: merge Agape Offline-First Core (R-governed, zero deletions)"
+      },
+      "lessons_applicable": [
+        "diverged_histories"
+      ],
+      "recommendations": [],
+      "changes_applied": []
+    },
+    "black-locust-rmh": {
+      "repo": "black-locust-rmh",
+      "private": false,
+      "scanned_at": "2026-08-05T14:13:46.011923",
+      "health_score": 90,
+      "issues": [
+        {
+          "type": "symlink_loop",
+          "message": ".gitignore is a symlink"
+        }
+      ],
+      "stats": {
+        "total_files": 16,
+        "python_files": 8,
+        "last_commit": "2026-08-05 propose: merge Agape Offline-First Core (R-governed, zero deletions)"
+      },
+      "lessons_applicable": [],
+      "recommendations": [],
+      "changes_applied": [
+        "Destroyed symlink .gitignore, replaced with static file"
+      ]
+    },
+    "agape-une": {
+      "repo": "agape-une",
+      "private": false,
+      "scanned_at": "2026-08-05T14:13:51.188649",
+      "health_score": 90,
+      "issues": [
+        {
+          "type": "symlink_loop",
+          "message": ".gitignore is a symlink"
+        }
+      ],
+      "stats": {
+        "total_files": 18,
+        "python_files": 8,
+        "last_commit": "2026-08-05 propose: merge Agape Offline-First Core (R-governed, zero deletions)"
+      },
+      "lessons_applicable": [],
+      "recommendations": [],
+      "changes_applied": [
+        "Destroyed symlink .gitignore, replaced with static file"
+      ]
+    },
+    "agape-coordination": {
+      "repo": "agape-coordination",
+      "private": false,
+      "scanned_at": "2026-08-05T14:13:57.446633",
+      "health_score": 75,
+      "issues": [
+        {
+          "type": "hardcoded_path",
+          "message": "./agape_engine.py:#!/data/data/com.termux/files/usr/bin/env python3\n./agape_engine.py:  The knowledge base lives on os.environ.get(\"OPENROOT_BASE\", \"/sdcard/openroot\") + \"/\"agape_kb/\n./agape_engine.py"
+        },
+        {
+          "type": "symlink_loop",
+          "message": ".gitignore is a symlink"
+        }
+      ],
+      "stats": {
+        "total_files": 24,
+        "python_files": 13,
+        "last_commit": "2026-08-05 propose: merge Agape Offline-First Core (R-governed, zero deletions)"
+      },
+      "lessons_applicable": [],
+      "recommendations": [
+        "Replace hardcoded paths with Path(__file__).parent.resolve()"
+      ],
+      "changes_applied": [
+        "Flagged for path migration",
+        "Destroyed symlink .gitignore, replaced with static file"
+      ]
+    },
+    "aerocement": {
+      "repo": "aerocement",
+      "private": false,
+      "scanned_at": "2026-08-05T14:14:04.406955",
+      "health_score": 75,
+      "issues": [
+        {
+          "type": "hardcoded_path",
+          "message": "./01_git_storage_fix.sh:#!/data/data/com.termux/files/usr/bin/env bash\n./aerocement/beacon.py:    a(\"#!/data/data/com.termux/files/usr/bin/bash\")\n./aerocement/topics.sh:#!/data/data/com.termux/files/u"
+        },
+        {
+          "type": "symlink_loop",
+          "message": ".gitignore is a symlink"
+        }
+      ],
+      "stats": {
+        "total_files": 123,
+        "python_files": 38,
+        "last_commit": "2026-08-05 propose: merge Agape Offline-First Core (R-governed, zero deletions)"
+      },
+      "lessons_applicable": [],
+      "recommendations": [
+        "Replace hardcoded paths with Path(__file__).parent.resolve()"
+      ],
+      "changes_applied": [
+        "Flagged for path migration",
+        "Destroyed symlink .gitignore, replaced with static file"
+      ]
+    },
+    "OpenCell-Thermal-System": {
+      "repo": "OpenCell-Thermal-System",
+      "private": false,
+      "scanned_at": "2026-08-05T14:14:15.032194",
+      "health_score": 75,
+      "issues": [
+        {
+          "type": "hardcoded_path",
+          "message": "./1_code/src/renaissance_cop.py:#!/data/data/com.termux/files/usr/bin/python\n./1_code/src/renaissance_monitor.py:#!/data/data/com.termux/files/usr/bin/python\n./1_code/src/renaissance_monitor.py:      "
+        },
+        {
+          "type": "symlink_loop",
+          "message": ".gitignore is a symlink"
+        }
+      ],
+      "stats": {
+        "total_files": 51,
+        "python_files": 16,
+        "last_commit": "2026-08-05 propose: merge Agape Offline-First Core (R-governed, zero deletions)"
+      },
+      "lessons_applicable": [],
+      "recommendations": [
+        "Replace hardcoded paths with Path(__file__).parent.resolve()"
+      ],
+      "changes_applied": [
+        "Flagged for path migration",
+        "Destroyed symlink .gitignore, replaced with static file"
+      ]
+    },
+    "AeroCement_Ecosystem": {
+      "repo": "AeroCement_Ecosystem",
+      "private": false,
+      "scanned_at": "2026-08-05T14:14:21.101385",
+      "health_score": 90,
+      "issues": [
+        {
+          "type": "symlink_loop",
+          "message": ".gitignore is a symlink"
+        }
+      ],
+      "stats": {
+        "total_files": 26,
+        "python_files": 8,
+        "last_commit": "2026-08-05 propose: merge Agape Offline-First Core (R-governed, zero deletions)"
+      },
+      "lessons_applicable": [],
+      "recommendations": [],
+      "changes_applied": [
+        "Destroyed symlink .gitignore, replaced with static file"
+      ]
+    },
+    "civilization2.0": {
+      "repo": "civilization2.0",
+      "private": false,
+      "scanned_at": "2026-08-05T14:14:25.994158",
+      "health_score": 90,
+      "issues": [
+        {
+          "type": "symlink_loop",
+          "message": ".gitignore is a symlink"
+        }
+      ],
+      "stats": {
+        "total_files": 18,
+        "python_files": 8,
+        "last_commit": "2026-08-05 propose: merge Agape Offline-First Core (R-governed, zero deletions)"
+      },
+      "lessons_applicable": [
+        "push_failed_auth_failure"
+      ],
+      "recommendations": [],
+      "changes_applied": [
+        "Destroyed symlink .gitignore, replaced with static file"
+      ]
+    },
+    "open-cell-thermal-loop": {
+      "repo": "open-cell-thermal-loop",
+      "private": true,
+      "scanned_at": "2026-08-05T14:14:29.699265",
+      "health_score": 100,
+      "issues": [],
+      "stats": {
+        "total_files": 5,
+        "python_files": 0,
+        "last_commit": "2026-08-05 propose: merge Agape Offline-First Core (R-governed, zero deletions)"
+      },
+      "lessons_applicable": [
+        "diverged_histories"
+      ],
+      "recommendations": [],
+      "changes_applied": []
+    },
+    "open-cell-thermal-open-cell-the": {
+      "repo": "open-cell-thermal-open-cell-the",
+      "private": false,
+      "scanned_at": "2026-08-05T14:14:30.785138",
+      "health_score": 90,
+      "issues": [
+        {
+          "type": "symlink_loop",
+          "message": ".gitignore is a symlink"
+        },
+        {
+          "type": "merge_conflict",
+          "message": "Histories diverged, manual resolution needed"
+        }
+      ],
+      "stats": {
+        "total_files": 14,
+        "python_files": 8,
+        "last_commit": "2026-08-05 propose: merge Agape Offline-First Core (R-governed, zero deletions)"
+      },
+      "lessons_applicable": [
+        "diverged_histories"
+      ],
+      "recommendations": [],
+      "changes_applied": [
+        "Destroyed symlink .gitignore, replaced with static file"
+      ]
+    },
+    "renaissance-protocol": {
+      "repo": "renaissance-protocol",
+      "private": false,
+      "scanned_at": "2026-08-05T14:14:33.780995",
+      "health_score": 90,
+      "issues": [
+        {
+          "type": "symlink_loop",
+          "message": ".gitignore is a symlink"
+        }
+      ],
+      "stats": {
+        "total_files": 59,
+        "python_files": 13,
+        "last_commit": "2026-08-05 propose: merge Agape Offline-First Core (R-governed, zero deletions)"
+      },
+      "lessons_applicable": [
+        "push_failed_auth_failure"
+      ],
+      "recommendations": [],
+      "changes_applied": [
+        "Destroyed symlink .gitignore, replaced with static file"
+      ]
+    },
+    "aerocement-": {
+      "repo": "aerocement-",
+      "private": false,
+      "scanned_at": "2026-08-05T14:14:38.334186",
+      "health_score": 90,
+      "issues": [
+        {
+          "type": "symlink_loop",
+          "message": ".gitignore is a symlink"
+        },
+        {
+          "type": "merge_conflict",
+          "message": "Histories diverged, manual resolution needed"
+        }
+      ],
+      "stats": {
+        "total_files": 15,
+        "python_files": 8,
+        "last_commit": "2026-08-05 propose: merge Agape Offline-First Core (R-governed, zero deletions)"
+      },
+      "lessons_applicable": [
+        "diverged_histories"
+      ],
+      "recommendations": [],
+      "changes_applied": [
+        "Destroyed symlink .gitignore, replaced with static file"
+      ]
     }
   },
-  "training_stats": {
-    "total_error_patterns": 16,
-    "total_synergy_labels": 11,
-    "total_efficiency_records": 3,
-    "best_practices": {
-      "search_failed": "Check API rate limits",
-      "merge_conflict": "Manual conflict resolution needed",
-      "auth_failure": "Check error type and apply learned fix",
-      "unknown": "refresh_gh_auth",
-      "unbound_variable": "Unified all references to REPORT_MD; audited entire script for case consistency",
-      "git_clone_blocked": "Used git -C for operations on existing repo; used git fetch --all --tags instead of clone for already-initialized repos",
-      "password_store_empty": "Recognized this as another symptom of Python-in-bash; the fix is the same heredoc deployment pattern",
-      "inefficient_iteration": "Established golden rule: ALL Python code goes through cat > file << 'DELIM' pipeline. No exceptions.",
-      "missing_directory": "Added mkdir -p before file deployment; baked into standard deployment template"
-    }
-  },
-  "seismic_events": [
+  "recent_lessons": [
     {
-      "type": "error_storm",
-      "magnitude": 5,
-      "detail": "5x search_failed errors in recent lessons",
-      "severity": "warning"
+      "timestamp": "2026-08-05T10:17:49.901496+00:00",
+      "error_type": "unbound_variable",
+      "error_detail": "REPORT_md referenced in echo but only REPORT_MD was defined, triggering set -u abort",
+      "root_cause": "Inconsistent variable casing within same script block",
+      "fix_applied": "Unified all references to REPORT_MD; audited entire script for case consistency",
+      "wealth_transmutation": "Added pre-flight lint check to deployment protocol: grep for variable case mismatches before execution. Worth ~50 joules in future debugging avoidance.",
+      "category": "linting",
+      "source": "atomic_core_cycle_1",
+      "synergy_tags": [
+        "pre_flight_check",
+        "case_sensitivity",
+        "lint_protocol"
+      ],
+      "lesson_hash": "a7c58e37dff7a8e2"
+    },
+    {
+      "timestamp": "2026-08-05T10:17:49.901665+00:00",
+      "error_type": "git_clone_blocked",
+      "error_detail": "git clone into non-empty directory failed: 'destination path already exists and is not an empty directory'",
+      "root_cause": "Attempted to clone into ~/une which already contained files from prior work",
+      "fix_applied": "Used git -C for operations on existing repo; used git fetch --all --tags instead of clone for already-initialized repos",
+      "wealth_transmutation": "Documented decision tree: if dir exists \u2192 fetch, if empty \u2192 clone. Eliminates a recurring 2-minute delay. Worth ~75 joules across remaining sessions.",
+      "category": "git_workflow",
+      "source": "atomic_core_cycle_1",
+      "synergy_tags": [
+        "git_decision_tree",
+        "fetch_vs_clone",
+        "workflow_efficiency"
+      ],
+      "lesson_hash": "da19ad40242d61e1"
+    },
+    {
+      "timestamp": "2026-08-05T10:17:49.901809+00:00",
+      "error_type": "password_store_empty",
+      "error_detail": "Bash parsed Python 'pass' keyword as the Unix 'pass' password manager command, which had empty store",
+      "root_cause": "Python keyword 'pass' collided with system binary 'pass' (password manager from pass package)",
+      "fix_applied": "Recognized this as another symptom of Python-in-bash; the fix is the same heredoc deployment pattern",
+      "wealth_transmutation": "Reinforced the diagnostic heuristic: any Python keyword being treated as a shell command confirms interpreter mismatch. Strengthens the pattern recognition network. Worth ~25 joules in faster future diagnosis.",
+      "category": "diagnostic",
+      "source": "atomic_core_cycle_1",
+      "synergy_tags": [
+        "keyword_collision",
+        "diagnostic_reinforcement",
+        "pattern_network"
+      ],
+      "lesson_hash": "f20fe7435f71cadb"
+    },
+    {
+      "timestamp": "2026-08-05T10:17:49.901949+00:00",
+      "error_type": "inefficient_iteration",
+      "error_detail": "Python code was manually pasted line-by-line into bash, causing ~80+ failed commands and zero productive output",
+      "root_cause": "No file intermediary existed; raw text was fed to interactive bash prompt without any wrapper",
+      "fix_applied": "Established golden rule: ALL Python code goes through cat > file << 'DELIM' pipeline. No exceptions.",
+      "wealth_transmutation": "This single discipline converts a 30-minute debugging disaster into a 30-second deployment. The delta is enormous: ~1800 joules saved per future script deployment. Across 100 anticipated script deployments, this is 180,000 joules of human effort preserved.",
+      "category": "workflow_fundamental",
+      "source": "atomic_core_cycle_1",
+      "synergy_tags": [
+        "golden_rule",
+        "heredoc_pipeline",
+        "force_multiplier"
+      ],
+      "lesson_hash": "e15b401987dfb76e"
+    },
+    {
+      "timestamp": "2026-08-05T10:17:49.902094+00:00",
+      "error_type": "missing_directory",
+      "error_detail": "atomic_core.py deployed to ~/une/bin/ but bin directory didn't exist, causing 'No such file or directory'",
+      "root_cause": "Deployment sequence assumed directory structure existed without creating it first",
+      "fix_applied": "Added mkdir -p before file deployment; baked into standard deployment template",
+      "wealth_transmutation": "Created deployment checklist step #1: mkdir -p target directory. Prevents a class of FileNotFoundError across all future deployments. Worth ~30 joules.",
+      "category": "deployment",
+      "source": "atomic_core_cycle_1",
+      "synergy_tags": [
+        "directory_creation",
+        "deployment_checklist",
+        "defensive_setup"
+      ],
+      "lesson_hash": "8449d338841b5fa6"
+    },
+    {
+      "timestamp": "2026-08-05T10:17:49.902275+00:00",
+      "error_type": "search_failed",
+      "error_detail": "10x recurrence of search_failed in lesson log indicates systemic issue, not isolated incident",
+      "root_cause": "No structured feedback loop existed to capture, analyze, and eliminate recurring error patterns",
+      "fix_applied": "Deployed Atomic Core with UniversalTrainer that extracts patterns from lessons and compiles best practices corpus",
+      "wealth_transmutation": "The Atomic Core itself IS the transmutation machine. Every error fed into it becomes a training pattern that prevents future occurrence. The system grows smarter with each mistake. This is the definition of antifragility \u2014 errors make the system stronger, not weaker. Net wealth generation: unbounded, compounding with each cycle.",
+      "category": "systemic",
+      "source": "atomic_core_cycle_1",
+      "synergy_tags": [
+        "antifragile_core",
+        "feedback_loop",
+        "compounding_intelligence",
+        "wealth_engine"
+      ],
+      "lesson_hash": "44c9e29c783ae536"
+    },
+    {
+      "timestamp": "2026-08-05T14:12:03.394564",
+      "cycle": 1,
+      "repo": "external_scan",
+      "error_type": "search_failed",
+      "error_message": "Unknown JSON field: \"forks\"\nAvailable fields:\n  createdAt\n  defaultBranch\n  description\n  forksCount\n  fullName\n  hasDownloads\n  hasIssues\n  hasPages\n  hasProjects\n  hasWiki\n  homepage\n  id\n  isArchived\n  isDisabled\n  isFork\n  isPrivate\n  language\n  license\n  name\n  openIssuesCount\n  owner\n  pushedA",
+      "root_cause": "gh search API error",
+      "fix_applied": "Check API rate limits",
+      "occurrence": 31
+    },
+    {
+      "timestamp": "2026-08-05T14:12:03.559369",
+      "cycle": 1,
+      "repo": "external_scan",
+      "error_type": "search_failed",
+      "error_message": "Unknown JSON field: \"forks\"\nAvailable fields:\n  createdAt\n  defaultBranch\n  description\n  forksCount\n  fullName\n  hasDownloads\n  hasIssues\n  hasPages\n  hasProjects\n  hasWiki\n  homepage\n  id\n  isArchived\n  isDisabled\n  isFork\n  isPrivate\n  language\n  license\n  name\n  openIssuesCount\n  owner\n  pushedA",
+      "root_cause": "gh search API error",
+      "fix_applied": "Check API rate limits",
+      "occurrence": 32
+    },
+    {
+      "timestamp": "2026-08-05T14:12:03.710504",
+      "cycle": 1,
+      "repo": "external_scan",
+      "error_type": "search_failed",
+      "error_message": "Unknown JSON field: \"forks\"\nAvailable fields:\n  createdAt\n  defaultBranch\n  description\n  forksCount\n  fullName\n  hasDownloads\n  hasIssues\n  hasPages\n  hasProjects\n  hasWiki\n  homepage\n  id\n  isArchived\n  isDisabled\n  isFork\n  isPrivate\n  language\n  license\n  name\n  openIssuesCount\n  owner\n  pushedA",
+      "root_cause": "gh search API error",
+      "fix_applied": "Check API rate limits",
+      "occurrence": 33
+    },
+    {
+      "timestamp": "2026-08-05T14:12:03.853660",
+      "cycle": 1,
+      "repo": "external_scan",
+      "error_type": "search_failed",
+      "error_message": "Unknown JSON field: \"forks\"\nAvailable fields:\n  createdAt\n  defaultBranch\n  description\n  forksCount\n  fullName\n  hasDownloads\n  hasIssues\n  hasPages\n  hasProjects\n  hasWiki\n  homepage\n  id\n  isArchived\n  isDisabled\n  isFork\n  isPrivate\n  language\n  license\n  name\n  openIssuesCount\n  owner\n  pushedA",
+      "root_cause": "gh search API error",
+      "fix_applied": "Check API rate limits",
+      "occurrence": 34
+    },
+    {
+      "timestamp": "2026-08-05T14:12:04.012481",
+      "cycle": 1,
+      "repo": "external_scan",
+      "error_type": "search_failed",
+      "error_message": "Unknown JSON field: \"forks\"\nAvailable fields:\n  createdAt\n  defaultBranch\n  description\n  forksCount\n  fullName\n  hasDownloads\n  hasIssues\n  hasPages\n  hasProjects\n  hasWiki\n  homepage\n  id\n  isArchived\n  isDisabled\n  isFork\n  isPrivate\n  language\n  license\n  name\n  openIssuesCount\n  owner\n  pushedA",
+      "root_cause": "gh search API error",
+      "fix_applied": "Check API rate limits",
+      "occurrence": 35
+    },
+    {
+      "timestamp": "2026-08-05T14:12:04.184636",
+      "cycle": 1,
+      "repo": "external_scan",
+      "error_type": "search_failed",
+      "error_message": "Unknown JSON field: \"forks\"\nAvailable fields:\n  createdAt\n  defaultBranch\n  description\n  forksCount\n  fullName\n  hasDownloads\n  hasIssues\n  hasPages\n  hasProjects\n  hasWiki\n  homepage\n  id\n  isArchived\n  isDisabled\n  isFork\n  isPrivate\n  language\n  license\n  name\n  openIssuesCount\n  owner\n  pushedA",
+      "root_cause": "gh search API error",
+      "fix_applied": "Check API rate limits",
+      "occurrence": 36
+    },
+    {
+      "timestamp": "2026-08-05T14:12:04.334248",
+      "cycle": 1,
+      "repo": "external_scan",
+      "error_type": "search_failed",
+      "error_message": "Unknown JSON field: \"forks\"\nAvailable fields:\n  createdAt\n  defaultBranch\n  description\n  forksCount\n  fullName\n  hasDownloads\n  hasIssues\n  hasPages\n  hasProjects\n  hasWiki\n  homepage\n  id\n  isArchived\n  isDisabled\n  isFork\n  isPrivate\n  language\n  license\n  name\n  openIssuesCount\n  owner\n  pushedA",
+      "root_cause": "gh search API error",
+      "fix_applied": "Check API rate limits",
+      "occurrence": 37
+    },
+    {
+      "timestamp": "2026-08-05T14:12:04.480802",
+      "cycle": 1,
+      "repo": "external_scan",
+      "error_type": "search_failed",
+      "error_message": "Unknown JSON field: \"forks\"\nAvailable fields:\n  createdAt\n  defaultBranch\n  description\n  forksCount\n  fullName\n  hasDownloads\n  hasIssues\n  hasPages\n  hasProjects\n  hasWiki\n  homepage\n  id\n  isArchived\n  isDisabled\n  isFork\n  isPrivate\n  language\n  license\n  name\n  openIssuesCount\n  owner\n  pushedA",
+      "root_cause": "gh search API error",
+      "fix_applied": "Check API rate limits",
+      "occurrence": 38
+    },
+    {
+      "timestamp": "2026-08-05T14:12:04.649249",
+      "cycle": 1,
+      "repo": "external_scan",
+      "error_type": "search_failed",
+      "error_message": "Unknown JSON field: \"forks\"\nAvailable fields:\n  createdAt\n  defaultBranch\n  description\n  forksCount\n  fullName\n  hasDownloads\n  hasIssues\n  hasPages\n  hasProjects\n  hasWiki\n  homepage\n  id\n  isArchived\n  isDisabled\n  isFork\n  isPrivate\n  language\n  license\n  name\n  openIssuesCount\n  owner\n  pushedA",
+      "root_cause": "gh search API error",
+      "fix_applied": "Check API rate limits",
+      "occurrence": 39
+    },
+    {
+      "timestamp": "2026-08-05T14:12:04.801811",
+      "cycle": 1,
+      "repo": "external_scan",
+      "error_type": "search_failed",
+      "error_message": "Unknown JSON field: \"forks\"\nAvailable fields:\n  createdAt\n  defaultBranch\n  description\n  forksCount\n  fullName\n  hasDownloads\n  hasIssues\n  hasPages\n  hasProjects\n  hasWiki\n  homepage\n  id\n  isArchived\n  isDisabled\n  isFork\n  isPrivate\n  language\n  license\n  name\n  openIssuesCount\n  owner\n  pushedA",
+      "root_cause": "gh search API error",
+      "fix_applied": "Check API rate limits",
+      "occurrence": 40
+    },
+    {
+      "timestamp": "2026-08-05T14:14:29.689244",
+      "cycle": 1,
+      "repo": "civilization2.0",
+      "error_type": "auth_failure",
+      "error_message": " remote: this repository was archived so it is read-only.\nfatal: unable to access 'https://github.com/jesseray718/civilization2.0.git/': the requested url returned error: 403",
+      "root_cause": "push_failed_auth_failure",
+      "fix_applied": "Check error type and apply learned fix",
+      "occurrence": 3
+    },
+    {
+      "timestamp": "2026-08-05T14:14:33.773568",
+      "cycle": 1,
+      "repo": "open-cell-thermal-open-cell-the",
+      "error_type": "merge_conflict",
+      "error_message": "merge: origin/main - not something we can merge",
+      "root_cause": "diverged_histories",
+      "fix_applied": "Manual conflict resolution needed",
+      "occurrence": 8
+    },
+    {
+      "timestamp": "2026-08-05T14:14:38.325180",
+      "cycle": 1,
+      "repo": "renaissance-protocol",
+      "error_type": "auth_failure",
+      "error_message": " remote: this repository was archived so it is read-only.\nfatal: unable to access 'https://github.com/jesseray718/renaissance-protocol.git/': the requested url returned error: 403",
+      "root_cause": "push_failed_auth_failure",
+      "fix_applied": "Check error type and apply learned fix",
+      "occurrence": 4
+    },
+    {
+      "timestamp": "2026-08-05T14:14:41.504649",
+      "cycle": 1,
+      "repo": "aerocement-",
+      "error_type": "merge_conflict",
+      "error_message": "merge: origin/main - not something we can merge",
+      "root_cause": "diverged_histories",
+      "fix_applied": "Manual conflict resolution needed",
+      "occurrence": 9
     }
   ],
-  "graph_data": [
-    {
-      "cycle": 1,
-      "input_joules": 50,
-      "output_value": 60,
-      "efficiency": 1.2,
-      "coin_minted": 1.92,
-      "synergy": 3.07,
-      "participants": 6
-    },
-    {
-      "cycle": 2,
-      "input_joules": 50,
-      "output_value": 60,
-      "efficiency": 1.2,
-      "coin_minted": 1.92,
-      "synergy": 3.07,
-      "participants": 6
-    },
-    {
-      "cycle": 3,
-      "input_joules": 50,
-      "output_value": 60,
-      "efficiency": 1.2,
-      "coin_minted": 1.92,
-      "synergy": 3.07,
-      "participants": 6
-    }
-  ]
+  "learning_summary": {
+    "total_lessons": 83,
+    "unique_error_types": [
+      "inefficient_iteration",
+      "search_failed",
+      "git_clone_blocked",
+      "password_store_empty",
+      "auth_failure",
+      "merge_conflict",
+      "unbound_variable",
+      "missing_directory"
+    ],
+    "most_common_error": "gh search API error",
+    "repos_with_most_errors": "external_scan"
+  }
 }

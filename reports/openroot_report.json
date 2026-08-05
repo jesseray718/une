@@ -1,7 +1,7 @@
 {
   "repo": "openroot",
   "private": false,
-  "scanned_at": "2026-08-05T04:39:02.584373",
+  "scanned_at": "2026-08-05T14:12:47.499710",
   "health_score": 85,
   "issues": [
     {
@@ -10,9 +10,9 @@
     }
   ],
   "stats": {
-    "total_files": 2386,
+    "total_files": 2390,
     "python_files": 258,
-    "last_commit": "2026-08-05 auto: mesh loop cycle 1 \u2014 health scan + alignment"
+    "last_commit": "2026-08-05 propose: merge Agape Offline-First Core (R-governed, zero deletions)"
   },
   "lessons_applicable": [],
   "recommendations": [

@@ -1,15 +1,22 @@
 {
   "repo": "agape-une",
   "private": false,
-  "scanned_at": "2026-08-05T04:38:56.352750",
-  "health_score": 100,
-  "issues": [],
+  "scanned_at": "2026-08-05T14:13:51.188649",
+  "health_score": 90,
+  "issues": [
+    {
+      "type": "symlink_loop",
+      "message": ".gitignore is a symlink"
+    }
+  ],
   "stats": {
-    "total_files": 15,
+    "total_files": 18,
     "python_files": 8,
-    "last_commit": "2026-08-05 auto: mesh loop cycle 1 \u2014 health scan + alignment"
+    "last_commit": "2026-08-05 propose: merge Agape Offline-First Core (R-governed, zero deletions)"
   },
   "lessons_applicable": [],
   "recommendations": [],
-  "changes_applied": []
+  "changes_applied": [
+    "Destroyed symlink .gitignore, replaced with static file"
+  ]
 }

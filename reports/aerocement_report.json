@@ -1,24 +1,29 @@
 {
   "repo": "aerocement",
   "private": false,
-  "scanned_at": "2026-08-05T04:38:45.364163",
-  "health_score": 85,
+  "scanned_at": "2026-08-05T14:14:04.406955",
+  "health_score": 75,
   "issues": [
     {
       "type": "hardcoded_path",
       "message": "./01_git_storage_fix.sh:#!/data/data/com.termux/files/usr/bin/env bash\n./aerocement/beacon.py:    a(\"#!/data/data/com.termux/files/usr/bin/bash\")\n./aerocement/topics.sh:#!/data/data/com.termux/files/u"
+    },
+    {
+      "type": "symlink_loop",
+      "message": ".gitignore is a symlink"
     }
   ],
   "stats": {
-    "total_files": 120,
+    "total_files": 123,
     "python_files": 38,
-    "last_commit": "2026-08-05 auto: mesh loop cycle 1 \u2014 health scan + alignment"
+    "last_commit": "2026-08-05 propose: merge Agape Offline-First Core (R-governed, zero deletions)"
   },
   "lessons_applicable": [],
   "recommendations": [
     "Replace hardcoded paths with Path(__file__).parent.resolve()"
   ],
   "changes_applied": [
-    "Flagged for path migration"
+    "Flagged for path migration",
+    "Destroyed symlink .gitignore, replaced with static file"
   ]
 }

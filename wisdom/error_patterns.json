@@ -169,7 +169,17 @@
       "file": "aerocement/.gitignore",
       "signature": "dup:e3e46382e4e8e304",
       "prevention_rule": "Reject code matching: dup:e3e46382e4e8e304"
+    },
+    {
+      "id": "f96b0f1f0c650e96",
+      "timestamp": "2026-08-05T11:31:05.344415",
+      "error_type": "duplicate_file",
+      "root_cause": "Files duplicated across repos: black-locust-rmh, skills-introduction-to-github, aerocement",
+      "fix_applied": "Flagged for consolidation to canonical path",
+      "file": "aerocement/MERGE_PROPOSAL_AGAPE.md",
+      "signature": "dup:7e2eb5fd7af206dc",
+      "prevention_rule": "Reject code matching: dup:7e2eb5fd7af206dc"
     }
   ],
-  "last_updated": "2026-08-05T04:56:59.255912"
+  "last_updated": "2026-08-05T11:31:05.344438"
 }

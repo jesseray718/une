@@ -1,13 +1,13 @@
 {
   "repo": "markor",
   "private": false,
-  "scanned_at": "2026-08-05T04:40:48.424603",
+  "scanned_at": "2026-08-05T14:13:42.398860",
   "health_score": 100,
   "issues": [],
   "stats": {
-    "total_files": 872,
+    "total_files": 863,
     "python_files": 0,
-    "last_commit": "2026-08-05 auto: mesh loop cycle 1 \u2014 health scan + alignment"
+    "last_commit": "2026-08-05 propose: merge Agape Offline-First Core (R-governed, zero deletions)"
   },
   "lessons_applicable": [
     "diverged_histories"

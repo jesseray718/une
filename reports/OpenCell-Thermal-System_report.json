@@ -1,24 +1,29 @@
 {
   "repo": "OpenCell-Thermal-System",
   "private": false,
-  "scanned_at": "2026-08-05T04:38:41.344389",
-  "health_score": 85,
+  "scanned_at": "2026-08-05T14:14:15.032194",
+  "health_score": 75,
   "issues": [
     {
       "type": "hardcoded_path",
       "message": "./1_code/src/renaissance_cop.py:#!/data/data/com.termux/files/usr/bin/python\n./1_code/src/renaissance_monitor.py:#!/data/data/com.termux/files/usr/bin/python\n./1_code/src/renaissance_monitor.py:      "
+    },
+    {
+      "type": "symlink_loop",
+      "message": ".gitignore is a symlink"
     }
   ],
   "stats": {
-    "total_files": 48,
+    "total_files": 51,
     "python_files": 16,
-    "last_commit": "2026-08-05 auto: mesh loop cycle 1 \u2014 health scan + alignment"
+    "last_commit": "2026-08-05 propose: merge Agape Offline-First Core (R-governed, zero deletions)"
   },
   "lessons_applicable": [],
   "recommendations": [
     "Replace hardcoded paths with Path(__file__).parent.resolve()"
   ],
   "changes_applied": [
-    "Flagged for path migration"
+    "Flagged for path migration",
+    "Destroyed symlink .gitignore, replaced with static file"
   ]
 }

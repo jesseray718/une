@@ -1,13 +1,13 @@
 {
   "repo": "kai-memory",
   "private": true,
-  "scanned_at": "2026-08-05T04:40:49.204961",
+  "scanned_at": "2026-08-05T14:13:44.900611",
   "health_score": 100,
   "issues": [],
   "stats": {
-    "total_files": 2,
+    "total_files": 6,
     "python_files": 0,
-    "last_commit": "2026-08-05 auto: mesh loop cycle 1 \u2014 health scan + alignment"
+    "last_commit": "2026-08-05 propose: merge Agape Offline-First Core (R-governed, zero deletions)"
   },
   "lessons_applicable": [
     "diverged_histories"

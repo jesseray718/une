@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+from __future__ import annotations
+from agape_core import AgapeAlgorithm
 
 import os
 try:
@@ -28,7 +31,6 @@ Agape Engine v1.0 — fractal base-6 swarm, resonance=1.0 zero-coordination,
 η = useful_joules / human_joules
 License: AGPL-3.0
 """
-from __future__ import annotations
 import math, json, time, os, sys
 from dataclasses import dataclass, field
 from pathlib import Path

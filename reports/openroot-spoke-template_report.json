@@ -1,15 +1,22 @@
 {
   "repo": "openroot-spoke-template",
   "private": false,
-  "scanned_at": "2026-08-05T04:39:52.559620",
-  "health_score": 100,
-  "issues": [],
+  "scanned_at": "2026-08-05T14:12:43.589736",
+  "health_score": 90,
+  "issues": [
+    {
+      "type": "symlink_loop",
+      "message": ".gitignore is a symlink"
+    }
+  ],
   "stats": {
-    "total_files": 16,
+    "total_files": 19,
     "python_files": 8,
-    "last_commit": "2026-08-05 auto: mesh loop cycle 1 \u2014 health scan + alignment"
+    "last_commit": "2026-08-05 propose: merge Agape Offline-First Core (R-governed, zero deletions)"
   },
   "lessons_applicable": [],
   "recommendations": [],
-  "changes_applied": []
+  "changes_applied": [
+    "Destroyed symlink .gitignore, replaced with static file"
+  ]
 }
