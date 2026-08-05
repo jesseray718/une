@@ -1,3 +1,7 @@
+
+def safe_get(d, k, default=None):
+    try: return d[k]
+    except KeyError: return default
 #!/data/data/com.termux/files/usr/bin/env python3
 """
 try:
