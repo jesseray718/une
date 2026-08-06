@@ -9,6 +9,7 @@ import os
 import json
 import subprocess
 from pathlib import Path
+from state_utils import load_ckpt, save_ckpt
 
 REPO_ROOT = "/data/data/com.termux/files/home"
 OUTPUT_FILE = "os.environ.get("OPENROOT_HOME", "/sdcard/openroot") + "/"stream_of_thought_report.json"
@@ -66,4 +67,5 @@ def main():
     print(f"\n✅ Report saved to: {OUTPUT_FILE}")
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     main()

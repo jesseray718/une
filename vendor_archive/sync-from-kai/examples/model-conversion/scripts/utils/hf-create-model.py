@@ -2,6 +2,7 @@
 
 from huggingface_hub import HfApi
 import argparse
+from state_utils import load_ckpt, save_ckpt
 
 # This script requires that the environment variable HF_TOKEN is set with your
 # Hugging Face API token.

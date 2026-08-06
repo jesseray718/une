@@ -3,6 +3,7 @@
 from huggingface_hub import HfApi
 import argparse
 import sys
+from state_utils import load_ckpt, save_ckpt
 
 def add_model_to_collection(collection_slug, model_id, note=""):
     """
@@ -77,4 +78,5 @@ def main():
         print("\n❌ Failed to add model to collection")
         sys.exit(1)
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     main()

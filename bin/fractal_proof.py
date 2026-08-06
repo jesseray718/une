@@ -1,6 +1,7 @@
 # fractal_proof.py - minimal deterministic recreation
 import hashlib
 import json
+from state_utils import load_ckpt, save_ckpt
 
 def fractal_kernel(seed, depth=7, branch=7):
     """Single fractal traversal returning fold hash"""
@@ -40,4 +41,5 @@ def main():
     }, indent=2))
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     main()

@@ -2,6 +2,7 @@
 import logging
 import sys
 from pathlib import Path
+from state_utils import load_ckpt, save_ckpt
 
 logger = logging.getLogger("reader")
 
@@ -42,6 +43,7 @@ def read_gguf_file(gguf_file_path):
 
 
 if __name__ == '__main__':
+    ckpt = load_ckpt()
     if len(sys.argv) < 2:
         logger.info("Usage: reader.py <path_to_gguf_file>")
         sys.exit(1)

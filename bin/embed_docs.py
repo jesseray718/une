@@ -2,6 +2,7 @@
 """Embed OpenRoot markdown docs into local vector store."""
 import json, os, time, urllib.request, urllib.error
 from pathlib import Path
+from state_utils import load_ckpt, save_ckpt
 
 SERVER = "http://127.0.0.1:9998"
 SRC_DIR = Path("/data/data/com.termux/files/home/projects/openroot")
@@ -74,4 +75,5 @@ def main():
     print(f"💾 Size: {os.path.getsize(OUTPUT) // 1024}KB")
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     main()

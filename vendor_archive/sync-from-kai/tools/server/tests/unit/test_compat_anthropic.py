@@ -2,6 +2,7 @@
 import pytest
 import base64
 import requests
+from state_utils import load_ckpt, save_ckpt
 
 from utils import *
 

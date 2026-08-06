@@ -3,6 +3,7 @@
 import shutil
 import subprocess
 from pathlib import Path
+from state_utils import load_ckpt, save_ckpt
 
 UNE_ROOT = Path.home() / "une"
 LEDGER_DIR = UNE_ROOT / "ledger"
@@ -51,4 +52,5 @@ def replicate():
     print(f"\nReplicated {replicated} repos. Failed: {failed}")
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     replicate()

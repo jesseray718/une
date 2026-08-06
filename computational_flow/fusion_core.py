@@ -4,6 +4,7 @@
 import os, json
 from datetime import datetime
 from typing import Callable, Any
+from state_utils import load_ckpt, save_ckpt
 
 import os
 try:
@@ -62,6 +63,7 @@ class FusionSystem:
         print("[FUSION-" + self.name + "] " + event_type + ": " + message)
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     ctx_path = os.path.join(OPENROOT, "context_bridge/context.json")
     os.makedirs(os.path.dirname(ctx_path), exist_ok=True)
 

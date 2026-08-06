@@ -8,6 +8,7 @@ import logging
 import sys
 from pathlib import Path
 from collections import defaultdict
+from state_utils import load_ckpt, save_ckpt
 
 
 class DocsGenerator:
@@ -198,4 +199,5 @@ def main():
 
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     main()

@@ -15,6 +15,7 @@ import time
 import hashlib
 import os
 from pathlib import Path
+from state_utils import load_ckpt, save_ckpt
 
 # Paths (absolute, Termux-safe)
 BASE = Path(os.path.join(UNE_HOME, "context_bridge"))
@@ -141,6 +142,7 @@ def status():
         print("Ledger       :", LEDGER)
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     import sys
     if len(sys.argv) < 2:
         status()

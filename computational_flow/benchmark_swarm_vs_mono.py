@@ -2,6 +2,7 @@
 """Benchmark: Fractal Swarm vs Monolithic Model on Samsung A15."""
 import os, sys, time, json, subprocess, statistics
 from datetime import datetime
+from state_utils import load_ckpt, save_ckpt
 
 import os
 try:
@@ -44,6 +45,7 @@ def run_test(name, duration, simulate_load=True):
     return res
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     print("=== AGAPE-UNE BENCHMARK ===")
     run_test("Monolithic_Sim", 2.0)
     run_test("Swarm_Sim", 2.0)

@@ -2,6 +2,7 @@
 """SELF IMPROVE — Reads audit, applies safe fixes automatically."""
 import json, os, sys, time
 from pathlib import Path
+from state_utils import load_ckpt, save_ckpt
 
 AUDIT = Path("/sdcard/openroot/agape_kb/audit_report.json")
 ROOT = Path("$(pwd)/une")
@@ -46,5 +47,6 @@ def run(dry_run=False):
         print("  " + a["action"] + ": " + a["file"])
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     dry = len(sys.argv) > 1 and sys.argv[1] == "--dry"
     run(dry_run=dry)

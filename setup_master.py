@@ -1,5 +1,6 @@
 #!/data/data/com.termux/files/usr/bin/python3
 import os
+from state_utils import load_ckpt, save_ckpt
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 COMP_DIR = os.path.join(BASE_DIR, "computational_flow")
@@ -46,6 +47,7 @@ def test_imports():
     return failed == 0
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     sys.exit(0 if test_imports() else 1)
 ''')
 

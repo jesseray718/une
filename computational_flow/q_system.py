@@ -18,6 +18,7 @@ from __future__ import annotations
 import math, json, time, hashlib
 from dataclasses import dataclass, field
 from typing import List, Dict, Tuple, Optional
+from state_utils import load_ckpt, save_ckpt
 
 C = 299792458.0
 C_SQ = C * C
@@ -327,4 +328,5 @@ def demo():
     print("Snapshot saved: " + out_path)
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     demo()

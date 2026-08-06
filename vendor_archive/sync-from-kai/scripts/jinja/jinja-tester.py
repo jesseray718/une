@@ -21,6 +21,7 @@ from jinja2 import TemplateSyntaxError
 from jinja2.sandbox import ImmutableSandboxedEnvironment
 from datetime import datetime
 from typing import Callable
+from state_utils import load_ckpt, save_ckpt
 
 
 def format_template_content(template_content):
@@ -461,6 +462,7 @@ class JinjaTester(QMainWindow):
 
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     if len(sys.argv) > 1:
         # CLI mode
         parser = argparse.ArgumentParser(description="Jinja Template Tester")

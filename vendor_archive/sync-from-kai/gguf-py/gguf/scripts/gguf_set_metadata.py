@@ -4,6 +4,7 @@ import argparse
 import os
 import sys
 from pathlib import Path
+from state_utils import load_ckpt, save_ckpt
 
 # Necessary to load the local gguf package
 if "NO_LOCAL_GGUF" not in os.environ and (Path(__file__).parent.parent.parent.parent / 'gguf-py').exists():
@@ -92,4 +93,5 @@ def main() -> None:
 
 
 if __name__ == '__main__':
+    ckpt = load_ckpt()
     main()

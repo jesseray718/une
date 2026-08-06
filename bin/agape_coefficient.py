@@ -8,6 +8,7 @@ from pathlib import Path
 import json
 from datetime import datetime, timezone
 import math
+from state_utils import load_ckpt, save_ckpt
 
 UNE = Path.home() / "une"
 CONFIG = UNE / "config" / "agape_state.json"
@@ -90,6 +91,7 @@ def report(state):
     }
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     state = load_state()
     state = update_R(state)
     save_state(state)

@@ -2,6 +2,7 @@ import os
 import tempfile
 import pytest
 from utils import *
+from state_utils import load_ckpt, save_ckpt
 
 server = ServerPreset.tinyllama2()
 

@@ -12,6 +12,7 @@ No Solana fees. GitHub is the ledger.
 """
 import os, json, subprocess, requests
 from datetime import datetime, timezone
+from state_utils import load_ckpt, save_ckpt
 
 LOG_FILE = os.path.join(OPENROOT, "session_seeds/fractal_server_log.jsonl")
 REPO_PATH = "os.path.expanduser("~") + "/".projects/openroot"
@@ -100,4 +101,5 @@ def main():
         print("\nFailed to push.")
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     main()

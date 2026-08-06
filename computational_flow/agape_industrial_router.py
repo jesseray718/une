@@ -9,6 +9,7 @@ from __future__ import annotations
 import math
 from typing import Dict, List
 from dataclasses import dataclass
+from state_utils import load_ckpt, save_ckpt
 
 @dataclass
 class Domain:
@@ -97,4 +98,5 @@ class IndustrialAgapeEngine:
         print("The ball bearing effect is the key. Prove it.")
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     IndustrialAgapeEngine().print_blueprint()

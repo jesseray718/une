@@ -5,6 +5,7 @@ This module calculates concrete energy yields based on permaculture inputs.
 TODO: Implement actual logic or link to thermal_cascade_calc.py
 """
 import sys
+from state_utils import load_ckpt, save_ckpt
 
 def main():
     print("⚠️  concrete_calculus.py: Placeholder active.")
@@ -12,4 +13,5 @@ def main():
     print("   Usage: python3 concrete_calculus.py <input_joules> <material_type>")
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     main()

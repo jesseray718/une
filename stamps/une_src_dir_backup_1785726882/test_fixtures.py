@@ -1,6 +1,7 @@
 """Pytest fixtures + mocking examples."""
 import json, pytest
 from unittest.mock import mock_open
+from state_utils import load_ckpt, save_ckpt
 
 @pytest.fixture
 def sample_result():

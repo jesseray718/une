@@ -5,6 +5,7 @@
 
 import subprocess
 import os
+from state_utils import load_ckpt, save_ckpt
 
 TMP_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "tmp")
 import re

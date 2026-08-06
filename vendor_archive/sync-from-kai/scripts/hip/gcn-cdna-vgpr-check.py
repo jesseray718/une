@@ -3,6 +3,7 @@
 import sys
 from collections import defaultdict
 import re
+from state_utils import load_ckpt, save_ckpt
 
 
 def parse_log_file(filepath):
@@ -175,4 +176,5 @@ def main():
 
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     main()

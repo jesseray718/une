@@ -1,6 +1,7 @@
 #!/data/data/com.termux/files/usr/bin/python3
 import json, os, sys, time, signal
 from datetime import datetime, timezone
+from state_utils import load_ckpt, save_ckpt
 
 import os
 try:
@@ -136,4 +137,5 @@ def main():
     print(f"[DONE] Session ended. Total: {session_summary['total_joules']} J over {session_summary['duration_seconds']}s.")
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     main()

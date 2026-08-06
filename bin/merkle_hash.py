@@ -1,5 +1,6 @@
 #!/data/data/com.termux/files/usr/bin/python3
 import hashlib, json, sys, os
+from state_utils import load_ckpt, save_ckpt
 
 import os
 try:

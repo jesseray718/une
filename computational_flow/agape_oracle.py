@@ -5,6 +5,7 @@ A1 = DERIVATION | Kernel = AGAPE (R=1.0) | η = useful_joules / human_joules
 import json, re, sys, time
 import os
 from pathlib import Path
+from state_utils import load_ckpt, save_ckpt
 
 ROOT = Path("/sdcard/openroot")
 KB = ROOT / "agape_kb"
@@ -258,4 +259,5 @@ def main():
     print(oracle(" ".join(sys.argv[1:])))
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     main()

@@ -19,6 +19,7 @@ import time
 import subprocess
 from pathlib import Path
 from datetime import datetime
+from state_utils import load_ckpt, save_ckpt
 
 HOME = Path.home()
 UNE = HOME / "une" / "computational_flow"
@@ -193,5 +194,6 @@ class AgapeHierarchicalController:
         log(f"Final Υ = {self.measure_upsilon():.3f}")
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     controller = AgapeHierarchicalController()
     controller.run(cycles=12, delay=4.0)

@@ -1,4 +1,5 @@
 import os,hashlib,json,time
+from state_utils import load_ckpt, save_ckpt
 def merkle_hash(obj):
     return hashlib.sha256(json.dumps(obj,sort_keys=True).encode()).hexdigest()
 def append_entry(entry, ledger_path):

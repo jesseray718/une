@@ -18,6 +18,7 @@ Formulas:
 from __future__ import annotations
 import math
 from dataclasses import dataclass
+from state_utils import load_ckpt, save_ckpt
 
 # Constants
 PI = math.pi
@@ -144,4 +145,5 @@ def demo():
     print("  Next Step: Mix trial with surfactant to achieve 10um bubbles.")
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     demo()

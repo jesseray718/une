@@ -6,6 +6,7 @@ Micro-Node thermodynamic model — energy-conserving
 """
 import math
 import json
+from state_utils import load_ckpt, save_ckpt
 
 # Locked Micro-Node
 APERTURE_M2     = 12.0
@@ -58,6 +59,7 @@ def model(delta_t=25.0):
     }
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     print(json.dumps(model(25.0), indent=2))
     print("---")
     print(json.dumps(model(35.0), indent=2))

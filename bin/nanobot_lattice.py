@@ -13,6 +13,7 @@ import sys
 from pathlib import Path
 from dataclasses import dataclass, asdict
 from typing import Any, Dict, List, Optional, Tuple
+from state_utils import load_ckpt, save_ckpt
 
 LANDAUER = 2.85e-21
 BASE_HUMAN_J_PER_LINE = 0.0008
@@ -200,4 +201,5 @@ def main():
     print(json.dumps(out, indent=2))
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     main()

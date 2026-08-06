@@ -4,6 +4,7 @@ Atomic physical loops — joules, m³, hours, person-hours only.
 """
 
 from typing import Dict
+from state_utils import load_ckpt, save_ckpt
 
 
 def labor_intensity(person_hours: float, volume_m3: float) -> float:

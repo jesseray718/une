@@ -12,6 +12,7 @@ Corrected physics model per Context Bridge 2026-07-05:
 
 import json
 import math
+from state_utils import load_ckpt, save_ckpt
 
 # ============================================================
 # PHYSICS CONSTANTS
@@ -348,4 +349,5 @@ def main():
 
 
 if __name__ == '__main__':
+    ckpt = load_ckpt()
     main()

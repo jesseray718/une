@@ -20,6 +20,7 @@ CIRCUIT:
 """
 
 import math
+from state_utils import load_ckpt, save_ckpt
 
 # ============================================================
 # CONSTANTS
@@ -462,6 +463,7 @@ def display_top(results, n=10):
     print()
 
 if __name__ == '__main__':
+    ckpt = load_ckpt()
     import sys
     print("Sweeping parameter space...")
     print("  ch_d: 4-15cm | stack: 3-12m | lab: 0.5-8m³ | cold: 100-500kg | lid: 4-36m²")

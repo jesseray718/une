@@ -8,6 +8,7 @@ Writes a layer-1 postulate on success.
 """
 import json, sys, hashlib, time, re
 from pathlib import Path
+from state_utils import load_ckpt, save_ckpt
 
 def extract_code(llm_text: str) -> str:
     m = re.search(r'OPTIMIZED_CODE:\s*(.*?)(?:ENERGY_DELTA:|ACRE_NOTE:|$)', llm_text, re.DOTALL | re.IGNORECASE)
@@ -128,4 +129,5 @@ def main():
     print(json.dumps(result, indent=2))
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     main()

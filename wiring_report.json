@@ -1,0 +1,1688 @@
+{
+  "timestamp": "2026-08-06T00:07:31.354394+00:00",
+  "total_scanned": 391,
+  "wired": 336,
+  "skipped": 46,
+  "files": [
+    {
+      "file": "absorber.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "core_atomic.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "prime_mapper.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "optimize_tasks.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "universical_primes.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "red_words_translator.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "guardian.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "immortal_absorber.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "re_score.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "f12_swarm_embed.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "setup_master.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "meta_audit.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "meta_meta.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "self_improve.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "state_utils.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "brain_connector.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "src/thermal_opt.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "src/compute_joules.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "src/therm_ledger.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "src/sensor_read.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "src/compute_useful.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "src/expander.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "tools/transform_lesson.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "tools/stream_of_thought.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "tools/recursive_loop.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "tools/absorber.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "computational_flow/fusion_core.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "computational_flow/fusion_sensor_wrapper.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "computational_flow/extract_seed.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "computational_flow/agape_gate.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "computational_flow/hyperfusion_orchestrator.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "computational_flow/agape_evaluate.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "computational_flow/hierarchical_controller.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "computational_flow/benchmark_swarm_vs_mono.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "computational_flow/tier4_github_scan.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "computational_flow/atomic_scan.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "computational_flow/fractal_engine.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "computational_flow/fractal_server.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "computational_flow/push_proof.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "computational_flow/porous_exchanger_design.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "computational_flow/passive_dt_vehicle.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "computational_flow/phi_vortex_generator.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "computational_flow/hive_bridge.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "computational_flow/merkle_thermo.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "computational_flow/swarm_core.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "computational_flow/swarm_core_v3.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "computational_flow/agape_engine.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "computational_flow/merkle_joule_root.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "computational_flow/stamp_context.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "computational_flow/fs_hook.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "computational_flow/core_functions.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "computational_flow/structure_enforcer.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "computational_flow/agape_core.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "computational_flow/agape_oracle.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "computational_flow/agape_projection_engine.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "computational_flow/q_system.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "computational_flow/synergetic_agape_calculus.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "computational_flow/fractal_agape_kernel.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "computational_flow/agape_financial_router.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "computational_flow/agape_industrial_router.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "computational_flow/agape_geometric_concrete.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "wisdom/expand_elements.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "wisdom/wisdom_query.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "wisdom/absorb.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "wisdom/absorb_full_memory.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "wisdom/absorb_everything_now.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "bin/rish_wrapper.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "bin/energy_logger.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "bin/efficiency_score.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "bin/merkle_hash.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "bin/energy_probe.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "bin/deep_dive_scanner.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "bin/agape_protocol.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "bin/meta_mesh_generator.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "bin/dossier_engine.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "bin/acre_mint_claim.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "bin/persistent_snapshot.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "bin/transmutation_engine.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "bin/universal_fair_init.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "bin/agape_autonomous_cycle.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "bin/agape_board_advisor.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "bin/agape_coefficient.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "bin/agape_fractal_system.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "bin/agape_propagator.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "bin/agape_status.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "bin/analyze_network.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "bin/atomic_core.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "bin/audit_repo.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "bin/auto_sensor_capture.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "bin/concrete_calculus.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "bin/core_atomic.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "bin/distributed_replicator.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "bin/efficiency_coefficient.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "bin/embed_docs.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "bin/extract_metrics.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "bin/fractal_proof.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "bin/full_mesh_loop.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "bin/github_agape_scanner.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "bin/h003_resonant_solver.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "bin/instrument_ledger.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "bin/kingdom_validate.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "bin/lattice_to_llm.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "bin/lesson_injector.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "bin/mesh_updater.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "bin/nanobot_lattice.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "bin/negentropic_observer.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "bin/nomic_embed.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "bin/offline_clone_manager.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "bin/offline_rank.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "bin/offline_synergy_creator.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "bin/offline_writer.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "bin/omega_zero.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "bin/push_agape_core.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "bin/query_agent.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "bin/rad_cooling.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "bin/reversible_sim.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "bin/thermal_cascade_v2.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "bin/thermal_optimal_balance.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "bin/thermal_optimal_v2.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "bin/thermal_v62_balanced.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "bin/transmutation_immortality.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "bin/une_resolve.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "bin/vecquery.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "bin/verify_and_learn.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "bin/wealth_transmuter.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "une/axioms.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "tests/test_smoke.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "agape_coin/core.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "contributions/auto_evolution_20260805_032244.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "contributions/auto_evolution_20260805_025321.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "contributions/auto_evolution_20260805_030459.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "contributions/auto_evolution_20260805_032326.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "contributions/auto_evolution_20260805_041552.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "core/agape_coefficient.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "core/distributed_replicator.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "core/offline_clone_manager.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "core/offline_synergy_creator.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "core/push_agape_core.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "councils/tri_council.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "openroot-unified-backup/une_20260805_015447/axioms.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/convert_hf_to_gguf.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/convert_hf_to_gguf_update.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/convert_llama_ggml_to_gguf.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/convert_lora_to_gguf.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/__init__.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/afmoe.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/arctic.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/baichuan.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/bailingmoe.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/base.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/bert.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/bitnet.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/bloom.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/chameleon.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/chatglm.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/codeshell.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/cogvlm.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/command_r.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/dbrx.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/deci.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/deepseek.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/dots1.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/dotsocr.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/dream.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/ernie.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/exaone.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/falcon.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/falcon_h1.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/gemma.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/glm.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/gpt2.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/gpt_oss.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/gptneox.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/granite.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/grok.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/grovemoe.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/hunyuan.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/internlm.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/internvl.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/jais.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/jamba.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/januspro.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/kimi_linear.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/kimivl.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/lfm2.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/lighton_ocr.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/llada.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/llama.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/llama4.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/llava.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/maincoder.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/mamba.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/mellum.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/mimo.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/minicpm.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/minimax.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/mistral.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/mistral3.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/mpt.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/nemotron.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/olmo.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/openelm.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/orion.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/pangu.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/phi.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/pixtral.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/plamo.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/plm.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/qwen.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/qwen3vl.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/qwenvl.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/refact.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/rwkv.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/sarashina2.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/smallthinker.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/smolvlm.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/stablelm.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/starcoder.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/step3.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/t5.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/talkie.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/ultravox.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/wavtokenizer.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/xverse.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/conversion/youtuvl.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/examples/convert_legacy_llama.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/examples/json_schema_pydantic_example.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/examples/json_schema_to_grammar.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/examples/pydantic_models_to_grammar.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/examples/pydantic_models_to_grammar_examples.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/examples/server_embd.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/scripts/compare-llama-bench.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/scripts/compare-logprobs.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/scripts/create_ops_docs.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/scripts/fetch_server_test_models.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/scripts/gen-unicode-data.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/scripts/get_chat_template.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/scripts/server-bench.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/scripts/server-test-function-call.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/scripts/server-test-model.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/scripts/server-test-parallel-tc.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/scripts/server-test-structured.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/scripts/tool_bench.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/scripts/verify-checksum-models.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/tests/test-tokenizer-random.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/tools/tts/convert_pt_to_hf.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/tools/tts/tts-outetts.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/tools/server/bench/bench.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/tools/server/tests/conftest.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/tools/server/tests/utils.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/tools/server/tests/unit/test_basic.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/tools/server/tests/unit/test_chat_completion.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/tools/server/tests/unit/test_compat_anthropic.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/tools/server/tests/unit/test_compat_gcp.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/tools/server/tests/unit/test_compat_oai_responses.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/tools/server/tests/unit/test_completion.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/tools/server/tests/unit/test_ctx_shift.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/tools/server/tests/unit/test_embedding.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/tools/server/tests/unit/test_ignore_eos.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/tools/server/tests/unit/test_infill.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/tools/server/tests/unit/test_kv_keep_only_active.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/tools/server/tests/unit/test_lora.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/tools/server/tests/unit/test_proxy.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/tools/server/tests/unit/test_rerank.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/tools/server/tests/unit/test_router.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/tools/server/tests/unit/test_security.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/tools/server/tests/unit/test_sleep.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/tools/server/tests/unit/test_slot_save.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/tools/server/tests/unit/test_speculative.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/tools/server/tests/unit/test_template.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/tools/server/tests/unit/test_tokenize.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/tools/server/tests/unit/test_tool_call.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/tools/server/tests/unit/test_vision_api.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/tools/server/bench/speed-bench/speed_bench.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/tools/server/bench/speed-bench/speed_bench_compare.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/tools/mtmd/legacy-models/convert_image_encoder_to_gguf.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/tools/mtmd/legacy-models/glmedge-convert-image-encoder-to-gguf.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/tools/mtmd/legacy-models/llava_surgery_v2.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/tools/mtmd/legacy-models/minicpmv-convert-image-encoder-to-gguf.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/tools/mtmd/tests/test-deepseek-ocr.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/scripts/hip/gcn-cdna-vgpr-check.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/scripts/jinja/jinja-tester.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/scripts/snapdragon/ggml-hexagon-profile.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/scripts/snapdragon/ggml-hexagon-trace.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/scripts/snapdragon/qdc/run_qdc_jobs.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/scripts/snapdragon/qdc/tests/conftest.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/scripts/snapdragon/qdc/tests/run_backend_ops_posix.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/scripts/snapdragon/qdc/tests/run_bench_tests_posix.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/scripts/snapdragon/qdc/tests/utils.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/gguf-py/examples/reader.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/gguf-py/examples/writer.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/gguf-py/gguf/constants.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/gguf-py/gguf/gguf_reader.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/gguf-py/gguf/gguf_writer.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/gguf-py/gguf/lazy.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/gguf-py/gguf/metadata.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/gguf-py/gguf/quants.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/gguf-py/gguf/tensor_mapping.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/gguf-py/gguf/utility.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/gguf-py/gguf/vocab.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/gguf-py/tests/test_metadata.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/gguf-py/tests/test_quants.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/gguf-py/gguf/scripts/gguf_convert_endian.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/gguf-py/gguf/scripts/gguf_dump.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/gguf-py/gguf/scripts/gguf_editor_gui.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/gguf-py/gguf/scripts/gguf_hash.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/gguf-py/gguf/scripts/gguf_new_metadata.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/gguf-py/gguf/scripts/gguf_set_metadata.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/ggml/src/ggml-virtgpu/regenerate_remoting.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/ggml/src/ggml-webgpu/wgsl-shaders/embed_wgsl.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/ggml/src/ggml-opencl/kernels/embed_kernel.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/ggml/src/ggml-cuda/template-instances/generate_cu_files.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/examples/llama-eval/llama-eval.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/examples/llama-eval/llama-server-simulator.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/examples/model-conversion/scripts/causal/compare-logits.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/examples/model-conversion/scripts/causal/run-casual-gen-embeddings-org.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/examples/model-conversion/scripts/causal/run-org-model.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/examples/model-conversion/scripts/embedding/run-original-model.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/examples/model-conversion/scripts/utils/check-nmse.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/examples/model-conversion/scripts/utils/common.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/examples/model-conversion/scripts/utils/compare_tokens.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/examples/model-conversion/scripts/utils/hf-add-model-to-collection.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/examples/model-conversion/scripts/utils/hf-create-collection.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/examples/model-conversion/scripts/utils/hf-create-model.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/examples/model-conversion/scripts/utils/hf-upload-gguf-model.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/examples/model-conversion/scripts/utils/inspect-org-model.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "vendor_archive/sync-from-kai/examples/model-conversion/scripts/utils/semantic_check.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "stamps/une_src_dir_backup_1785726882/core_equations.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "stamps/une_src_dir_backup_1785726882/foundation_calc.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "stamps/une_src_dir_backup_1785726882/axioms.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "stamps/une_src_dir_backup_1785726882/quantum_sim.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "stamps/une_src_dir_backup_1785726882/stabilizer.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "stamps/une_src_dir_backup_1785726882/test_foundation.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    },
+    {
+      "file": "stamps/une_src_dir_backup_1785726882/test_hypothesis.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "stamps/une_src_dir_backup_1785726882/test_fixtures.py",
+      "action": "import_added_only",
+      "checkpoint_hooks": "none"
+    },
+    {
+      "file": "computational_flow/tests/test_agape_swarm.py",
+      "action": "import_added",
+      "checkpoint_hooks": "manual_review_needed"
+    }
+  ]
+}

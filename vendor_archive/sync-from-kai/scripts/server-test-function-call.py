@@ -13,6 +13,7 @@ import argparse
 import json
 import requests
 import sys
+from state_utils import load_ckpt, save_ckpt
 
 # ---------------------------------------------------------------------------
 # Color / formatting helpers
@@ -1148,4 +1149,5 @@ def main():
 
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     main()

@@ -2,6 +2,7 @@
 """UNE Resolver v0.1 — 36-symbol base, exponential layers, permaculture axioms"""
 import argparse, json, hashlib, sys
 from datetime import datetime
+from state_utils import load_ckpt, save_ckpt
 
 SYMBOLS = {
     # Layer 0: Fundamental (0-9)
@@ -63,4 +64,5 @@ def main():
         print(json.dumps(result, indent=2))
 
 if __name__ == '__main__':
+    ckpt = load_ckpt()
     main()

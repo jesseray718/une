@@ -14,6 +14,7 @@ import os, sys, json, time, hashlib
 from datetime import datetime, timezone
 from http.server import HTTPServer, BaseHTTPRequestHandler
 from urllib.parse import urlparse, parse_qs
+from state_utils import load_ckpt, save_ckpt
 
 LOG = os.path.join(OPENROOT, "session_seeds/fractal_server_log.jsonl")
 

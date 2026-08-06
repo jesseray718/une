@@ -1,6 +1,7 @@
 
 """Extracted Core Functions from swarm_core_v3"""
 import math
+from state_utils import load_ckpt, save_ckpt
 
 def f5_synthesize(base_knowledge, resonance=1.0, units=1296):
     """Regenerative merging (Permaculture: Use Renewable Resources)"""

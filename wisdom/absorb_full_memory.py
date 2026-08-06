@@ -1,6 +1,7 @@
 #!/data/data/com.termux/files/usr/bin/python3
 """Absorb full memory from all UNE files into context bridge."""
 import os, json, glob
+from state_utils import load_ckpt, save_ckpt
 
 UNE_HOME = os.environ.get("UNE_HOME", os.path.expanduser("~/une"))
 BRIDGE = os.environ.get("OPENROOT_HOME", "/sdcard/openroot") + "/context_bridge/full_memory.json"
@@ -14,4 +15,5 @@ def absorb_full_memory():
     return {"status": "absorbed", "count": len(files)}
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     print(absorb_full_memory())

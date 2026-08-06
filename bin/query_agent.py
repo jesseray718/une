@@ -8,6 +8,7 @@ Agape source code · Lowest node first · η-aware
 
 import os, sys, json, re
 from pathlib import Path
+from state_utils import load_ckpt, save_ckpt
 
 ROOT = Path("/data/data/com.termux/files/home/openroot")
 LOCAL_LLM = os.environ.get("LOCAL_LLM_URL", "http://127.0.0.1:8080")
@@ -140,4 +141,5 @@ def main():
     print(offline_synthesize(query, knowledge))
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     main()

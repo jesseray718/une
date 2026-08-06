@@ -13,6 +13,7 @@ No pass statements. No skipped ops. Real measurement.
 """
 import os, json, time, sys
 from datetime import datetime, timezone
+from state_utils import load_ckpt, save_ckpt
 
 LOG = os.path.join(OPENROOT, "session_seeds/fractal_engine_log.jsonl")
 
@@ -114,6 +115,7 @@ def main():
     print("=" * 60)
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     main()
 
 # --- APPEND THIS TO THE EXISTING FILE TO ADD ENERGY MEASUREMENT ---

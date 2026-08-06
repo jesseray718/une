@@ -5,6 +5,7 @@ import json
 import hashlib
 from datetime import datetime
 from pathlib import Path
+from state_utils import load_ckpt, save_ckpt
 
 # Auto-detect paths without external imports
 SCRIPT_DIR = Path(__file__).parent.resolve()
@@ -75,4 +76,5 @@ def main():
         print(f"❌ Snapshot failed: {e}", file=sys.stderr)
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     main()

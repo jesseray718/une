@@ -9,6 +9,7 @@ import json
 import hashlib
 import time
 import os
+from state_utils import load_ckpt, save_ckpt
 
 LEDGER_PATH = "/sdcard/openroot/context_bridge/thermo_ledger.jsonl"
 CLAIM_PATH = "/sdcard/openroot/ledger/canonical/acre_claims.jsonl"
@@ -68,6 +69,7 @@ def save_claim(claim):
     return claim
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     print("=" * 60)
     print("ACRE MINT CLAIM GENERATION")
     print("Aggregating last 5 verified cycles...")

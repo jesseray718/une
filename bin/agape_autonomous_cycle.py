@@ -12,6 +12,7 @@ from datetime import datetime, timezone
 import sys
 sys.path.insert(0, str(Path.home() / "une" / "bin"))
 from agape_coefficient import load_state, save_state, update_R, mint_factor, extract_science, report, coordination_cost
+from state_utils import load_ckpt, save_ckpt
 
 UNE = Path.home() / "une"
 LOG = UNE / "logs" / "agape_cycle.log"
@@ -90,4 +91,5 @@ def cycle():
     return rep
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     print(json.dumps(cycle(), indent=2))

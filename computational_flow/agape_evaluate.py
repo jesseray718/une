@@ -17,6 +17,7 @@ import re
 from pathlib import Path
 from datetime import datetime
 from collections import Counter
+from state_utils import load_ckpt, save_ckpt
 
 UNE = Path.home() / "une" / "computational_flow"
 SEED = Path(os.path.join(OPENROOT, "session_seeds/current_seed.json"))
@@ -165,5 +166,6 @@ def evaluate_files(target_dir: Path):
     log(f"Files needing attention: {len(low)}")
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     target = Path(sys.argv[1]) if len(sys.argv) > 1 else Path.home() / "une"
     evaluate_files(target)

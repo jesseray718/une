@@ -8,6 +8,7 @@ import sqlite3
 import subprocess
 from time import sleep, time
 from typing import Optional, Union
+from state_utils import load_ckpt, save_ckpt
 
 import datasets
 import logging
@@ -273,6 +274,7 @@ def benchmark(
 
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     parser = argparse.ArgumentParser(
         description="Tool for benchmarking the throughput of the llama.cpp HTTP server. "
         "Results are printed to console and visualized as plots (saved to current working directory). "

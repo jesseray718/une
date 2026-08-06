@@ -3,6 +3,7 @@
 import logging
 import os
 import hashlib
+from state_utils import load_ckpt, save_ckpt
 
 logger = logging.getLogger("verify-checksum-models")
 

@@ -2,6 +2,7 @@
 """Atomic metrics extractor. Output is valid target.json for the lattice."""
 import sys, json
 from pathlib import Path
+from state_utils import load_ckpt, save_ckpt
 
 def extract(path: str) -> dict:
     p = Path(path)
@@ -38,6 +39,7 @@ def extract(path: str) -> dict:
     }
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     if len(sys.argv) < 2:
         print("Usage: python3 extract_metrics.py <file>")
         sys.exit(1)

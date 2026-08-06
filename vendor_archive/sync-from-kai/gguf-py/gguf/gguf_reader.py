@@ -3,6 +3,7 @@
 # please see the files scripts/ for some fairly simple examples.
 #
 from __future__ import annotations
+from state_utils import load_ckpt, save_ckpt
 
 import logging
 import os
@@ -16,6 +17,7 @@ import numpy.typing as npt
 from .quants import quant_shape_to_byte_shape
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     from pathlib import Path
 
     # Allow running file in package as a script.

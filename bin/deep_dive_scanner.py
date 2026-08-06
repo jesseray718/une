@@ -8,6 +8,7 @@ Calculates: efficiency coefficient (Output / (Time × Joules))^3
 import os, sys, json, hashlib, re, ast
 from datetime import datetime
 from collections import defaultdict
+from state_utils import load_ckpt, save_ckpt
 
 HOME = os.path.expanduser("~")
 OUTPUT_FILE = os.path.join(HOME, "openroot/context_bridge/foundation_map.json")
@@ -323,4 +324,5 @@ def main():
     print(f"    Efficiency³: {result['efficiency_coefficient_cubed']}")
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     main()

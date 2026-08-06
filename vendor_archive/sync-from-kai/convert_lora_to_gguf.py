@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 from __future__ import annotations
+from state_utils import load_ckpt, save_ckpt
 
 from dataclasses import dataclass
 import logging
@@ -335,6 +336,7 @@ def load_hparams_from_hf(hf_model_id: str, trust_remote_code: bool) -> tuple[dic
 
 
 if __name__ == '__main__':
+    ckpt = load_ckpt()
     args = parse_args()
     logging.basicConfig(level=logging.DEBUG if args.verbose else logging.INFO)
 

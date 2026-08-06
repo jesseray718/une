@@ -6,6 +6,7 @@ Seed Bank: Every node stores enough seeds to replant civilization.
 """
 import json, hashlib, math, os
 from datetime import datetime
+from state_utils import load_ckpt, save_ckpt
 
 # 12 Atomic Functions (doubled from 6 to capture the full spectrum)
 ATOMIC_FUNCTIONS = [
@@ -121,4 +122,5 @@ def main():
     print(f"  Seed Bank: ACTIVE")
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     main()

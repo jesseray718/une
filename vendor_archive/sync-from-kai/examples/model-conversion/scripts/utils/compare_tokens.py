@@ -3,6 +3,7 @@
 import argparse
 import sys
 from common import compare_tokens  # type: ignore[import-not-found, ty:unresolved-import]
+from state_utils import load_ckpt, save_ckpt
 
 
 def parse_arguments():
@@ -73,4 +74,5 @@ def main():
 
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     main()

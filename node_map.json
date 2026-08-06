@@ -10,7 +10,7 @@
         "computational_math"
       ],
       "health": "active",
-      "file_count": 125,
+      "file_count": 129,
       "lines_of_code": 1679,
       "children": [
         "node_0001",
@@ -21,10 +21,10 @@
       ],
       "parent": "root",
       "synced": true,
-      "ts": "2026-08-05T23:09:33.097330+00:00"
+      "ts": "2026-08-05T23:51:30.215581+00:00"
     },
     "node_0001": {
-      "repo": "cannonball",
+      "repo": "canonical",
       "role": [
         "failed"
       ],
@@ -35,7 +35,7 @@
       "children": [],
       "parent": "root",
       "synced": false,
-      "ts": "2026-08-05T23:09:33.097389+00:00"
+      "ts": "2026-08-05T23:51:30.215616+00:00"
     },
     "node_0002": {
       "repo": "jesseray718",
@@ -51,7 +51,7 @@
       "children": [],
       "parent": "root",
       "synced": false,
-      "ts": "2026-08-05T23:09:33.097403+00:00"
+      "ts": "2026-08-05T23:51:30.215626+00:00"
     },
     "node_0003": {
       "repo": "openroot",
@@ -64,12 +64,12 @@
         "computational_math"
       ],
       "health": "active",
-      "file_count": 2819,
+      "file_count": 2822,
       "lines_of_code": 38364,
       "children": [],
       "parent": "root",
       "synced": true,
-      "ts": "2026-08-05T23:09:33.097413+00:00"
+      "ts": "2026-08-05T23:51:30.215635+00:00"
     },
     "node_0004": {
       "repo": "une",
@@ -81,12 +81,12 @@
         "computational_math"
       ],
       "health": "active",
-      "file_count": 9400,
-      "lines_of_code": 92766,
+      "file_count": 9439,
+      "lines_of_code": 93044,
       "children": [],
       "parent": "root",
       "synced": true,
-      "ts": "2026-08-05T23:09:33.097423+00:00"
+      "ts": "2026-08-05T23:51:30.215643+00:00"
     },
     "node_0005": {
       "repo": "wisdom-scaffold",
@@ -102,12 +102,12 @@
       "children": [],
       "parent": "root",
       "synced": true,
-      "ts": "2026-08-05T23:09:33.097432+00:00"
+      "ts": "2026-08-05T23:51:30.215651+00:00"
     }
   },
   "total_nodes": 6,
   "max_depth": 2,
   "base_degree": 6,
   "capacity": 36,
-  "ts": "2026-08-05T23:09:33.098382+00:00"
+  "ts": "2026-08-05T23:51:30.216168+00:00"
 }

@@ -2,6 +2,7 @@
 """Encyclopedia of Universal Primes v1.0."""
 import os
 import json
+from state_utils import load_ckpt, save_ckpt
 
 SYMBOL_MEANINGS = {
     "0": {"name": "VOID", "charge": "void", "essence": "the void, nothingness, the starting point"},
@@ -55,5 +56,6 @@ def interpret_prime(prime_str):
     }
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     print("Universal Primes Loaded")
     print(f"Symbols: {len(SYMBOL_MEANINGS)}")

@@ -14,6 +14,7 @@ import os
 import sys
 sys.path.insert(0, 'os.path.expanduser("~") + "/"une')
 from prime_mapper import SemanticPrimeEngine
+from state_utils import load_ckpt, save_ckpt
 
 TASK_DIR = os.path.join(OPENROOT, "tasks")
 DUMP_DIR = os.path.join(OPENROOT, "dump/chunks")
@@ -94,4 +95,5 @@ def main():
     print("Next step: Run tasks in order of the optimized queue.")
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     main()

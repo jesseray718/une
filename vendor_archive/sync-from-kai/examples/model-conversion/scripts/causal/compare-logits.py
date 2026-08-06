@@ -4,6 +4,7 @@ import sys
 import numpy as np
 from pathlib import Path
 import os
+from state_utils import load_ckpt, save_ckpt
 
 # Add utils directory to path for direct script execution
 sys.path.insert(0, str(Path(__file__).parent.parent / "utils"))
@@ -84,4 +85,5 @@ def main():
         exit_with_warning(f"❌ NOK: Top 10 predictions don't match - generation will differ", model_path)
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     main()

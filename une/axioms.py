@@ -1,4 +1,5 @@
 import time
+from state_utils import load_ckpt, save_ckpt
 def check_function(fn,*a,**k):
     if not callable(fn):
         raise TypeError("not callable")

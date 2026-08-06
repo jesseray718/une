@@ -2,6 +2,7 @@
 """Offline η³ ranker — prioritizes intentional OpenRoot + Agape + continuity material"""
 import os, re, json
 from pathlib import Path
+from state_utils import load_ckpt, save_ckpt
 
 ROOT = Path("/data/data/com.termux/files/home/openroot")
 SKIP = {".git", "__pycache__", "models", "node_modules", ".venv", "sync-from-kai", "gguf-py", "build"}
@@ -57,6 +58,7 @@ def scan():
     return results
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     ranked = scan()
     print("=== Offline η³ Ranked Knowledge Nodes (OpenRoot-priority) ===\n")
     for i, (sc, path, size) in enumerate(ranked[:40], 1):

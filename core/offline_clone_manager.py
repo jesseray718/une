@@ -10,6 +10,7 @@ import json
 import subprocess
 from pathlib import Path
 from datetime import datetime, timezone
+from state_utils import load_ckpt, save_ckpt
 
 UNE_ROOT = Path.home() / "une"
 META_HUB = UNE_ROOT / "meta_hub"
@@ -160,4 +161,5 @@ def sync_all():
     log("=== SYNC COMPLETE ===")
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     sync_all()

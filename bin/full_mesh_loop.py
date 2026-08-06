@@ -18,6 +18,7 @@ import re
 from pathlib import Path
 from datetime import datetime
 from collections import defaultdict
+from state_utils import load_ckpt, save_ckpt
 
 UNE_ROOT = Path.home() / "une"
 REPORTS_DIR = UNE_ROOT / "reports"
@@ -571,4 +572,5 @@ def main():
         loop.run_cycle()
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     main()

@@ -2,6 +2,7 @@
 Minimal stabilizer simulator (Clifford circuits).
 """
 from typing import List
+from state_utils import load_ckpt, save_ckpt
 
 class StabilizerState:
     def __init__(self, n: int):

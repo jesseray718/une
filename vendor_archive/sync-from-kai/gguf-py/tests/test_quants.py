@@ -5,6 +5,7 @@
 # NOTE: this is kind of a mess, but at least it worked for initially testing the Python implementations.
 
 from __future__ import annotations
+from state_utils import load_ckpt, save_ckpt
 
 import argparse
 from math import prod
@@ -236,6 +237,7 @@ def do_test(libggml_path: Path, quick: bool = False, user_type: GGMLQuantization
 
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     parser = argparse.ArgumentParser(description="Test Python (de)quantization against the reference C implementation")
     parser.add_argument("--libggml", type=Path, default=Path(__file__).parent.parent.parent / "build" / "bin" / "libggml.so", help="The path to libggml.so")
     parser.add_argument("--quick", action="store_true", help="Don't quantize with C when it's not strictly necessary")

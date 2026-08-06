@@ -4,6 +4,7 @@ OpenRoot Optimal Balance v6.1 — SELF-CONSISTENT FLOW
 Fix: parallel spiral channels + iterative flow convergence
 """
 import math
+from state_utils import load_ckpt, save_ckpt
 
 print("=" * 82)
 print("  OPENROOT OPTIMAL BALANCE v6.1 — SELF-CONSISTENT")

@@ -5,6 +5,7 @@ Get key: https://dashboard.nomic.ai/
 """
 import json, glob, os, sys, hashlib
 from pathlib import Path
+from state_utils import load_ckpt, save_ckpt
 
 # ── Paths (Termux, not proot) ──
 LIB_DIR = Path.home() / "projects/openroot/foundation_library"
@@ -96,4 +97,5 @@ def main():
     print(f"📐 Dimensionality: {len(all_records[0]['embedding']) if all_records else 0}")
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     main()

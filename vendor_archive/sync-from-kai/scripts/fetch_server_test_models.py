@@ -18,6 +18,7 @@ from typing import Generator
 from pydantic import BaseModel
 from typing import Optional
 import subprocess
+from state_utils import load_ckpt, save_ckpt
 
 
 class HuggingFaceModel(BaseModel):
@@ -62,6 +63,7 @@ def collect_hf_model_test_parameters(test_file) -> Generator[HuggingFaceModel, N
 
 
 if __name__ == '__main__':
+    ckpt = load_ckpt()
     logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 
     models = sorted(list(set([

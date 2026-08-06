@@ -8,6 +8,7 @@ and small self-upgrade loops without any network.
 import os, sys, json, re
 from pathlib import Path
 from datetime import datetime
+from state_utils import load_ckpt, save_ckpt
 
 ROOT = Path("/data/data/com.termux/files/home/openroot")
 RANK_FILE = ROOT / "context_bridge" / "offline_rank.json"
@@ -103,4 +104,5 @@ def main():
     print(f"\nProposal saved → {out}")
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     main()

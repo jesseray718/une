@@ -18,6 +18,7 @@ Usage:
 """
 import os, sys, re, ast
 from pathlib import Path
+from state_utils import load_ckpt, save_ckpt
 
 HEREDOC_ARTIFACTS = [
     r'^--body$', r'^--label$', r'^--repo$', r'^--title$',
@@ -162,6 +163,7 @@ def scan_directory(directory):
     return passed
 
 if __name__ == '__main__':
+    ckpt = load_ckpt()
     target = sys.argv[1] if len(sys.argv) > 1 else '.'
     ok = scan_directory(target)
     sys.exit(0 if ok else 1)

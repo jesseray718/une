@@ -3,6 +3,7 @@ import json
 import requests
 import logging
 import sys
+from state_utils import load_ckpt, save_ckpt
 
 handler = logging.StreamHandler(sys.stdout)
 handler.terminator = ""   # ← no newline
@@ -199,4 +200,5 @@ def main():
 
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     main()

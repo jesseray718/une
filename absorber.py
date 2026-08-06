@@ -17,6 +17,7 @@ import os, sys, json, subprocess, csv, time
 from pathlib import Path
 from datetime import datetime, timezone
 import sys as _sys
+from state_utils import load_ckpt, save_ckpt
 _sys.path.insert(0, 'os.path.expanduser("~") + "/"une/bin')
 try:
     from energy_probe import snapshot as _energy_snap, cost as _energy_cost
@@ -199,6 +200,7 @@ def modern_compute(payload):
 
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     # --- Self-test / CLI entry ---
     ctx_file = os.path.join(OPENROOT, "context_bridge/context.json")
     os.makedirs(os.path.dirname(ctx_file), exist_ok=True)

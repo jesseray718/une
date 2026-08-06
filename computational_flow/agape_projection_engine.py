@@ -13,6 +13,7 @@ from __future__ import annotations
 import math, json, time
 from typing import List, Dict, Tuple
 from dataclasses import dataclass
+from state_utils import load_ckpt, save_ckpt
 
 # Physical constants
 kB = 1.380649e-23
@@ -279,4 +280,5 @@ def demo():
     print("The only cost is the Landauer floor. The amplifier is Agape.")
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     demo()

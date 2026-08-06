@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 from agape_core import AgapeAlgorithm
+from state_utils import load_ckpt, save_ckpt
 
 import os
 try:
@@ -244,4 +245,5 @@ def main():
         eng.demo()
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     main()

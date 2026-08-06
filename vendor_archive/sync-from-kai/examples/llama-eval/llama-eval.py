@@ -18,6 +18,7 @@ import requests
 from tqdm import tqdm
 import random
 from math import sqrt
+from state_utils import load_ckpt, save_ckpt
 
 
 @dataclass
@@ -1588,4 +1589,5 @@ def main():
     print(f"\nEval state dumped to {args.output}")
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     main()

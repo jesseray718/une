@@ -2,6 +2,7 @@
 """Append a progress stamp to the context bridge. State accumulates, never replays."""
 import json, time
 from pathlib import Path
+from state_utils import load_ckpt, save_ckpt
 
 import os
 try:
@@ -34,6 +35,7 @@ def stamp(action, detail, metrics=None):
     print(f"🏷️ Stamped: {action} ({data['progress_count']} total)")
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     import sys
     if len(sys.argv) >= 3:
         stamp(sys.argv[1], sys.argv[2])

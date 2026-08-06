@@ -13,6 +13,7 @@ Placeholders replaced at artifact creation time by run_qdc_jobs.py:
 import os
 import subprocess
 import sys
+from state_utils import load_ckpt, save_ckpt
 
 import pytest
 
@@ -88,6 +89,7 @@ def test_llama_bench(device):
 
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     ret = pytest.main(["-s", "--junitxml=results.xml", os.path.realpath(__file__)])
     if os.path.exists("results.xml"):
         with open("results.xml") as f:

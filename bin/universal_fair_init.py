@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import os
 from pathlib import Path
+from state_utils import load_ckpt, save_ckpt
 
 SCRIPT_DIR = Path(__file__).parent.resolve()
 UNE_ROOT = SCRIPT_DIR.parent
@@ -40,4 +41,5 @@ Uniting the tribes through food, genetics, and antifragile wealth creation.
     print("🌱 Ready for Seedbank & Chili Recipes.")
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     setup_fair_structure()

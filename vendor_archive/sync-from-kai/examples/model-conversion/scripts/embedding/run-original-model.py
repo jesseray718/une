@@ -4,6 +4,7 @@ import argparse
 import os
 import sys
 import importlib
+from state_utils import load_ckpt, save_ckpt
 
 from transformers import AutoTokenizer, AutoConfig, AutoModel
 import torch
@@ -240,4 +241,5 @@ def main():
 
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     main()

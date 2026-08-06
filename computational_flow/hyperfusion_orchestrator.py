@@ -30,6 +30,7 @@ import time
 import sys
 from pathlib import Path
 from datetime import datetime
+from state_utils import load_ckpt, save_ckpt
 
 # === Paths ===
 HOME = Path.home()
@@ -142,4 +143,5 @@ def run_loop() -> None:
             time.sleep(30)
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     run_loop()

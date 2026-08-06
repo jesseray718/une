@@ -22,6 +22,7 @@ Output: atomic_vector_map.jsonl (one line per file, full physical + semantic vec
 """
 import json, os, sys, time, hashlib, math, subprocess, threading, queue
 from datetime import datetime
+from state_utils import load_ckpt, save_ckpt
 
 # ============================================================
 # f12_swarm_embed — SINGLE ATOMIC FUNCTION
@@ -342,6 +343,7 @@ def _flush_batch(batch_texts, batch_meta, out_f,
 # FIRE
 # ============================================================
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     # Determine if ollama is running
     ollama_on = False
     try:

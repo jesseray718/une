@@ -1,6 +1,7 @@
 #!/data/data/com.termux/files/usr/bin/python3
 """Query the wisdom corpus for permaculture, theology, and strategy insights."""
 import os, json
+from state_utils import load_ckpt, save_ckpt
 
 UNE_HOME = os.environ.get("UNE_HOME", os.path.expanduser("~/une"))
 CORPUS = os.path.join(UNE_HOME, "wisdom", "wisdom_corpus.json")
@@ -61,4 +62,5 @@ def main():
         return {}
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     main()

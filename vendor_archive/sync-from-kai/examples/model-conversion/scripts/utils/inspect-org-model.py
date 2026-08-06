@@ -9,6 +9,7 @@ import sys
 from pathlib import Path
 from typing import Optional
 from safetensors import safe_open
+from state_utils import load_ckpt, save_ckpt
 
 
 MODEL_SAFETENSORS_FILE = "model.safetensors"
@@ -287,4 +288,5 @@ def main():
 
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     main()

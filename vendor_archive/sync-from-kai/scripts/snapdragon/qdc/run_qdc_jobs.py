@@ -25,6 +25,7 @@ Usage:
 """
 
 from __future__ import annotations
+from state_utils import load_ckpt, save_ckpt
 
 import argparse
 import enum
@@ -681,4 +682,5 @@ def main() -> int:
 
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     sys.exit(main())

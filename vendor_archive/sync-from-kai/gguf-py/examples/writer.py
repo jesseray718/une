@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import sys
 from pathlib import Path
+from state_utils import load_ckpt, save_ckpt
 
 import numpy as np
 
@@ -36,4 +37,5 @@ def writer_example() -> None:
 
 
 if __name__ == '__main__':
+    ckpt = load_ckpt()
     writer_example()

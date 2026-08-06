@@ -10,6 +10,7 @@ import json
 import subprocess
 from pathlib import Path
 from datetime import datetime
+from state_utils import load_ckpt, save_ckpt
 
 # Configuration
 KEYWORDS = [
@@ -104,6 +105,7 @@ def main():
         print("-" * 40)
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     # Check if gh is authenticated
     auth_check = subprocess.run("gh auth status", shell=True, capture_output=True, text=True)
     if auth_check.returncode != 0:

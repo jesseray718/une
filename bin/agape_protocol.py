@@ -17,6 +17,7 @@ Maximum information density per joule.
 import hashlib, json, os, math
 from itertools import product
 from datetime import datetime
+from state_utils import load_ckpt, save_ckpt
 
 # ============================================================
 # CORE: Symbol → Thermodynamic Concept Mapping
@@ -256,4 +257,5 @@ def main():
     print(f"\n>>> AGAPE PROTOCOL ACTIVE.")
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     main()

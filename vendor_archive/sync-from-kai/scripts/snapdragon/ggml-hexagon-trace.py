@@ -8,6 +8,7 @@ import statistics
 import logging
 from typing import Any, Dict, List, Optional
 from collections import defaultdict
+from state_utils import load_ckpt, save_ckpt
 
 logger = logging.getLogger("ggml-hexagon-trace")
 
@@ -496,4 +497,5 @@ def main():
 
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     main()

@@ -10,6 +10,7 @@ import json
 import subprocess
 from pathlib import Path
 from datetime import datetime
+from state_utils import load_ckpt, save_ckpt
 
 UNE_ROOT = Path.home() / "une"
 PLAN_FILE = UNE_ROOT / "offline_lesson_plan.json"
@@ -132,4 +133,5 @@ def main():
     print(f"📈 Wealth Resource saved to: {WEALTH_LEDGER}")
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     main()

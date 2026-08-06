@@ -13,6 +13,7 @@ import subprocess
 from pathlib import Path
 from datetime import datetime
 from collections import defaultdict
+from state_utils import load_ckpt, save_ckpt
 
 # Configuration
 UNE_ROOT = Path.home() / "une"
@@ -248,4 +249,5 @@ def main():
         network.monitor_logs()
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     main()

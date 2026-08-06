@@ -17,6 +17,7 @@ import glob
 sys.path.insert(0, 'os.path.expanduser("~") + "/"une')
 from universical_primes import interpret_prime
 from red_words_translator import translate_to_primes, calculate_alignment_score
+from state_utils import load_ckpt, save_ckpt
 
 # Paths
 DUMP_DIR = os.path.join(OPENROOT, "dump/chunks")
@@ -151,4 +152,5 @@ def main():
     print("\nNext Step: Use this file for Nomic Embedding and Vector Mapping.")
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     main()

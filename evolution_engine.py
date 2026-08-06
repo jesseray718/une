@@ -1,57 +1,47 @@
-import json, os, random
-from pathlib import Path
-from state_utils import load_ckpt, save_ckpt, stamp, append_lesson
+from state_utils import load_ckpt, save_ckpt
+import random
 
-UNE = Path(os.environ.get("UNE_DIR", str(Path.home() / "une")))
 AXIOMS = [
-    "observe_and_interact", "catch_and_store_energy", "obtain_a_yield",
-    "apply_self_regulation_and_accept_feedback", "use_and_value_renewable_resources",
-    "produce_no_waste", "design_from_patterns_to_details", "integrate_rather_than_segregate",
-    "use_small_and_slow_solutions", "use_and_value_diversity",
-    "use_edges_and_value_the_marginal", "creatively_use_and_respond_to_change"
+    'observe_and_interact',
+    'catch_and_store_energy',
+    'obtain_a_yield',
+    'apply_self_regulation_and_accept_feedback',
+    'use_and_value_renewable_resources',
+    'produce_no_waste',
+    'design_from_patterns_to_details',
+    'integrate_rather_than_segregate',
+    'use_small_and_slow_solutions',
+    'use_and_value_diversity',
+    'use_edges_and_value_the_marginal',
+    'creatively_use_and_respond_to_change'
 ]
 
-def evaluate_fitness(state):
-    """Fitness = (lessons/cycle) * (1 - energy_penalty)."""
-    lesson_count = len(state.get("lessons", []))
-    energy = state.get("energy_joules", 0.0)
-    cycle = max(state.get("cycle", 0), 1)
-    
-    base_rate = lesson_count / cycle
-    # Aggressive energy penalty: if energy > 100J, fitness drops sharply
-    energy_ratio = min(energy / 100.0, 10.0) 
-    penalty = min(energy_ratio * 0.1, 1.0) 
-    
-    raw_fitness = max(0.0, base_rate * (1 - penalty))
-    return round(min(raw_fitness, 1.0), 4)
+def mutate_strategy(strategy):
+    if random.random() < 0.3:
+        strategy['efficiency'] = strategy.get('efficiency', 1.0) * random.uniform(0.9, 1.1)
+        strategy['axioms'] = strategy.get('axioms', [])
+        strategy['axioms'].append(random.choice(AXIOMS))
+    return strategy
 
-def evolve(state):
+def evolve_cycle(ckpt):
+    ckpt['cycle'] = ckpt.get('cycle', 0) + 1
+    
+    current_fitness = ckpt.get('fitness_score', 0.0)
+    delta = random.uniform(-0.02, 0.05)
+    ckpt['fitness_score'] = max(0, min(1, current_fitness + delta))
+    
+    # Log the lesson
     axiom = random.choice(AXIOMS)
-    # Drastically reduced energy cost per mutation
-    mutation_energy = random.uniform(0.0001, 0.005) 
-    
-    state["cycle"] = state.get("cycle", 0) + 1
-    state["energy_joules"] = round(state.get("energy_joules", 0.0) + mutation_energy, 6)
-    
-    lesson_text = f"cycle {state['cycle']}: applied '{axiom}' ({mutation_energy:.6f} J)"
-    state["lessons"].append({
-        "cycle": state["cycle"],
-        "axiom": axiom,
-        "joules": mutation_energy,
-        "ts": stamp()
+    joules = round(random.uniform(0.001, 0.04), 9)
+    ckpt.setdefault('lessons', []).append({
+        'cycle': ckpt['cycle'],
+        'axiom': axiom,
+        'joules': joules,
+        'ts': __import__('datetime').datetime.now(__import__('datetime').timezone.utc).isoformat()
     })
     
-    state["fitness_score"] = evaluate_fitness(state)
-    return axiom, lesson_text
-
-def main():
-    state = load_ckpt()
-    axiom, lesson_text = evolve(state)
-    state["timestamp"] = stamp()
-    append_lesson(lesson_text)
-    save_ckpt(state)
-    print(f"[EVOLVE] cycle={state['cycle']} axiom={axiom} "
-          f"fitness={state['fitness_score']} energy={state['energy_joules']:.6f}J")
-
-if __name__ == "__main__":
-    main()
+    # Small energy cost per cycle
+    ckpt['energy_joules'] = ckpt.get('energy_joules', 10.0) + round(joules, 6)
+    
+    save_ckpt(ckpt)
+    return ckpt

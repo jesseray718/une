@@ -17,6 +17,7 @@ import subprocess
 import time
 from pathlib import Path
 from datetime import datetime, timezone
+from state_utils import load_ckpt, save_ckpt
 
 UNE_ROOT = Path.home() / "une"
 LEDGER_DIR = UNE_ROOT / "ledger"
@@ -234,4 +235,5 @@ def main():
             print(f"      → {lesson}")
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     main()

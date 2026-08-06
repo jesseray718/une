@@ -2,6 +2,7 @@
 """Kingdom Engine v0.1 — Proof of Productive Work validator, AX-019 (two-validator rule)"""
 import argparse, json, hashlib, sys
 from datetime import datetime
+from state_utils import load_ckpt, save_ckpt
 
 class KingdomValidator:
     """Two-validator consensus for ACRE minting"""
@@ -83,4 +84,5 @@ def main():
         print(result)
 
 if __name__ == '__main__':
+    ckpt = load_ckpt()
     main()

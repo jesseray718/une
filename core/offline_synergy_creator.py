@@ -15,6 +15,7 @@ import math
 import hashlib
 from datetime import datetime, timezone
 from typing import List, Dict, Any
+from state_utils import load_ckpt, save_ckpt
 
 UNE = Path.home() / "une"
 MODULES = UNE / "modules"
@@ -182,6 +183,7 @@ def add_module(name: str, value: float, tags: List[str] = None):
     return p
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     import sys
     if len(sys.argv) > 1 and sys.argv[1] == "add":
         # usage: python3 offline_synergy_creator.py add name value [tag1,tag2]

@@ -7,6 +7,7 @@ Rooted on locked Micro-Node + immortal context
 import math
 import json
 import sys
+from state_utils import load_ckpt, save_ckpt
 
 PHI  = (1 + math.sqrt(5)) / 2
 PHI2 = PHI ** 2
@@ -43,6 +44,7 @@ def generate(aperture_m2=12.0, stages=3):
     }
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     sizes = [6.0, 12.0, 24.0, 48.0] if len(sys.argv) == 1 else [float(x) for x in sys.argv[1:]]
     for a in sizes:
         print(json.dumps(generate(a), indent=2))

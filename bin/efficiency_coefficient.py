@@ -4,6 +4,7 @@
    Integrates H-003 thermal, ACRE PoPW tagging, UNE registries, kai9000 workflows."""
 import argparse, json
 from pathlib import Path
+from state_utils import load_ckpt, save_ckpt
 
 def efficiency_coefficient(benefit: float = 5.0, urgency: float = 5.0, slump: float = 0.0,
                            compounding: float = 1.0, cost: float = 1.0, effort: float = 1.0,
@@ -44,6 +45,7 @@ def demo_openroot_priorities():
     print(">>> Recommended next atomic action: implement dynamic UNE load in acre_tagger.py (then re-tag all claims)")
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     parser = argparse.ArgumentParser(description="Compute Efficiency Coefficient for any OpenRoot task")
     parser.add_argument("--benefit", type=float, default=5.0)
     parser.add_argument("--urgency", type=float, default=5.0)

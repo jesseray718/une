@@ -10,6 +10,7 @@ tracks compounding wealth, and outputs actionable intelligence.
 import json
 from pathlib import Path
 from datetime import datetime, timezone
+from state_utils import load_ckpt, save_ckpt
 
 UNE_ROOT = Path.home() / "une"
 LESSONS_FILE = UNE_ROOT / "logs" / "full_mesh_lessons.jsonl"
@@ -259,6 +260,7 @@ def build_wealth_report():
     return report
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     print("\n💎 WEALTH TRANSMUTATION ENGINE")
     print("=" * 55)
     build_wealth_report()

@@ -3,6 +3,7 @@
 import os, json, hashlib, re
 from pathlib import Path
 from datetime import datetime, timezone
+from state_utils import load_ckpt, save_ckpt
 
 ROOT = Path("/sdcard/openroot")
 OUT = ROOT / "dossier.json"

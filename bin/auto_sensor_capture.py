@@ -10,6 +10,7 @@ import hashlib
 import time
 import os
 import random
+from state_utils import load_ckpt, save_ckpt
 
 LEDGER_PATH = "/sdcard/openroot/context_bridge/thermo_ledger.jsonl"
 
@@ -94,4 +95,5 @@ def run_auto_loop(cycles=5):
     print("=" * 60)
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     run_auto_loop()

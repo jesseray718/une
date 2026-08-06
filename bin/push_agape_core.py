@@ -8,6 +8,7 @@ import json
 import subprocess
 from pathlib import Path
 from datetime import datetime, timezone
+from state_utils import load_ckpt, save_ckpt
 
 UNE = Path.home() / "une"
 META = UNE / "meta_hub"
@@ -100,4 +101,5 @@ def push_to_all():
     print("Offline. Local commits only. Push when online if desired.")
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     push_to_all()

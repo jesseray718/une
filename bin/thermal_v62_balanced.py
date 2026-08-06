@@ -8,6 +8,7 @@ Fix 4: Report REAL overall efficiency
 """
 import math
 from datetime import datetime
+from state_utils import load_ckpt, save_ckpt
 
 print("=" * 78)
 print("  OPENROOT v6.2 — HONEST BALANCED SYSTEM")

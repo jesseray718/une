@@ -7,6 +7,7 @@ from pydantic import BaseModel, Field, TypeAdapter
 from annotated_types import MinLen
 from typing import Annotated, List, Optional
 import json, requests
+from state_utils import load_ckpt, save_ckpt
 
 if True:
 
@@ -52,6 +53,7 @@ else:
 
 if __name__ == '__main__':
 
+    ckpt = load_ckpt()
     class QAPair(BaseModel):
         class Config:
             extra = 'forbid'  # triggers additionalProperties: false in the JSON schema

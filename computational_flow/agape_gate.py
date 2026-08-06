@@ -11,6 +11,7 @@ Returns True only if the action is allowed under the locked law.
 """
 import json
 from pathlib import Path
+from state_utils import load_ckpt, save_ckpt
 
 SEED = Path(os.path.join(OPENROOT, "session_seeds/current_seed.json"))
 LAW_FILE = Path.home() / "une/computational_flow/AGAPE_PRIME_SCALING_LAW.md"
@@ -37,6 +38,7 @@ def allowed(action_tier: int = 0, yield_factor: float = 0.0) -> bool:
     return yield_factor > 0.0
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     import sys
     tier = int(sys.argv[1]) if len(sys.argv) > 1 else 0
     upsilon = float(sys.argv[2]) if len(sys.argv) > 2 else 0.0

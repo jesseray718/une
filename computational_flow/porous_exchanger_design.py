@@ -10,6 +10,7 @@ Stdlib only. Termux-safe. Edit constants, run.
 """
 
 import math
+from state_utils import load_ckpt, save_ckpt
 
 # ---------------- EDITABLE CONSTANTS ----------------
 Q_AIR    = 0.18      # m3/s design airflow
@@ -194,6 +195,7 @@ def water_soil():
     print(" rule: NTU past \\~5 buys nothing but dP; soil interface is the cap")
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     avail = stack_pa()
     print("Stack pressure available: %.1f Pa  (H=%.1f m, dT=%.0f K)"
           % (avail, H_STACK, DT_STACK))

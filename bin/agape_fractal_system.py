@@ -13,6 +13,7 @@ import math
 from pathlib import Path
 from datetime import datetime, timezone
 from collections import Counter
+from state_utils import load_ckpt, save_ckpt
 
 # ── AXIOMS ──
 AXIOMS = {
@@ -235,4 +236,5 @@ def main():
     return final_report
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     main()

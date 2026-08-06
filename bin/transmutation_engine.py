@@ -4,6 +4,7 @@ import sys
 import json
 from datetime import datetime
 from pathlib import Path
+from state_utils import load_ckpt, save_ckpt
 
 SCRIPT_DIR = Path(__file__).parent.resolve()
 UNE_ROOT = SCRIPT_DIR.parent
@@ -73,4 +74,5 @@ def main():
     print(f"📂 Logs: {EXTRACTION_LOG}, {GIFT_BASKET_LOG}")
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     main()

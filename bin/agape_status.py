@@ -3,6 +3,7 @@
 import json, sys, os
 from datetime import datetime
 from pathlib import Path
+from state_utils import load_ckpt, save_ckpt
 
 def get_agape_status():
     home = os.path.expanduser('~')
@@ -61,4 +62,5 @@ def main():
     print(json.dumps(status, indent=2))
 
 if __name__ == '__main__':
+    ckpt = load_ckpt()
     main()

@@ -3,6 +3,7 @@
 import sys,os,json,hashlib,time,re
 from pathlib import Path
 from datetime import datetime,timezone
+from state_utils import load_ckpt, save_ckpt
 ROOT=Path(os.environ.get('OPENROOT','/sdcard/openroot'))
 LEDGER=ROOT/"ledger"/"omega.jsonl"; STATE=ROOT/"state"/"null_point.json"
 LOG=ROOT/"logs"/"omega.log"

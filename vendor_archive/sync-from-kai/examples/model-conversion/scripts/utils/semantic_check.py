@@ -5,6 +5,7 @@ import argparse
 import os
 import importlib
 from pathlib import Path
+from state_utils import load_ckpt, save_ckpt
 
 from transformers import AutoTokenizer, AutoConfig, AutoModelForCausalLM, AutoModel
 from common import compare_tokens, exit_with_warning  # type: ignore[import-not-found, ty:unresolved-import]
@@ -239,4 +240,5 @@ def main():
         exit_with_warning("❌ POOR: Models are significantly different", args.model_path)
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     main()

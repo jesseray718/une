@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-05T23:09:39.919450+00:00",
+  "generated": "2026-08-05T23:51:37.613415+00:00",
   "github_user": "jesseray718",
   "repos": {
     "une": {
@@ -8,15 +8,15 @@
         "energy_accounting",
         "wisdom_engine"
       ],
-      "files": 9400,
-      "lines": 92766
+      "files": 9439,
+      "lines": 93044
     },
     "openroot": {
       "health": "active",
       "role": [
         "system_kernel"
       ],
-      "files": 2819,
+      "files": 2822,
       "lines": 38364
     },
     "wisdom-scaffold": {
@@ -27,7 +27,7 @@
       "files": 42,
       "lines": 198
     },
-    "cannonball": {
+    "canonical": {
       "health": "clone_failed",
       "role": [
         "failed"
@@ -40,7 +40,7 @@
       "role": [
         "physical_systems"
       ],
-      "files": 125,
+      "files": 129,
       "lines": 1679
     },
     "jesseray718": {

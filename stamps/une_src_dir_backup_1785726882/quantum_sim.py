@@ -3,6 +3,7 @@ Minimal state-vector quantum circuit simulator (pure Python).
 """
 import cmath, math
 from typing import List
+from state_utils import load_ckpt, save_ckpt
 
 class QuantumState:
     def __init__(self, n_qubits: int):

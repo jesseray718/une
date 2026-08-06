@@ -24,6 +24,7 @@ import os
 import subprocess
 import shutil
 import logging
+from state_utils import load_ckpt, save_ckpt
 
 NL = '\n' # can't have f"{'\n'}" in f-strings
 
@@ -330,4 +331,5 @@ def main():
 
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     main()

@@ -25,6 +25,7 @@ import json
 import math
 from typing import Any, Dict, List, Tuple
 from dataclasses import dataclass, field
+from state_utils import load_ckpt, save_ckpt
 
 # Physical constants
 kB = 1.380649e-23
@@ -238,6 +239,7 @@ class SAC:
 
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     sac = SAC(base=6)
     results = sac.run_all_proofs()
 

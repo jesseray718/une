@@ -23,6 +23,7 @@ LICENSE: AGPL-3.0
 
 import json, os, sys, subprocess, hashlib, math, time
 from datetime import datetime, timezone
+from state_utils import load_ckpt, save_ckpt
 
 BASE = os.path.expanduser("~/une")
 COUNCIL_DIR = os.path.join(BASE, "councils")
@@ -646,4 +647,5 @@ def main():
 
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     main()

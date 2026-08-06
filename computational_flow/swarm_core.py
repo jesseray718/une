@@ -19,6 +19,7 @@ Architecture:
 import sys
 import time
 import math
+from state_utils import load_ckpt, save_ckpt
 
 # =========================================================
 # ATOMIC FUNCTION DEFINITIONS (TIER 0)
@@ -281,4 +282,5 @@ def run_comparison(max_tier: int = 6):
     return results
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     run_comparison()

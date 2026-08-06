@@ -7,6 +7,7 @@ Series solar panels with spiral internals → steam vessel → Stirling → cold
 Fully passive. No pumps, no fans, no fuel. Sun and gravity only.
 """
 import math
+from state_utils import load_ckpt, save_ckpt
 
 print("=" * 82)
 print("  OPENROOT OPTIMAL BALANCE FINDER v6.0")

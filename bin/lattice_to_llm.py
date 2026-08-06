@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Turn lattice ACRE output into a single-node rewrite prompt for local coding LLM."""
 import json, sys
+from state_utils import load_ckpt, save_ckpt
 
 def make_prompt(acre: dict, bottleneck_code: str = "") -> str:
     η = acre.get("η", 0)
@@ -46,6 +47,7 @@ BOTTLENECK CODE (rewrite this):
     return prompt
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     if len(sys.argv) < 2:
         print("Usage: python3 lattice_to_llm.py <acre.json> [bottleneck.py]")
         sys.exit(1)

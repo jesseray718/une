@@ -8,6 +8,7 @@ import json
 import math
 import hashlib
 from typing import Dict, List, Tuple
+from state_utils import load_ckpt, save_ckpt
 
 class SemanticPrimeEngine:
     def __init__(self):
@@ -123,6 +124,7 @@ class SemanticPrimeEngine:
 
 # Demo
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     engine = SemanticPrimeEngine()
     print("=== SEMANTIC PRIME ENGINE INITIALIZED ===")
     print(f"Total Possible Primes: {engine.prime_count}")

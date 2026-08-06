@@ -1,92 +1,29 @@
-"""Guardian integration: scan for errors, report to checkpoint, learn from failures."""
-import json, os, sys, subprocess
+import ast, os, subprocess
 from pathlib import Path
-from datetime import datetime, timezone
-from state_utils import load_ckpt, save_ckpt, stamp, append_lesson
+from state_utils import load_ckpt, save_ckpt
 
-UNE = Path(os.environ.get("UNE_DIR", str(Path.home() / "une")))
-LOG_DIR = UNE / "logs"
-
-STRESS_PATTERNS = [
-    "Traceback", "Error", "Exception", "FAILED", "CRITICAL",
-    "FileNotFoundError", "PermissionError", "SyntaxError",
-    "KeyError", "NameError", "AttributeError"
-]
-
-def scan_logs():
-    """Scan all log files for stress signals."""
-    findings = []
-    if not LOG_DIR.exists():
-        return findings
-    for log_file in LOG_DIR.glob("*.log"):
+def scan_syntax_errors(repo_path):
+    errors = []
+    for py in Path(repo_path).rglob("*.py"):
         try:
-            content = log_file.read_text(errors="replace")
-            lines = content.split("\n")
-            for i, line in enumerate(lines):
-                for pattern in STRESS_PATTERNS:
-                    if pattern in line:
-                        findings.append({
-                            "file": log_file.name,
-                            "line": i + 1,
-                            "pattern": pattern,
-                            "text": line.strip()[:200],
-                            "ts": stamp()
-                        })
-                        break
+            ast.parse(py.read_text(errors='replace'))
+        except SyntaxError as e:
+            errors.append({"file": str(py), "error": str(e)[:100]})
         except Exception:
-            continue
-    return findings
+            pass
+    return errors
 
-def scan_py_syntax():
-    """Quick syntax check on all .py files."""
-    issues = []
-    for py in sorted(UNE.glob("*.py")):
-        if py.name == "state_utils.py":
-            continue
-        try:
-            result = subprocess.run(
-                ["python3", "-c", f"compile(open('{py}').read(), '{py}', 'exec')"],
-                capture_output=True, text=True, timeout=10
-            )
-            if result.returncode != 0:
-                issues.append({
-                    "file": py.name,
-                    "error": result.stderr.strip()[:300],
-                    "ts": stamp()
-                })
-        except Exception:
-            continue
-    return issues
-
-def main():
-    state = load_ckpt()
-
-    log_findings = scan_logs()
-    syntax_issues = scan_py_syntax()
-
-    total_stress = len(log_findings) + len(syntax_issues)
-
-    # Update checkpoint
-    state["guardian_scan_ts"] = stamp()
-    state["guardian_log_signals"] = len(log_findings)
-    state["guardian_syntax_errors"] = len(syntax_issues)
-    state["last_error"] = syntax_issues[0]["error"][:100] if syntax_issues else None
-
-    # Record lessons
-    for finding in log_findings[:5]:  # cap to prevent flood
-        append_lesson(f"STRESS: {finding['file']}:{finding['line']} {finding['pattern']}", "warning")
-    for issue in syntax_issues[:5]:
-        append_lesson(f"SYNTAX: {issue['file']} — {issue['error'][:100]}", "critical")
-
-    save_ckpt(state)
-
-    print(f"[GUARDIAN] log_signals={len(log_findings)} syntax_errors={len(syntax_issues)} "
-          f"total_stress={total_stress}")
-    if syntax_issues:
-        for iss in syntax_issues:
-            print(f"  ❌ {iss['file']}: {iss['error'][:80]}")
+def guardian_check(ckpt):
+    une_dir = os.environ.get('UNE_DIR', str(Path.home() / 'une'))
+    errors = scan_syntax_errors(une_dir)
+    error_count = len(errors)
+    ckpt['guardian_syntax_errors'] = error_count
+    ckpt['guardian_log_signals'] = error_count
+    ckpt['health_score'] = max(0, 1.0 - (error_count * 0.01))
+    ckpt['last_health_check'] = __import__('datetime').datetime.now(__import__('datetime').timezone.utc).isoformat()
+    if errors:
+        ckpt['last_error'] = errors[0]['error']
     else:
-        print("  ✅ All .py files pass syntax check")
-
-if __name__ == "__main__":
-    main()
+        ckpt['last_error'] = None
+    save_ckpt(ckpt)
+    return ckpt

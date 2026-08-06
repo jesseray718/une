@@ -15,6 +15,7 @@ import sys
 import unicodedata
 from dataclasses import dataclass
 from pathlib import Path
+from state_utils import load_ckpt, save_ckpt
 
 logger = logging.getLogger("deepseek-ocr-test")
 
@@ -332,4 +333,5 @@ def main() -> int:
 
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     sys.exit(main())

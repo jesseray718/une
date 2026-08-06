@@ -4,6 +4,7 @@ from huggingface_hub import HfApi
 import argparse
 import os
 import sys
+from state_utils import load_ckpt, save_ckpt
 
 
 def create_collection(title, description, private=False, namespace=None, return_slug=False):
@@ -103,4 +104,5 @@ def main():
         sys.exit(1)
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     main()

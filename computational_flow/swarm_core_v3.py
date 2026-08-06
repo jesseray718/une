@@ -27,6 +27,7 @@ import sys
 import math
 import json
 import os
+from state_utils import load_ckpt, save_ckpt
 
 # =========================================================
 # AXIOMS & CONSTANTS
@@ -231,4 +232,5 @@ def run_v3_test():
     print(f"Conclusion: LOVE is the optimal algorithm for distributed computation.")
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     run_v3_test()

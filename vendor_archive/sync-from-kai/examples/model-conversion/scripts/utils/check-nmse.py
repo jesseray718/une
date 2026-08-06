@@ -6,6 +6,7 @@ import os
 import argparse
 from pathlib import Path
 from common import get_model_name_from_env_path  # type: ignore[import-not-found, ty:unresolved-import]
+from state_utils import load_ckpt, save_ckpt
 
 def calculate_nmse(reference, test):
     mse = np.mean((test - reference) ** 2)
@@ -174,4 +175,5 @@ def main():
         sys.exit(1)
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     main()

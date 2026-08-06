@@ -12,6 +12,7 @@ Scores based on: extension, directory context, project membership, and filename 
 import json
 import os
 import re
+from state_utils import load_ckpt, save_ckpt
 
 IMMORTAL = os.path.join(OPENROOT, "context_bridge/immortal_context.json")
 
@@ -181,4 +182,5 @@ def main():
 
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     main()

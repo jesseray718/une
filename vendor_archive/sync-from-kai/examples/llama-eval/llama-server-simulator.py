@@ -12,6 +12,7 @@ from http.server import HTTPServer, BaseHTTPRequestHandler
 from typing import Dict, List, Optional
 from dataclasses import dataclass
 from pathlib import Path
+from state_utils import load_ckpt, save_ckpt
 
 import datasets
 
@@ -373,4 +374,5 @@ def main():
         server.shutdown()
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     main()

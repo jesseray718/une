@@ -3,6 +3,7 @@ UNE_ROOT=os.environ.get('UNE_ROOT','os.path.expanduser("~") + "/"une')
 sys.path.insert(0,os.path.join(UNE_ROOT,'src'))
 from permaculture_map import PERMACULTURE_PRINCIPLES
 from une.axioms import check_function
+from state_utils import load_ckpt, save_ckpt
 def stats_for(principle):
     chain = PERMACULTURE_PRINCIPLES[principle]['chain']
     L = len(chain)

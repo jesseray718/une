@@ -1,5 +1,6 @@
 #!/data/data/com.termux/files/usr/bin/python3
 import subprocess, sys, json, re
+from state_utils import load_ckpt, save_ckpt
 
 _last_good = {}
 
@@ -69,6 +70,7 @@ def get_battery_telemetry():
     return merged
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     if len(sys.argv) > 1:
         ok, out, err = rish_run(sys.argv[1])
         print(json.dumps({"ok": ok, "out": out, "err": err}))

@@ -3,6 +3,7 @@
 import os, json
 from pathlib import Path
 from collections import defaultdict
+from state_utils import load_ckpt, save_ckpt
 
 import os
 try:
@@ -47,6 +48,7 @@ def snapshot(root=UNE_ROOT):
     return snap
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     import sys
     cmd = sys.argv[1] if len(sys.argv) > 1 else "snap"
     if cmd == "snap":

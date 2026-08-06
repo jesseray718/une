@@ -1,6 +1,7 @@
 """Property-based tests with Hypothesis."""
 from hypothesis import given, strategies as st
 from une.foundation_calc import labor_intensity, efficiency_ratio, time_to_place
+from state_utils import load_ckpt, save_ckpt
 
 @given(ph=st.floats(min_value=0, max_value=1e6, allow_nan=False, allow_infinity=False),
        vol=st.floats(min_value=0.001, max_value=1e6, allow_nan=False, allow_infinity=False))

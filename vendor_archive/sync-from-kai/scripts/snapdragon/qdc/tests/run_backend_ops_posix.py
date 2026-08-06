@@ -8,6 +8,7 @@ On Linux: runs test-backend-ops directly via run_linux.sh (BASH framework).
 
 import os
 import sys
+from state_utils import load_ckpt, save_ckpt
 
 import pytest
 
@@ -44,6 +45,7 @@ def test_backend_ops_htp0(type_a):
 
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     ret = pytest.main(["-s", "--junitxml=results.xml", os.path.realpath(__file__)])
     if os.path.exists("results.xml"):
         with open("results.xml") as f:

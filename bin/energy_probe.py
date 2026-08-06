@@ -10,6 +10,7 @@ except ImportError:
 
 sys.path.insert(0, os.path.join(OPENROOT, "bin"))
 from rish_wrapper import get_battery_telemetry
+from state_utils import load_ckpt, save_ckpt
 
 CACHE_PATH = os.path.join(UNE_HOME, "storage/joule_cache.json")
 
@@ -44,6 +45,7 @@ def cost(before, after):
     }
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     # Standalone: snapshot current state
     s = snapshot()
     print(json.dumps(s, indent=2))

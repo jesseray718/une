@@ -17,6 +17,7 @@ import json
 import os
 import time
 from pathlib import Path
+from state_utils import load_ckpt, save_ckpt
 
 kB = 1.380649e-23          # J/K
 T  = 300.0                 # K (room)
@@ -115,6 +116,7 @@ def status():
     }
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     import sys
     if len(sys.argv) > 1 and sys.argv[1] == "status":
         print(json.dumps(status(), indent=2))

@@ -10,6 +10,7 @@ import math
 import json
 from typing import List, Dict, Any, Optional
 from dataclasses import dataclass
+from state_utils import load_ckpt, save_ckpt
 
 # Constants
 BASE = 6
@@ -192,4 +193,5 @@ def demo():
     print("Complexity: O(1) w.r.t N.")
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     demo()

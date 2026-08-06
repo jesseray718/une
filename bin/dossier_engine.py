@@ -11,6 +11,7 @@ USAGE: python3 ~/une/bin/dossier_engine.py [command_that_was_run]
 """
 
 import os, sys, json, hashlib, subprocess, time, re, datetime, io
+from state_utils import load_ckpt, save_ckpt
 
 BASE = os.path.expanduser("~/une")
 DOSSIER_FILE = os.path.join(BASE, "dossier", "total_dossier.jsonl")
@@ -370,4 +371,5 @@ def main():
         print("  dossier --summary")
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     main()

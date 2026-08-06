@@ -1,6 +1,7 @@
 #!/data/data/com.termux/files/usr/bin/python3
 """OpenRoot Efficiency Score - Joules per Query metric."""
 import json, os, sys
+from state_utils import load_ckpt, save_ckpt
 
 import os
 try:
@@ -83,4 +84,5 @@ def main():
     print(json.dumps(result, indent=2))
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     main()

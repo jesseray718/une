@@ -1,6 +1,7 @@
 """Shared pytest fixtures for QDC on-device test runners."""
 
 import os
+from state_utils import load_ckpt, save_ckpt
 
 import pytest
 from appium import webdriver

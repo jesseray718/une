@@ -6,6 +6,7 @@ import sys
 import importlib
 import torch
 import numpy as np
+from state_utils import load_ckpt, save_ckpt
 
 from transformers import AutoTokenizer, AutoModelForCausalLM, AutoModelForImageTextToText, AutoConfig
 
@@ -169,4 +170,5 @@ def main():
         save_output_data(last_logits, token_ids, prompt, model_name)
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     main()

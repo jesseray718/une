@@ -15,6 +15,7 @@ import hashlib
 import random
 from datetime import datetime
 from pathlib import Path
+from state_utils import load_ckpt, save_ckpt
 
 # --- CONFIGURATION AXIOMS ---
 OPENROOT_ROOT = Path("/sdcard/openroot")
@@ -197,6 +198,7 @@ def f7_context_bridge_sync(args):
 
 # --- MAIN DISPATCHER ---
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     if len(sys.argv) < 2:
         print(__doc__)
         print("\nRun: python core_atomic.py f<N> [args]")

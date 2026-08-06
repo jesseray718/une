@@ -1,6 +1,7 @@
 """Shared helpers for QDC on-device test runners."""
 
 from __future__ import annotations
+from state_utils import load_ckpt, save_ckpt
 
 import logging
 import os

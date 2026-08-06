@@ -19,6 +19,7 @@ import os
 import time
 import hashlib
 from datetime import datetime
+from state_utils import load_ckpt, save_ckpt
 
 # Wire to computational_flow for real implementations
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "computational_flow"))
@@ -432,4 +433,5 @@ def main():
 
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     main()

@@ -1,6 +1,7 @@
 import os
 import re
 import argparse
+from state_utils import load_ckpt, save_ckpt
 
 
 def expand_includes(shader, input_dir):
@@ -86,4 +87,5 @@ def main():
 
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     main()

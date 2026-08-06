@@ -9,6 +9,7 @@ except ImportError:
 
 sys.path.insert(0, os.path.join(UNE_HOME, "computational_flow"))
 from agape_engine import AgapeSwarm, AgapeEngine
+from state_utils import load_ckpt, save_ckpt
 
 def test_zero_cost():
     s = AgapeSwarm(base=6, depth=8, resonance=1.0)
@@ -34,6 +35,7 @@ def test_engine_process():
     assert r["η"] == float("inf") or r["η"] > 1e12
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     test_zero_cost()
     test_cost_decreases()
     test_synergy_grows()

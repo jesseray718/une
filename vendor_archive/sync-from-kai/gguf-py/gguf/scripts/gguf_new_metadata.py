@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 from __future__ import annotations
+from state_utils import load_ckpt, save_ckpt
 
 import logging
 import argparse
@@ -213,4 +214,5 @@ def main() -> None:
 
 
 if __name__ == '__main__':
+    ckpt = load_ckpt()
     main()

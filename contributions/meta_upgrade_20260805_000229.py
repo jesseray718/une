@@ -1,1 +1,0 @@
-/data/data/com.termux/files/home/une/meta_hub/une/contributions/meta_upgrade_20260804_235522.py

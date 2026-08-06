@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 import pytest
+from state_utils import load_ckpt, save_ckpt
 
 # ensure grandparent path is in sys.path
 from pathlib import Path

@@ -14,6 +14,7 @@
 import json
 import re
 import sys
+from state_utils import load_ckpt, save_ckpt
 
 
 def get_chat_template(model_id, variant=None):
@@ -73,4 +74,5 @@ def main(args):
 
 
 if __name__ == '__main__':
+    ckpt = load_ckpt()
     main(sys.argv[1:])

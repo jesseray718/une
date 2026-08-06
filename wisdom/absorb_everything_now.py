@@ -1,6 +1,7 @@
 #!/data/data/com.termux/files/usr/bin/python3
 """Absorb everything now — fast dump of all state."""
 import os, json, glob, time
+from state_utils import load_ckpt, save_ckpt
 
 UNE_HOME = os.environ.get("UNE_HOME", os.path.expanduser("~/une"))
 OPENROOT = os.environ.get("OPENROOT_HOME", "/sdcard/openroot")
@@ -20,4 +21,5 @@ def absorb_everything_now():
     return {"status": "absorbed", "count": len(entries)}
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     print(absorb_everything_now())

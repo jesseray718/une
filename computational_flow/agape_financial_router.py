@@ -15,6 +15,7 @@ from __future__ import annotations
 import math
 from typing import Dict, List, Tuple
 from dataclasses import dataclass, field
+from state_utils import load_ckpt, save_ckpt
 
 LANDAUER = 1.380649e-23 * 300 * math.log(2)
 
@@ -238,4 +239,5 @@ def demo():
     print("The system compounds autonomously.")
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     demo()

@@ -49,6 +49,7 @@ import subprocess
 import sys
 import time
 import typer
+from state_utils import load_ckpt, save_ckpt
 
 sys.path.insert(0, Path(__file__).parent.parent.as_posix())
 if True:
@@ -376,4 +377,5 @@ def run(
 
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     app()

@@ -1,6 +1,7 @@
 #!/data/data/com.termux/files/usr/bin/python3
 """Recursive loop engine for wisdom processing."""
 import os, json, glob
+from state_utils import load_ckpt, save_ckpt
 
 UNE_HOME = os.environ.get("UNE_HOME", os.path.expanduser("~/une"))
 OPENROOT = os.environ.get("OPENROOT_HOME", "/sdcard/openroot")
@@ -48,4 +49,5 @@ def recursive_engine():
     return data
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     print(recursive_engine())

@@ -12,6 +12,7 @@ Uses 20 Elements to detect patterns without LLM.
 """
 import os, sys, json, re
 from datetime import datetime
+from state_utils import load_ckpt, save_ckpt
 
 REPO_PATHS = [
     "os.path.expanduser("~") + "/"une",

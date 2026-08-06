@@ -1,6 +1,7 @@
 #!/data/data/com.termux/files/usr/bin/python3
 """Absorb wisdom corpus into context bridge."""
 import os, json
+from state_utils import load_ckpt, save_ckpt
 
 CORPUS = os.environ.get("UNE_HOME", os.path.expanduser("~/une")) + "/wisdom/wisdom_corpus.json"
 BRIDGE = os.environ.get("OPENROOT_HOME", "/sdcard/openroot") + "/context_bridge/context.json"
@@ -17,4 +18,5 @@ def absorb():
     return {"status": "absorbed", "entries": len(data) if isinstance(data, list) else len(data.keys())}
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     print(absorb())

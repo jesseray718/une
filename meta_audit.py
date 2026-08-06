@@ -3,6 +3,7 @@
 import json, os, ast, hashlib, time
 from pathlib import Path
 from collections import defaultdict
+from state_utils import load_ckpt, save_ckpt
 
 ROOT = Path("$(pwd)/une")
 REPORT = Path("/sdcard/openroot/agape_kb/audit_report.json")
@@ -68,6 +69,7 @@ def run():
     return report
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     r = run()
     s = r["summary"]
     print("META AUDIT | Health: " + str(s["health"]) + "/100 | Critical:" + str(s["critical"]) + " Warn:" + str(s["warnings"]) + " Info:" + str(s["info"]))

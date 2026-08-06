@@ -10,6 +10,7 @@ Usage: python3 bin/reversible_sim.py <bits> <energy_joules>
 """
 import sys
 import math
+from state_utils import load_ckpt, save_ckpt
 
 K_B = 1.380649e-23
 T = 298  # room temp
@@ -93,6 +94,7 @@ def simulate(bits, actual_energy_j):
     }
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     bits = int(sys.argv[1]) if len(sys.argv) > 1 else 12280
     energy = float(sys.argv[2]) if len(sys.argv) > 2 else 10.315
     result = simulate(bits, energy)

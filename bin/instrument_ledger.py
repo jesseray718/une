@@ -11,6 +11,7 @@ import json
 import hashlib
 import time
 import os
+from state_utils import load_ckpt, save_ckpt
 
 LEDGER_PATH = "/sdcard/openroot/context_bridge/thermo_ledger.jsonl"
 BOTTLENECK_PATH = "/sdcard/openroot/context_bridge/bottlenecks.jsonl"
@@ -202,6 +203,7 @@ def run_measurement(entries):
 
 # ── DEMO: First instrumentation measurements ───────────────────
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     # Baseline measurements from immortal_context:
     # Passive ΔT Vehicle: 3930.1 W useful, 0 W human (passive)
     # Human metabolic labor: ~100W sustained, ~350W peak

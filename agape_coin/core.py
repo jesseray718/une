@@ -25,6 +25,7 @@ LICENSE: AGPL-3.0
 
 import json, os, hashlib, math, time
 from datetime import datetime, timezone
+from state_utils import load_ckpt, save_ckpt
 
 # ─── Constants ─────────────────────────────────────────────
 SPEED_OF_LIGHT = 299_792_458  # m/s
@@ -681,4 +682,5 @@ def main():
         print(f"Current ledger: {stats['total_entries']} entries, {stats['total_coins_minted']:.8f} AGAPE minted")
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     main()

@@ -2,6 +2,7 @@
 
 import sys
 import logging
+from state_utils import load_ckpt, save_ckpt
 logger = logging.getLogger("opencl-embed-kernel")
 
 
@@ -23,4 +24,5 @@ def main():
 
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     main()

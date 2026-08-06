@@ -7,6 +7,7 @@ import argparse
 import statistics
 import logging
 from typing import Any, Dict, List, Optional
+from state_utils import load_ckpt, save_ckpt
 
 from collections import defaultdict
 
@@ -472,4 +473,5 @@ def main():
 
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     main()

@@ -11,6 +11,7 @@ import hashlib
 import re
 from pathlib import Path
 from collections import defaultdict
+from state_utils import load_ckpt, save_ckpt
 
 # Configuration
 ROOT_DIR = Path.home() / "une"
@@ -169,6 +170,7 @@ def main():
         print("Usage: python absorber.py <function_name>")
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     main()
 '''
     

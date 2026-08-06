@@ -1,0 +1,426 @@
+[
+  {
+    "file": "backups/auto_fix_20260805/dup_1546a586_meta_une_ultimate_fix.py",
+    "error": "File \"/data/data/com.termux/files/home/une/backups/auto_fix_20260805/dup_1546a586_meta_une_ultimate_fix.py\", line 6\n    "
+  },
+  {
+    "file": "backups/auto_fix_20260805/dup_15d62538_pdf-compile.py",
+    "error": "File \"/data/data/com.termux/files/home/une/backups/auto_fix_20260805/dup_15d62538_pdf-compile.py\", line 1\n    cat > /roo"
+  },
+  {
+    "file": "backups/auto_fix_20260805/dup_31a94007_meta_une_fix_round2.py",
+    "error": "File \"/data/data/com.termux/files/home/une/backups/auto_fix_20260805/dup_31a94007_meta_une_fix_round2.py\", line 6\n    BA"
+  },
+  {
+    "file": "backups/auto_fix_20260805/dup_62bc87a8_meta_une_last_fix.py",
+    "error": "File \"/data/data/com.termux/files/home/une/backups/auto_fix_20260805/dup_62bc87a8_meta_une_last_fix.py\", line 6\n    BASE"
+  },
+  {
+    "file": "backups/auto_fix_20260805/dup_632f7a17_meta_une_build_final.py",
+    "error": "File \"/data/data/com.termux/files/home/une/backups/auto_fix_20260805/dup_632f7a17_meta_une_build_final.py\", line 7\n    B"
+  },
+  {
+    "file": "backups/auto_fix_20260805/dup_752f4a99_meta_une_bulk_migrate.py",
+    "error": "File \"/data/data/com.termux/files/home/une/backups/auto_fix_20260805/dup_752f4a99_meta_une_bulk_migrate.py\", line 6\n    "
+  },
+  {
+    "file": "backups/auto_fix_20260805/dup_a5e1c7b5_dup_15d62538_pdf-compile.py",
+    "error": "File \"/data/data/com.termux/files/home/une/backups/auto_fix_20260805/dup_a5e1c7b5_dup_15d62538_pdf-compile.py\", line 1\n "
+  },
+  {
+    "file": "backups/auto_fix_20260805/dup_afcc844c_meta_une_fix_all_issues.py",
+    "error": "File \"/data/data/com.termux/files/home/une/backups/auto_fix_20260805/dup_afcc844c_meta_une_fix_all_issues.py\", line 6\n  "
+  },
+  {
+    "file": "backups/auto_fix_20260805/dup_bd96c724_meta_une_repair_imports.py",
+    "error": "File \"/data/data/com.termux/files/home/une/backups/auto_fix_20260805/dup_bd96c724_meta_une_repair_imports.py\", line 6\n  "
+  },
+  {
+    "file": "backups/auto_fix_20260805/dup_bf6bdf49_meta_une_apply_all.py",
+    "error": "File \"/data/data/com.termux/files/home/une/backups/auto_fix_20260805/dup_bf6bdf49_meta_une_apply_all.py\", line 77\n    \"o"
+  },
+  {
+    "file": "backups/auto_fix_20260805/dup_d2d2df6e_meta_une_cleanup_final.py",
+    "error": "File \"/data/data/com.termux/files/home/une/backups/auto_fix_20260805/dup_d2d2df6e_meta_une_cleanup_final.py\", line 6\n   "
+  },
+  {
+    "file": "backups/auto_fix_20260805/dup_f65fe67c_meta_une_final_fix.py",
+    "error": "File \"/data/data/com.termux/files/home/une/backups/auto_fix_20260805/dup_f65fe67c_meta_une_final_fix.py\", line 6\n    BAS"
+  },
+  {
+    "file": "backups/broken_20260805_172523/absorb_batch.py",
+    "error": "File \"/data/data/com.termux/files/home/une/backups/broken_20260805_172523/absorb_batch.py\", line 90\n    print(\"Saved to:"
+  },
+  {
+    "file": "backups/broken_20260805_172523/alchemy_transmute.py",
+    "error": "File \"/data/data/com.termux/files/home/une/backups/broken_20260805_172523/alchemy_transmute.py\", line 115\n    print(f\"To"
+  },
+  {
+    "file": "backups/broken_20260805_172523/create_scripture_corpus.py",
+    "error": "File \"/data/data/com.termux/files/home/une/backups/broken_20260805_172523/create_scripture_corpus.py\", line 1039\n    \"JN"
+  },
+  {
+    "file": "backups/broken_20260805_172523/guardian.py",
+    "error": "File \"/data/data/com.termux/files/home/une/backups/broken_20260805_172523/guardian.py\", line 21\n    CB_PATH = \"os.enviro"
+  },
+  {
+    "file": "backups/broken_20260805_172523/guardian_v4.py",
+    "error": "File \"/data/data/com.termux/files/home/une/backups/broken_20260805_172523/guardian_v4.py\", line 12\n    CB_PATH = \"os.env"
+  },
+  {
+    "file": "backups/broken_20260805_172523/kernel_init.py",
+    "error": "File \"/data/data/com.termux/files/home/une/backups/broken_20260805_172523/kernel_init.py\", line 10\n    CB = \"os.environ."
+  },
+  {
+    "file": "backups/broken_20260805_172523/note.py",
+    "error": "File \"/data/data/com.termux/files/home/une/backups/broken_20260805_172523/note.py\", line 6\n    CB = \"os.environ.get(\"OPE"
+  },
+  {
+    "file": "backups/broken_20260805_172523/self_clone.py",
+    "error": "File \"/data/data/com.termux/files/home/une/backups/broken_20260805_172523/self_clone.py\", line 10\n    REPO_ROOT = \"os.pa"
+  },
+  {
+    "file": "backups/broken_20260805_172523/swarm_query.py",
+    "error": "File \"/data/data/com.termux/files/home/une/backups/broken_20260805_172523/swarm_query.py\", line 31\n    SWARM_CFG = \"os.p"
+  },
+  {
+    "file": "backups/broken_20260805_172523/wire_core.py",
+    "error": "File \"/data/data/com.termux/files/home/une/backups/broken_20260805_172523/wire_core.py\", line 13\n    BASE = Path(\"os.pat"
+  },
+  {
+    "file": "bin/agape_board_advisor.py",
+    "error": "File \"/data/data/com.termux/files/home/une/bin/agape_board_advisor.py\", line 74\n    \"evil\": \"Allows illicit markets, ran"
+  },
+  {
+    "file": "bin/h003_resonant_solver.py",
+    "error": "File \"/data/data/com.termux/files/home/une/bin/h003_resonant_solver.py\", line 348\n    \u2502    Capture eff: {p['lab_eff']*10"
+  },
+  {
+    "file": "computational_flow/agape_oracle.py",
+    "error": "File \"/data/data/com.termux/files/home/une/computational_flow/agape_oracle.py\", line 252\n    print(\"  python3 os.path.jo"
+  },
+  {
+    "file": "computational_flow/atomic_scan.py",
+    "error": "File \"/data/data/com.termux/files/home/une/computational_flow/atomic_scan.py\", line 17\n    \"os.path.expanduser(\"~\") + \"/"
+  },
+  {
+    "file": "computational_flow/extract_seed.py",
+    "error": "File \"/data/data/com.termux/files/home/une/computational_flow/extract_seed.py\", line 41\n    result = subprocess.run([\"gi"
+  },
+  {
+    "file": "computational_flow/fs_hook.py",
+    "error": "File \"/data/data/com.termux/files/home/une/computational_flow/fs_hook.py\", line 14\n    UNE_ROOT = Path(\"os.path.expandus"
+  },
+  {
+    "file": "computational_flow/push_proof.py",
+    "error": "File \"/data/data/com.termux/files/home/une/computational_flow/push_proof.py\", line 17\n    REPO_PATH = \"os.path.expanduse"
+  },
+  {
+    "file": "councils/tri_council.py",
+    "error": "File \"/data/data/com.termux/files/home/une/councils/tri_council.py\", line 610\n    print(json.dumps(result, indent=\u6700\u8fd1'd)\n"
+  },
+  {
+    "file": "meta_hub/OpenCell-Thermal-System/1_code/src/pdf-comp.py",
+    "error": "File \"/data/data/com.termux/files/home/une/meta_hub/OpenCell-Thermal-System/1_code/src/pdf-comp.py\", line 1\n    cat > /r"
+  },
+  {
+    "file": "meta_hub/OpenCell-Thermal-System/1_code/src/pdf-compile.py",
+    "error": "File \"/data/data/com.termux/files/home/une/meta_hub/OpenCell-Thermal-System/1_code/src/pdf-compile.py\", line 1\n    cat >"
+  },
+  {
+    "file": "meta_hub/aerocement/rmh.py",
+    "error": "File \"/data/data/com.termux/files/home/une/meta_hub/aerocement/rmh.py\", line 56\n    with open(\"os.path.expanduser(\"~\") +"
+  },
+  {
+    "file": "meta_hub/aerocement/scripts/data_logger.py",
+    "error": "File \"/data/data/com.termux/files/home/une/meta_hub/aerocement/scripts/data_logger.py\", line 2\n    log_file = f\"os.envir"
+  },
+  {
+    "file": "meta_hub/aerocement/scripts/data_logger_v03.py",
+    "error": "File \"/data/data/com.termux/files/home/une/meta_hub/aerocement/scripts/data_logger_v03.py\", line 16\n    LOG_DIR = \"os.en"
+  },
+  {
+    "file": "meta_hub/aerocement/une-dev/test_une_fixed.py",
+    "error": "File \"/data/data/com.termux/files/home/une/meta_hub/aerocement/une-dev/test_une_fixed.py\", line 19\n    os.system(\"ls -la"
+  },
+  {
+    "file": "meta_hub/agape-coordination/agape_engine.py",
+    "error": "File \"/data/data/com.termux/files/home/une/meta_hub/agape-coordination/agape_engine.py\", line 57\n    KB_ROOT = \"os.envir"
+  },
+  {
+    "file": "meta_hub/agape-coordination/swarm_core_v3.py",
+    "error": "File \"/data/data/com.termux/files/home/une/meta_hub/agape-coordination/swarm_core_v3.py\", line 41\n    POSTULATE_FILE = \""
+  },
+  {
+    "file": "meta_hub/openroot/bin/acre_mint_claim.py",
+    "error": "File \"/data/data/com.termux/files/home/une/meta_hub/openroot/bin/acre_mint_claim.py\", line 13\n    LEDGER_PATH = \"os.envi"
+  },
+  {
+    "file": "meta_hub/openroot/bin/auto_sensor_capture.py",
+    "error": "File \"/data/data/com.termux/files/home/une/meta_hub/openroot/bin/auto_sensor_capture.py\", line 14\n    LEDGER_PATH = \"os."
+  },
+  {
+    "file": "meta_hub/openroot/bin/embed_docs.py",
+    "error": "File \"/data/data/com.termux/files/home/une/meta_hub/openroot/bin/embed_docs.py\", line 7\n    SRC_DIR = Path(\"os.path.expa"
+  },
+  {
+    "file": "meta_hub/openroot/bin/h003_resonant_solver.py",
+    "error": "File \"/data/data/com.termux/files/home/une/meta_hub/openroot/bin/h003_resonant_solver.py\", line 348\n    \u2502    Capture eff"
+  },
+  {
+    "file": "meta_hub/openroot/bin/instrument_ledger.py",
+    "error": "File \"/data/data/com.termux/files/home/une/meta_hub/openroot/bin/instrument_ledger.py\", line 15\n    LEDGER_PATH = \"os.en"
+  },
+  {
+    "file": "meta_hub/openroot/bin/offline_rank.py",
+    "error": "File \"/data/data/com.termux/files/home/une/meta_hub/openroot/bin/offline_rank.py\", line 6\n    ROOT = Path(\"os.path.expan"
+  },
+  {
+    "file": "meta_hub/openroot/bin/offline_writer.py",
+    "error": "File \"/data/data/com.termux/files/home/une/meta_hub/openroot/bin/offline_writer.py\", line 12\n    ROOT = Path(\"os.path.ex"
+  },
+  {
+    "file": "meta_hub/openroot/bin/orphan_cleanup.py",
+    "error": "File \"/data/data/com.termux/files/home/une/meta_hub/openroot/bin/orphan_cleanup.py\", line 16\n    print(\"  2. Move to os."
+  },
+  {
+    "file": "meta_hub/openroot/bin/query_agent.py",
+    "error": "File \"/data/data/com.termux/files/home/une/meta_hub/openroot/bin/query_agent.py\", line 12\n    ROOT = Path(\"os.path.expan"
+  },
+  {
+    "file": "meta_hub/openroot/bin/thermal_v62_balanced.py",
+    "error": "File \"/data/data/com.termux/files/home/une/meta_hub/openroot/bin/thermal_v62_balanced.py\", line 300\n    print(f\"  Output"
+  },
+  {
+    "file": "meta_hub/openroot/bin/vecquery.py",
+    "error": "File \"/data/data/com.termux/files/home/une/meta_hub/openroot/bin/vecquery.py\", line 8\n    DB = Path(\"os.path.expanduser("
+  },
+  {
+    "file": "meta_hub/openroot/context_bridge/absorb_full_session.py",
+    "error": "File \"/data/data/com.termux/files/home/une/meta_hub/openroot/context_bridge/absorb_full_session.py\", line 5\n    BRIDGE ="
+  },
+  {
+    "file": "meta_hub/openroot/context_bridge/absorb_now.py",
+    "error": "File \"/data/data/com.termux/files/home/une/meta_hub/openroot/context_bridge/absorb_now.py\", line 5\n    BRIDGE_DIR = \"os."
+  },
+  {
+    "file": "meta_hub/openroot/context_bridge/absorb_to_wisdom.py",
+    "error": "File \"/data/data/com.termux/files/home/une/meta_hub/openroot/context_bridge/absorb_to_wisdom.py\", line 5\n    WISDOM = \"o"
+  },
+  {
+    "file": "meta_hub/openroot/context_bridge/openroot_state.py",
+    "error": "File \"/data/data/com.termux/files/home/une/meta_hub/openroot/context_bridge/openroot_state.py\", line 11\n    \"bridge\": \"o"
+  },
+  {
+    "file": "meta_hub/openroot/lattice/meta_mesh_engine.py",
+    "error": "File \"/data/data/com.termux/files/home/une/meta_hub/openroot/lattice/meta_mesh_engine.py\", line 17\n    SEED_PATH = \"os.e"
+  },
+  {
+    "file": "meta_hub/openroot/ledger/cpu_joules.py",
+    "error": "File \"/data/data/com.termux/files/home/une/meta_hub/openroot/ledger/cpu_joules.py\", line 5\n    STATE = \"os.path.expandus"
+  },
+  {
+    "file": "meta_hub/openroot/ledger/merkle_joule_ledger.py",
+    "error": "File \"/data/data/com.termux/files/home/une/meta_hub/openroot/ledger/merkle_joule_ledger.py\", line 12\n    ROOT = Path(\"os"
+  },
+  {
+    "file": "meta_hub/openroot/ledger/state_and_viz.py",
+    "error": "File \"/data/data/com.termux/files/home/une/meta_hub/openroot/ledger/state_and_viz.py\", line 6\n    STATE = \"os.path.expan"
+  },
+  {
+    "file": "meta_hub/openroot/ledger/thermo_ledger.py",
+    "error": "File \"/data/data/com.termux/files/home/une/meta_hub/openroot/ledger/thermo_ledger.py\", line 4\n    LEDGER = \"os.path.expa"
+  },
+  {
+    "file": "meta_hub/openroot/ledger/thermo_ledger_sqlite.py",
+    "error": "File \"/data/data/com.termux/files/home/une/meta_hub/openroot/ledger/thermo_ledger_sqlite.py\", line 5\n    DB = \"os.path.e"
+  },
+  {
+    "file": "meta_hub/openroot/library/kai-sandbox/github-repos/OpenCell-Thermal-System/1_code/src/pdf-comp.py",
+    "error": "File \"/data/data/com.termux/files/home/une/meta_hub/openroot/library/kai-sandbox/github-repos/OpenCell-Thermal-System/1_"
+  },
+  {
+    "file": "meta_hub/openroot/library/kai-sandbox/github-repos/OpenCell-Thermal-System/1_code/src/pdf-compile.py",
+    "error": "File \"/data/data/com.termux/files/home/une/meta_hub/openroot/library/kai-sandbox/github-repos/OpenCell-Thermal-System/1_"
+  },
+  {
+    "file": "meta_hub/openroot/library/kai-sandbox/github-repos/renaissance-protocol/src/log_temp.py",
+    "error": "File \"/data/data/com.termux/files/home/une/meta_hub/openroot/library/kai-sandbox/github-repos/renaissance-protocol/src/l"
+  },
+  {
+    "file": "meta_hub/openroot/library/kai-sandbox/openroot/bin/h003_resonant_solver.py",
+    "error": "File \"/data/data/com.termux/files/home/une/meta_hub/openroot/library/kai-sandbox/openroot/bin/h003_resonant_solver.py\", "
+  },
+  {
+    "file": "meta_hub/openroot/library/kai-sandbox/openroot-ecosystem/OpenCell-Thermal-System/1_code/src/pdf-comp.py",
+    "error": "File \"/data/data/com.termux/files/home/une/meta_hub/openroot/library/kai-sandbox/openroot-ecosystem/OpenCell-Thermal-Sys"
+  },
+  {
+    "file": "meta_hub/openroot/library/kai-sandbox/openroot-ecosystem/OpenCell-Thermal-System/1_code/src/pdf-compile.py",
+    "error": "File \"/data/data/com.termux/files/home/une/meta_hub/openroot/library/kai-sandbox/openroot-ecosystem/OpenCell-Thermal-Sys"
+  },
+  {
+    "file": "meta_hub/openroot/library/kai-sandbox/projects/agape-une/bin/kai_query.py",
+    "error": "File \"/data/data/com.termux/files/home/une/meta_hub/openroot/library/kai-sandbox/projects/agape-une/bin/kai_query.py\", l"
+  },
+  {
+    "file": "meta_hub/openroot/library/kai-sandbox/skills/openroot/bin/h003_resonant_solver.py",
+    "error": "File \"/data/data/com.termux/files/home/une/meta_hub/openroot/library/kai-sandbox/skills/openroot/bin/h003_resonant_solve"
+  },
+  {
+    "file": "meta_hub/openroot/library/kai-sandbox/volumetric-project/OpenCell-Thermal-System/1_code/src/pdf-comp.py",
+    "error": "File \"/data/data/com.termux/files/home/une/meta_hub/openroot/library/kai-sandbox/volumetric-project/OpenCell-Thermal-Sys"
+  },
+  {
+    "file": "meta_hub/openroot/library/kai-sandbox/volumetric-project/OpenCell-Thermal-System/1_code/src/pdf-compile.py",
+    "error": "File \"/data/data/com.termux/files/home/une/meta_hub/openroot/library/kai-sandbox/volumetric-project/OpenCell-Thermal-Sys"
+  },
+  {
+    "file": "meta_hub/openroot/library/kai-sandbox/volumetric-project/renaissance-protocol/src/log_temp.py",
+    "error": "File \"/data/data/com.termux/files/home/une/meta_hub/openroot/library/kai-sandbox/volumetric-project/renaissance-protocol"
+  },
+  {
+    "file": "meta_hub/openroot/test_configs.py",
+    "error": "File \"/data/data/com.termux/files/home/une/meta_hub/openroot/test_configs.py\", line 6\n    LOG = \"os.environ.get(\"OPENROO"
+  },
+  {
+    "file": "meta_hub/renaissance-protocol/src/log_temp.py",
+    "error": "File \"/data/data/com.termux/files/home/une/meta_hub/renaissance-protocol/src/log_temp.py\", line 1\n    cat > ~/rns/script"
+  },
+  {
+    "file": "meta_hub/une/absorb_batch.py",
+    "error": "File \"/data/data/com.termux/files/home/une/meta_hub/une/absorb_batch.py\", line 90\n    print(\"Saved to: os.environ.get(\"O"
+  },
+  {
+    "file": "meta_hub/une/alchemy_transmute.py",
+    "error": "File \"/data/data/com.termux/files/home/une/meta_hub/une/alchemy_transmute.py\", line 115\n    print(f\"To restore later: ta"
+  },
+  {
+    "file": "meta_hub/une/computational_flow/agape_engine.py",
+    "error": "File \"/data/data/com.termux/files/home/une/meta_hub/une/computational_flow/agape_engine.py\", line 31\n    from __future__"
+  },
+  {
+    "file": "meta_hub/une/computational_flow/atomic_scan.py",
+    "error": "File \"/data/data/com.termux/files/home/une/meta_hub/une/computational_flow/atomic_scan.py\", line 17\n    \"os.path.expandu"
+  },
+  {
+    "file": "meta_hub/une/computational_flow/extract_seed.py",
+    "error": "File \"/data/data/com.termux/files/home/une/meta_hub/une/computational_flow/extract_seed.py\", line 41\n    result = subpro"
+  },
+  {
+    "file": "meta_hub/une/computational_flow/fs_hook.py",
+    "error": "File \"/data/data/com.termux/files/home/une/meta_hub/une/computational_flow/fs_hook.py\", line 14\n    UNE_ROOT = Path(\"os."
+  },
+  {
+    "file": "meta_hub/une/computational_flow/push_proof.py",
+    "error": "File \"/data/data/com.termux/files/home/une/meta_hub/une/computational_flow/push_proof.py\", line 17\n    REPO_PATH = \"os.p"
+  },
+  {
+    "file": "meta_hub/une/create_scripture_corpus.py",
+    "error": "File \"/data/data/com.termux/files/home/une/meta_hub/une/create_scripture_corpus.py\", line 1039\n    \"JN-10-9\": {\n        "
+  },
+  {
+    "file": "meta_hub/une/evolution_engine.py",
+    "error": "File \"/data/data/com.termux/files/home/une/meta_hub/une/evolution_engine.py\", line 9\n    STATE_FILE = \"os.environ.get(\"O"
+  },
+  {
+    "file": "meta_hub/une/guardian.py",
+    "error": "File \"/data/data/com.termux/files/home/une/meta_hub/une/guardian.py\", line 21\n    CB_PATH = \"os.environ.get(\"OPENROOT_BA"
+  },
+  {
+    "file": "meta_hub/une/guardian_v4.py",
+    "error": "File \"/data/data/com.termux/files/home/une/meta_hub/une/guardian_v4.py\", line 12\n    CB_PATH = \"os.environ.get(\"OPENROOT"
+  },
+  {
+    "file": "meta_hub/une/kernel_init.py",
+    "error": "File \"/data/data/com.termux/files/home/une/meta_hub/une/kernel_init.py\", line 10\n    CB = \"os.environ.get(\"OPENROOT_BASE"
+  },
+  {
+    "file": "meta_hub/une/note.py",
+    "error": "File \"/data/data/com.termux/files/home/une/meta_hub/une/note.py\", line 6\n    CB = \"os.environ.get(\"OPENROOT_BASE\", \"/sdc"
+  },
+  {
+    "file": "meta_hub/une/self_clone.py",
+    "error": "File \"/data/data/com.termux/files/home/une/meta_hub/une/self_clone.py\", line 10\n    REPO_ROOT = \"os.path.expanduser(\"~\")"
+  },
+  {
+    "file": "meta_hub/une/snapshot.py",
+    "error": "File \"/data/data/com.termux/files/home/une/meta_hub/une/snapshot.py\", line 15\n    BASE = Path(\"os.path.expanduser(\"~\") +"
+  },
+  {
+    "file": "meta_hub/une/swarm_query.py",
+    "error": "File \"/data/data/com.termux/files/home/une/meta_hub/une/swarm_query.py\", line 31\n    SWARM_CFG = \"os.path.expanduser(\"~\""
+  },
+  {
+    "file": "meta_hub/une/tools/stream_of_thought.py",
+    "error": "File \"/data/data/com.termux/files/home/une/meta_hub/une/tools/stream_of_thought.py\", line 14\n    OUTPUT_FILE = \"os.envir"
+  },
+  {
+    "file": "meta_hub/une/wire_core.py",
+    "error": "File \"/data/data/com.termux/files/home/une/meta_hub/une/wire_core.py\", line 13\n    BASE = Path(\"os.path.expanduser(\"~\") "
+  },
+  {
+    "file": "meta_hub/wisdom-scaffold/computational_flow/fusion_core.py",
+    "error": "File \"/data/data/com.termux/files/home/une/meta_hub/wisdom-scaffold/computational_flow/fusion_core.py\", line 58\n    ctx_"
+  },
+  {
+    "file": "meta_hub/wisdom-scaffold/computational_flow/fusion_sensor_wrapper.py",
+    "error": "File \"/data/data/com.termux/files/home/une/meta_hub/wisdom-scaffold/computational_flow/fusion_sensor_wrapper.py\", line 4"
+  },
+  {
+    "file": "quarantine/meta_une_apply_all.py",
+    "error": "File \"/data/data/com.termux/files/home/une/quarantine/meta_une_apply_all.py\", line 77\n    \"os.path.expanduser(\"~\") + \"/\""
+  },
+  {
+    "file": "quarantine/meta_une_build_final.py",
+    "error": "File \"/data/data/com.termux/files/home/une/quarantine/meta_une_build_final.py\", line 7\n    BASE = Path(\"os.path.expandus"
+  },
+  {
+    "file": "quarantine/meta_une_bulk_migrate.py",
+    "error": "File \"/data/data/com.termux/files/home/une/quarantine/meta_une_bulk_migrate.py\", line 6\n    BASE = Path(\"os.path.expandu"
+  },
+  {
+    "file": "quarantine/meta_une_cleanup_final.py",
+    "error": "File \"/data/data/com.termux/files/home/une/quarantine/meta_une_cleanup_final.py\", line 6\n    BASE = Path(\"os.path.expand"
+  },
+  {
+    "file": "quarantine/meta_une_final_fix.py",
+    "error": "File \"/data/data/com.termux/files/home/une/quarantine/meta_une_final_fix.py\", line 6\n    BASE = Path(\"os.path.expanduser"
+  },
+  {
+    "file": "quarantine/meta_une_fix_all_issues.py",
+    "error": "File \"/data/data/com.termux/files/home/une/quarantine/meta_une_fix_all_issues.py\", line 6\n    BASE = Path(\"os.path.expan"
+  },
+  {
+    "file": "quarantine/meta_une_fix_round2.py",
+    "error": "File \"/data/data/com.termux/files/home/une/quarantine/meta_une_fix_round2.py\", line 6\n    BASE = Path(\"os.path.expanduse"
+  },
+  {
+    "file": "quarantine/meta_une_last_fix.py",
+    "error": "File \"/data/data/com.termux/files/home/une/quarantine/meta_une_last_fix.py\", line 6\n    BASE = Path(\"os.path.expanduser("
+  },
+  {
+    "file": "quarantine/meta_une_repair_imports.py",
+    "error": "File \"/data/data/com.termux/files/home/une/quarantine/meta_une_repair_imports.py\", line 6\n    BASE = Path(\"os.path.expan"
+  },
+  {
+    "file": "quarantine/meta_une_ultimate_fix.py",
+    "error": "File \"/data/data/com.termux/files/home/une/quarantine/meta_une_ultimate_fix.py\", line 6\n    BASE = Path(\"os.path.expandu"
+  },
+  {
+    "file": "quarantine/repair_imports.py",
+    "error": "File \"/data/data/com.termux/files/home/une/quarantine/repair_imports.py\", line 132\n    SCRIPTcd ~/une && cat > ~/une/fin"
+  },
+  {
+    "file": "scaffold/computational_flow/fusion_core.py",
+    "error": "File \"/data/data/com.termux/files/home/une/scaffold/computational_flow/fusion_core.py\", line 58\n    ctx_path = \"os.envir"
+  },
+  {
+    "file": "scaffold/computational_flow/fusion_sensor_wrapper.py",
+    "error": "File \"/data/data/com.termux/files/home/une/scaffold/computational_flow/fusion_sensor_wrapper.py\", line 43\n    sys.path.i"
+  },
+  {
+    "file": "tools/stream_of_thought.py",
+    "error": "File \"/data/data/com.termux/files/home/une/tools/stream_of_thought.py\", line 14\n    OUTPUT_FILE = \"os.environ.get(\"OPENR"
+  }
+]

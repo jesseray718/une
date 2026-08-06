@@ -2,6 +2,7 @@
 """META META — Audits the auditor, tracks improvement over time."""
 import json, time
 from pathlib import Path
+from state_utils import load_ckpt, save_ckpt
 
 AUDIT = Path("/sdcard/openroot/agape_kb/audit_report.json")
 META = Path("/sdcard/openroot/agape_kb/meta_meta_report.json")
@@ -52,4 +53,5 @@ def run():
         print("[" + f["severity"].upper() + "] " + f["issue"] + ": " + f["detail"])
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     run()

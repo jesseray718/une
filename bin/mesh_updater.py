@@ -14,6 +14,7 @@ import shutil
 import traceback
 from pathlib import Path
 from datetime import datetime
+from state_utils import load_ckpt, save_ckpt
 
 SCRIPT_DIR = Path(__file__).parent.resolve()
 UNE_ROOT = SCRIPT_DIR.parent
@@ -404,4 +405,5 @@ def main():
         print(f"\n✅ All repos pushed. Check GitHub Actions for Lair runs.")
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     main()

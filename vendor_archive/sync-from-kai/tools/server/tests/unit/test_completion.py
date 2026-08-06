@@ -2,6 +2,7 @@ import pytest
 import requests
 import time
 import random
+from state_utils import load_ckpt, save_ckpt
 
 from openai import OpenAI
 from utils import *

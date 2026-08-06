@@ -5,6 +5,7 @@ Nothing else is accepted as a fundamental output.
 """
 
 from typing import Dict
+from state_utils import load_ckpt, save_ckpt
 
 # ─── 1. Fundamental ratios ─────────────────────────────
 

@@ -1,5 +1,6 @@
 import pytest
 from utils import *
+from state_utils import load_ckpt, save_ckpt
 
 # We use a F16 MOE gguf as main model, and q4_0 as draft model
 

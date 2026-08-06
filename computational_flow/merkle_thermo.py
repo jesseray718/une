@@ -16,6 +16,7 @@ import json
 import hashlib
 import time
 from pathlib import Path
+from state_utils import load_ckpt, save_ckpt
 
 BASE = Path(os.path.join(OPENROOT, "context_bridge"))
 TREE_LOG = BASE / "merkle_tree.jsonl"
@@ -101,6 +102,7 @@ def current_root() -> str:
     return root_from_leaves(leaves)
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     import sys
     if len(sys.argv) > 1 and sys.argv[1] == "root":
         print("Current Merkle root:", current_root())

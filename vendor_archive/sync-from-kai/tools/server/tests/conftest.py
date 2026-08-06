@@ -1,5 +1,6 @@
 import pytest
 from utils import *
+from state_utils import load_ckpt, save_ckpt
 
 
 # ref: https://stackoverflow.com/questions/22627659/run-code-before-and-after-each-test-in-py-test

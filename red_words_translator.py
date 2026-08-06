@@ -10,6 +10,7 @@ import re
 import math
 sys.path.insert(0, 'os.path.expanduser("~") + "/"une')
 from universical_primes import interpret_prime, SYMBOL_MEANINGS, SEEDED_PRIMES, COOPERATION_FORMULA
+from state_utils import load_ckpt, save_ckpt
 
 # ============================================================
 # THE DICTIONARY: Mapping English concepts to Prime Codes
@@ -161,6 +162,7 @@ def format_output(text, primes_list, alignment):
     return "\n".join(output)
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     import hashlib
     
     # Example: A famous verse

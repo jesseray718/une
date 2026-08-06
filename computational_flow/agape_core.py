@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """AGAPE CORE — Recalibrated per 1 Corinthians 13."""
 from typing import Any, Dict, List
+from state_utils import load_ckpt, save_ckpt
 
 class AgapeAlgorithm:
     def __init__(self, name: str = "Agape_Core"):

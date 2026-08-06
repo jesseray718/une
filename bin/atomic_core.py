@@ -21,6 +21,7 @@ import subprocess
 from pathlib import Path
 from datetime import datetime, timezone
 from collections import Counter
+from state_utils import load_ckpt, save_ckpt
 
 # ── ATOMIC PATHS ──
 UNE_ROOT = Path.home() / "une"
@@ -656,4 +657,5 @@ def main():
 
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     main()

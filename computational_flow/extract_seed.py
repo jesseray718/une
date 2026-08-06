@@ -13,6 +13,7 @@ Usage: python3 extract_seed.py --output=/path/to/seed.json
 """
 import json, os, sys, argparse, subprocess, glob
 from datetime import datetime
+from state_utils import load_ckpt, save_ckpt
 
 def main():
     parser = argparse.ArgumentParser()
@@ -63,4 +64,5 @@ def main():
     print(f"  Context keys: {list(seed['context'].keys())[:5]}...")
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     main()

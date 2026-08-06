@@ -1,13 +1,13 @@
 # Unified Theory of JesseRay718 Ecosystem
-Generated: 2026-08-05T23:09:39.915922+00:00
+Generated: 2026-08-05T23:51:37.611539+00:00
 
 ## Overview
 | Metric | Value |
 |--------|-------|
 | Total repos | 6 |
 | Active nodes | 4 |
-| Total files | 12410 |
-| Total lines | 133023 |
+| Total files | 12456 |
+| Total lines | 133301 |
 | Mesh depth | 2 |
 | Capacity | 36 |
 
@@ -16,7 +16,7 @@ Generated: 2026-08-05T23:09:39.915922+00:00
 - `une`
 
 ### failed
-- `cannonball`
+- `canonical`
 
 ### physical_systems
 - `aerocement`
@@ -45,12 +45,8 @@ Next depth: 216 capacity
 - Nodes cooperate: no duplicated logic — each repo owns its domain
 
 ## Optimization Findings
-### openroot
-- [critical] syntax_error: Fix test_configs.py: File "/data/data/com.termux/files/home/ecosystem/openroot/test_configs.py", line
-
 ### aerocement
-- [critical] syntax_error: Fix rmh.py: File "/data/data/com.termux/files/home/ecosystem/aerocement/rmh.py", line 56
-   
+- [critical] syntax_error: Fix rmh.py: Sorry: IndentationError: unexpected indent (rmh.py, line 56)
 
 
 ---

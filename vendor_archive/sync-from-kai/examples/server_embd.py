@@ -2,6 +2,7 @@ import asyncio
 import asyncio.threads
 import requests
 import numpy as np
+from state_utils import load_ckpt, save_ckpt
 
 
 n = 8

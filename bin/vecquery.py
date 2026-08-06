@@ -3,6 +3,7 @@
 import json, sys, os, math
 from pathlib import Path
 import urllib.request
+from state_utils import load_ckpt, save_ckpt
 
 SERVER = "http://127.0.0.1:9998"
 DB = Path("/data/data/com.termux/files/home/projects/openroot/vectors/nomic_embeddings.jsonl")
@@ -64,5 +65,6 @@ def search(query, top_k=5):
             pass
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     q = sys.argv[1] if len(sys.argv) > 1 else input("Query: ")
     search(q)

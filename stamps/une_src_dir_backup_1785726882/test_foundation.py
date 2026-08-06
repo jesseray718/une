@@ -5,6 +5,7 @@ from une.foundation_calc import (
     person_hours, compare_systems, truck_limited_rate,
 )
 from une.core_equations import efficiency, substitution_valid, composition_beneficial
+from state_utils import load_ckpt, save_ckpt
 
 class TestFoundationCalc(unittest.TestCase):
     def test_labor_intensity(self):
@@ -48,4 +49,5 @@ class TestCoreEquations(unittest.TestCase):
         self.assertFalse(composition_beneficial(2.0, 3.0, 2.5))
 
 if __name__ == "__main__":
+    ckpt = load_ckpt()
     unittest.main(verbosity=2)
