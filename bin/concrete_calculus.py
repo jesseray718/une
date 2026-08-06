@@ -9,7 +9,7 @@ from state_utils import load_ckpt, save_ckpt
 
 def main():
     print("⚠️  concrete_calculus.py: Placeholder active.")
-    print("   Existing tool available: /sdcard/openroot/bin/thermal_cascade_calc.py.save")
+    print("   Existing tool available: os.environ.get("OPENROOT_HOME", "/sdcard/openroot/")bin/thermal_cascade_calc.py.save")
     print("   Usage: python3 concrete_calculus.py <input_joules> <material_type>")
 
 if __name__ == "__main__":

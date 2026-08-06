@@ -56,7 +56,7 @@ def main():
     
     # Simulate finding an issue for demonstration
     issues_found = [
-        {"type": "hardcoded_path", "location": "bin/path_migration_bot.py", "description": "Found /sdcard/openroot/ hardcoded."},
+        {"type": "hardcoded_path", "location": "bin/path_migration_bot.py", "description": "Found os.environ.get("OPENROOT_HOME", "/sdcard/openroot/") hardcoded."},
         {"type": "syntax_error", "location": "contributions/auto_evolution_20260805_022624.py", "description": "Syntax error in evolution script."}
     ]
     

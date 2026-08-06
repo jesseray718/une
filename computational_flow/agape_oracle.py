@@ -254,7 +254,7 @@ def main():
         print("  python3 os.path.join(os.path.expanduser("~"), "une/computational_flow/agape_oracle.py") define")
         print("  python3 os.path.join(os.path.expanduser("~"), "une/computational_flow/agape_oracle.py") learn <postulate>")
         print("  python3 os.path.join(os.path.expanduser("~"), "une/computational_flow/agape_oracle.py") stats")
-        print("\nFront page: file:///sdcard/openroot/oracle/index.html")
+        print("\nFront page: file://os.environ.get("OPENROOT_HOME", "/sdcard/openroot/")oracle/index.html")
         return
     print(oracle(" ".join(sys.argv[1:])))
 

@@ -150,7 +150,7 @@ class FractalAgapeKernel:
         return {
             "depth": depth,
             "total_nodes": N,
-            "synergy_multiplier": round(S, 4),
+            "synergy_mult": round(S, 4),
             "coordination_cost_J": C_coord,
             "landauer_floor_J": C_landauer,
             "effective_ops": eff_ops,

@@ -4,9 +4,9 @@ import json, time
 from pathlib import Path
 from state_utils import load_ckpt, save_ckpt
 
-AUDIT = Path("/sdcard/openroot/agape_kb/audit_report.json")
-META = Path("/sdcard/openroot/agape_kb/meta_meta_report.json")
-HISTORY = Path("/sdcard/openroot/agape_kb/audit_history.jsonl")
+AUDIT = Path("os.environ.get("OPENROOT_HOME", "/sdcard/openroot/")agape_kb/audit_report.json")
+META = Path("os.environ.get("OPENROOT_HOME", "/sdcard/openroot/")agape_kb/meta_meta_report.json")
+HISTORY = Path("os.environ.get("OPENROOT_HOME", "/sdcard/openroot/")agape_kb/audit_history.jsonl")
 
 def run():
     if not AUDIT.exists():

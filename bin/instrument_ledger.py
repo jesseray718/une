@@ -13,8 +13,8 @@ import time
 import os
 from state_utils import load_ckpt, save_ckpt
 
-LEDGER_PATH = "/sdcard/openroot/context_bridge/thermo_ledger.jsonl"
-BOTTLENECK_PATH = "/sdcard/openroot/context_bridge/bottlenecks.jsonl"
+LEDGER_PATH = "os.environ.get("OPENROOT_HOME", "/sdcard/openroot/")context_bridge/thermo_ledger.jsonl"
+BOTTLENECK_PATH = "os.environ.get("OPENROOT_HOME", "/sdcard/openroot/")context_bridge/bottlenecks.jsonl"
 
 # ── 12 ATOMIC FUNCTIONS (compact, measured in W) ──────────────
 

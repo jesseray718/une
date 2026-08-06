@@ -322,7 +322,7 @@ def demo():
     print("")
 
     # Save full snapshot
-    out_path = "/sdcard/openroot/agape_kb/q_system_snapshot.json"
+    out_path = "os.environ.get("OPENROOT_HOME", "/sdcard/openroot/")agape_kb/q_system_snapshot.json"
     with open(out_path, "w") as f:
         json.dump(snap, f, indent=2)
     print("Snapshot saved: " + out_path)

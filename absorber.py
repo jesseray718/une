@@ -18,7 +18,7 @@ from pathlib import Path
 from datetime import datetime, timezone
 import sys as _sys
 from state_utils import load_ckpt, save_ckpt
-_sys.path.insert(0, 'os.path.expanduser("~") + "/"une/bin')
+_sys.path.insert(0, 'os.environ.get("UNE_HOME", os.path.expanduser("~") + "/une/")bin')
 try:
     from energy_probe import snapshot as _energy_snap, cost as _energy_cost
 except:

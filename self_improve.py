@@ -4,9 +4,9 @@ import json, os, sys, time
 from pathlib import Path
 from state_utils import load_ckpt, save_ckpt
 
-AUDIT = Path("/sdcard/openroot/agape_kb/audit_report.json")
+AUDIT = Path("os.environ.get("OPENROOT_HOME", "/sdcard/openroot/")agape_kb/audit_report.json")
 ROOT = Path("$(pwd)/une")
-LOG = Path("/sdcard/openroot/agape_kb/self_improve_actions.jsonl")
+LOG = Path("os.environ.get("OPENROOT_HOME", "/sdcard/openroot/")agape_kb/self_improve_actions.jsonl")
 SAFE = ["dead_file", "duplicate_content"]
 
 def run(dry_run=False):

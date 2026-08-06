@@ -11,8 +11,8 @@ import time
 import os
 from state_utils import load_ckpt, save_ckpt
 
-LEDGER_PATH = "/sdcard/openroot/context_bridge/thermo_ledger.jsonl"
-CLAIM_PATH = "/sdcard/openroot/ledger/canonical/acre_claims.jsonl"
+LEDGER_PATH = "os.environ.get("OPENROOT_HOME", "/sdcard/openroot/")context_bridge/thermo_ledger.jsonl"
+CLAIM_PATH = "os.environ.get("OPENROOT_HOME", "/sdcard/openroot/")ledger/canonical/acre_claims.jsonl"
 
 def load_recent_entries(count=5):
     entries = []

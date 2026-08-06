@@ -1,3 +1,5 @@
+import sys, os
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 #!/data/data/com.termux/files/usr/bin/python3
 """
 Structure Enforcer — Validates repos against OpenRoot permaculture axioms.
@@ -25,8 +27,8 @@ HEREDOC_ARTIFACTS = [
     r'^<<\'', r"^<<\"", r'^EOF$', r'^PYEOF$', r'^READMEEOF$',
 ]
 HARDCODED_PATTERNS = [
-    'os.path.expanduser("~") + "/"une/',
-    'os.path.expanduser("~") + "/"openroot/',
+    os.environ.get("UNE_HOME", os.path.expanduser("~") + "/une/"),
+    os.environ.get("OPENROOT_HOME", "os.environ.get("OPENROOT_HOME", "/sdcard/openroot/")"),
     'os.environ.get("OPENROOT_BASE", "/sdcard/openroot") + "/"',
 ]
 JUNK_FILES = [

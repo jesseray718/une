@@ -40,7 +40,7 @@ jobs:
         run: |
           echo "🏥 Scanning $GITHUB_REPOSITORY..."
           SCORE=100
-          HARDCODED=$(grep -r "/sdcard/openroot/\|/data/data/com.termux" --include="*.py" --include="*.sh" . 2>/dev/null | grep -v "vendor_archive" | grep -v "quarantine" | wc -l)
+          HARDCODED=$(grep -r "os.environ.get("OPENROOT_HOME", "/sdcard/openroot/")\|/data/data/com.termux" --include="*.py" --include="*.sh" . 2>/dev/null | grep -v "vendor_archive" | grep -v "quarantine" | wc -l)
           if [ "$HARDCODED" -gt 0 ]; then SCORE=$((SCORE - (HARDCODED * 5))); fi
           echo "Health Score: $SCORE"
           echo "{\"score\": $SCORE, \"repo\": \"$GITHUB_REPOSITORY\", \"timestamp\": \"$(date -u +%Y-%m-%dT%H:%M:%SZ)\"}" > health_report.json

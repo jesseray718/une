@@ -50,5 +50,5 @@ def main():
         print(json.dumps(collapse(" ".join(sys.argv[1:])),indent=2))
     else:
         print("Usage: omega_zero.py '<thought>' or --daemon")
-        print("Trigger: echo 'text' > /sdcard/openroot/tmp/input_trigger.txt")
+        print("Trigger: echo 'text' > os.environ.get("OPENROOT_HOME", "/sdcard/openroot/")tmp/input_trigger.txt")
 if __name__=="__main__": main()

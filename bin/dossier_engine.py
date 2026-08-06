@@ -155,7 +155,7 @@ def generate_corps_of_engineers(entries):
 
 #### Phase 2: Strengthen (1-3 days)
 - **LLM mutation engine:** Wire `autonomous_mesh.py` to local Ollama for syntax fixes.
-- **Path migration bot:** Write a script that reads each file, finds `/sdcard/openroot/` or `/data/data/com.termux/files/home/`, and replaces with `os.environ.get()` or import from `paths.py`.
+- **Path migration bot:** Write a script that reads each file, finds `os.environ.get("OPENROOT_HOME", "/sdcard/openroot/")` or `/data/data/com.termux/files/home/`, and replaces with `os.environ.get()` or import from `paths.py`.
 - **Git hooks:** Add pre-commit hook that runs `ast.parse()` on all staged .py files. Reject commits with syntax errors.
 
 #### Phase 3: Scale (1-2 weeks)

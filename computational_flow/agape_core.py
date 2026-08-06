@@ -1,3 +1,5 @@
+import sys, os
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 #!/usr/bin/env python3
 """AGAPE CORE — Recalibrated per 1 Corinthians 13."""
 from typing import Any, Dict, List

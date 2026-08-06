@@ -23,7 +23,7 @@ from state_utils import load_ckpt, save_ckpt
 UNE_ROOT = Path.home() / "une"
 REPORTS_DIR = UNE_ROOT / "reports"
 LESSONS_FILE = UNE_ROOT / "logs" / "full_mesh_lessons.jsonl"
-MARKOR_DIR = Path("/sdcard/openroot/markor") if Path("/sdcard").exists() else UNE_ROOT
+MARKOR_DIR = Path("os.environ.get("OPENROOT_HOME", "/sdcard/openroot/")markor") if Path("/sdcard").exists() else UNE_ROOT
 DOSSIER_FILE = MARKOR_DIR / "auto_dossier.txt"
 
 # GitHub search keywords (broader for real results)

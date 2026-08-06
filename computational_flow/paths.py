@@ -10,3 +10,7 @@ AGAPE_STATE_PATH = os.path.join(_BASE, "state.json")
 DUMP_DIR = os.path.join(OPENROOT, "dump", "chunks")
 CONTEXT_BRIDGE = os.path.join(OPENROOT, "context_bridge", "context.json")
 IMMORTAL_CONTEXT = os.path.join(OPENROOT, "context_bridge", "immortal_context.json")
+
+# Added for core_atomic.py compatibility
+LEDGER = os.path.join(OPENROOT, 'ledger.jsonl')
+STATE_CHECKPOINT = os.path.join(OPENROOT, 'state_checkpoint.json')

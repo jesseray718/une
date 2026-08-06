@@ -71,8 +71,8 @@ def analyze_dual_use_tech():
         "dimensions": [
             {
                 "dimension": "Censorship Resistance",
-                "good": "Protects dissidents, journalists, and the poor from authoritarian silencing. Ensures truth survives (e.g., OpenTimestamps, Bitcoin)."
-                "evil": "Allows illicit markets, ransomware payments, and evasion of legal accountability. Bad actors use the same immutability to hide crimes."
+                "good": "Protects dissidents, journalists, and the poor from authoritarian silencing. Ensures truth survives (e.g., OpenTimestamps, Bitcoin).",
+                "evil": "Allows illicit markets, ransomware payments, and evasion of legal accountability. Bad actors use the same immutability to hide crimes.",
                 "government_cooption": "Governments implement 'KYC/AML' layers on top of decentralized rails, or create 'sovereign' blockchains that mimic decentralization but retain backdoors."
             },
             {

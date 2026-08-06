@@ -86,7 +86,7 @@ def synergistic_magnitude(pieces: List[Dict], R: float, base: int = 6) -> Dict:
         "N": N,
         "R": round(R, 5),
         "linear_sum": round(linear, 6),
-        "synergy_multiplier": round(synergy_mult, 5),
+        "synergy_mult": round(synergy_mult, 5),
         "interaction_term": round(interaction, 6),
         "emergent_total": round(emergent, 6),
         "excess_magnitude": round(excess, 6),

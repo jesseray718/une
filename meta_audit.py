@@ -6,7 +6,7 @@ from collections import defaultdict
 from state_utils import load_ckpt, save_ckpt
 
 ROOT = Path("$(pwd)/une")
-REPORT = Path("/sdcard/openroot/agape_kb/audit_report.json")
+REPORT = Path("os.environ.get("OPENROOT_HOME", "/sdcard/openroot/")agape_kb/audit_report.json")
 
 def audit_syntax():
     findings = []
@@ -51,7 +51,7 @@ def audit_bloat():
 
 def audit_stamps():
     findings = []
-    log = Path("/sdcard/openroot/context_bridge/progress_log.jsonl")
+    log = Path("os.environ.get("OPENROOT_HOME", "/sdcard/openroot/")context_bridge/progress_log.jsonl")
     if not log.exists():
         findings.append({"severity":"warning","issue":"no_progress_log","detail":"Missing","fix":"Run stamp_context.py"})
     elif len(log.read_text().strip().split("\n")) < 5:

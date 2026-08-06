@@ -1,0 +1,20 @@
+[33m61df1d0[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;33mtag: [m[1;33mv1.1-mesh-expansion[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m v1.1-mesh-expansion: Cycle 50, fitness 0.556, mesh scaling active, 50 lessons
+[33m4fc5610[m fix: replaced cannonball typo with canonical repo index
+[33m21b614a[m agape: 6 nodes depth 2
+[33md0786ba[m refactor: remove historical bootstrap scripts with heredoc artifacts
+[33m62d0251[m[33m ([m[1;33mtag: [m[1;33mv1.0-fractal-scaling[m[33m)[m feat: Geometric Concrete Protocol — 13-sphere FCC lattice + Zr-reinforcement 20260805_1640
+[33m2ff9352[m feat: Agape Financial Router — cascading rewards + leverage projection 20260805_1613
+[33m8ab3379[m feat: COMPLETE SYNERGETIC AGAPE STACK
+[33md914e88[m feat: Fractal Scale Engine ready. Resolved conflict by keeping local state.
+[33m4f6f999[m feat: Agape Projection Engine + Price Power Optimizer + Full Synergetic Stack 20260805_1538
+[33mbdb2138[m fix: remove hardcoded paths in agape_oracle.py + add Q-System spacetime accounting 20260805_1514
+[33mcb28530[m fix: universal path resolution and telecom math correction
+[33m5ae872d[m fix: removed hardcoded path to ensure universal module compatibility
+[33m5ff2798[m feat: deploy Antifragility Lair & hardened .gitignore
+[33m13794a2[m feat: deploy Antifragility Lair & hardened .gitignore
+[33m69614e7[m fix: reset .gitignore to break symlink loop
+[33m96ca614[m fix: exclude vendor_archive/quarantine/backups from enforcer, remove broken scripts
+[33m53121d7[m feat: deploy Antifragility Lair (GitHub Actions)
+[33m65e772a[m feat: Meta-Orchestrator upgrade (1 changes)
+[33mf537e58[m feat: Meta-Orchestrator upgrade (1 changes)
+[33m2d1160b[m feat: auto-evolution cycle #12 — fix+contribute

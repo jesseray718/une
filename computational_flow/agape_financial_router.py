@@ -164,7 +164,7 @@ class AgapeFinancialRouter:
             "total_cash_balance": total_balance,
             "expected_monthly_revenue": total_revenue,
             "node_count": N,
-            "synergy_multiplier": round(S, 2),
+            "synergy_mult": round(S, 2),
             "leverage_ratio": round(leverage, 2),
             "effective_capital": round(total_assets * S, 2),
             "capital_amplification": round(S * (total_assets / max(self.capital, 1)), 2)

@@ -12,7 +12,7 @@ import os
 import random
 from state_utils import load_ckpt, save_ckpt
 
-LEDGER_PATH = "/sdcard/openroot/context_bridge/thermo_ledger.jsonl"
+LEDGER_PATH = "os.environ.get("OPENROOT_HOME", "/sdcard/openroot/")context_bridge/thermo_ledger.jsonl"
 
 def f1_capture_auto():
     """Simulate reading real sensor data (flow, ΔT, shaft)"""

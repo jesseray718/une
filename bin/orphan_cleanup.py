@@ -13,7 +13,7 @@ orphans = [f for f in d["files"] if f["link_count"] == 0]
 print(f"Found {len(orphans)} orphaned files.\n")
 print("Options:")
 print("  1. List only (default)")
-print("  2. Move to /sdcard/openroot/orphans_archive/")
+print("  2. Move to os.environ.get("OPENROOT_HOME", "/sdcard/openroot/")orphans_archive/")
 print("  3. Delete permanently")
 print("  4. Export list to CSV")
 
