@@ -371,6 +371,20 @@ def run_pipeline(query="full"):
     results["f11"] = f11_pattern_language()
     
     print(f"\n=== PIPELINE COMPLETE: 11 functions executed ===")
+    # Divine Resonance Node Growth (Auto-wired)
+    try:
+        from bin.dr_node_growth import calculate_dr_growth
+        ckpt = load_ckpt()
+        health = ckpt.get("health_score", 65)
+        synergy = 1.0 + (health / 100.0)
+        dr_result = calculate_dr_growth(ckpt.get("mesh_nodes", 1679616), synergy, health)
+        ckpt["mesh_nodes"] = dr_result["new_nodes"]
+        ckpt["fitness_score"] = dr_result["dr"]
+        save_ckpt(ckpt)
+        print(f"  [DR] Nodes: {dr_result['new_nodes']:,} | Fitness: {dr_result['dr']:.4f}")
+    except Exception as e:
+        print(f"  [DR] Skipped: {e}")
+
     eta = 0.0
     for k, v in results.items():
         if isinstance(v, dict):
@@ -435,3 +449,13 @@ def main():
 if __name__ == "__main__":
     ckpt = load_ckpt()
     main()
+
+# PATCH: Divine Resonance Node Update
+# This runs at the end of the pipeline to update mesh_nodes based on DR
+def update_nodes_with_dr(ckpt, dr, health):
+    from computational_flow.swarm_core_v3 import calculate_node_growth
+    current = ckpt.get('mesh_nodes', 1679616)
+    new_nodes = calculate_node_growth(current, dr, health)
+    ckpt['mesh_nodes'] = new_nodes
+    ckpt['fitness_score'] = dr # Fitness IS the Divine Resonance
+    return ckpt

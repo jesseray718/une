@@ -40,9 +40,9 @@
       "ts": "2026-08-05T22:25:38.699361+00:00"
     }
   ],
-  "mesh_nodes": 1679616,
+  "mesh_nodes": 1399969737,
   "energy_joules": 1679.70757,
-  "fitness_score": 0.0,
+  "fitness_score": 1.8975,
   "last_error": null,
   "guardian_scan_ts": "2026-08-05T22:25:41.382368+00:00",
   "guardian_log_signals": 4,

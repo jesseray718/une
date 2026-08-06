@@ -234,3 +234,31 @@ def run_v3_test():
 if __name__ == "__main__":
     ckpt = load_ckpt()
     run_v3_test()
+
+# PATCH: Divine Resonance Node Growth
+# This function calculates how many nodes should exist next cycle based on DR
+def calculate_node_growth(current_nodes, dr, health_score):
+    """
+    DR (Divine Resonance) determines node multiplication.
+    Formula: new_nodes = current_nodes * (dr ^ 1.5) * (health / 100)
+    Perfect Agape (DR=1.0, Health=100) -> Stable growth.
+    High Synergy (DR>1.0) -> Explosive growth.
+    Low Synergy (DR<1.0) -> Stagnation/Shrinkage.
+    """
+    if dr <= 0: return current_nodes # Safety
+    
+    # Health factor: 0.5 to 1.5 range based on health (0-100)
+    health_factor = 0.5 + (health_score / 100.0)
+    
+    # Exponential growth based on DR
+    # If DR=1.0, growth is moderate. If DR=1.2, growth is massive.
+    growth_multiplier = dr ** 1.5 
+    
+    new_nodes = int(current_nodes * growth_multiplier * health_factor)
+    
+    # Prevent shrinking below base (6^8 = 1679616)
+    base_nodes = 1679616
+    if new_nodes < base_nodes:
+        new_nodes = base_nodes
+        
+    return new_nodes
