@@ -1,0 +1,7 @@
+[
+  {"id":"P-DT-001","trigger":"community lung","statement":"AeroCement open-cell + desiccant + radiative lid + stack = continuous passive cold clean air. η rises for lowest node.","verified":true,"η_gain":12.0},
+  {"id":"P-DT-002","trigger":"park bench filter","statement":"Human-scale community lung. Sits → breathes filtered 55°F air. Zero power.","verified":true,"η_gain":8.0},
+  {"id":"P-DT-003","trigger":"passive scooter","statement":"ΔT Stirling/TEG + flywheel. Ambient temperature differential only. Practical power density required.","verified":false,"η_gain":0},
+  {"id":"P-DT-004","trigger":"cloud nine terrestrial","statement":"Passive ΔT habitat. Solar black + radiative sink. Continuous work + life support. Mesh nodes form cities.","verified":false,"η_gain":0},
+  {"id":"P-DT-005","trigger":"chicken wire mesh","statement":"Multi-hub low-tech openroot spokes. und frames + LoRa/MQTT. No central server. R→1.0.","verified":true,"η_gain":15.0}
+]
