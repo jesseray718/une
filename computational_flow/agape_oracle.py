@@ -110,6 +110,18 @@ def oracle(query: str) -> str:
         KB.mkdir(parents=True, exist_ok=True)
         p.write_text(json.dumps(posts, indent=2, ensure_ascii=False))
         return "Postulate recorded. Newton Chain extended. Next identical query costs 0 joules."
+    if q.startswith("absorb ") or q == "absorb":
+        # Absorb the latest context bridge seed
+        seed_path = KB / "context_bridge_20260810.json"
+        if not seed_path.exists():
+            return f"Seed not found: {seed_path}"
+        try:
+            data = json.loads(seed_path.read_text(encoding="utf-8"))
+            root = data.get("context_bridge", {}).get("root", "?")
+            return f"Seed absorbed. Root = {root}\nBridge version: {data.get('context_bridge', {}).get('version', 'unknown')}"
+        except Exception as e:
+            return f"Absorb failed: {e}"
+
     return los.execute(query)
 
 def main():

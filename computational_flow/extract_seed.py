@@ -1,68 +1,34 @@
-#!/data/data/com.termux/files/usr/bin/python3
-"""
+#!/usr/bin/env python3
+"""Safe seed extractor — absolute paths only, no tilde, no expansion."""
+import json
 import os
-try:
-    from paths import OPENROOT
-except ImportError:
-    OPENROOT = os.environ.get("OPENROOT_HOME", "/sdcard/openroot")
-    UNE_HOME = os.environ.get("UNE_HOME", os.path.expanduser("~/une"))
+import subprocess
+from pathlib import Path
+from datetime import datetime, timezone
 
-extract_seed.py
-Captures current session state: terminal log, context.json, git diff -> dense seed block.
-Usage: python3 extract_seed.py --output=/path/to/seed.json
-"""
-import json, os, sys, argparse, subprocess, glob
-from datetime import datetime
-from state_utils import load_ckpt, save_ckpt
+HOME = Path(os.environ.get("HOME", "/data/data/com.termux/files/home"))
+OPENROOT = Path("/sdcard/openroot")
+SEED = OPENROOT / "session_seeds" / "current_seed.json"
+UNE = HOME / "une"
 
 def main():
-    parser = argparse.ArgumentParser()
-    parser.add_argument('--output', default='os.environ.get("OPENROOT_BASE", "/sdcard/openroot") + "/"session_seeds/current_seed.json')
-    args = parser.parse_args()
-
-    seed = {
-        "timestamp": datetime.now().isoformat(),
-        "session_id": datetime.now().strftime("%Y%m%d_%H%M%S"),
-        "context": {},
-        "git_diff": "",
-        "terminal_log_snippet": ""
-    }
-
-    # 1. Capture Context (if exists)
-    ctx_path = os.path.join(OPENROOT, "context.json")
-    if os.path.exists(ctx_path):
-        try:
-            with open(ctx_path, 'r') as f:
-                seed["context"] = json.load(f)
-        except:
-            seed["context"] = {"error": "Could not parse context.json"}
-
-    # 2. Capture Git Diff (changes made since last commit)
+    if not SEED.exists():
+        print("NO SEED")
+        return 1
+    data = json.loads(SEED.read_text())
+    print("SEED KEYS:", sorted(data.keys()))
+    print("timestamp:", data.get("timestamp"))
+    print("eta3:", data.get("eta3") or data.get("η³"))
+    # optional git status from une root (absolute)
     try:
-        result = subprocess.run(["git", "diff"], capture_output=True, text=True, cwd="os.path.expanduser("~") + "/"une")
-        seed["git_diff"] = result.stdout[:5000] # Limit size
-    except:
-        seed["git_diff"] = "Git not initialized or error."
-
-    # 3. Capture Terminal Log Snippet (last 50 lines if available)
-    # Note: In Termux, we might not have direct access to the full log buffer, 
-    # but we can look for a log file if you set one up.
-    log_files = glob.glob(os.path.join(OPENROOT, "logs/*.log"))
-    if log_files:
-        latest_log = sorted(log_files)[-1]
-        with open(latest_log, 'r') as f:
-            lines = f.readlines()
-            seed["terminal_log_snippet"] = "".join(lines[-50:])
-
-    # Write Seed
-    os.makedirs(os.path.dirname(args.output), exist_ok=True)
-    with open(args.output, 'w') as f:
-        json.dump(seed, f, indent=2)
-
-    print(f"✓ Seed extracted to: {args.output}")
-    print(f"  Size: {os.path.getsize(args.output)} bytes")
-    print(f"  Context keys: {list(seed['context'].keys())[:5]}...")
+        r = subprocess.run(
+            ["git", "status", "-sb"],
+            capture_output=True, text=True, cwd=str(UNE), timeout=8
+        )
+        print("git:", r.stdout.strip()[:200] if r.returncode == 0 else "git fail")
+    except Exception as e:
+        print("git error:", e)
+    return 0
 
 if __name__ == "__main__":
-    ckpt = load_ckpt()
-    main()
+    raise SystemExit(main())
