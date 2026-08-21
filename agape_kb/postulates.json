@@ -1,12 +1,12 @@
 [
   {"id":"P-DT-001","trigger":"community lung","statement":"AeroCement open-cell + desiccant + radiative lid + stack = continuous passive cold clean air. η rises for lowest node.","verified":true,"η_gain":12.0},
   {"id":"P-DT-002","trigger":"park bench filter","statement":"Human-scale community lung. Sits → breathes filtered 55°F air. Zero power.","verified":true,"η_gain":8.0},
-  {"id":"P-DT-003","trigger":"passive scooter","statement":"ΔT Stirling/TEG + flywheel. Ambient temperature differential only. Practical power density required.","verified":false,"η_gain":0},
-  {"id":"P-DT-004","trigger":"cloud nine terrestrial","statement":"Passive ΔT habitat. Solar black + radiative sink. Continuous work + life support. Mesh nodes form cities.","verified":false,"η_gain":0},
+  {"id":"P-DT-003","trigger":"passive scooter","statement":"ΔT Stirling/TEG + flywheel. Ambient temperature differential only.","verified":false,"η_gain":0},
+  {"id":"P-DT-004","trigger":"cloud nine terrestrial","statement":"Passive ΔT habitat. Solar black + radiative sink. Continuous work + life support.","verified":false,"η_gain":0},
   {"id":"P-DT-005","trigger":"chicken wire mesh","statement":"Multi-hub low-tech openroot spokes. und frames + LoRa/MQTT. No central server. R→1.0.","verified":true,"η_gain":15.0},
-  {"id":"P-ETA-001","trigger":"ηₜ","statement":"ηₜ = (useful_joules × people_reached × lasting_good) / (human_joules × time). Maximize ηₜ for the lowest node. Scale target 8² = 64.","verified":true,"η_gain":"∞"},
-  {"id":"P-ETA-002","trigger":"greatest good","statement":"Do the most good for the most people in the least amount of effort and the least amount of time. Greatest forward motion with least effort.","verified":true,"η_gain":"∞"},
-  {"id":"P-ETA-003","trigger":"8 squared","statement":"Operating scale 8² = 64 nodes. Every new spoke must raise ηₜ for the lowest node. R = 1.0 required.","verified":true,"η_gain":"∞"},
+  {"id":"P-ETA-001","trigger":"ηₜ","statement":"ηₜ = (useful_joules × people_reached × lasting_good) / (human_joules × time). Maximize ηₜ for the lowest node. Scale 8²=64.","verified":true,"η_gain":"∞"},
+  {"id":"P-ETA-002","trigger":"greatest good","statement":"Do the most good for the most people in the least amount of effort and the least amount of time.","verified":true,"η_gain":"∞"},
+  {"id":"P-ETA-003","trigger":"8 squared","statement":"Operating scale 8² = 64 nodes. Every new spoke must raise ηₜ for the lowest node. R=1.0 required.","verified":true,"η_gain":"∞"},
   {"id":"P-ALPHA-001","trigger":"α_A","statement":"α_A = d(ηₜ)/dt. Acceleration of time-weighted efficiency. Maximize the rate at which ηₜ rises for the lowest node.","verified":true,"η_gain":"∞"},
   {"id":"P-ALPHA-002","trigger":"fastest curve","statement":"Do the thing that makes ηₜ curve upward the fastest. Prefer actions that raise α_A.","verified":true,"η_gain":"∞"}
 ]
