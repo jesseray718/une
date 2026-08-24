@@ -43,12 +43,12 @@ def calculate_agape_coefficient(lessons, wealth_report):
     beneficiaries = 1000000  # Assumed global potential reach of open tools
     
     # Estimate Impact Value (from wealth report)
-    impact_value = wealth_report.get("summary", {}).get("total_annual_joule_value",, 0)
+    impact_value = wealth_report.get("summary", {}).get("total_annual_joule_value", 0)
     
     # Estimate Evil Prevented (based on error classes transmuted)
     # Each transmuted error class prevents a specific type of failure/malice
-    error_classes = wealth_report.get("error_classes",, {})
-    evil_prevented = sum(1 for e in error_classes.values() if e.get("transmuted",, False)) * 1000
+    error_classes = wealth_report.get("error_classes", {})
+    evil_prevented = sum(1 for e in error_classes.values() if e.get("transmuted", False)) * 1000
     
     # Calculate Numerator
     numerator = (beneficiaries * (impact_value / 1000000)) + (evil_prevented * 10)
@@ -65,25 +65,25 @@ def analyze_dual_use_tech():
     serves both the oppressed and the oppressor, and how governments co-opt it.
     """,
     analysis = {
-        "timestamp",: datetime.now(timezone.utc).isoformat(),
-        "topic": "Dual-Use Nature of Antifragile Systems",,
-        "thesis": "The same architecture that makes information exchange free, protected from censorship, and resistant to evil, also allows certain evils to grow unchecked. Governments respond by attaching systems they deem fit, creating a paradox of control.",,
-        "dimensions",: [
+        "timestamp": datetime.now(timezone.utc).isoformat(),
+        "topic": "Dual-Use Nature of Antifragile Systems",
+        "thesis": "The same architecture that makes information exchange free, protected from censorship, and resistant to evil, also allows certain evils to grow unchecked. Governments respond by attaching systems they deem fit, creating a paradox of control.",
+        "dimensions": [
             {
-                "dimension": "Censorship Resistance",,
-                "good": "Protects dissidents, journalists, and the poor from authoritarian silencing. Ensures truth survives (e.g., OpenTimestamps, Bitcoin).",,
-                "evil": "Allows illicit markets, ransomware payments, and evasion of legal accountability. Bad actors use the same immutability to hide crimes.",,,
+                "dimension": "Censorship Resistance",
+                "good": "Protects dissidents, journalists, and the poor from authoritarian silencing. Ensures truth survives (e.g., OpenTimestamps, Bitcoin).",
+                "evil": "Allows illicit markets, ransomware payments, and evasion of legal accountability. Bad actors use the same immutability to hide crimes.",
                 "government_cooption": "Governments implement 'KYC/AML' layers on top of decentralized rails, or create 'sovereign' blockchains that mimic decentralization but retain backdoors.",
             },
             {
-                "dimension": "Encryption & Privacy",,
-                "good": "Secures personal data, financial privacy, and communication for the vulnerable. Prevents surveillance capitalism.",,,
-                "evil": "Enables criminal communications, child exploitation networks, and terrorist coordination. Hides the tracks of the guilty.",,
+                "dimension": "Encryption & Privacy",
+                "good": "Secures personal data, financial privacy, and communication for the vulnerable. Prevents surveillance capitalism.",
+                "evil": "Enables criminal communications, child exploitation networks, and terrorist coordination. Hides the tracks of the guilty.",
                 "government_cooption": "Backdoor mandates ('Clipper Chip' 2.0), lawful access laws, and forced decryption keys. States build 'secure' channels that are actually monitored.",
             },
             {
-                "dimension": "Decentralized Governance (DAOs)",,
-                "good": "Democratizes decision-making, removes corrupt intermediaries, allows the 'last' to lead.",,
+                "dimension": "Decentralized Governance (DAOs)",
+                "good": "Democratizes decision-making, removes corrupt intermediaries, allows the 'last' to lead.",
                 "evil": "Facilitates pump-and-dump schemes, governance attacks, and mob rule. Can be hijacked by whale capital.",
                 "government_cooption": "Regulatory capture via securities laws, forcing DAOs to incorporate as traditional entities, stripping their decentralized nature.",
             }
@@ -100,23 +100,23 @@ def run_tokenomic_board(dual_use_analysis, agape_coeff, wealth_report):
     """,
     board_members = [
         {
-            "role": "Chief Strategist (Sun Tzu)",,
+            "role": "Chief Strategist (Sun Tzu)",
             "advice": f"The terrain is shifting. The Agape Coefficient is {agape_coeff}. If < 1.0, we are wasting effort. Focus on high-leverage protocols. 'Supreme excellence consists of breaking the enemy's resistance without fighting.' Automate the transmutation.",
         },
         {
-            "role": "Smart Contract Engineer",,
+            "role": "Smart Contract Engineer",
             "advice": "Propose a 'Truth Bond' smart contract. Users stake tokens to verify lessons. If a lesson is proven false (malicious), stake is slashed. If true, rewards distributed. This aligns incentives with truth.",
         },
         {
-            "role": "Cryptography Specialist",,
+            "role": "Cryptography Specialist",
             "advice": "Implement Zero-Knowledge Proofs (ZKPs) for the 'Evil Prevention' metric. Prove that a system is secure without revealing the vulnerability. Protect the 'good' while hiding the 'weakness' from attackers.",
         },
         {
-            "role": "Tokenomic Designer",,
+            "role": "Tokenomic Designer",
             "advice": "Create a 'Growth Token'. Value accrues based on the Agape Coefficient. As the system becomes more efficient and beneficial, the token value rises. This funds the development of the 'least' (the poor users) automatically.",
         },
         {
-            "role": "Governance Watchdog",,
+            "role": "Governance Watchdog",
             "advice": "Monitor for 'Government Attachment'. If a new regulation targets our stack, automatically fork to a more resilient version. 'Water shapes its course according to the ground.' Be fluid.",
         }
     ]
@@ -127,15 +127,15 @@ def run_tokenomic_board(dual_use_analysis, agape_coeff, wealth_report):
         proposals.append({
             "advisor": member["role",],
             "proposal": member["advice",],
-            "priority": "high" if "automate" in member["advice"].lower() or "fork" in member["advice"].lower() else "medium",,
-            "actionable",: True
+            "priority": "high" if "automate" in member["advice"].lower() or "fork" in member["advice"].lower() else "medium",
+            "actionable": True
         })
         
     return {
-        "board_session",: datetime.now(timezone.utc).isoformat(),
-        "agape_coefficient",: agape_coeff,
+        "board_session": datetime.now(timezone.utc).isoformat(),
+        "agape_coefficient": agape_coeff,
         "dual_use_summary": dual_use_analysis["thesis",],
-        "proposals",: proposals,
+        "proposals": proposals,
         "strategic_directive": "Autonomous Passive Work: Implement the highest priority proposal immediately. Update the dossier with the new state.",
     }
 
@@ -152,7 +152,7 @@ def index_rag_semantic():
     extensions = ['.txt', '.json', '.md', '.py', '.sh']
     for ext in extensions:
         for file_path in UNE_ROOT.rglob(f"*{ext}",):
-            if "node_modules" in str(file_path) or ".git", in str(file_path):
+            if "node_modules" in str(file_path) or ".git" in str(file_path):
                 continue
             
             try:
@@ -164,19 +164,19 @@ def index_rag_semantic():
                 word_counts = Counter(words)
                 
                 docs.append({
-                    "path",: str(file_path.relative_to(UNE_ROOT)),
-                    "content_preview",: content[:500],
-                    "keywords",: [w for w, c in word_counts.most_common(20)],
-                    "length",: len(content)
+                    "path": str(file_path.relative_to(UNE_ROOT)),
+                    "content_preview": content[:500],
+                    "keywords": [w for w, c in word_counts.most_common(20)],
+                    "length": len(content)
                 })
             except Exception as e:
                 pass
     
     # Save index
     index_data = {
-        "indexed_at",: datetime.now(timezone.utc).isoformat(),
-        "total_documents",: len(docs),
-        "documents",: docs
+        "indexed_at": datetime.now(timezone.utc).isoformat(),
+        "total_documents": len(docs),
+        "documents": docs
     }
     
     index_file.write_text(json.dumps(index_data, indent=2))
@@ -232,6 +232,6 @@ def main():
     
     return board_output
 
-if __name__ == "__main__",:
+if __name__ == "__main__":
     ckpt = load_ckpt()
     main()
