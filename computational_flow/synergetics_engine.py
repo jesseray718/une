@@ -413,21 +413,33 @@ class OSSMapper:
         # Find key directories
         for entry in repo_path.iterdir():
             if entry.is_dir() and not entry.name.startswith("."):
-                file_count = len(list(entry.rglob("*")))
+                file_count = sum(
+                    1 for item in entry.rglob("*") if item.is_file()
+                )
                 analysis["structure"][entry.name] = file_count
-        
-        # Find Python/Go/Rust files (modular units)
-        for ext in ["*.py", "*.go", "*.rs", "*.js"]:
-            for f in repo_path.rglob(ext):
-                if ".git" not in str(f):
-                    rel_path = f.relative_to(repo_path)
-                    size = f.stat().st_size
-                    analysis["modular_parts"].append({
-                        "path": str(rel_path),
-                        "size_bytes": size,
-                        "language": ext.replace("*.", "")
-                    })
-        
+
+        # Find modular source files in one repository walk
+        source_suffixes = {
+            ".py": "python",
+            ".go": "go",
+            ".rs": "rust",
+            ".js": "javascript",
+        }
+
+        for f in repo_path.rglob("*"):
+            if not f.is_file() or ".git" in f.parts:
+                continue
+
+            language = source_suffixes.get(f.suffix.lower())
+            if language is None:
+                continue
+
+            analysis["modular_parts"].append({
+                "path": str(f.relative_to(repo_path)),
+                "size_bytes": f.stat().st_size,
+                "language": language,
+            })
+
         self.map[repo_name] = analysis
         self._save_map()
         
