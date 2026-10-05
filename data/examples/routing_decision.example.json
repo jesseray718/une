@@ -1,0 +1,5 @@
+{
+  "decision_id": "example-routing-decision-001",
+  "route": "public",
+  "reason": "Example routing decision required by the public contract."
+}
