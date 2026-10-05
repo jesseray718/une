@@ -61,6 +61,17 @@ python3 scripts/newton_verify_manifest.py \
   --ledger "$LEDGER"
 
 echo
+echo "=== Latest Manifest Verification ==="
+MANIFEST="$(find data/newton_manifests -maxdepth 1 -type f -name 'newton_manifest_*.json' -printf '%T@ %p\n' 2>/dev/null | sort -nr | head -1 | cut -d' ' -f2-)"
+if [ -z "$MANIFEST" ]; then
+  echo "held: no release manifest found"
+  exit 1
+fi
+python3 scripts/newton_verify_manifest.py \
+  "$MANIFEST" \
+  --ledger "$LEDGER"
+
+echo
 echo "=== Git Working Tree ==="
 git diff --check
 git status --short
