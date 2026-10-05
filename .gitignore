@@ -39,3 +39,6 @@ __pycache__/
 meta_hub/
 data/*.db
 *.py[cod]
+data/binplab/*.bin
+data/binplab/*.sqlite
+data/binplab/*.db
