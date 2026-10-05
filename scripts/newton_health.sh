@@ -18,4 +18,8 @@ fi
 
 python3 -m newton_chain.audit --ledger "$LEDGER"
 
+CHECKPOINT_LEDGER="${CHECKPOINT_LEDGER:-$ROOT/data/newton_checkpoints.jsonl}"
+python3 scripts/newton_verify_checkpoints.py \
+  --checkpoint-ledger "$CHECKPOINT_LEDGER"
+
 echo "status: healthy"
