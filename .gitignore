@@ -47,3 +47,4 @@ data/newton_telemetry_export.csv
 data/newton_snapshots/
 data/newton_checkpoints.jsonl
 data/newton_seals/
+data/newton_manifests/
