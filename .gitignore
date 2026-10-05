@@ -45,3 +45,4 @@ data/binplab/*.db
 data/thermoledger.jsonl
 data/newton_telemetry_export.csv
 data/newton_snapshots/
+data/newton_checkpoints.jsonl
