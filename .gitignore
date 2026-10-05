@@ -42,3 +42,4 @@ data/*.db
 data/binplab/*.bin
 data/binplab/*.sqlite
 data/binplab/*.db
+data/thermoledger.jsonl
